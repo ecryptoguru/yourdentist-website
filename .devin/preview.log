@@ -1,0 +1,412 @@
+
+> fretbox-outreach-v2@0.1.0 dev
+> concurrently "next dev" "npx convex dev"
+
+[1] - Preparing Convex functions...
+[1] 
+[0]  ⨯ Failed to start server
+[0] Error: listen EADDRINUSE: address already in use :::3001
+[0]     at <unknown> (Error: listen EADDRINUSE: address already in use :::3001)
+[0]     at new Promise (<anonymous>) {
+[0]   code: 'EADDRINUSE',
+[0]   errno: -48,
+[0]   syscall: 'listen',
+[0]   address: '::',
+[0]   port: 3001
+[0] }
+[0] [?25h
+[0] next dev exited with code 0
+[1] Convex AI files are not installed. Run npx convex ai-files install to get started or npx convex ai-files disable to hide this message.
+[1] Typechecking took 1.14m. For faster iteration, consider enabling the TypeScript 7 compiler (tsgo) in your project configuration: https://docs.convex.dev/production/project-configuration#configuring-the-typescript-compiler
+[1] ✔ 01:16:11 Convex functions ready! (1.76m)
+[1] - Preparing to watch files...
+[1] 
+[1] 6/1/2026, 1:30:04 AM [CONVEX Q(sequences:getDue)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 1:30:04 AM [CONVEX A(actions/outreach:processDueSequences)] Uncaught Error: {"code":"WorkerOverloaded","message":"There are no available workers to process the request"}
+[1]     at async handler (../../convex/actions/outreach.ts:171:9)
+[1] 
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:11:16 Convex functions ready! (51.27s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] Bundled file /Users/defiankit/Desktop/OnboardingAI2/convex/priorityScores.ts changed right after esbuild invocation
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:12:26 Convex functions ready! (1.11m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/lib/scrapers.ts[0m:[93m193[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'default' does not exist on type 'typeof import("/Users/defiankit/Desktop/OnboardingAI2/node_modules/pdf-parse/dist/pdf-parse/esm/index")'.
+[1] 
+[1] [7m193[0m     const data = await pdfParse.default(buffer);
+[1] [7m   [0m [91m                                ~~~~~~~[0m
+[1] 
+[1] Found 1 error in convex/lib/scrapers.ts[90m:193[0m
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/lib/scrapers.ts[0m:[93m193[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'default' does not exist on type 'typeof import("/Users/defiankit/Desktop/OnboardingAI2/node_modules/pdf-parse/dist/pdf-parse/esm/index")'.
+[1] 
+[1] [7m193[0m     const data = await pdfParse.default(buffer);
+[1] [7m   [0m [91m                                ~~~~~~~[0m
+[1] 
+[1] Found 1 error in convex/lib/scrapers.ts[90m:193[0m
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] ✔ 03:21:04 Convex functions ready! (2.71m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:22:07 Convex functions ready! (1.06m)
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Starting scoring for Lovely Professional University'
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] breakdown → hostelites:0 (+0) | students:0 (+0) | naac:N/A (+0) | type:Private (+15) | stakeholders:4 (+7) | signals:+0 | TOTAL:22'
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [WARN] 'Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[LLM] model=gemini-3.1-flash-lite inTokens≈258 outTokens≈95 latencyMs=1330'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Flash-Lite latency: 1333ms'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] "[Scoring] AI Score from Gemini: 9/10. Reasoning: As a massive private university with a high volume of residential students, LPU is an ideal candidate for Fretbox's hostel and campus management modules. The presence of dedicated leadership roles for student well-being and compliance indicates a strong organizational structure capable of implementing large-scale digital transformation."
+[1] 6/1/2026, 3:17:50 AM [CONVEX M(priorityScores:completeScoringInternal)] Uncaught Error: Failed to insert or update a document in table "priorityScores" because it does not match the schema: Object contains extra field `hostelites_inferred` that is not in the validator.
+[1] Path: .scoring_factors
+[1] Object: {[1] ✔ 03:22:08 Convex functions ready! (1.03m)
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Starting scoring for Lovely Professional University'
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] breakdown → hostelites:0 (+0) | students:0 (+0) | naac:N/A (+0) | type:Private (+15) | stakeholders:4 (+7) | signals:+0 | TOTAL:22'
+[1] 6/1/2026, 3:17:48 AM [CONVEX A(actions/scoring:scoreUniversity)] [WARN] 'Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[LLM] model=gemini-3.1-flash-lite inTokens≈258 outTokens≈95 latencyMs=1330'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Flash-Lite latency: 1333ms'
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] "[Scoring] AI Score from Gemini: 9/10. Reasoning: As a massive private university with a high volume of residential students, LPU is an ideal candidate for Fretbox's hostel and campus management modules. The presence of dedicated leadership roles for student well-being and compliance indicates a strong organizational structure capable of implementing large-scale digital transformation."
+[1] 6/1/2026, 3:17:50 AM [CONVEX M(priorityScores:completeScoringInternal)] Uncaught Error: Failed to insert or update a document in table "priorityScores" because it does not match the schema: Object contains extra field `hostelites_inferred` that is not in the validator.
+[1] Path: .scoring_factors
+[1] Object: {agility_score: 15.0, digital_signals_score: 0.0, hostelite_score: 0.0, hostelites_inferred: false, naac_score: 0.0, stakeholder_score: 7.0, student_scale_score: 0.0}
+[1] Validator: v.object({agility_score: v.optional(v.float64()), digital_presence_score: v.optional(v.float64()), digital_signals_score: v.optional(v.float64()), hostelite_score: v.optional(v.float64()), location_score: v.optional(v.float64()), naac_score: v.optional(v.float64()), news_activity_score: v.optional(v.float64()), stakeholder_score: v.optional(v.float64()), student_count_score: v.optional(v.float64()), student_scale_score: v.optional(v.float64())})
+[1]     at async handler (../convex/priorityScores.ts:118:6)
+[1] 
+[1] 6/1/2026, 3:17:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [ERROR] '[Scoring] Fatal error:' Error: Uncaught Error: Failed to insert or update a document in table "priorityScores" because it does not match the schema: Object contains extra field `hostelites_inferred` that is not in the validator.
+[1] Path: .scoring_factors
+[1] Object: {agility_score: 15.0, digital_signals_score: 0.0, hostelite_score: 0.0, hostelites_inferred: false, naac_score: 0.0, stakeholder_score: 7.0, student_scale_score: 0.0}
+[1] Validator: v.object({agility_score: v.optional(v.float64()), digital_presence_score: v.optional(v.float64()), digital_signals_score: v.optional(v.float64()), hostelite_score: v.optional(v.float64()), location_score: v.optional(v.float64()), naac_score: v.optional(v.float64()), news_activity_score: v.optional(v.float64()), stakeholder_score: v.optional(v.float64()), student_count_score: v.optional(v.float64()), student_scale_score: v.optional(v.float64())})
+[1]     at async handler (../convex/priorityScores.ts:118:6)
+[1] 
+[1]     at performAsyncSyscall (convex:/user/_deps/node/UZMCU4UH.js:969:11)
+[1]     at processTicksAndRejections (node:internal/process/task_queues:95:5)
+[1]     at async runMutation (convex:/user/_deps/node/UZMCU4UH.js:1027:15)
+[1]     at async handler (convex:/user/actions/scoring.js:156:64)
+[1]     at async invokeFunction (convex:/user/_deps/node/UZMCU4UH.js:1313:9)
+[1]     at async invokeAction (convex:/user/_deps/node/UZMCU4UH.js:1375:10)
+[1]     at bundledFunctions.js:36876:21
+[1]     at async runWithEnvironmentVariables (bundledFunctions.js:36706:12)
+[1]     at async executeInner (bundledFunctions.js:36849:10)
+[1]     at async execute (bundledFunctions.js:36814:19)
+[1] 6/1/2026, 3:20:59 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Starting scoring for Lovely Professional University'
+[1] 6/1/2026, 3:20:59 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] breakdown → hostelites:0 (+0) | students:0 (+0) | naac:N/A (+0) | type:Private (+15) | stakeholders:4 (+7) | signals:+0 | TOTAL:22'
+[1] 6/1/2026, 3:20:59 AM [CONVEX A(actions/scoring:scoreUniversity)] [WARN] 'Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'
+[1] 6/1/2026, 3:21:00 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[LLM] model=gemini-3.1-flash-lite inTokens≈258 outTokens≈97 latencyMs=1260'
+[1] 6/1/2026, 3:21:00 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Flash-Lite latency: 1260ms'
+[1] 6/1/2026, 3:21:00 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] "[Scoring] AI Score from Gemini: 9/10. Reasoning: As a massive private university with a high volume of residential students, LPU is an ideal candidate for Fretbox's hostel and campus management modules. The presence of dedicated leadership roles for student well-being and compliance indicates a strong organizational structure capable of adopting and funding digital transformation solutions."
+[1] 6/1/2026, 3:21:00 AM [CONVEX M(priorityScores:completeScoringInternal)] Uncaught Error: Failed to insert or update a document in table "priorityScores" because it does not match the schema: Object contains extra field `hostelites_inferred` that is not in the validator.
+[1] Path: .scoring_factors
+[1] Object: {agility_score: 15.0, digital_signals_score: 0.0, hostelite_score: 0.0, hostelites_inferred: false, naac_score: 0.0, stakeholder_score: 7.0, student_scale_score: 0.0}
+[1] Validator: v.object({agility_score: v.optional(v.float64()), digital_presence_score: v.optional(v.float64()), digital_signals_score: v.optional(v.float64()), hostelite_score: v.optional(v.float64()), location_score: v.optional(v.float64()), naac_score: v.optional(v.float64()), news_activity_score: v.optional(v.float64()), stakeholder_score: v.optional(v.float64()), student_count_score: v.optional(v.float64()), student_scale_score: v.optional(v.float64())})
+[1]     at async handler (../convex/priorityScores.ts:118:6)
+[1] 
+[1] 6/1/2026, 3:21:00 AM [CONVEX A(actions/scoring:scoreUniversity)] [ERROR] '[Scoring] Fatal error:' Error: Uncaught Er[1] 6/1/2026, 3:22:49 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Starting scoring for Lovely Professional University'
+[1] 6/1/2026, 3:22:49 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] breakdown → hostelites:0 (+0) | students:0 (+0) | naac:N/A (+0) | type:Private (+15) | stakeholders:4 (+7) | signals:+0 | TOTAL:22'
+[1] 6/1/2026, 3:22:49 AM [CONVEX A(actions/scoring:scoreUniversity)] [WARN] 'Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'
+[1] 6/1/2026, 3:22:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[LLM] model=gemini-3.1-flash-lite inTokens≈258 outTokens≈90 latencyMs=987'
+[1] 6/1/2026, 3:22:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Flash-Lite latency: 993ms'
+[1] 6/1/2026, 3:22:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] "[Scoring] AI Score from Gemini: 9/10. Reasoning: As a massive private university with a high volume of residential students, LPU is an ideal candidate for Fretbox's hostel and campus management modules. The presence of dedicated leadership for student well-being and compliance indicates a strong organizational focus on student experience and operational efficiency."
+[1] 6/1/2026, 3:22:50 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Completed for Lovely Professional University. Final: 42, Tier: Medium'
+[1] 6/1/2026, 3:23:08 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Starting scoring for Vellore Institute of Technology'
+[1] 6/1/2026, 3:23:08 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] breakdown → hostelites:0 (+0) | students:0 (+0) | naac:N/A (+0) | type:Private (+15) | stakeholders:2 (+3) | signals:+0 | TOTAL:18'
+[1] 6/1/2026, 3:23:08 AM [CONVEX A(actions/scoring:scoreUniversity)] [WARN] 'Both GOOGLE_API_KEY and GEMINI_API_KEY are set. Using GOOGLE_API_KEY.'
+[1] 6/1/2026, 3:23:09 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[LLM] model=gemini-3.1-flash-lite inTokens≈229 outTokens≈79 latencyMs=1067'
+[1] 6/1/2026, 3:23:09 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Flash-Lite latency: 1067ms'
+[1] 6/1/2026, 3:23:09 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] "[Scoring] AI Score from Gemini: 8.5/10. Reasoning: As a premier private institution with a massive student body and extensive residential infrastructure, VIT is an ideal candidate for Fretbox's scale. The presence of high-level leadership like the Vice President provides a clear path for enterprise-level decision-making."
+[1] 6/1/2026, 3:23:09 AM [CONVEX A(actions/scoring:scoreUniversity)] [LOG] '[Scoring] Completed for Vellore Institute of Technology. Final: 38, Tier: Medium'
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:25:56 Convex functions ready! (1.28m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:27:03 Convex functions ready! (1.12m)
+[1] 6/1/2026, 3:30:17 AM [CONVEX Q(sequences:getDue)] Your request timed out performing too many system operations.
+[1] 
+[1] 6/1/2026, 3:30:17 AM [CONVEX A(actions/outreach:processDueSequences)] Uncaught Error: Your request timed out performing too many system operations.
+[1] 
+[1]     at async handler (../../convex/actions/outreach.ts:171:9)
+[1] 
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:34:07 Convex functions ready! (57.58s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/actions/deepEnrichment.ts[0m:[93m248[0m:[93m30[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'Buffer<ArrayBufferLike>'.
+[1] 
+[1] [7m248[0m               extractPdfText(pdfUrl),
+[1] [7m   [0m [91m                             ~~~~~~[0m
+[1] [96mconvex/actions/deepEnrichment.ts[0m:[93m249[0m:[93m32[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'Buffer<ArrayBufferLike>'.
+[1] 
+[1] [7m249[0m               extractPdfTables(pdfUrl),
+[1] [7m   [0m [91m                               ~~~~~~[0m
+[1] [96mconvex/lib/scrapers.ts[0m:[93m264[0m:[93m17[0m - [91merror[0m[90m TS7006: [0mParameter 'row' implicitly has an 'any' type.
+[1] 
+[1] [7m264[0m           .map((row) => row.map((cell) => cell.replace(/\s+/g, " ").trim()).join(" | "))
+[1] [7m   [0m [91m                ~~~[0m
+[1] [96mconvex/lib/scrapers.ts[0m:[93m264[0m:[93m34[0m - [91merror[0m[90m TS7006: [0mParameter 'cell' implicitly has an 'any' type.
+[1] 
+[1] [7m264[0m           .map((row) => row.map((cell) => cell.replace(/\s+/g, " ").trim()).join(" | "))
+[1] [7m   [0m [91m                                 ~~~~[0m
+[1] 
+[1] Found 4 errors in 2 files.
+[1] 
+[1] Errors  Files
+[1]      2  convex/actions/deepEnrichment.ts[90m:248[0m
+[1]      2  convex/lib/scrapers.ts[90m:264[0m
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] Bundled file /Users/defiankit/Desktop/OnboardingAI2/convex/lib/scrapers.ts changed right after esbuild invocation
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/actions/deepEnrichment.ts[0m:[93m249[0m:[93m30[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'Buffer<ArrayBufferLike>'.
+[1] 
+[1] [7m249[0m               extractPdfText(pdfUrl),
+[1] [7m   [0m [91m                             ~~~~~~[0m
+[1] [96mconvex/actions/deepEnrichment.ts[0m:[93m250[0m:[93m32[0m - [91merror[0m[90m TS2345: [0mArgument of type 'string' is not assignable to parameter of type 'Buffer<ArrayBufferLike>'.
+[1] 
+[1] [7m250[0m               extractPdfTables(pdfUrl),
+[1] [7m   [0m [91m                               ~~~~~~[0m
+[1] 
+[1] Found 2 errors in the same file, starting at: convex/actions/deepEnrichment.ts[90m:249[0m
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:38:28 Convex functions ready! (1.06m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:39:24 Convex functions ready! (55.62s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:40:19 Convex functions ready! (54.66s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:41:24 Convex functions ready! (1.09m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:42:20 Convex functions ready! (55.47s)
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:45:31 Convex functions ready! (59.17s)
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:53:49 Convex functions ready! (57.35s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:54:43 Convex functions ready! (53.84s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:55:38 Convex functions ready! (55.64s)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 03:56:35 Convex functions ready! (56.95s)
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 04:25:38 Convex functions ready! (1.62m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 04:27:18 Convex functions ready! (1.67m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 04:28:35 Convex functions ready! (1.27m)
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 04:29:50 Convex functions ready! (1.1m)
+[1] 6/1/2026, 4:30:02 AM [CONVEX Q(sequences:getDue)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 4:30:02 AM [CONVEX A(actions/outreach:processDueSequences)] Uncaught Error: {"code":"WorkerOverloaded","message":"There are no available workers to process the request"}
+[1]     at async handler (../../convex/actions/outreach.ts:171:9)
+[1] 
+[1] 6/1/2026, 4:57:29 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: retrieveAccountWithCredentials'
+[1] 6/1/2026, 4:57:31 AM [CONVEX A(auth:signIn)] Uncaught Error: InvalidAccountId
+[1]     at retrieveAccount (../../node_modules/@convex-dev/auth/src/server/implementation/index.ts:602:9)
+[1]     at async authorize [as authorize] (../../node_modules/@convex-dev/auth/src/providers/Password.ts:157:10)
+[1]     at async handleCredentials (../../node_modules/@convex-dev/auth/src/server/implementation/signIn.ts:191:6)
+[1]     at async handler (../../node_modules/@convex-dev/auth/src/server/implementation/index.ts:416:26)
+[1] 
+[1] 6/1/2026, 4:58:04 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: createAccountFromCredentials'
+[1] 6/1/2026, 4:58:04 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: signIn'
+[1] 6/1/2026, 4:58:11 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: refreshSession'
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m19[0m:[93m13[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'result'.
+[1] 
+[1] [7m19[0m       const result = Papa.parse(text, {
+[1] [7m  [0m [91m            ~~~~~~[0m
+[1] [96mconvex/actions/ingest.ts[0m:[93m44[0m:[93m13[0m - [91merror[0m[90m TS2451: [0mCannot redeclare block-scoped variable 'result'.
+[1] 
+[1] [7m44[0m       const result = await ctx.runMutation(api.universities.bulkInsert, { rows });
+[1] [7m  [0m [91m            ~~~~~~[0m
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m45[0m:[93m18[0m - [91merror[0m[90m TS2339: [0mProperty 'skipped' does not exist on type 'ParseResult<unknown>'.
+[1] 
+[1] [7m45[0m       if (result.skipped > 0) {
+[1] [7m  [0m [91m                 ~~~~~~~[0m
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m46[0m:[93m48[0m - [91merror[0m[90m TS2339: [0mProperty 'skipped' does not exist on type 'ParseResult<unknown>'.
+[1] 
+[1] [7m46[0m         console.log(`[Ingest] Skipped ${result.skipped} duplicate universities.`);
+[1] [7m  [0m [91m                                               ~~~~~~~[0m
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m48[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'inserted' does not exist on type 'ParseResult<unknown>'.
+[1] 
+[1] [7m48[0m       return { count: result.inserted, skipped: result.skipped };
+[1] [7m  [0m [91m                             ~~~~~~~~[0m
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m48[0m:[93m40[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'skipped' does not exist in type '{ count: number; }'.
+[1] 
+[1] [7m48[0m       return { count: result.inserted, skipped: result.skipped };
+[1] [7m  [0m [91m                                       ~~~~~~~[0m
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m48[0m:[93m56[0m - [91merror[0m[90m TS2339: [0mProperty 'skipped' does not exist on type 'ParseResult<unknown>'.
+[1] 
+[1] [7m48[0m       return { count: result.inserted, skipped: result.skipped };
+[1] [7m  [0m [91m                                                       ~~~~~~~[0m
+[1] 
+[1] 
+[1] Found 7 errors in the same file, starting at: convex/actions/ingest.ts[90m:19[0m
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✘ [ERROR] The symbol "result" has already been declared
+[1] 
+[1]     convex/actions/ingest.ts:44:12:
+[1]       44 │       const result = await ctx.runMutation(api.universities.bulkIn...
+[1]          ╵             ~~~~~~
+[1] 
+[1]   The symbol "result" was originally declared here:
+[1] 
+[1]     convex/actions/ingest.ts:19:12:
+[1]       19 │       const result = Papa.parse(text, {
+[1]          ╵             ~~~~~~
+[1] 
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] [96mconvex/actions/ingest.ts[0m:[93m48[0m:[93m46[0m - [91merror[0m[90m TS2353: [0mObject literal may only specify known properties, and 'skipped' does not exist in type '{ count: number; }'.
+[1] 
+[1] [7m48[0m       return { count: insertResult.inserted, skipped: insertResult.skipped };
+[1] [7m  [0m [91m                                             ~~~~~~~[0m
+[1] 
+[1] 
+[1] Found 1 error in convex/actions/ingest.ts[90m:48[0m
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 05:17:37 Convex functions ready! (2.51m)
+[1] 6/1/2026, 5:30:08 AM [CONVEX H(POST /api/webhooks/supabase)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 5:30:08 AM [CONVEX H(POST /api/webhooks/supabase)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 5:30:08 AM [CONVEX H(POST /api/webhooks/supabase)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 5:30:09 AM [CONVEX Q(sequences:getDue)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX A(actions/outreach:processDueSequences)] Uncaught Error: {"code":"InternalServerError","message":"Your request couldn't be completed. Try again later."}
+[1]     at async handler (../../convex/actions/outreach.ts:171:9)
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:41:01 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: refreshSession'
+[1] 6/1/2026, 5:46:55 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: refreshSession'
+[1] 6/1/2026, 5:47:07 AM [CONVEX M(removeDuplicates:removeFuzzyDuplicates)] Function execution timed out (maximum duration: 1s)
+[1] 
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 05:50:28 Convex functions ready! (2.12m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[1] npx convex dev exited with code SIGTERM
+ST /api/webhooks/supabase)] There are no available workers to process the request
+[1] 
+[1] 6/1/2026, 5:30:09 AM [CONVEX Q(sequences:getDue)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX A(actions/outreach:processDueSequences)] Uncaught Error: {"code":"InternalServerError","message":"Your request couldn't be completed. Try again later."}
+[1]     at async handler (../../convex/actions/outreach.ts:171:9)
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:30:10 AM [CONVEX H(POST /api/webhooks/supabase)] Your request couldn't be completed. Try again later.
+[1] 
+[1] 6/1/2026, 5:41:01 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: refreshSession'
+[1] 6/1/2026, 5:46:55 AM [CONVEX M(auth:store)] [INFO] '`auth:store` type: refreshSession'
+[1] 6/1/2026, 5:47:07 AM [CONVEX M(removeDuplicates:removeFuzzyDuplicates)] Function execution timed out (maximum duration: 1s)
+[1] 
+[1] - Preparing Convex functions...
+[1] 
+[1] ✔ 05:50:26 Convex functions ready! (2.07m)
+[1] Filesystem changed during push, retrying...
+[1] - Preparing Convex functions...
+[1] 
+[1] ✖ TypeScript typecheck via `tsc` failed.
+[1] To ignore failing typecheck, use `--typecheck=disable`.
+[1] - Collecting TypeScript errors
+[1] 
+[0]  ✓ Compiled in 89s (684 modules)
+[1] npx convex dev exited with code SIGTERM
+[0] [?25h
+[0] next dev exited with code 0

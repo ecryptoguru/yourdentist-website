@@ -1,0 +1,276 @@
+---
+import { clinicInfo, navLinks } from '@/lib/data';
+import ThemeToggle from '@/components/ThemeToggle.astro';
+
+const pathname = Astro.url.pathname;
+const isActive = (href: string) => {
+  if (href === '/') return pathname === '/';
+  const base = href.endsWith('/') ? href.slice(0, -1) : href;
+  return pathname === base || pathname === base + '/' || pathname.startsWith(base + '/');
+};
+---
+
+<header
+  id="site-header"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out py-5"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div
+      id="header-inner"
+      class="flex items-center justify-between transition-all duration-500 bg-transparent px-0 py-0"
+    >
+      <!-- Logo -->
+      <a href="/" class="flex items-center gap-2.5 group">
+        <div
+          class="w-9 h-9 rounded-lg flex items-center justify-center transition-all duration-300 bg-teal-700 group-hover:scale-105"
+        >
+          <svg
+            width="18"
+            height="18"
+            viewBox="0 0 24 24"
+            fill="none"
+            class="text-white"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+          >
+            <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1.5 5 3 7.5C10.5 18 11 20 12 20s1.5-2 3-4.5c1.5-2.5 3-5 3-7.5 0-3.5-2.5-6-6-6z" />
+            <path d="M12 8v4" />
+            <circle cx="12" cy="8" r="1.5" fill="currentColor" stroke="none" />
+          </svg>
+        </div>
+        <div class="hidden sm:block">
+          <span class="font-heading font-semibold text-base leading-tight tracking-tight text-slate-900 dark:text-warm-100">
+            YourDentist
+          </span>
+          <span class="block text-[11px] tracking-wide uppercase text-slate-500 dark:text-warm-400">
+            Laser Dental Clinic
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="hidden lg:flex items-center gap-0.5">
+        {
+          navLinks.map((link) => (
+            <a
+              href={link.href}
+              class:list={[
+                'relative px-4 h-10 flex items-center rounded-lg text-sm font-medium transition-all duration-300 nav-link-underline',
+                isActive(link.href) ? 'text-teal-700 dark:text-teal-400 active' : 'text-slate-600 dark:text-warm-300 hover:text-slate-900 dark:hover:text-warm-100',
+              ]}
+            >
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <!-- CTA + Mobile Menu -->
+      <div class="flex items-center gap-3">
+        <a
+          href={clinicInfo.whatsapp}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="hidden md:inline-flex bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 text-white gap-2 rounded-lg px-5 h-10 text-sm font-medium transition-all duration-300 shadow-none hover:shadow-premium group items-center justify-center"
+        >
+            <svg
+              class="w-3.5 h-3.5"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Book Appointment
+        </a>
+
+        <ThemeToggle />
+
+        <!-- Mobile menu button -->
+        <button
+          id="mobile-menu-toggle"
+          class="lg:hidden text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 rounded-lg h-10 w-10 flex items-center justify-center transition-colors"
+          aria-label="Open menu"
+          aria-expanded="false"
+        >
+          <svg id="menu-icon-open" class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="4" x2="20" y1="12" y2="12" />
+            <line x1="4" x2="20" y1="6" y2="6" />
+            <line x1="4" x2="20" y1="18" y2="18" />
+          </svg>
+          <svg id="menu-icon-close" class="w-5 h-5 hidden" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18" /><path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Mobile menu overlay -->
+  <div
+    id="mobile-menu"
+    class="lg:hidden fixed inset-0 z-50 hidden"
+  >
+    <div id="mobile-menu-backdrop" class="absolute inset-0 bg-black/10 dark:bg-black/50 backdrop-blur-xs"></div>
+    <div
+      class="absolute right-0 top-0 h-full w-[320px] bg-white dark:bg-warm-800 border-l border-slate-200/80 dark:border-warm-600 flex flex-col transition-transform duration-300 translate-x-full"
+      id="mobile-menu-panel"
+    >
+      <div class="flex items-center justify-between mb-10 pt-6 px-5">
+        <div class="flex items-center gap-2.5">
+          <div class="w-8 h-8 bg-teal-700 rounded-lg flex items-center justify-center">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" class="text-white" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2C8.5 2 6 4.5 6 8c0 2.5 1.5 5 3 7.5C10.5 18 11 20 12 20s1.5-2 3-4.5c1.5-2.5 3-5 3-7.5 0-3.5-2.5-6-6-6z" />
+              <path d="M12 8v4" />
+              <circle cx="12" cy="8" r="1.5" fill="currentColor" stroke="none" />
+            </svg>
+          </div>
+          <span class="font-heading font-semibold text-base text-slate-900 dark:text-warm-100">YourDentist</span>
+        </div>
+        <button
+          id="mobile-menu-close"
+          class="h-10 w-10 rounded-lg hover:bg-slate-100/80 dark:hover:bg-warm-700/80 flex items-center justify-center transition-colors"
+          aria-label="Close menu"
+        >
+          <svg class="w-5 h-5 text-slate-600 dark:text-warm-300" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 6 6 18" />
+            <path d="m6 6 12 12" />
+          </svg>
+        </button>
+      </div>
+
+      <nav class="flex flex-col gap-0.5 flex-1 px-5">
+        {
+          navLinks.map((link) => (
+            <a
+              href={link.href}
+              class:list={[
+                'px-4 py-3 rounded-lg text-[15px] font-medium transition-all duration-200',
+                isActive(link.href)
+                  ? 'text-teal-700 dark:text-teal-400 bg-teal-50/60 dark:bg-teal-900/30'
+                  : 'text-slate-700 dark:text-warm-200 hover:text-slate-900 dark:hover:text-warm-100 hover:bg-slate-100/60 dark:hover:bg-warm-700/60',
+              ]}
+            >
+              {link.label}
+            </a>
+          ))
+        }
+      </nav>
+
+      <div class="pt-5 border-t border-slate-200/80 dark:border-warm-600 space-y-3 px-5 pb-6">
+        <a href={clinicInfo.whatsapp} target="_blank" rel="noopener noreferrer" class="w-full inline-flex bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 text-white gap-2 rounded-lg h-11 text-sm font-medium items-center justify-center transition-colors">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+            </svg>
+            Book Appointment
+        </a>
+        <a
+          href={clinicInfo.phoneLink}
+          class="flex items-center justify-center gap-2 text-slate-500 dark:text-warm-400 hover:text-teal-700 dark:hover:text-teal-400 text-sm py-2 transition-colors"
+        >
+          <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+          </svg>
+          {clinicInfo.phone}
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<script>
+  // Scroll-aware header
+  const header = document.getElementById('site-header');
+  const headerInner = document.getElementById('header-inner');
+
+  if (header && headerInner) {
+    const handleScroll = () => {
+      if (window.scrollY > 40) {
+        header.classList.remove('py-5');
+        header.classList.add('py-3');
+        headerInner.classList.remove('bg-transparent', 'px-0', 'py-0');
+        headerInner.classList.add(
+          'bg-white/80',
+          'dark:bg-warm-800/80',
+          'backdrop-blur-xl',
+          'border',
+          'border-slate-200/60',
+          'dark:border-warm-600/60',
+          'shadow-premium',
+          'rounded-2xl',
+          'px-5',
+          'py-3'
+        );
+      } else {
+        header.classList.remove('py-3');
+        header.classList.add('py-5');
+        headerInner.classList.add('bg-transparent', 'px-0', 'py-0');
+        headerInner.classList.remove(
+          'bg-white/80',
+          'dark:bg-warm-800/80',
+          'backdrop-blur-xl',
+          'border',
+          'border-slate-200/60',
+          'dark:border-warm-600/60',
+          'shadow-premium',
+          'rounded-2xl',
+          'px-5',
+          'py-3'
+        );
+      }
+    };
+    window.addEventListener('scroll', handleScroll, { passive: true });
+  }
+
+  // Mobile menu
+  const menuToggle = document.getElementById('mobile-menu-toggle');
+  const menuClose = document.getElementById('mobile-menu-close');
+  const mobileMenu = document.getElementById('mobile-menu');
+  const menuPanel = document.getElementById('mobile-menu-panel');
+  const menuBackdrop = document.getElementById('mobile-menu-backdrop');
+
+  function openMenu() {
+    if (!mobileMenu || !menuPanel) return;
+    mobileMenu.classList.remove('hidden');
+    menuToggle?.setAttribute('aria-expanded', 'true');
+    menuToggle?.setAttribute('aria-label', 'Close menu');
+    document.getElementById('menu-icon-open')?.classList.add('hidden');
+    document.getElementById('menu-icon-close')?.classList.remove('hidden');
+    requestAnimationFrame(() => {
+      menuPanel.classList.remove('translate-x-full');
+    });
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeMenu() {
+    if (!mobileMenu || !menuPanel) return;
+    menuPanel.classList.add('translate-x-full');
+    menuToggle?.setAttribute('aria-expanded', 'false');
+    menuToggle?.setAttribute('aria-label', 'Open menu');
+    document.getElementById('menu-icon-open')?.classList.remove('hidden');
+    document.getElementById('menu-icon-close')?.classList.add('hidden');
+    document.body.style.overflow = '';
+    setTimeout(() => {
+      mobileMenu.classList.add('hidden');
+    }, 300);
+  }
+
+  menuToggle?.addEventListener('click', openMenu);
+  menuClose?.addEventListener('click', closeMenu);
+  menuBackdrop?.addEventListener('click', closeMenu);
+
+  // Close menu on link click
+  mobileMenu?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', closeMenu);
+  });
+
+  // Close on Escape
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeMenu();
+  });
+</script>

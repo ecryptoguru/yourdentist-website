@@ -1,0 +1,63 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { getCollection } from 'astro:content';
+import { formatDate } from '@/lib/format';
+
+const blogPosts = await getCollection('blog');
+const sortedPosts = blogPosts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
+---
+
+<BaseLayout
+  title="Dental Health Blog | YourDentist Bhubaneswar"
+  description="Expert dental health tips, treatment guides, and insights from Dr. Arpita Dash, Bhubaneswar's trusted dental surgeon. Stay informed about oral health and dental care."
+>
+  <Header />
+  <main class="flex-1 pt-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="text-center mb-16 lg:mb-20 reveal">
+        <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Blog</span>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-[56px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+          Dental Health <span class="text-gradient-teal">Insights</span>
+        </h1>
+        <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+          Expert advice, treatment guides, and tips for maintaining a healthy smile from Dr. Arpita Dash.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {sortedPosts.map((post, i) => (
+          <div class="stagger-item" style={`transition-delay: ${i * 0.1}s`}>
+            <a href={`/blog/${post.id}/`}>
+              <article class="group bg-white dark:bg-warm-800 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover hover:-translate-y-1 transition-all duration-300">
+                <div class="aspect-video bg-teal-50 dark:bg-teal-900/30 flex items-center justify-center border-b border-slate-100 dark:border-warm-700">
+                  <span class="text-slate-500 dark:text-warm-400 font-medium text-sm">{post.data.category}</span>
+                </div>
+                <div class="p-7">
+                  <span class="inline-block bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 mb-3 font-medium text-xs px-2.5 py-0.5 rounded-full">{post.data.category}</span>
+                  <h2 class="font-heading text-lg font-semibold text-slate-900 dark:text-warm-100 mb-3 group-hover:text-teal-800 dark:group-hover:text-teal-400 transition-colors duration-300 line-clamp-2 leading-snug">{post.data.title}</h2>
+                  <p class="text-slate-500 dark:text-warm-400 text-[14px] mb-5 line-clamp-3 leading-relaxed">{post.data.excerpt}</p>
+                  <div class="flex items-center justify-between">
+                    <div class="flex items-center gap-3 text-xs text-slate-500 dark:text-warm-400">
+                      <span class="flex items-center gap-1">
+                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" /></svg>
+                        {formatDate(post.data.date)}
+                      </span>
+                      <span class="flex items-center gap-1">
+                        <svg class="w-3 h-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" /></svg>
+                        {post.data.readTime}
+                      </span>
+                    </div>
+                    <svg class="w-4 h-4 text-teal-700 dark:text-teal-400 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                  </div>
+                </div>
+              </article>
+            </a>
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

@@ -1,0 +1,58 @@
+---
+import { clinicInfo } from '@/lib/data';
+---
+
+<div
+  id="emergency-banner"
+  class="fixed top-0 left-0 right-0 z-40 bg-teal-900/95 dark:bg-teal-950/95 backdrop-blur-sm text-white transition-transform duration-300"
+>
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-center gap-3 py-2 text-sm relative">
+      <span class="relative flex h-2 w-2">
+        <span class="pulse-ring absolute inline-flex h-full w-full rounded-full bg-red-400"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-red-500"></span>
+      </span>
+      <span class="text-teal-50">
+        <span class="font-medium">Dental Emergency?</span>
+        <span class="text-teal-200 hidden sm:inline"> We're available for urgent care.</span>
+      </span>
+      <a
+        href={clinicInfo.phoneLink}
+        class="text-white font-medium underline underline-offset-2 hover:text-teal-200 transition-colors"
+      >
+        {clinicInfo.phone}
+      </a>
+      <button
+        id="emergency-dismiss"
+        class="absolute right-0 text-teal-300 hover:text-white transition-colors"
+        aria-label="Dismiss banner"
+      >
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M18 6 6 18" />
+          <path d="m6 6 12 12" />
+        </svg>
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+  const banner = document.getElementById('emergency-banner');
+  const dismiss = document.getElementById('emergency-dismiss');
+
+  if (banner && dismiss) {
+    // Check if already dismissed
+    const dismissed = localStorage.getItem('emergency-banner-dismissed');
+    if (dismissed === 'true') {
+      banner.style.display = 'none';
+    }
+
+    dismiss.addEventListener('click', () => {
+      banner.style.transform = 'translateY(-100%)';
+      localStorage.setItem('emergency-banner-dismissed', 'true');
+      setTimeout(() => {
+        banner.style.display = 'none';
+      }, 300);
+    });
+  }
+</script>

@@ -1,0 +1,37 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { certificatePhotos } from '@/lib/data';
+---
+
+<BaseLayout
+  title="Dentist Credentials & Certificates in Bhubaneswar | YourDentist"
+  description="View Dr. Arpita Dash's professional dental certificates and credentials. Trusted dental surgeon in Bhubaneswar with 10+ years of experience and 5,000+ satisfied patients."
+>
+  <Header />
+  <main class="flex-1 pt-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="text-center mb-16 lg:mb-20 reveal">
+        <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Credentials</span>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-[56px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+          Our <span class="text-gradient-teal">Certificates</span>
+        </h1>
+        <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+          Professional certifications and credentials that demonstrate our commitment to excellence.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        {certificatePhotos.map((photo, i) => (
+          <div class="stagger-item" style={`transition-delay: ${i * 0.08}s`}>
+            <div class="relative aspect-4/5 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 bg-slate-100 dark:bg-warm-700 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+              <img src={photo.src} alt={photo.alt} loading="lazy" class="w-full h-full object-cover" />
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

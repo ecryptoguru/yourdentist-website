@@ -1,0 +1,34 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+---
+
+<BaseLayout title="Page Not Found | YourDentist Laser Dental Clinic" description="The page you are looking for does not exist. Browse our dental services or contact us in Bhubaneswar." noindex>
+  <Header />
+  <main class="flex-1 pt-28">
+    <div class="min-h-[60vh] flex items-center justify-center bg-cream dark:bg-warm-900 relative">
+      <div class="absolute inset-0 bg-dot-grid-subtle opacity-20"></div>
+      <div class="text-center px-4 relative">
+        <div class="w-20 h-20 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-full flex items-center justify-center mx-auto mb-6">
+          <span class="font-heading text-3xl font-semibold text-teal-700 dark:text-teal-400">404</span>
+        </div>
+        <h1 class="font-heading text-3xl font-semibold text-slate-900 dark:text-warm-100 mb-4 tracking-tight leading-[1.1]">Page Not Found</h1>
+        <p class="text-slate-500 dark:text-warm-400 mb-8 max-w-md mx-auto text-[15px] leading-relaxed">
+          The page you are looking for does not exist. Let us help you find your way back.
+        </p>
+        <div class="flex flex-wrap justify-center gap-3">
+          <a href="/" class="bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 text-white gap-2 rounded-lg h-11 font-medium transition-all duration-300 shadow-none hover:shadow-premium inline-flex items-center justify-center px-4">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" /><polyline points="9 22 9 12 15 12 15 22" /></svg>
+              Go Home
+          </a>
+          <a href="/services/" class="border border-slate-300 dark:border-warm-600 text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:border-slate-400 dark:hover:border-warm-500 gap-2 rounded-lg h-11 transition-all duration-300 inline-flex items-center justify-center px-4">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+              Browse Services
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>

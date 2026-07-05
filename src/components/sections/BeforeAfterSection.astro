@@ -1,0 +1,30 @@
+---
+import { achievementPhotos } from '@/lib/data';
+---
+
+<section class="section-padding bg-white dark:bg-warm-800" id="results">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16 lg:mb-20 reveal">
+      <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Results</span>
+      <h2 class="font-heading text-4xl sm:text-[42px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+        Real <span class="text-gradient-teal">Transformations</span>
+      </h2>
+      <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+        See the incredible results our patients have achieved. Every smile tells a story.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-5">
+      {achievementPhotos.slice(0, 8).map((photo, i) => (
+        <div class="reveal" style={`transition-delay: ${i * 0.08}s`}>
+          <div class="group relative aspect-4/5 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 bg-slate-100 dark:bg-warm-700 shadow-premium group-hover:shadow-premium-hover transition-all duration-300 img-zoom">
+            <img src={photo.src} alt={photo.alt} loading="lazy" class="w-full h-full object-cover" />
+            <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/20 transition-colors duration-300 flex items-end justify-start p-4">
+              <span class="text-white text-xs font-medium opacity-0 group-hover:opacity-100 transition-opacity duration-300 tracking-wide">View Result</span>
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,298 @@
+---
+import '../styles/global.css';
+import { clinicInfo, doctor, faqItems, serviceList } from '@/lib/data';
+import EmergencyBanner from '@/components/EmergencyBanner.astro';
+import ScrollToTop from '@/components/ScrollToTop.astro';
+import StickyMobileCTA from '@/components/react/StickyMobileCTA.tsx';
+import CookieConsent from '@/components/react/CookieConsent.tsx';
+
+interface Props {
+  title?: string;
+  description?: string;
+  ogImage?: string;
+  canonical?: string;
+  noindex?: boolean;
+  type?: 'website' | 'article';
+}
+
+const {
+  title = 'Best Dental Clinic in Bhubaneswar | YourDentist Laser Dental Clinic',
+  description = 'Top-rated dental clinic in Bhubaneswar led by Dr. Arpita Dash. Painless root canal, braces, implants, laser dentistry & smile designing. 5,000+ happy patients. Book today!',
+  ogImage = 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  canonical,
+  noindex = false,
+  type = 'website',
+} = Astro.props;
+
+const siteUrl = 'https://www.yourdentistdentalclinic.com';
+const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
+
+const dentistSchema = {
+  '@context': 'https://schema.org',
+  '@type': ['Dentist', 'MedicalBusiness', 'LocalBusiness'],
+  name: 'YourDentist Laser Dental Clinic',
+  description: 'Advanced laser dental clinic in Bhubaneswar offering root canal treatment, orthodontics, dental implants, aesthetic dentistry, and painless dental care.',
+  image: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  logo: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  '@id': 'https://www.yourdentistdentalclinic.com',
+  url: 'https://www.yourdentistdentalclinic.com',
+  telephone: '+91 7064719630',
+  email: 'yourdentist.clinic@gmail.com',
+  priceRange: '$$',
+  currenciesAccepted: 'INR',
+  paymentAccepted: 'Cash, Credit Card, Debit Card, UPI',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Plot 190/2972, E Canal Rd, beside SHIBANI ENCLAVE, Bomikhal',
+    addressLocality: 'Bhubaneswar',
+    addressRegion: 'Odisha',
+    postalCode: '751019',
+    addressCountry: 'IN',
+  },
+  geo: {
+    '@type': 'GeoCoordinates',
+    latitude: 20.2961,
+    longitude: 85.8245,
+  },
+  areaServed: [
+    { '@type': 'City', name: 'Bhubaneswar' },
+    { '@type': 'City', name: 'Cuttack' },
+    { '@type': 'AdministrativeArea', name: 'Odisha' },
+  ],
+  medicalSpecialty: ['Dentistry', 'Orthodontics', 'Endodontics', 'CosmeticDentistry'],
+  knowsAbout: [
+    'Root Canal Treatment',
+    'Orthodontic Treatment',
+    'Dental Implants',
+    'Laser Dentistry',
+    'Aesthetic Dentistry',
+    'Smile Designing',
+    'Teeth Whitening',
+    'Crown and Bridge',
+    'Paediatric Dentistry',
+  ],
+  availableService: serviceList.map((s) => ({
+    '@type': 'MedicalTherapy',
+    name: s.title,
+    url: `https://www.yourdentistdentalclinic.com/services/${s.slug}/`,
+  })),
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '10:00',
+      closes: '13:30',
+    },
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '17:00',
+      closes: '20:30',
+    },
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '150',
+    bestRating: '5',
+    worstRating: '1',
+  },
+  sameAs: [
+    'https://www.google.com/maps/place/YourDentist+Laser+Dental+Clinic',
+    'https://www.facebook.com/yourdentistdentalclinic',
+    'https://www.instagram.com/yourdentistdentalclinic',
+  ],
+  founder: {
+    '@type': 'Person',
+    name: 'Dr. Arpita Dash',
+    jobTitle: 'Dental Surgeon & Smile Specialist',
+  },
+  employee: {
+    '@type': 'Person',
+    name: 'Dr. Arpita Dash',
+    jobTitle: 'Dental Surgeon & Smile Specialist',
+  },
+};
+
+const personSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Person',
+  name: 'Dr. Arpita Dash',
+  jobTitle: 'Dental Surgeon & Smile Specialist',
+  worksFor: {
+    '@type': 'Dentist',
+    name: 'YourDentist Laser Dental Clinic',
+    url: 'https://www.yourdentistdentalclinic.com',
+  },
+  image: 'https://www.yourdentistdentalclinic.com/images/gallery/Image-1.jpeg',
+  url: 'https://www.yourdentistdentalclinic.com/about/',
+  knowsAbout: doctor.specializations,
+  alumniOf: {
+    '@type': 'EducationalOrganization',
+    name: 'Institute of Dental Sciences, SOA University',
+  },
+  award: '10+ Years of Dental Excellence',
+  description: `Dr. Arpita Dash is a dental surgeon with ${doctor.experience}+ years of experience in Bhubaneswar, specializing in root canal treatment, orthodontics, dental implants, and aesthetic dentistry.`,
+};
+
+const orgSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'YourDentist Laser Dental Clinic',
+  url: 'https://www.yourdentistdentalclinic.com',
+  logo: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  founder: { '@type': 'Person', name: 'Dr. Arpita Dash' },
+  foundingDate: '2014',
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Plot 190/2972, E Canal Rd, beside SHIBANI ENCLAVE, Bomikhal',
+    addressLocality: 'Bhubaneswar',
+    addressRegion: 'Odisha',
+    postalCode: '751019',
+    addressCountry: 'IN',
+  },
+};
+
+const faqSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqItems.map((item) => ({
+    '@type': 'Question',
+    name: item.question,
+    acceptedAnswer: { '@type': 'Answer', text: item.answer },
+  })),
+};
+
+const webPageSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'WebPage',
+  name: title,
+  description: description,
+  url: canonicalUrl,
+  isPartOf: { '@type': 'WebSite', name: 'YourDentist Laser Dental Clinic', url: siteUrl },
+  lastReviewed: new Date().toISOString().split('T')[0],
+};
+---
+
+<!doctype html>
+<html lang="en-IN" class="h-full antialiased">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="theme-color" content="#0d9488" id="meta-theme-color" />
+    {noindex && <meta name="robots" content="noindex, nofollow" />}
+    {!noindex && <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />}
+
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="best dental clinic in Bhubaneswar, dentist near me Bhubaneswar, laser dental clinic Bhubaneswar, root canal treatment Bhubaneswar, braces Bhubaneswar, dental implants Bhubaneswar, painless dentistry Odisha, smile designing Bhubaneswar, teeth whitening Bhubaneswar, orthodontist Bhubaneswar, Dr. Arpita Dash, dental clinic Bomikhal" />
+    <meta name="author" content="Dr. Arpita Dash" />
+    <meta name="geo.region" content="IN-OR" />
+    <meta name="geo.placename" content="Bhubaneswar, Odisha" />
+    <meta name="geo.position" content="20.2961;85.8245" />
+    <meta name="ICBM" content="20.2961, 85.8245" />
+    <link rel="canonical" href={canonicalUrl} />
+    <link rel="alternate" hreflang="en-IN" href={canonicalUrl} />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content={type} />
+    <meta property="og:locale" content="en_IN" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="YourDentist Laser Dental Clinic" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="YourDentist Laser Dental Clinic - Dr. Arpita Dash" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={ogImage} />
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- JSON-LD: Dentist/LocalBusiness -->
+    <script type="application/ld+json" set:html={JSON.stringify(dentistSchema)} />
+    <!-- JSON-LD: Person (Dr. Arpita Dash) -->
+    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+    <!-- JSON-LD: Organization -->
+    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />
+    <!-- JSON-LD: WebPage -->
+    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <slot name="head" />
+    <script is:inline>
+      (function () {
+        const stored = localStorage.getItem('theme');
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        const isDark = stored === 'dark' || (!stored && prefersDark);
+        if (isDark) document.documentElement.classList.add('dark');
+        const meta = document.getElementById('meta-theme-color');
+        if (meta) meta.setAttribute('content', isDark ? '#1c1917' : '#0d9488');
+      })();
+    </script>
+  </head>
+  <body class="min-h-full flex flex-col font-sans">
+    <a
+      href="#main-content"
+      class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:z-60 focus:bg-teal-700 focus:text-white focus:px-4 focus:py-2 focus:rounded-lg focus:text-sm focus:font-medium"
+    >
+      Skip to main content
+    </a>
+
+    <!-- Scroll progress bar -->
+    <div class="scroll-progress" id="scroll-progress"></div>
+
+    <EmergencyBanner />
+    <div id="main-content" class="contents">
+      <slot />
+    </div>
+    <ScrollToTop />
+    <StickyMobileCTA client:only="react" />
+    <CookieConsent client:only="react" />
+
+    <!-- Global scroll reveal script -->
+    <script>
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible');
+              observer.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1, rootMargin: '-50px' }
+      );
+
+      document.querySelectorAll('.reveal, .stagger-item, .reveal-up').forEach((el) => {
+        observer.observe(el);
+      });
+
+      // Scroll progress bar
+      const progressBar = document.getElementById('scroll-progress');
+      if (progressBar) {
+        window.addEventListener('scroll', () => {
+          const scrollTop = window.scrollY;
+          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          const scrollPercent = (scrollTop / docHeight) * 100;
+          progressBar.style.width = scrollPercent + '%';
+        }, { passive: true });
+      }
+    </script>
+  </body>
+</html>

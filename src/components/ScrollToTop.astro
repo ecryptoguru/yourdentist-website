@@ -1,0 +1,44 @@
+---
+
+---
+
+<button
+  id="scroll-to-top"
+  class="fixed bottom-6 right-6 z-40 w-11 h-11 bg-white dark:bg-warm-800 border border-slate-200/60 dark:border-warm-600 rounded-full shadow-premium flex items-center justify-center opacity-0 pointer-events-none transition-all duration-300 hover:shadow-premium-hover hover:border-teal-200 dark:hover:border-teal-600 group"
+  aria-label="Scroll to top"
+>
+  <svg
+    class="w-5 h-5 text-slate-600 dark:text-warm-300 group-hover:text-teal-700 dark:group-hover:text-teal-400 transition-colors"
+    viewBox="0 0 24 24"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2"
+    stroke-linecap="round"
+    stroke-linejoin="round"
+  >
+    <path d="m18 15-6-6-6 6" />
+  </svg>
+</button>
+
+<script>
+  const btn = document.getElementById('scroll-to-top');
+  if (btn) {
+    window.addEventListener(
+      'scroll',
+      () => {
+        if (window.scrollY > 400) {
+          btn.classList.remove('opacity-0', 'pointer-events-none');
+          btn.classList.add('opacity-100');
+        } else {
+          btn.classList.add('opacity-0', 'pointer-events-none');
+          btn.classList.remove('opacity-100');
+        }
+      },
+      { passive: true }
+    );
+
+    btn.addEventListener('click', () => {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    });
+  }
+</script>

@@ -1,0 +1,182 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import FAQSection from '@/components/sections/FAQSection.astro';
+import { getCollection, render } from 'astro:content';
+import { clinicInfo, serviceVideos, doctor } from '@/lib/data';
+
+export async function getStaticPaths() {
+  const services = await getCollection('services');
+  return services.map((service) => ({
+    params: { slug: service.data.slug },
+  }));
+}
+
+const { slug } = Astro.params;
+const services = await getCollection('services');
+const service = services.find((s) => s.data.slug === slug);
+
+if (!service) {
+  return Astro.redirect('/404');
+}
+
+const data = service.data;
+const { Content } = await render(service);
+const relatedServices = services.filter((s) => s.data.slug !== slug).slice(0, 3);
+const videoSrc = serviceVideos[data.slug];
+
+const serviceSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'MedicalTherapy',
+  name: data.title,
+  description: data.shortDescription,
+  url: `https://www.yourdentistdentalclinic.com/services/${slug}/`,
+  provider: {
+    '@type': 'Dentist',
+    name: 'YourDentist Laser Dental Clinic',
+    url: 'https://www.yourdentistdentalclinic.com',
+  },
+  areaServed: { '@type': 'City', name: 'Bhubaneswar' },
+  ...(data.priceRange && {
+    offers: {
+      '@type': 'Offer',
+      priceRange: data.priceRange,
+      priceCurrency: 'INR',
+      availability: 'https://schema.org/InStock',
+    },
+  }),
+};
+
+const breadcrumbSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'Home', item: 'https://www.yourdentistdentalclinic.com/' },
+    { '@type': 'ListItem', position: 2, name: 'Services', item: 'https://www.yourdentistdentalclinic.com/services/' },
+    { '@type': 'ListItem', position: 3, name: data.title, item: `https://www.yourdentistdentalclinic.com/services/${slug}/` },
+  ],
+};
+
+---
+
+<BaseLayout title={`${data.title} in Bhubaneswar | YourDentist Laser Dental Clinic`} description={`${data.shortDescription} Available at YourDentist Laser Dental Clinic in Bhubaneswar by Dr. Arpita Dash. Book your appointment today!`} type="article">
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+  </Fragment>
+  <Header />
+  <main class="flex-1 pt-28">
+    <!-- Breadcrumb -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <a href="/services/" class="inline-flex items-center gap-2 text-slate-500 dark:text-warm-400 hover:text-teal-700 dark:hover:text-teal-400 transition-colors text-sm group">
+        <svg class="w-4 h-4 transition-transform group-hover:-translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m12 19-7-7 7-7" /><path d="M19 12H5" /></svg>
+        Back to Services
+      </a>
+    </div>
+
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 pb-16 md:pb-24">
+      <div class="reveal">
+        <div class="flex items-start gap-4 mb-6">
+          <div class="w-14 h-14 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-xl flex items-center justify-center shrink-0">
+            <span class="text-teal-700 dark:text-teal-400 text-xl font-bold">{data.icon.charAt(0)}</span>
+          </div>
+          <div>
+            <span class="inline-block bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 mb-1.5 font-medium text-xs px-2.5 py-0.5 rounded-full">Dental Service</span>
+            <h1 class="font-heading text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-warm-100 tracking-tight leading-[1.1]">{data.title}</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal" style="transition-delay: 0.1s">
+        <div class="text-slate-600 dark:text-warm-300 leading-[1.75] mb-12 text-[15px] prose prose-slate dark:prose-invert max-w-none">
+          <Content />
+        </div>
+      </div>
+
+      {videoSrc && (
+        <div class="reveal" style="transition-delay: 0.15s">
+          <video src={videoSrc} controls class="w-full rounded-xl mb-12 border border-slate-200/60 dark:border-warm-600 shadow-premium" preload="metadata"></video>
+        </div>
+      )}
+
+      <div class="reveal" style="transition-delay: 0.2s">
+        <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-5 tracking-tight">Benefits</h2>
+        <ul class="space-y-3 mb-12">
+          {data.benefits.map((benefit) => (
+            <li class="flex items-start gap-3">
+              <svg class="w-5 h-5 text-teal-700 dark:text-teal-400 mt-0.5 shrink-0" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.801 10A10 10 0 1 1 17 3.335" /><path d="m9 11 3 3L22 4" /></svg>
+              <span class="text-slate-600 dark:text-warm-300 text-[15px]">{benefit}</span>
+            </li>
+          ))}
+        </ul>
+      </div>
+
+      <div class="reveal" style="transition-delay: 0.3s">
+        <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-5 tracking-tight">Treatment Process</h2>
+        <div class="space-y-3 mb-12">
+          {data.process.map((step, i) => (
+            <div class="flex items-start gap-4 bg-cream dark:bg-warm-700/50 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600">
+              <div class="w-8 h-8 bg-teal-700 dark:bg-teal-600 rounded-lg flex items-center justify-center text-white font-bold text-sm shrink-0">{i + 1}</div>
+              <p class="text-slate-700 dark:text-warm-200 text-[15px] pt-1 leading-relaxed">{step}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {data.priceRange && (
+        <div class="reveal" style="transition-delay: 0.25s">
+          <div class="bg-teal-50/40 dark:bg-teal-900/20 rounded-xl p-6 sm:p-8 border border-teal-100/60 dark:border-teal-800/60 mb-12">
+            <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-2 tracking-tight">Pricing</h2>
+            <p class="text-3xl font-semibold text-teal-700 dark:text-teal-400 mb-1">{data.priceRange}</p>
+            <p class="text-slate-500 dark:text-warm-400 text-sm mb-5 leading-relaxed">Final cost depends on complexity and materials. Consultation required for exact quote.</p>
+            <div class="flex flex-wrap gap-3">
+              <a href={clinicInfo.whatsapp} target="_blank" rel="noopener noreferrer" class="bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 text-white gap-2 rounded-lg h-11 font-medium transition-all duration-300 shadow-none hover:shadow-premium inline-flex items-center justify-center px-4">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
+                Get Exact Quote
+              </a>
+              <a href={clinicInfo.phoneLink} class="border border-slate-300 dark:border-warm-600 text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:border-slate-400 dark:hover:border-warm-500 gap-2 rounded-lg h-11 transition-all duration-300 inline-flex items-center justify-center px-4">
+                <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+                Call to Discuss
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
+      <div class="reveal" style="transition-delay: 0.3s">
+        <div class="bg-teal-50/40 dark:bg-teal-900/20 rounded-xl p-7 sm:p-8 border border-teal-100/60 dark:border-teal-800/60 mb-12">
+          <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-3 tracking-tight">Ready to Get Started?</h2>
+          <p class="text-slate-600 dark:text-warm-300 text-[15px] mb-6 leading-relaxed">Book a consultation with Dr. Arpita Dash and take the first step towards a healthier smile.</p>
+          <div class="flex flex-wrap gap-3">
+            <a href={clinicInfo.whatsapp} target="_blank" rel="noopener noreferrer" class="bg-teal-700 hover:bg-teal-800 dark:bg-teal-600 dark:hover:bg-teal-500 text-white gap-2 rounded-lg h-11 font-medium transition-all duration-300 shadow-none hover:shadow-premium inline-flex items-center justify-center px-4">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z" /></svg>
+              Book via WhatsApp
+            </a>
+            <a href={clinicInfo.phoneLink} class="border border-teal-200 dark:border-teal-700 text-teal-700 dark:text-teal-400 hover:bg-teal-50/60 dark:hover:bg-teal-900/30 hover:border-teal-300 dark:hover:border-teal-600 gap-2 rounded-lg h-11 transition-all duration-300 inline-flex items-center justify-center px-4">
+              <svg class="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" /></svg>
+              Call Us
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal" style="transition-delay: 0.5s">
+        <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-5 tracking-tight">Related Services</h2>
+        <div class="grid sm:grid-cols-3 gap-4">
+          {relatedServices.map((related) => (
+            <a href={`/services/${related.data.slug}/`}>
+              <div class="bg-white dark:bg-warm-800 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600 hover:shadow-premium hover:border-teal-200/80 dark:hover:border-teal-600/80 transition-all duration-300 shadow-premium cursor-pointer-card">
+                <span class="text-teal-700 dark:text-teal-400 text-lg font-bold mb-3 block">{related.data.icon.charAt(0)}</span>
+                <h3 class="font-medium text-slate-900 dark:text-warm-100 text-sm">{related.data.title}</h3>
+              </div>
+            </a>
+          ))}
+        </div>
+      </div>
+    </div>
+
+    <FAQSection title={`${data.title} — FAQs`} subtitle={`Common questions about ${data.title.toLowerCase()} answered by Dr. Arpita Dash.`} />
+  </main>
+  <Footer />
+</BaseLayout>

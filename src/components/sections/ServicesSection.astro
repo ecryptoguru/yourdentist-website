@@ -1,0 +1,74 @@
+---
+import { serviceList, serviceVideos } from '@/lib/data';
+import { getCollection } from 'astro:content';
+
+const services = await getCollection('services');
+---
+
+<section class="section-padding bg-cream dark:bg-warm-900 relative" id="services">
+  <div class="absolute inset-0 bg-dot-grid-subtle opacity-30"></div>
+
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+    <div class="text-center mb-16 lg:mb-20 reveal">
+      <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Our Services</span>
+      <h2 class="font-heading text-4xl sm:text-[42px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+        Comprehensive Dental <span class="text-gradient-teal">Care Solutions</span>
+      </h2>
+      <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+        From preventive care to advanced restorative treatments, we offer a full spectrum of dental services using the latest technology.
+      </p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {
+        services.map((service, i) => {
+          const data = service.data;
+          const videoSrc = serviceVideos[data.slug];
+          return (
+            <div class="stagger-item" style={`transition-delay: ${i * 0.08}s`}>
+              <a href={`/services/${data.slug}/`}>
+                <div class="group bg-white dark:bg-warm-800 rounded-xl p-7 sm:p-8 border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover hover:-translate-y-1.5 transition-all duration-500 hover:border-teal-200/80 dark:hover:border-teal-600/80 cursor-pointer-card card-accent card-shimmer">
+                  <div class="w-12 h-12 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-teal-100/60 dark:group-hover:bg-teal-800/60 transition-colors duration-300">
+                    <span class="text-teal-700 dark:text-teal-400 text-lg font-bold">{data.icon.charAt(0)}</span>
+                  </div>
+                  <h3 class="font-heading text-lg font-semibold text-slate-900 dark:text-warm-100 mb-2.5 group-hover:text-teal-800 dark:group-hover:text-teal-400 transition-colors duration-300">
+                    {data.title}
+                  </h3>
+                  <p class="text-slate-500 dark:text-warm-400 text-[14px] leading-relaxed mb-5">{data.shortDescription}</p>
+                  <span class="inline-flex items-center text-teal-700 dark:text-teal-400 text-sm font-medium group-hover:gap-2 transition-all duration-300">
+                    Learn More
+                    <svg class="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
+                    </svg>
+                  </span>
+                  {videoSrc && (
+                    <video
+                      src={videoSrc}
+                      class="w-full h-32 object-cover rounded-lg mt-4 mb-3"
+                      muted
+                      loop
+                      playsinline
+                      preload="metadata"
+                      data-hover-play
+                    />
+                  )}
+                </div>
+              </a>
+            </div>
+          );
+        })
+      }
+    </div>
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('[data-hover-play]').forEach((video) => {
+    const el = video as HTMLVideoElement;
+    el.addEventListener('mouseenter', () => el.play().catch(() => {}));
+    el.addEventListener('mouseleave', () => {
+      el.pause();
+      el.currentTime = 0;
+    });
+  });
+</script>

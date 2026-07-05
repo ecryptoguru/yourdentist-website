@@ -18,7 +18,7 @@ A premium static marketing site for **Dr. Arpita Dash's YourDentist Laser Dental
 ## 2. Tech Stack
 
 | Layer | Technology |
-|-------|------------|
+| ------- | ------------ |
 | Framework | Next.js 16.2.6 (App Router, Turbopack) |
 | Language | TypeScript 5 (strict) |
 | Styling | Tailwind CSS v4 (`@theme` CSS-first config) |
@@ -31,7 +31,7 @@ A premium static marketing site for **Dr. Arpita Dash's YourDentist Laser Dental
 
 ## 3. Directory Structure
 
-```
+```text
 yourdentist-website/
 ├── next.config.ts           # static export, unoptimized images, trailingSlash
 ├── tsconfig.json            # path alias @/* -> ./src/*
@@ -97,14 +97,16 @@ yourdentist-website/
 ## 4. Architecture Rules
 
 ### Static Export Constraints
+
 - `output: "export"` in `next.config.ts` — **no API routes, no dynamic server features**
 - `images.unoptimized: true` — Next.js Image component requires this for static export
 - `trailingSlash: true` — all routes end in `/`
 - Route handlers (`robots.ts`, `sitemap.ts`) must declare `export const dynamic = "force-static"`
 
 ### Server vs Client Components
+
 | Pattern | Rule |
-|---------|------|
+| --------- | ------ |
 | Pages | Server Components by default (no `"use client"`) |
 | Sections | `"use client"` only if they use GSAP, Framer Motion, or React state |
 | Layout (Header) | `"use client"` because it uses `usePathname`, `useState`, `useEffect` |
@@ -112,12 +114,14 @@ yourdentist-website/
 | Animation wrappers | `"use client"` — `FadeIn.tsx`, `StaggerContainer.tsx` |
 
 ### shadcn/ui Conventions
+
 - Style: `base-nova` (not default/new-york)
 - Uses CSS variables defined in `globals.css` `:root`
 - Icons from `lucide-react` (never `react-icons`)
 - The `SheetClose` component does **NOT** accept `asChild` prop — always wrap `SheetClose` around the clickable element directly
 
 ### Tailwind v4 Conventions
+
 - Custom colors defined in `@theme inline` block in `globals.css`
 - **Use v4 native utilities**: `bg-linear-to-br` (not `bg-gradient-to-br`), `aspect-4/5` (not `aspect-[4/5]`), `rounded-4xl` (not `rounded-[2rem]`)
 - Custom palette:
@@ -144,6 +148,7 @@ navLinks       // 6 objects: { label, href }
 ```
 
 ### Service Icons
+
 Each service has an `icon` string key. The mapping lives in `lib/icons.ts` as `serviceIconMap`:
 
 ```ts
@@ -160,7 +165,7 @@ Supported keys: `Heart`, `AlignCenterHorizontal`, `CircleDot`, `Smile`, `Sparkle
 ## 6. Routing & Pages
 
 | Route | File | Type | Notes |
-|-------|------|------|-------|
+| ------- | ------ | ------ | ------- |
 | `/` | `app/page.tsx` | Static | Composes 8 sections |
 | `/about/` | `app/about/page.tsx` | Static | Doctor bio, stats, specializations |
 | `/services/` | `app/services/page.tsx` | Static | Grid of 12 services |
@@ -175,6 +180,7 @@ Supported keys: `Heart`, `AlignCenterHorizontal`, `CircleDot`, `Smile`, `Sparkle
 | `/sitemap.xml` | `app/sitemap.ts` | Route handler | `force-static`, 28 URLs |
 
 ### Dynamic Route Pattern
+
 Service detail and blog detail pages follow the same pattern:
 
 ```ts
@@ -199,6 +205,7 @@ export default async function Page({ params }) {
 ## 7. Animation System
 
 ### Framer Motion (scroll-triggered reveals)
+
 - **`<FadeIn>`** — single element entrance (opacity + translate)
   - Props: `direction` (up/down/left/right), `delay`, `duration`, `className`
   - Uses `whileInView` with `viewport={{ once: true, margin: "-50px" }}`
@@ -206,11 +213,13 @@ export default async function Page({ params }) {
   - Props: `staggerDelay`, `className`
 
 ### GSAP (hero cinematic entrance)
+
 - **`<HeroSection>`** uses `useEffect` + `gsap.context()` for timeline cleanup
 - Timeline sequence: title → subtitle → description → CTA → image → stats
 - Always cleans up with `ctx.revert()` on unmount
 
 ### Accessibility
+
 - `prefers-reduced-motion` CSS in `globals.css` forces instant transitions
 - GSAP timeline does NOT auto-respect this — currently the CSS layer handles it for Framer Motion only. GSAP reduction is a future enhancement.
 
@@ -219,13 +228,16 @@ export default async function Page({ params }) {
 ## 8. SEO & Structured Data
 
 ### Metadata (per page)
+
 Every page exports `metadata: Metadata` with:
+
 - `title` (uses `metadata.title.template` from layout)
 - `description`
 - Open Graph tags
 - Twitter card tags
 
 ### Root layout (`app/layout.tsx`)
+
 - `viewport` export: `width=device-width, initialScale=1, themeColor: "#0d9488"`
 - `alternates.canonical` set to root domain
 - JSON-LD `MedicalBusiness` schema with:
@@ -234,6 +246,7 @@ Every page exports `metadata: Metadata` with:
 - `metadataBase` for absolute OG/Twitter image URLs
 
 ### Sitemap (`app/sitemap.ts`)
+
 - 28 URLs: home + 7 static + 12 services + 8 blog posts
 - `lastmod` auto-generated at build time
 
@@ -242,6 +255,7 @@ Every page exports `metadata: Metadata` with:
 ## 9. Content Conventions
 
 ### Date Formatting
+
 Never use `new Date().toLocaleDateString()` directly in JSX — it causes hydration mismatches. Always use the shared formatter:
 
 ```ts
@@ -251,13 +265,17 @@ formatDate(post.date, { month: "long", day: "numeric" });
 ```
 
 ### WhatsApp Booking CTA
+
 All booking buttons use the same deep-link from `clinicInfo.whatsapp`:
-```
+
+```text
 https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.
 ```
 
 ### Image Placeholders
+
 All images currently use gradient placeholder divs (`bg-linear-to-br`) with text labels. Replacing with real clinic photos:
+
 1. Add images to `public/images/`
 2. Update `src` paths in `lib/data.ts` (gallery, doctor image, blog featured images)
 3. Remove placeholder gradient divs, replace with `<img>` or Next.js Image
@@ -267,7 +285,7 @@ All images currently use gradient placeholder divs (`bg-linear-to-br`) with text
 ## 10. Known Issues & TODOs
 
 | Priority | Issue | Location |
-|----------|-------|----------|
+| ---------- | ------- | ---------- |
 | Low | `services/page.tsx` defines its own `iconMap` instead of importing `serviceIconMap` | `app/services/page.tsx` |
 | Low | Blog markdown parser in `blog/[slug]/page.tsx` is naive (`startsWith("## ")`, `startsWith("- ")`) | `app/blog/[slug]/page.tsx` |
 | Low | Gallery / video lightbox use placeholder divs, not real media | `GallerySection.tsx`, `TalksSection.tsx` |
@@ -293,6 +311,7 @@ npx tsc --noEmit
 ```
 
 Deploy the `out/` folder to any static host:
+
 - **Vercel**: `vercel --prod`
 - **Netlify**: drag `out/` folder
 - **Cloudflare Pages**: upload `out/`
@@ -302,7 +321,7 @@ Deploy the `out/` folder to any static host:
 ## 12. Key File References
 
 | Purpose | File |
-|---------|------|
+| --------- | ------ |
 | All content data | `src/lib/data.ts` |
 | Service icon mapping | `src/lib/icons.ts` |
 | Date formatter | `src/lib/format.ts` |

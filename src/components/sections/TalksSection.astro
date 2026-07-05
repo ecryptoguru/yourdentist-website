@@ -1,0 +1,104 @@
+---
+import { talkVideos } from '@/lib/data';
+---
+
+<section class="section-padding bg-white dark:bg-warm-800" id="talks">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-16 lg:mb-20 reveal">
+      <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Dr. Arpita's Talk</span>
+      <h2 class="font-heading text-4xl sm:text-[42px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+        Expert <span class="text-gradient-teal">Insights</span>
+      </h2>
+      <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+        Watch Dr. Arpita share valuable dental health information and treatment insights.
+      </p>
+    </div>
+
+    <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5">
+      {talkVideos.map((video, i) => (
+        <div class="stagger-item" style={`transition-delay: ${i * 0.1}s`}>
+          <button
+            data-video-src={video.src}
+            aria-label={`Play ${video.title}`}
+            class="group w-full text-left rounded-xl focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:outline-none"
+          >
+            <div class="relative aspect-video bg-slate-900 rounded-xl overflow-hidden mb-4 border border-slate-200/40 dark:border-warm-600 shadow-premium group-hover:shadow-premium-hover transition-all duration-300">
+              <video
+                src={video.src}
+                preload="metadata"
+                muted
+                playsinline
+                class="object-cover w-full h-full opacity-90 group-hover:opacity-100 transition-opacity duration-300"
+                data-thumb-video
+              />
+              <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/40 transition-all duration-300"></div>
+              <div class="absolute inset-0 flex items-center justify-center">
+                <div class="w-14 h-14 bg-white/95 dark:bg-warm-100/95 rounded-full flex items-center justify-center shadow-premium-lg group-hover:scale-110 transition-transform duration-300">
+                  <svg class="w-5 h-5 text-teal-700 dark:text-teal-600 ml-0.5" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3" /></svg>
+                </div>
+              </div>
+            </div>
+            <h3 class="font-heading font-semibold text-slate-900 dark:text-warm-100 group-hover:text-teal-800 dark:group-hover:text-teal-400 transition-colors duration-300 text-[15px]">{video.title}</h3>
+          </button>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>
+
+<!-- Video Modal -->
+<div id="video-modal" class="fixed inset-0 z-100 hidden items-center justify-center bg-black/80 backdrop-blur-sm">
+  <div class="relative w-full max-w-4xl bg-slate-900 rounded-2xl overflow-hidden shadow-premium-lg mx-4">
+    <button id="video-close" aria-label="Close video player" class="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 w-11 h-11 bg-white/10 backdrop-blur rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
+      <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+    </button>
+    <video id="video-player" controls autoplay class="w-full aspect-video"></video>
+  </div>
+</div>
+
+<script>
+  // Thumbnail videos - set to first frame
+  document.querySelectorAll('[data-thumb-video]').forEach((v) => {
+    const el = v as HTMLVideoElement;
+    el.addEventListener('loadedmetadata', () => {
+      el.currentTime = 0.1;
+      el.pause();
+    });
+  });
+
+  const modal = document.getElementById('video-modal');
+  const player = document.getElementById('video-player') as HTMLVideoElement;
+
+  function openVideo(src: string) {
+    if (!modal || !player) return;
+    player.src = src;
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+    player.play().catch(() => {});
+  }
+
+  function closeVideo() {
+    if (!modal || !player) return;
+    player.pause();
+    player.src = '';
+    modal.classList.add('hidden');
+    modal.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('[data-video-src]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      openVideo((btn as HTMLElement).dataset.videoSrc || '');
+    });
+  });
+
+  document.getElementById('video-close')?.addEventListener('click', closeVideo);
+  modal?.addEventListener('click', (e) => {
+    if (e.target === modal) closeVideo();
+  });
+  player?.addEventListener('ended', closeVideo);
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !modal?.classList.contains('hidden')) closeVideo();
+  });
+</script>

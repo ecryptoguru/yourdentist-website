@@ -1,0 +1,69 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import HeroSection from '@/components/sections/HeroSection.astro';
+import ReviewsSection from '@/components/sections/ReviewsSection.astro';
+import AboutSection from '@/components/sections/AboutSection.astro';
+import ServicesSection from '@/components/sections/ServicesSection.astro';
+import BeforeAfterSection from '@/components/sections/BeforeAfterSection.astro';
+import TestimonialsSection from '@/components/sections/TestimonialsSection.astro';
+import GallerySection from '@/components/sections/GallerySection.astro';
+import TalksSection from '@/components/sections/TalksSection.astro';
+import FAQSection from '@/components/sections/FAQSection.astro';
+import BookingForm from '@/components/sections/BookingForm.astro';
+import ContactSection from '@/components/sections/ContactSection.astro';
+import { areasServed } from '@/lib/data';
+---
+
+<BaseLayout title="Best Dental Clinic in Bhubaneswar | Laser Dentistry | YourDentist" description="Top-rated dental clinic in Bhubaneswar led by Dr. Arpita Dash. Painless root canal, braces, dental implants, laser dentistry & smile designing. 5,000+ happy patients. Book today!">
+  <Header />
+  <main class="flex-1">
+    <HeroSection />
+    <ReviewsSection />
+    <AboutSection />
+    <ServicesSection />
+    <BeforeAfterSection />
+    <TestimonialsSection />
+    <GallerySection />
+    <TalksSection />
+    <FAQSection />
+    <section class="section-padding bg-white dark:bg-warm-800" aria-label="Areas served in Bhubaneswar">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12 reveal">
+          <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Areas We Serve</span>
+          <h2 class="font-heading text-3xl sm:text-4xl font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+            Trusted Dental Clinic Across <span class="text-gradient-teal">Bhubaneswar</span>
+          </h2>
+          <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+            YourDentist Laser Dental Clinic is conveniently located in Bomikhal, serving patients from all across Bhubaneswar and nearby areas.
+          </p>
+        </div>
+        <div class="flex flex-wrap justify-center gap-3 reveal">
+          {areasServed.map((area) => (
+            <span class="px-4 py-2 rounded-full bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 text-sm font-medium border border-teal-100 dark:border-teal-800 hover:bg-teal-100 dark:hover:bg-teal-800/60 transition-colors">
+              {area}
+            </span>
+          ))}
+        </div>
+      </div>
+    </section>
+    <section class="section-padding bg-cream dark:bg-warm-900 relative" id="appointment">
+      <div class="absolute inset-0 bg-dot-grid-subtle opacity-20"></div>
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+        <div class="text-center mb-16 reveal">
+          <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Appointment</span>
+          <h2 class="font-heading text-4xl sm:text-[42px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+            Book Your <span class="text-gradient-teal">Visit</span>
+          </h2>
+          <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+            Fill in your details and we will confirm your appointment via WhatsApp within 2 hours.
+          </p>
+        </div>
+        <BookingForm />
+      </div>
+    </section>
+    <ContactSection />
+  </main>
+  <Footer />
+</BaseLayout>

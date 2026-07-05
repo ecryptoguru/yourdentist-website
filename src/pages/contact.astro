@@ -1,0 +1,28 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import ContactSection from '@/components/sections/ContactSection.astro';
+---
+
+<BaseLayout
+  title="Contact Best Dental Clinic in Bhubaneswar | Book Appointment | YourDentist"
+  description="Contact YourDentist Laser Dental Clinic in Bhubaneswar. Book appointments via WhatsApp or call +91 7064719630. Located in Bomikhal, near SHIBANI ENCLAVE. Open Tue-Sun."
+>
+  <Header />
+  <main class="flex-1 pt-28">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <div class="text-center mb-16 reveal">
+        <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Contact</span>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-[56px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+          Get in <span class="text-gradient-teal">Touch</span>
+        </h1>
+        <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+          We're here to help you achieve the smile you deserve. Reach out to us today.
+        </p>
+      </div>
+    </div>
+    <ContactSection hideHeader />
+  </main>
+  <Footer />
+</BaseLayout>

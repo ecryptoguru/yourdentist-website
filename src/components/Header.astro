@@ -12,12 +12,12 @@ const isActive = (href: string) => {
 
 <header
   id="site-header"
-  class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out py-5"
+  class="fixed top-[40px] left-0 right-0 z-50 transition-all duration-500 ease-out py-5"
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div
       id="header-inner"
-      class="flex items-center justify-between transition-all duration-500 bg-transparent px-0 py-0"
+      class="flex items-center justify-between transition-all duration-500"
     >
       <!-- Logo -->
       <a href="/" class="flex items-center gap-2.5 group">
@@ -51,14 +51,16 @@ const isActive = (href: string) => {
       </a>
 
       <!-- Desktop Navigation -->
-      <nav class="hidden lg:flex items-center gap-0.5">
+      <nav class="hidden lg:flex items-center gap-1">
         {
           navLinks.map((link) => (
             <a
               href={link.href}
               class:list={[
                 'relative px-4 h-10 flex items-center rounded-lg text-sm font-medium transition-all duration-300 nav-link-underline',
-                isActive(link.href) ? 'text-teal-700 dark:text-teal-400 active' : 'text-slate-600 dark:text-warm-300 hover:text-slate-900 dark:hover:text-warm-100',
+                isActive(link.href)
+                  ? 'text-teal-700 dark:text-teal-400 bg-teal-50/80 dark:bg-teal-900/40 active'
+                  : 'text-slate-600 dark:text-warm-300 hover:text-slate-900 dark:hover:text-warm-100 hover:bg-slate-100/70 dark:hover:bg-warm-700/50',
               ]}
             >
               {link.label}
@@ -94,7 +96,7 @@ const isActive = (href: string) => {
         <!-- Mobile menu button -->
         <button
           id="mobile-menu-toggle"
-          class="lg:hidden text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 rounded-lg h-10 w-10 flex items-center justify-center transition-colors"
+          class="lg:hidden text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:text-teal-700 dark:hover:text-teal-400 rounded-lg h-10 w-10 flex items-center justify-center transition-all duration-300"
           aria-label="Open menu"
           aria-expanded="false"
         >
@@ -189,41 +191,48 @@ const isActive = (href: string) => {
   const headerInner = document.getElementById('header-inner');
 
   if (header && headerInner) {
+    const setScrolled = () => {
+      header.classList.remove('py-5');
+      header.classList.add('py-3');
+      headerInner.classList.remove('bg-transparent', 'px-0', 'py-0');
+      headerInner.classList.add(
+        'bg-white/85',
+        'dark:bg-warm-800/85',
+        'backdrop-blur-xl',
+        'border',
+        'border-slate-200/60',
+        'dark:border-warm-600/60',
+        'shadow-premium',
+        'rounded-2xl',
+        'px-5',
+        'py-3'
+      );
+    };
+
+    const setTop = () => {
+      header.classList.remove('py-3');
+      header.classList.add('py-5');
+      headerInner.classList.add('bg-white/60', 'dark:bg-warm-900/50', 'backdrop-blur-md', 'rounded-2xl', 'px-5', 'py-3', 'border', 'border-white/40', 'dark:border-warm-700/40');
+      headerInner.classList.remove(
+        'bg-white/85',
+        'dark:bg-warm-800/85',
+        'backdrop-blur-xl',
+        'border-slate-200/60',
+        'dark:border-warm-600/60',
+        'shadow-premium'
+      );
+    };
+
     const handleScroll = () => {
       if (window.scrollY > 40) {
-        header.classList.remove('py-5');
-        header.classList.add('py-3');
-        headerInner.classList.remove('bg-transparent', 'px-0', 'py-0');
-        headerInner.classList.add(
-          'bg-white/80',
-          'dark:bg-warm-800/80',
-          'backdrop-blur-xl',
-          'border',
-          'border-slate-200/60',
-          'dark:border-warm-600/60',
-          'shadow-premium',
-          'rounded-2xl',
-          'px-5',
-          'py-3'
-        );
+        setScrolled();
       } else {
-        header.classList.remove('py-3');
-        header.classList.add('py-5');
-        headerInner.classList.add('bg-transparent', 'px-0', 'py-0');
-        headerInner.classList.remove(
-          'bg-white/80',
-          'dark:bg-warm-800/80',
-          'backdrop-blur-xl',
-          'border',
-          'border-slate-200/60',
-          'dark:border-warm-600/60',
-          'shadow-premium',
-          'rounded-2xl',
-          'px-5',
-          'py-3'
-        );
+        setTop();
       }
     };
+
+    // Initialize state
+    handleScroll();
     window.addEventListener('scroll', handleScroll, { passive: true });
   }
 

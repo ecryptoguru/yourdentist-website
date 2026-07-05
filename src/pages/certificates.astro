@@ -10,7 +10,7 @@ import { certificatePhotos } from '@/lib/data';
   description="View Dr. Arpita Dash's professional dental certificates and credentials. Trusted dental surgeon in Bhubaneswar with 10+ years of experience and 5,000+ satisfied patients."
 >
   <Header />
-  <main class="flex-1 pt-28">
+  <main class="flex-1 pt-36">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div class="text-center mb-16 lg:mb-20 reveal">
         <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Credentials</span>
@@ -22,12 +22,26 @@ import { certificatePhotos } from '@/lib/data';
         </p>
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
         {certificatePhotos.map((photo, i) => (
-          <div class="stagger-item" style={`transition-delay: ${i * 0.08}s`}>
-            <div class="relative aspect-4/5 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 bg-slate-100 dark:bg-warm-700 shadow-premium hover:shadow-premium-hover transition-all duration-300">
-              <img src={photo.src} alt={photo.alt} loading="lazy" class="w-full h-full object-cover" />
-            </div>
+          <div class="stagger-item" style={`transition-delay: ${Math.min(i * 0.08, 0.6)}s`}>
+            <button
+              data-lightbox-src={photo.src}
+              data-lightbox-alt={photo.alt}
+              data-lightbox-title={photo.title}
+              aria-label={`View certificate: ${photo.title}`}
+              class="group w-full text-left focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:outline-none rounded-2xl"
+            >
+              <div class="group relative aspect-4/5 rounded-2xl overflow-hidden border border-slate-200/60 dark:border-warm-600 bg-slate-100 dark:bg-warm-700 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+                <img src={photo.src} alt={photo.alt} loading="lazy" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" />
+                <div class="absolute inset-0 bg-slate-900/0 group-hover:bg-slate-900/10 transition-colors duration-300 flex items-center justify-center">
+                  <div class="w-12 h-12 bg-white/90 dark:bg-warm-100/90 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                    <svg class="w-5 h-5 text-teal-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 3h6v6" /><path d="M10 14 21 3" /><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" /></svg>
+                  </div>
+                </div>
+              </div>
+              <p class="text-center mt-3 font-heading font-medium text-slate-700 dark:text-warm-300 text-[13px] leading-snug">{photo.title}</p>
+            </button>
           </div>
         ))}
       </div>
@@ -35,3 +49,59 @@ import { certificatePhotos } from '@/lib/data';
   </main>
   <Footer />
 </BaseLayout>
+
+<!-- Certificate Lightbox -->
+<div id="cert-lightbox" class="fixed inset-0 z-100 hidden items-center justify-center bg-black/80 backdrop-blur-sm p-4">
+  <div class="relative max-w-3xl w-full max-h-[90vh] flex flex-col">
+    <button id="cert-close" aria-label="Close certificate viewer" class="absolute -top-12 right-0 w-10 h-10 bg-white/10 backdrop-blur rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
+      <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+    </button>
+    <div class="bg-slate-900 rounded-2xl overflow-hidden shadow-premium-lg flex-1 flex items-center justify-center">
+      <img id="cert-lightbox-img" src="" alt="" class="max-w-full max-h-[80vh] object-contain" />
+    </div>
+    <p id="cert-lightbox-title" class="text-center text-white text-sm font-heading font-medium mt-4"></p>
+  </div>
+</div>
+
+<script>
+  const certLightbox = document.getElementById('cert-lightbox');
+  const certImg = document.getElementById('cert-lightbox-img') as HTMLImageElement | null;
+  const certTitle = document.getElementById('cert-lightbox-title');
+  const certClose = document.getElementById('cert-close');
+
+  function openCertificate(src: string, alt: string, title: string) {
+    if (!certLightbox || !certImg) return;
+    certImg.src = src;
+    certImg.alt = alt;
+    if (certTitle) certTitle.textContent = title;
+    certLightbox.classList.remove('hidden');
+    certLightbox.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeCertificate() {
+    if (!certLightbox || !certImg) return;
+    certImg.src = '';
+    certLightbox.classList.add('hidden');
+    certLightbox.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('[data-lightbox-src]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const el = btn as HTMLElement;
+      const src = el.dataset.lightboxSrc || '';
+      const alt = el.dataset.lightboxAlt || '';
+      const title = el.dataset.lightboxTitle || '';
+      openCertificate(src, alt, title);
+    });
+  });
+
+  certClose?.addEventListener('click', closeCertificate);
+  certLightbox?.addEventListener('click', (e) => {
+    if (e.target === certLightbox) closeCertificate();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !certLightbox?.classList.contains('hidden')) closeCertificate();
+  });
+</script>

@@ -137,8 +137,8 @@ describe('Component dark: variant coverage', () => {
       expect(content).toMatch(/bg-black\/10\s+dark:bg-black\/50/);
     });
 
-    it('should have dark:bg-warm-800/80 in scroll-aware header', () => {
-      expect(content).toMatch(/dark:bg-warm-800\/80/);
+    it('should have dark:bg-warm-800/85 in scroll-aware header', () => {
+      expect(content).toMatch(/dark:bg-warm-800\/85/);
     });
   });
 

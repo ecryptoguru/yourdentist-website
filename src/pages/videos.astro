@@ -1,0 +1,156 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Header from '@/components/Header.astro';
+import Footer from '@/components/Footer.astro';
+import { youtubeVideos } from '@/lib/data';
+
+const videoSchema = youtubeVideos.map((v) => ({
+  '@type': 'VideoObject',
+  name: v.title,
+  description: v.description,
+  thumbnailUrl: `https://img.youtube.com/vi/${v.id}/hqdefault.jpg`,
+  embedUrl: `https://www.youtube.com/embed/${v.id}`,
+  uploadDate: '2024-01-01',
+}));
+---
+
+<BaseLayout
+  title="Video Gallery | Dr. Arpita Dash | YourDentist Laser Dental Clinic"
+  description="Watch Dr. Arpita Dash's expert dental health talks and TV appearances on Swasthya Plus Odia, Swasthya Sambad, and Kanak News. 20+ educational videos on tooth pain, root canal, oral hygiene, and more."
+>
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify({
+      '@context': 'https://schema.org',
+      '@type': 'CollectionPage',
+      name: 'Video Gallery - Dr. Arpita Dash',
+      description: 'Educational dental health videos by Dr. Arpita Dash on various Odia health channels.',
+      url: 'https://www.yourdentistdentalclinic.com/videos/',
+      isPartOf: {
+        '@type': 'WebSite',
+        name: 'YourDentist Laser Dental Clinic',
+        url: 'https://www.yourdentistdentalclinic.com',
+      },
+      hasPart: videoSchema,
+    })} />
+  </Fragment>
+  <Header />
+  <main class="flex-1 pt-36">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
+      <div class="text-center mb-16 lg:mb-20 reveal">
+        <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Media & Talks</span>
+        <h1 class="font-heading text-4xl sm:text-5xl lg:text-[56px] font-semibold text-slate-900 dark:text-warm-100 mt-4 mb-5 tracking-tight leading-[1.1]">
+          Dr. Arpita's <span class="text-gradient-teal">Video Gallery</span>
+        </h1>
+        <p class="text-slate-500 dark:text-warm-400 max-w-2xl mx-auto text-[15px] leading-relaxed">
+          Educational dental health talks and TV appearances on leading Odia health channels. Learn about oral hygiene, dental treatments, and preventive care from Dr. Arpita Dash.
+        </p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        {youtubeVideos.map((video, i) => (
+          <div class="stagger-item" style={`transition-delay: ${Math.min(i * 0.06, 0.6)}s`}>
+            <div class="group bg-white dark:bg-warm-800 rounded-2xl overflow-hidden border border-slate-200/60 dark:border-warm-600 shadow-premium hover:shadow-premium-hover transition-all duration-300">
+              <button
+                data-youtube-id={video.id}
+                aria-label={`Play video: ${video.title}`}
+                class="relative aspect-video bg-slate-100 dark:bg-warm-700 overflow-hidden w-full cursor-pointer focus-visible:ring-2 focus-visible:ring-teal-600 focus-visible:ring-offset-2 focus-visible:outline-none"
+              >
+                <img
+                  src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
+                  alt={video.title}
+                  loading="lazy"
+                  class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
+                />
+                <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/30 transition-colors duration-300"></div>
+                <div class="absolute inset-0 flex items-center justify-center">
+                  <div class="w-14 h-14 bg-red-600 group-hover:bg-red-700 group-hover:scale-110 rounded-full flex items-center justify-center shadow-premium-lg transition-all duration-300">
+                    <svg class="w-5 h-5 text-white ml-0.5" viewBox="0 0 24 24" fill="currentColor"><polygon points="6 3 20 12 6 21 6 3" /></svg>
+                  </div>
+                </div>
+              </button>
+              <div class="p-5">
+                <div class="flex items-center gap-2 mb-2">
+                  <span class="inline-flex items-center gap-1.5 text-[11px] font-medium text-red-600 dark:text-red-400 bg-red-50 dark:bg-red-900/30 px-2 py-0.5 rounded-full">
+                    <svg class="w-3 h-3" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+                    {video.channel}
+                  </span>
+                </div>
+                <h3 class="font-heading font-semibold text-slate-900 dark:text-warm-100 text-[15px] leading-snug mb-2 line-clamp-2">{video.title}</h3>
+                <p class="text-slate-500 dark:text-warm-400 text-[13px] leading-relaxed line-clamp-3">{video.description}</p>
+              </div>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div class="mt-16 text-center reveal">
+        <div class="inline-flex flex-col sm:flex-row items-center gap-4 bg-teal-50/40 dark:bg-teal-900/20 rounded-2xl p-6 sm:p-8 border border-teal-100/60 dark:border-teal-800/60">
+          <div class="text-left">
+            <h2 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-1 tracking-tight">Subscribe to Our Channel</h2>
+            <p class="text-slate-600 dark:text-warm-300 text-sm leading-relaxed">Get the latest dental health tips and educational videos from Dr. Arpita Dash.</p>
+          </div>
+          <a href="https://youtube.com/@yourdentistclinic" target="_blank" rel="noopener noreferrer" class="bg-red-600 hover:bg-red-700 text-white gap-2 rounded-lg h-11 font-medium transition-all duration-300 inline-flex items-center justify-center px-5 whitespace-nowrap">
+            <svg class="w-4 h-4" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" /></svg>
+            Subscribe on YouTube
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <Footer />
+</BaseLayout>
+
+<!-- YouTube Video Modal -->
+<div id="yt-modal" class="fixed inset-0 z-100 hidden items-center justify-center bg-black/80 backdrop-blur-sm">
+  <div class="relative w-full max-w-4xl bg-slate-900 rounded-2xl overflow-hidden shadow-premium-lg mx-4">
+    <button id="yt-close" aria-label="Close video player" class="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 w-11 h-11 bg-white/10 backdrop-blur rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
+      <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
+    </button>
+    <div id="yt-player-container" class="w-full aspect-video"></div>
+  </div>
+</div>
+
+<script>
+  const ytModal = document.getElementById('yt-modal');
+  const ytContainer = document.getElementById('yt-player-container');
+  const ytClose = document.getElementById('yt-close');
+
+  function openYouTube(videoId: string) {
+    if (!ytModal || !ytContainer) return;
+    ytContainer.innerHTML = '';
+    const iframe = document.createElement('iframe');
+    iframe.src = `https://www.youtube.com/embed/${videoId}?autoplay=1&rel=0`;
+    iframe.title = 'YouTube video player';
+    iframe.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
+    iframe.allowFullscreen = true;
+    iframe.className = 'w-full h-full';
+    iframe.style.border = '0';
+    ytContainer.appendChild(iframe);
+    ytModal.classList.remove('hidden');
+    ytModal.classList.add('flex');
+    document.body.style.overflow = 'hidden';
+  }
+
+  function closeYouTube() {
+    if (!ytModal || !ytContainer) return;
+    ytContainer.innerHTML = '';
+    ytModal.classList.add('hidden');
+    ytModal.classList.remove('flex');
+    document.body.style.overflow = '';
+  }
+
+  document.querySelectorAll('[data-youtube-id]').forEach((btn) => {
+    btn.addEventListener('click', () => {
+      const id = (btn as HTMLElement).dataset.youtubeId;
+      if (id) openYouTube(id);
+    });
+  });
+
+  ytClose?.addEventListener('click', closeYouTube);
+  ytModal?.addEventListener('click', (e) => {
+    if (e.target === ytModal) closeYouTube();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !ytModal?.classList.contains('hidden')) closeYouTube();
+  });
+</script>

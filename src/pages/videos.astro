@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { youtubeVideos } from '@/lib/data';
 
 const videoSchema = youtubeVideos.map((v) => ({
@@ -35,6 +36,7 @@ const videoSchema = youtubeVideos.map((v) => ({
   </Fragment>
   <Header />
   <main class="flex-1 pt-36">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Videos', href: '/videos/' }]} />
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div class="text-center mb-16 lg:mb-20 reveal">
         <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Media & Talks</span>
@@ -59,6 +61,8 @@ const videoSchema = youtubeVideos.map((v) => ({
                   src={`https://img.youtube.com/vi/${video.id}/hqdefault.jpg`}
                   alt={video.title}
                   loading="lazy"
+                  width="480"
+                  height="360"
                   class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
                 />
                 <div class="absolute inset-0 bg-slate-900/20 group-hover:bg-slate-900/30 transition-colors duration-300"></div>

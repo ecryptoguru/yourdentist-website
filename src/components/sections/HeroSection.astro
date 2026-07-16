@@ -27,7 +27,7 @@ import { clinicInfo, doctor } from '@/lib/data';
           <span class="text-gradient-teal">Our Passion</span>
         </h1>
 
-        <p class="hero-anim text-slate-500 dark:text-warm-400 text-lg sm:text-xl mb-10 max-w-xl leading-relaxed opacity-0" data-anim="desc">
+        <p class="hero-anim text-slate-500 dark:text-warm-400 text-lg sm:text-xl mb-10 max-w-xl leading-relaxed opacity-0 speakable-summary" data-anim="desc">
           Experience advanced laser dental care in Bhubaneswar with <span class="text-slate-700 dark:text-warm-200 font-medium">Dr. Arpita Dash</span>. Painless treatments, beautiful results.
         </p>
 
@@ -115,43 +115,52 @@ import { clinicInfo, doctor } from '@/lib/data';
 </section>
 
 <script>
-  // Set initial transforms immediately to prevent flash
-  document.querySelectorAll('[data-anim="title"], [data-anim="desc"], [data-anim="cta"], [data-anim="label"]').forEach((el) => {
-    (el as HTMLElement).style.transform = 'translateY(30px)';
-  });
-  document.querySelectorAll('[data-anim="card"]').forEach((el) => {
-    (el as HTMLElement).style.transform = 'translateX(60px)';
-  });
-  document.querySelectorAll('[data-anim="stat"]').forEach((el) => {
-    (el as HTMLElement).style.transform = 'translateY(20px)';
-  });
+  const prefersReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 
-  // Stagger stats
-  const stats = document.querySelectorAll('[data-anim="stat"]');
-  stats.forEach((el, i) => {
-    (el as HTMLElement).style.transitionDelay = `${i * 0.12}s`;
-  });
+  if (prefersReducedMotion) {
+    document.querySelectorAll('[data-anim]').forEach((el) => {
+      (el as HTMLElement).style.opacity = '1';
+      (el as HTMLElement).style.transform = 'none';
+    });
+  } else {
+    // Set initial transforms immediately to prevent flash
+    document.querySelectorAll('[data-anim="title"], [data-anim="desc"], [data-anim="cta"], [data-anim="label"]').forEach((el) => {
+      (el as HTMLElement).style.transform = 'translateY(30px)';
+    });
+    document.querySelectorAll('[data-anim="card"]').forEach((el) => {
+      (el as HTMLElement).style.transform = 'translateX(60px)';
+    });
+    document.querySelectorAll('[data-anim="stat"]').forEach((el) => {
+      (el as HTMLElement).style.transform = 'translateY(20px)';
+    });
 
-  // Hero entrance animation with CSS transitions
-  const animElements = document.querySelectorAll('[data-anim]');
-  const delays: Record<string, number> = { label: 200, line: 400, title: 600, desc: 900, cta: 1100, card: 700, stat: 1300 };
+    // Stagger stats
+    const stats = document.querySelectorAll('[data-anim="stat"]');
+    stats.forEach((el, i) => {
+      (el as HTMLElement).style.transitionDelay = `${i * 0.12}s`;
+    });
 
-  animElements.forEach((el) => {
-    const htmlEl = el as HTMLElement;
-    const type = htmlEl.dataset.anim;
-    const delay = (type && delays[type]) || 0;
-    setTimeout(() => {
-      htmlEl.style.transition = 'opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
-      htmlEl.style.opacity = '1';
-      if (type === 'line') {
-        htmlEl.style.transform = 'scaleX(1)';
-      } else if (type === 'card') {
-        htmlEl.style.transform = 'translateX(0)';
-      } else {
-        htmlEl.style.transform = 'translateY(0)';
-      }
-    }, delay);
-  });
+    // Hero entrance animation with CSS transitions
+    const animElements = document.querySelectorAll('[data-anim]');
+    const delays: Record<string, number> = { label: 200, line: 400, title: 600, desc: 900, cta: 1100, card: 700, stat: 1300 };
+
+    animElements.forEach((el) => {
+      const htmlEl = el as HTMLElement;
+      const type = htmlEl.dataset.anim;
+      const delay = (type && delays[type]) || 0;
+      setTimeout(() => {
+        htmlEl.style.transition = 'opacity 0.8s ease, transform 0.8s cubic-bezier(0.16, 1, 0.3, 1)';
+        htmlEl.style.opacity = '1';
+        if (type === 'line') {
+          htmlEl.style.transform = 'scaleX(1)';
+        } else if (type === 'card') {
+          htmlEl.style.transform = 'translateX(0)';
+        } else {
+          htmlEl.style.transform = 'translateY(0)';
+        }
+      }, delay);
+    });
+  }
 
   // Scroll indicator
   document.getElementById('hero-scroll-indicator')?.addEventListener('click', () => {

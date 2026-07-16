@@ -1,0 +1,14 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "yourdentist-website",
+  "compatibility_date": "2026-07-16",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true,
+  "routes": [
+    { "pattern": "yourdentistdentalclinic.com/*", "zone_name": "yourdentistdentalclinic.com" },
+    { "pattern": "www.yourdentistdentalclinic.com/*", "zone_name": "yourdentistdentalclinic.com" }
+  ]
+}

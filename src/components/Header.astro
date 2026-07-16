@@ -12,7 +12,7 @@ const isActive = (href: string) => {
 
 <header
   id="site-header"
-  class="fixed top-[40px] left-0 right-0 z-50 transition-all duration-500 ease-out py-5"
+  class="fixed top-0 left-0 right-0 z-50 transition-all duration-500 ease-out py-5"
 >
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div
@@ -95,6 +95,7 @@ const isActive = (href: string) => {
 
         <!-- Mobile menu button -->
         <button
+          type="button"
           id="mobile-menu-toggle"
           class="lg:hidden text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:text-teal-700 dark:hover:text-teal-400 rounded-lg h-10 w-10 flex items-center justify-center transition-all duration-300"
           aria-label="Open menu"
@@ -135,6 +136,7 @@ const isActive = (href: string) => {
           <span class="font-heading font-semibold text-base text-slate-900 dark:text-warm-100">YourDentist</span>
         </div>
         <button
+          type="button"
           id="mobile-menu-close"
           class="h-10 w-10 rounded-lg hover:bg-slate-100/80 dark:hover:bg-warm-700/80 flex items-center justify-center transition-colors"
           aria-label="Close menu"
@@ -186,8 +188,31 @@ const isActive = (href: string) => {
 </header>
 
 <script>
-  // Scroll-aware header
+  // Dynamic header positioning based on emergency banner
   const header = document.getElementById('site-header');
+  const emergencyBanner = document.getElementById('emergency-banner');
+
+  function updateHeaderPosition() {
+    if (!header) return;
+    if (emergencyBanner && !emergencyBanner.classList.contains('hidden')) {
+      header.style.top = emergencyBanner.offsetHeight + 'px';
+    } else {
+      header.style.top = '0px';
+    }
+  }
+
+  updateHeaderPosition();
+
+  // Listen for emergency banner dismiss
+  const dismissBtn = document.getElementById('emergency-dismiss');
+  dismissBtn?.addEventListener('click', () => {
+    setTimeout(updateHeaderPosition, 50);
+  });
+
+  // Update on resize
+  window.addEventListener('resize', updateHeaderPosition, { passive: true });
+
+  // Scroll-aware header
   const headerInner = document.getElementById('header-inner');
 
   if (header && headerInner) {
@@ -281,5 +306,22 @@ const isActive = (href: string) => {
   // Close on Escape
   document.addEventListener('keydown', (e) => {
     if (e.key === 'Escape') closeMenu();
+  });
+
+  // Focus trap within mobile menu
+  const focusableSelector = 'a[href], button:not([disabled]), input, select, textarea';
+  document.addEventListener('keydown', (e) => {
+    if (e.key !== 'Tab' || !mobileMenu || mobileMenu.classList.contains('hidden')) return;
+    const focusable = mobileMenu.querySelectorAll(focusableSelector);
+    if (focusable.length === 0) return;
+    const first = focusable[0] as HTMLElement;
+    const last = focusable[focusable.length - 1] as HTMLElement;
+    if (e.shiftKey && document.activeElement === first) {
+      e.preventDefault();
+      last.focus();
+    } else if (!e.shiftKey && document.activeElement === last) {
+      e.preventDefault();
+      first.focus();
+    }
   });
 </script>

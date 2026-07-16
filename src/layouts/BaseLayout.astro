@@ -58,7 +58,38 @@ const dentistSchema = {
     { '@type': 'City', name: 'Bhubaneswar' },
     { '@type': 'City', name: 'Cuttack' },
     { '@type': 'AdministrativeArea', name: 'Odisha' },
+    { '@type': 'AdministrativeArea', name: 'Bomikhal' },
   ],
+  knowsLanguage: ['en', 'hi', 'or'],
+  contactPoint: [
+    {
+      '@type': 'ContactPoint',
+      contactType: 'reservations',
+      telephone: '+91 7064719630',
+      contactOption: 'TollFree',
+      areaServed: 'IN',
+      availableLanguage: ['English', 'Hindi', 'Odia'],
+    },
+    {
+      '@type': 'ContactPoint',
+      contactType: 'emergency',
+      telephone: '+91 7064719630',
+      areaServed: 'IN',
+      availableLanguage: ['English', 'Hindi', 'Odia'],
+    },
+  ],
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Dental Services in Bhubaneswar',
+    itemListElement: serviceList.map((s) => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'MedicalTherapy',
+        name: s.title,
+        url: `https://www.yourdentistdentalclinic.com/services/${s.slug}/`,
+      },
+    })),
+  },
   medicalSpecialty: ['Dentistry', 'Orthodontics', 'Endodontics', 'CosmeticDentistry'],
   knowsAbout: [
     'Root Canal Treatment',
@@ -76,6 +107,20 @@ const dentistSchema = {
     name: s.title,
     url: `https://www.yourdentistdentalclinic.com/services/${s.slug}/`,
   })),
+  hasMap: 'https://maps.app.goo.gl/V4AjCU2EzFhuXABy6',
+  hasDriveThroughService: false,
+  potentialAction: {
+    '@type': 'ScheduleAction',
+    target: {
+      '@type': 'EntryPoint',
+      urlTemplate: 'https://www.yourdentistdentalclinic.com/#appointment',
+      actionPlatform: ['https://schema.org/WebSite', 'https://schema.org/DesktopWebPlatform', 'https://schema.org/MobileWebPlatform'],
+    },
+    resultSpecification: {
+      '@type': 'Reservation',
+      name: 'Dental Appointment',
+    },
+  },
   openingHoursSpecification: [
     {
       '@type': 'OpeningHoursSpecification',
@@ -114,11 +159,26 @@ const dentistSchema = {
     name: 'Dr. Arpita Dash',
     jobTitle: 'Dental Surgeon & Smile Specialist',
   },
+  review: [
+    {
+      '@type': 'Review',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Bikash Bhuyan' },
+      reviewBody: 'The best dental clinic in town. I had a RCT done here and I am glad it went on so effortlessly. The best part is I had undergone this without any pain.',
+    },
+    {
+      '@type': 'Review',
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      author: { '@type': 'Person', name: 'Amarendra Pattnaik' },
+      reviewBody: 'I recently completed my braces orthodontic treatment with Dr. Arpita Dash, and I couldn\'t be more pleased with the results. Her dedication to achieving the best possible outcome was evident in the final results.',
+    },
+  ],
 };
 
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
+  '@id': 'https://www.yourdentistdentalclinic.com/#person',
   name: 'Dr. Arpita Dash',
   jobTitle: 'Dental Surgeon & Smile Specialist',
   worksFor: {
@@ -134,12 +194,19 @@ const personSchema = {
     name: 'Institute of Dental Sciences, SOA University',
   },
   award: '10+ Years of Dental Excellence',
-  description: `Dr. Arpita Dash is a dental surgeon with ${doctor.experience}+ years of experience in Bhubaneswar, specializing in root canal treatment, orthodontics, dental implants, and aesthetic dentistry.`,
+  description: `Dr. Arpita Dash is a dental surgeon with ${doctor.experience} years of experience in Bhubaneswar, specializing in root canal treatment, orthodontics, dental implants, and aesthetic dentistry.`,
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Bhubaneswar',
+    addressRegion: 'Odisha',
+    addressCountry: 'IN',
+  },
 };
 
 const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://www.yourdentistdentalclinic.com/#organization',
   name: 'YourDentist Laser Dental Clinic',
   url: 'https://www.yourdentistdentalclinic.com',
   logo: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
@@ -152,6 +219,13 @@ const orgSchema = {
     addressRegion: 'Odisha',
     postalCode: '751010',
     addressCountry: 'IN',
+  },
+  contactPoint: {
+    '@type': 'ContactPoint',
+    contactType: 'customer service',
+    telephone: '+91 7064719630',
+    email: 'yourdentist27@gmail.com',
+    areaServed: 'IN',
   },
 };
 
@@ -173,6 +247,10 @@ const webPageSchema = {
   url: canonicalUrl,
   isPartOf: { '@type': 'WebSite', name: 'YourDentist Laser Dental Clinic', url: siteUrl },
   lastReviewed: new Date().toISOString().split('T')[0],
+  speakable: {
+    '@type': 'SpeakableSpecification',
+    cssSelector: ['h1', '.speakable-summary'],
+  },
 };
 ---
 
@@ -196,6 +274,7 @@ const webPageSchema = {
     <meta name="ICBM" content="20.2858073, 85.8612643" />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" hreflang="en-IN" href={canonicalUrl} />
+    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
 
     <!-- Open Graph -->
     <meta property="og:type" content={type} />
@@ -225,6 +304,9 @@ const webPageSchema = {
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Preload hero image for LCP -->
+    <link rel="preload" as="image" href="/images/hero-welcome.jpeg" fetchpriority="high" />
 
     <!-- JSON-LD: Dentist/LocalBusiness -->
     <script type="application/ld+json" set:html={JSON.stringify(dentistSchema)} />
@@ -288,11 +370,18 @@ const webPageSchema = {
       // Scroll progress bar
       const progressBar = document.getElementById('scroll-progress');
       if (progressBar) {
+        let ticking = false;
         window.addEventListener('scroll', () => {
-          const scrollTop = window.scrollY;
-          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-          const scrollPercent = (scrollTop / docHeight) * 100;
-          progressBar.style.width = scrollPercent + '%';
+          if (!ticking) {
+            requestAnimationFrame(() => {
+              const scrollTop = window.scrollY;
+              const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+              const scrollPercent = (scrollTop / docHeight) * 100;
+              progressBar.style.width = scrollPercent + '%';
+              ticking = false;
+            });
+            ticking = true;
+          }
         }, { passive: true });
       }
     </script>

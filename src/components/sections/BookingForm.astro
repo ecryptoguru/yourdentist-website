@@ -1,6 +1,7 @@
 ---
 import { clinicInfo, serviceList } from '@/lib/data';
 const today = new Date().toISOString().split('T')[0];
+const maxDate = new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
 ---
 
 <div id="booking-form-container">
@@ -33,7 +34,7 @@ const today = new Date().toISOString().split('T')[0];
           <label for="date" class="block text-sm font-medium text-slate-700 dark:text-warm-200 mb-1.5">Preferred Date</label>
           <div class="relative">
             <svg class="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-warm-500 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="18" height="18" x="3" y="4" rx="2" /><path d="M16 2v4M8 2v4M3 10h18" /></svg>
-            <input id="date" type="date" min={today} class="input-premium w-full pl-10 h-11 rounded-lg border border-slate-200 dark:border-warm-600 bg-white dark:bg-warm-700 px-3 py-2 text-sm text-slate-900 dark:text-warm-100 focus:outline-none transition-all duration-300" />
+            <input id="date" type="date" min={today} max={maxDate} class="input-premium w-full pl-10 h-11 rounded-lg border border-slate-200 dark:border-warm-600 bg-white dark:bg-warm-700 px-3 py-2 text-sm text-slate-900 dark:text-warm-100 focus:outline-none transition-all duration-300" />
           </div>
         </div>
 
@@ -75,7 +76,7 @@ const today = new Date().toISOString().split('T')[0];
     </div>
     <h3 class="font-heading text-2xl font-semibold text-slate-900 dark:text-warm-100 mb-2">Request Sent!</h3>
     <p class="text-slate-500 dark:text-warm-400 mb-8 text-[15px] leading-relaxed">We've opened WhatsApp with your details. Dr. Arpita will confirm your appointment shortly.</p>
-    <button id="book-again" class="border border-slate-300 dark:border-warm-600 text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:border-slate-400 dark:hover:border-warm-500 rounded-lg h-11 px-6 transition-all duration-300">Book Another Appointment</button>
+    <button id="book-again" type="button" class="border border-slate-300 dark:border-warm-600 text-slate-700 dark:text-warm-200 hover:bg-slate-100/80 dark:hover:bg-warm-700/80 hover:border-slate-400 dark:hover:border-warm-500 rounded-lg h-11 px-6 transition-all duration-300">Book Another Appointment</button>
   </div>
 </div>
 

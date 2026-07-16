@@ -7,7 +7,7 @@ Allow: /images/
 Allow: /fonts/
 Crawl-delay: 1
 
-Sitemap: https://www.yourdentistdentalclinic.com/sitemap.xml
+Sitemap: https://www.yourdentistdentalclinic.com/sitemap-index.xml
 `;
 
   return new Response(body, {

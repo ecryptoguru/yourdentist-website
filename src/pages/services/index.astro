@@ -2,17 +2,34 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 
 const services = await getCollection('services');
+
+const serviceListSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'ItemList',
+  name: 'Dental Services in Bhubaneswar',
+  itemListElement: services.map((service, i) => ({
+    '@type': 'ListItem',
+    position: i + 1,
+    url: `https://www.yourdentistdentalclinic.com/services/${service.data.slug}/`,
+    name: service.data.title,
+  })),
+};
 ---
 
 <BaseLayout
   title="Dental Services in Bhubaneswar | Root Canal, Braces, Implants | YourDentist"
   description="Comprehensive dental services in Bhubaneswar by Dr. Arpita Dash. Root canal treatment, orthodontics, dental implants, laser dentistry, teeth whitening & more. Book your appointment today!"
 >
+  <Fragment slot="head">
+    <script type="application/ld+json" set:html={JSON.stringify(serviceListSchema)} />
+  </Fragment>
   <Header />
   <main class="flex-1 pt-36">
+    <Breadcrumbs items={[{ name: 'Home', href: '/' }, { name: 'Services', href: '/services/' }]} />
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-24">
       <div class="text-center mb-16 lg:mb-20 reveal">
         <span class="text-teal-700 dark:text-teal-400 font-medium text-sm tracking-[0.15em] uppercase">Services</span>

@@ -762,6 +762,104 @@
   .dark .prose code {
     background: #44403c;
   }
+
+  /* Tables */
+  .prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5em 0;
+    font-size: 0.95em;
+    overflow-x: auto;
+    display: block;
+  }
+  .prose thead {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .prose tbody {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+  }
+  .prose th,
+  .prose td {
+    padding: 0.75em 1em;
+    text-align: left;
+    border-bottom: 1px solid #e2e8f0;
+    vertical-align: top;
+  }
+  .dark .prose th,
+  .dark .prose td {
+    border-bottom-color: #44403c;
+  }
+  .prose th {
+    font-weight: 600;
+    color: #0f172a;
+    background: #f1f5f9;
+    border-bottom: 2px solid #0d9488;
+    font-family: 'Lora', ui-serif, Georgia, serif;
+  }
+  .dark .prose th {
+    color: #fafaf9;
+    background: #292524;
+    border-bottom-color: #2dd4bf;
+  }
+  .prose tr:last-child td {
+    border-bottom: none;
+  }
+  .prose tr:nth-child(even) {
+    background: #f8fafc;
+  }
+  .dark .prose tr:nth-child(even) {
+    background: #292524;
+  }
+  .prose tr:hover {
+    background: #f0fdfa;
+  }
+  .dark .prose tr:hover {
+    background: #134e4a;
+  }
+
+  /* Horizontal rules */
+  .prose hr {
+    border: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, rgba(13, 148, 136, 0.3), transparent);
+    margin: 2em 0;
+  }
+  .dark .prose hr {
+    background: linear-gradient(90deg, transparent, rgba(45, 212, 191, 0.3), transparent);
+  }
+
+  /* Images */
+  .prose img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin: 1.5em 0;
+    border: 1px solid #e2e8f0;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  .dark .prose img {
+    border-color: #44403c;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  }
+
+  /* Responsive table wrapper via container queries */
+  .prose {
+    container-type: inline-size;
+  }
+}
+
+@media (max-width: 640px) {
+  .prose table {
+    font-size: 0.875em;
+  }
+  .prose th,
+  .prose td {
+    padding: 0.6em 0.75em;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {

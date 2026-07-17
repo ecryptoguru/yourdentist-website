@@ -216,44 +216,56 @@ const isActive = (href: string) => {
   const headerInner = document.getElementById('header-inner');
 
   if (header && headerInner) {
+    const scrolledClasses = [
+      'bg-white/85',
+      'dark:bg-warm-800/85',
+      'backdrop-blur-xl',
+      'border',
+      'border-slate-200/60',
+      'dark:border-warm-600/60',
+      'shadow-premium',
+      'rounded-2xl',
+      'px-5',
+      'py-3',
+    ];
+    const topClasses = [
+      'bg-white/60',
+      'dark:bg-warm-900/50',
+      'backdrop-blur-md',
+      'rounded-2xl',
+      'px-5',
+      'py-3',
+      'border',
+      'border-white/40',
+      'dark:border-warm-700/40',
+    ];
+
     const setScrolled = () => {
       header.classList.remove('py-5');
       header.classList.add('py-3');
-      headerInner.classList.remove('bg-transparent', 'px-0', 'py-0');
-      headerInner.classList.add(
-        'bg-white/85',
-        'dark:bg-warm-800/85',
-        'backdrop-blur-xl',
-        'border',
-        'border-slate-200/60',
-        'dark:border-warm-600/60',
-        'shadow-premium',
-        'rounded-2xl',
-        'px-5',
-        'py-3'
-      );
+      headerInner.classList.remove('bg-transparent', 'px-0', 'py-0', ...topClasses);
+      headerInner.classList.add(...scrolledClasses);
     };
 
     const setTop = () => {
       header.classList.remove('py-3');
       header.classList.add('py-5');
-      headerInner.classList.add('bg-white/60', 'dark:bg-warm-900/50', 'backdrop-blur-md', 'rounded-2xl', 'px-5', 'py-3', 'border', 'border-white/40', 'dark:border-warm-700/40');
-      headerInner.classList.remove(
-        'bg-white/85',
-        'dark:bg-warm-800/85',
-        'backdrop-blur-xl',
-        'border-slate-200/60',
-        'dark:border-warm-600/60',
-        'shadow-premium'
-      );
+      headerInner.classList.remove(...scrolledClasses);
+      headerInner.classList.add(...topClasses);
     };
 
+    let ticking = false;
     const handleScroll = () => {
-      if (window.scrollY > 40) {
-        setScrolled();
-      } else {
-        setTop();
-      }
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        if (window.scrollY > 40) {
+          setScrolled();
+        } else {
+          setTop();
+        }
+        ticking = false;
+      });
     };
 
     // Initialize state

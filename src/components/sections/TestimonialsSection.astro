@@ -113,7 +113,15 @@ import { testimonials } from '@/lib/data';
     update();
   });
 
-  window.addEventListener('resize', update);
+  let resizeTicking = false;
+  window.addEventListener('resize', () => {
+    if (resizeTicking) return;
+    resizeTicking = true;
+    requestAnimationFrame(() => {
+      update();
+      resizeTicking = false;
+    });
+  });
   update();
 
   // Touch swipe support

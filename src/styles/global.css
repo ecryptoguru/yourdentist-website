@@ -364,6 +364,25 @@
     transform: translateY(0);
   }
 
+  /* Fallback: show content immediately when motion is reduced or JS is disabled */
+  @media (prefers-reduced-motion: reduce) {
+    .reveal,
+    .stagger-item,
+    .reveal-up {
+      opacity: 1 !important;
+      transform: none !important;
+      clip-path: none !important;
+    }
+  }
+
+  html.no-js .reveal,
+  html.no-js .stagger-item,
+  html.no-js .reveal-up {
+    opacity: 1 !important;
+    transform: none !important;
+    clip-path: none !important;
+  }
+
   /* Glassmorphism card */
   .glass-card {
     background: rgba(255, 255, 255, 0.65);

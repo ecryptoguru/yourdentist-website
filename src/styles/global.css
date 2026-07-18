@@ -364,7 +364,17 @@
     transform: translateY(0);
   }
 
-  /* Fallback: show content immediately when motion is reduced or JS is disabled */
+  /* Fallback: show content immediately on mobile, reduced motion, or when JS is disabled */
+  @media (max-width: 768px) {
+    .reveal,
+    .stagger-item,
+    .reveal-up {
+      opacity: 1 !important;
+      transform: none !important;
+      clip-path: none !important;
+    }
+  }
+
   @media (prefers-reduced-motion: reduce) {
     .reveal,
     .stagger-item,

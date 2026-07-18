@@ -1,0 +1,11 @@
+{
+  "$schema": "./node_modules/wrangler/config-schema.json",
+  "name": "yourdentist-website",
+  "compatibility_date": "2026-07-16",
+  "account_id": "9a2d4aa85b83718699d0a955373d487b",
+  "assets": {
+    "directory": "./dist",
+    "not_found_handling": "404-page"
+  },
+  "workers_dev": true
+}

@@ -150,31 +150,31 @@ These differences explain why many Bomikhal residents choose YourDentist over ot
 
 ## Frequently asked questions
 
-**Where is YourDentist located in Bomikhal?**
+### Where is YourDentist located in Bomikhal?
 Plot 190/2972, E Canal Road, beside SHIBANI ENCLAVE, Bomikhal, Bhubaneswar.
 
-**Is YourDentist open on Sunday?**
+### Is YourDentist open on Sunday?
 Yes, we are open Sunday morning and evening. Monday is our weekly off.
 
-**Can I book an evening appointment at YourDentist Bomikhal?**
+### Can I book an evening appointment at YourDentist Bomikhal?
 Yes, evening slots are available from 5:00 PM to 8:30 PM, Tuesday to Sunday.
 
-**Do you offer emergency dental care in Bomikhal?**
+### Do you offer emergency dental care in Bomikhal?
 Yes, we handle dental emergencies during clinic hours. Call +91 7064719630 before visiting.
 
-**How do I reach YourDentist from Saheed Nagar?**
+### How do I reach YourDentist from Saheed Nagar?
 Saheed Nagar is about 5 to 10 minutes away by auto-rickshaw or cab. Head towards E Canal Road, Bomikhal.
 
-**Is there parking near the clinic?**
+### Is there parking near the clinic?
 Yes, parking is available near the clinic on E Canal Road.
 
-**Do you treat entire families at YourDentist Bomikhal?**
+### Do you treat entire families at YourDentist Bomikhal?
 Yes, Dr. Dash treats patients of all ages, from infants to elderly adults. Many Bomikhal families appreciate having one dental clinic for every family member's needs, from children's checkups to grandparents' dentures and implants.
 
-**Can I get a same-day appointment in Bomikhal?**
+### Can I get a same-day appointment in Bomikhal?
 For dental emergencies like severe toothache, broken teeth, or swelling, we try to accommodate same-day appointments. Call +91 7064719630 before visiting. Being in Bomikhal means you can reach us quickly in an emergency.
 
-**What sterilisation protocols do you follow?**
+### What sterilisation protocols do you follow?
 YourDentist follows strict sterilisation protocols including autoclave sterilisation of all instruments, disposable items for single use, surface disinfection between patients, and regular equipment maintenance. Patient safety is our top priority.
 
 If you are looking for a reliable dentist in Bomikhal, Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

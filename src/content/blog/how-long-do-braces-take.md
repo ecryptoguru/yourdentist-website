@@ -168,34 +168,34 @@ Braces are an investment of both time and money. Choosing the right type and fol
 
 ## Frequently asked questions
 
-**How long do braces take for adults?**
+### How long do braces take for adults?
 Adult braces usually take 12 to 24 months, similar to teenagers, though complex cases may take slightly longer.
 
-**How long do braces take for mild crowding?**
+### How long do braces take for mild crowding?
 Mild crowding may be corrected in 6 to 12 months with braces or aligners.
 
-**Can braces work faster than 6 months?**
+### Can braces work faster than 6 months?
 Only very mild cases can be corrected in 3 to 6 months. Significant movements take longer.
 
-**Do clear aligners work faster than braces?**
+### Do clear aligners work faster than braces?
 Aligners can work faster for mild cases, but braces are usually faster for complex cases.
 
-**What happens if I miss braces appointments?**
+### What happens if I miss braces appointments?
 Missed appointments can extend treatment time by weeks or months.
 
-**Do braces hurt more when tightened?**
+### Do braces hurt more when tightened?
 Tightening causes mild soreness for 1 to 3 days, but this is normal and shows the teeth are moving.
 
-**Can I speed up braces treatment?**
+### Can I speed up braces treatment?
 There are no safe shortcuts for braces. However, you can avoid delays by attending all appointments, following instructions, wearing elastics as prescribed, and maintaining good oral hygiene.
 
-**What happens if I break a bracket?**
+### What happens if I break a bracket?
 Contact YourDentist as soon as possible to schedule a repair appointment. A broken bracket can add 2 to 4 weeks to your treatment time if not fixed promptly.
 
-**Will my teeth shift back after braces?**
+### Will my teeth shift back after braces?
 Yes, teeth can shift back without retainers. Wearing retainers as prescribed by Dr. Dash is essential to maintain your new smile. Most patients wear retainers nightly for several years after braces.
 
-**Can adults get braces and how long does it take?**
+### Can adults get braces and how long does it take?
 Yes, adults can get braces at any age. Adult treatment typically takes 12 to 24 months, similar to teenagers. Dr. Dash offers clear aligners and ceramic braces for adults who want discreet treatment.
 
 If you want to know how long your braces treatment will take, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) for a consultation.

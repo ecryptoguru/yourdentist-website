@@ -139,22 +139,22 @@ These are general ranges. We provide exact costs after examination.
 
 ## Frequently asked questions
 
-**At what age should a child first visit a dentist?**
+### At what age should a child first visit a dentist?
 By the first birthday or within six months of the first tooth erupting, whichever comes first.
 
-**Is the first dental visit painful for babies?**
+### Is the first dental visit painful for babies?
 No. The first visit is usually a gentle examination and parent counselling. No painful procedures are done unless there is an urgent problem.
 
-**How often should children visit the dentist?**
+### How often should children visit the dentist?
 Every six months, or more often if the dentist recommends it.
 
-**What is baby bottle tooth decay?**
+### What is baby bottle tooth decay?
 It is tooth decay caused by frequent and long exposure of teeth to milk, formula, or juice, especially during sleep.
 
-**Do cavities in baby teeth need treatment?**
+### Do cavities in baby teeth need treatment?
 Yes. Untreated cavities in baby teeth can cause pain, infection, and problems with permanent teeth.
 
-**How can I make brushing fun for my child?**
+### How can I make brushing fun for my child?
 Use a timer, a favourite song, a reward chart, or an app. Let your child choose a toothbrush with their favourite character.
 
 Give your child the best start for lifelong oral health. Book a paediatric dental visit at YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) today.

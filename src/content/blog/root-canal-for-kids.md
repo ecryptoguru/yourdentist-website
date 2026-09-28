@@ -171,31 +171,31 @@ Being prepared helps both parent and child feel more comfortable with the treatm
 
 ## Frequently asked questions
 
-**Is root canal safe for children?**
+### Is root canal safe for children?
 Yes, paediatric root canal treatment is safe and commonly performed to save infected baby teeth.
 
-**Why save a baby tooth if it will fall out anyway?**
+### Why save a baby tooth if it will fall out anyway?
 Baby teeth hold space for permanent teeth and help with chewing and speech. Losing them early can cause alignment problems.
 
-**How long does a paediatric root canal take?**
+### How long does a paediatric root canal take?
 The procedure usually takes 30 to 60 minutes depending on the tooth.
 
-**Will my child feel pain during the procedure?**
+### Will my child feel pain during the procedure?
 No, local anesthesia keeps the procedure painless. Mild soreness after is normal.
 
-**What is the difference between pulpotomy and pulpectomy?**
+### What is the difference between pulpotomy and pulpectomy?
 A pulpotomy removes infected pulp from the crown. A pulpectomy removes all pulp from the crown and roots.
 
-**How can I prevent cavities in my child's teeth?**
+### How can I prevent cavities in my child's teeth?
 Limit sugar, brush twice daily, use fluoride toothpaste, and visit the dentist regularly.
 
-**Will my child need a crown after a root canal?**
+### Will my child need a crown after a root canal?
 Yes, most baby teeth need a crown after root canal treatment to protect them from fracture. Stainless steel crowns are most common for back teeth. Tooth-coloured crowns are available for front teeth.
 
-**Can my child go to school the next day after a root canal?**
+### Can my child go to school the next day after a root canal?
 Yes, most children return to school the next day. Mild soreness may persist but is manageable with child-safe pain medication. Avoid giving hard or sticky foods for a day or two.
 
-**How do I prepare my child for a dental procedure?**
+### How do I prepare my child for a dental procedure?
 Stay positive and calm. Use simple, non-scary words like "the dentist will clean your tooth and make it healthy." Avoid saying "it won't hurt" as this introduces the concept of pain. Dr. Dash is experienced in making children feel comfortable and safe.
 
 If your child has tooth pain or signs of infection, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

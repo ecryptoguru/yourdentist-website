@@ -145,31 +145,31 @@ The clinic's proximity to Saheed Nagar makes it the most convenient option for r
 
 ## Frequently asked questions
 
-**How far is YourDentist from Saheed Nagar?**
+### How far is YourDentist from Saheed Nagar?
 YourDentist in Bomikhal is about 5 to 10 minutes by auto-rickshaw or cab from Saheed Nagar.
 
-**What are the clinic hours?**
+### What are the clinic hours?
 We are open Tuesday to Sunday, 10:00 AM to 1:30 PM and 5:00 PM to 8:30 PM. Monday is closed.
 
-**Can I walk in without an appointment?**
+### Can I walk in without an appointment?
 We prefer appointments to reduce waiting time, but we accommodate walk-ins when possible. Call +91 7064719630 to check availability.
 
-**Is parking available near the clinic?**
+### Is parking available near the clinic?
 Yes, parking is available on E Canal Road near the clinic.
 
-**Do you provide emergency dental care for Saheed Nagar residents?**
+### Do you provide emergency dental care for Saheed Nagar residents?
 Yes, we handle dental emergencies during clinic hours. Call us first so we can prepare.
 
-**How do I book an evening appointment?**
+### How do I book an evening appointment?
 Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.). Evening slots fill up quickly, so booking in advance is recommended.
 
-**Do you treat entire families from Saheed Nagar?**
+### Do you treat entire families from Saheed Nagar?
 Yes, Dr. Dash treats patients of all ages, from young children to elderly adults. Families from Saheed Nagar appreciate being able to get all their dental care at one convenient location without visiting multiple specialists.
 
-**Can I get a same-day appointment from Saheed Nagar?**
+### Can I get a same-day appointment from Saheed Nagar?
 For dental emergencies like severe toothache, broken teeth, or swelling, we try to accommodate same-day appointments. Call +91 7064719630 before visiting. Since Saheed Nagar is only 5 to 10 minutes away, you can reach us quickly in an emergency.
 
-**What payment methods do you accept?**
+### What payment methods do you accept?
 We accept cash, UPI (PhonePe, Google Pay, Paytm), debit cards, credit cards, and offer instalment plans for expensive treatments like braces and implants. Transparent pricing means you know the cost before treatment begins.
 
 If you live in Saheed Nagar and need a dental clinic nearby, YourDentist Laser Dental Clinic in Bomikhal is just minutes away. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

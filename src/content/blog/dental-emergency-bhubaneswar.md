@@ -2,8 +2,8 @@
 title: "Dental Emergency in Bhubaneswar — What Counts and Where to Go"
 excerpt: "Know what qualifies as a dental emergency and where to get urgent care in Bhubaneswar. YourDentist offers same-day emergency appointments."
 category: "General Dental Health"
-date: 2027-03-07
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -111,8 +111,8 @@ We provide same-day appointments for:
 | --- | --- |
 | Emergency consultation | ₹500 - ₹1,000 |
 | Filling | ₹1,000 - ₹5,000 |
-| Root canal | ₹3,000 - ₹10,000 |
-| Extraction | ₹500 - ₹3,000 |
+| Root canal | ₹4,000 - ₹10,000 |
+| Extraction | ₹1,000 - ₹3,000 |
 | Re-cementing crown | ₹500 - ₹2,000 |
 
 ## Preventing dental emergencies
@@ -147,8 +147,8 @@ Following this guide during emergencies helps preserve teeth and prevent complic
 | --- | --- | --- | --- |
 | Emergency consultation | ₹500 - ₹1,000 | Sometimes | 30 minutes |
 | Emergency filling | ₹1,000 - ₹5,000 | Partial | 30 to 60 minutes |
-| Emergency root canal | ₹3,000 - ₹10,000 | Partial | 60 to 90 minutes |
-| Emergency extraction | ₹500 - ₹3,000 | Sometimes | 30 to 60 minutes |
+| Emergency root canal | ₹4,000 - ₹10,000 | Partial | 60 to 90 minutes |
+| Emergency extraction | ₹1000 - ₹3,000 | Sometimes | 30 to 60 minutes |
 | Re-cementing crown | ₹500 - ₹2,000 | Sometimes | 30 minutes |
 | Abscess drainage | ₹1,000 - ₹5,000 | Sometimes | 45 to 60 minutes |
 | Tooth reimplantation | ₹2,000 - ₹8,000 | Sometimes | 60 to 90 minutes |
@@ -190,40 +190,40 @@ Having these supplies ready can help you act quickly in a dental emergency and i
 
 ## Frequently asked questions
 
-**What is considered a dental emergency?**
+### What is considered a dental emergency?
 Severe toothache, knocked-out tooth, broken tooth, dental abscess, and uncontrolled bleeding are emergencies.
 
-**Can I go to the hospital for a dental emergency?**
+### Can I go to the hospital for a dental emergency?
 Go to the hospital if you have difficulty breathing, severe swelling, high fever, or uncontrolled bleeding.
 
-**How soon should I see a dentist for a knocked-out tooth?**
+### How soon should I see a dentist for a knocked-out tooth?
 Within 30 to 60 minutes for the best chance of saving the tooth.
 
-**Does YourDentist offer same-day emergency appointments?**
+### Does YourDentist offer same-day emergency appointments?
 Yes, we offer same-day appointments for dental emergencies. Call +91 7064719630.
 
-**How much does emergency dental treatment cost?**
+### How much does emergency dental treatment cost?
 Costs depend on the treatment. Emergency consultations start from ₹500 at YourDentist.
 
-**What should I do if my tooth is knocked out?**
+### What should I do if my tooth is knocked out?
 Pick up the tooth by the crown (not the root), rinse gently with milk or saline, try to place it back in the socket, and get to a dentist within 30 to 60 minutes.
 
-**Can a broken tooth wait until tomorrow?**
+### Can a broken tooth wait until tomorrow?
 If there is no severe pain or bleeding, a broken tooth may wait until the next day. However, sharp edges can cut your tongue and cheeks, so covering them with dental wax and seeing a dentist promptly is recommended.
 
-**Is a lost filling a dental emergency?**
+### Is a lost filling a dental emergency?
 A lost filling is not always an emergency, but it can cause sensitivity and pain. See a dentist within 1 to 2 days to prevent further damage to the tooth.
 
-**Does YourDentist handle dental emergencies on weekends?**
+### Does YourDentist handle dental emergencies on weekends?
 Yes, YourDentist offers emergency appointments including weekends. Call +91 7064719630 for urgent care.
 
-**What should I do if I cannot reach a dentist immediately?**
+### What should I do if I cannot reach a dentist immediately?
 If you cannot reach Dr. Dash immediately, go to the nearest hospital emergency department if you have severe swelling, difficulty breathing, or uncontrolled bleeding. For less severe emergencies, take pain medication, apply cold compresses, and keep calling the clinic. Save +91 7064719630 in your phone for quick access.
 
-**Can children have dental emergencies?**
+### Can children have dental emergencies?
 Yes, children frequently have dental emergencies from falls, sports injuries, and toothaches. If a child's baby tooth is knocked out, do not try to reimplant it. If a permanent tooth is knocked out, follow the same steps as for adults and see Dr. Dash immediately.
 
-**How can I prevent dental emergencies during sports?**
+### How can I prevent dental emergencies during sports?
 Wear a custom-fitted mouthguard from Dr. Dash. Over-the-counter mouthguards offer some protection, but custom mouthguards fit better and provide superior protection against knocked-out teeth, broken teeth, and soft tissue injuries.
 
 For emergency dental care in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

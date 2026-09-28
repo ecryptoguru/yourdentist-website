@@ -162,34 +162,34 @@ No. Most patients adjust within a month. After that, braces feel like a normal p
 
 ## Frequently asked questions
 
-**Do braces hurt when you first get them?**
+### Do braces hurt when you first get them?
 There may be soreness for a few days, but the actual placement is not painful.
 
-**How long do braces hurt after tightening?**
+### How long do braces hurt after tightening?
 Soreness after tightening usually lasts 1 to 3 days.
 
-**How can I stop braces from hurting?**
+### How can I stop braces from hurting?
 Eat soft foods, use orthodontic wax, rinse with salt water, and take pain medication if needed.
 
-**Are clear aligners less painful than braces?**
+### Are clear aligners less painful than braces?
 Aligners usually cause less cheek irritation but can still cause pressure soreness when switching trays.
 
-**Do braces hurt for the whole treatment?**
+### Do braces hurt for the whole treatment?
 No. Most patients adjust within the first month.
 
-**What should I eat when my braces hurt?**
+### What should I eat when my braces hurt?
 Soft foods like yogurt, soup, khichdi, and mashed potatoes are good choices.
 
-**Can I take painkillers before getting braces?**
+### Can I take painkillers before getting braces?
 Taking an over-the-counter pain reliever about an hour before your appointment can help reduce initial soreness. Ask Dr. Dash for specific recommendations.
 
-**Does braces pain mean something is wrong?**
+### Does braces pain mean something is wrong?
 No. Mild soreness is normal and means the braces are working. However, sharp or severe pain is not normal and should be reported to your dentist.
 
-**How long does it take to get used to braces?**
+### How long does it take to get used to braces?
 Most patients adjust to braces within 1 to 2 weeks. After that, the brackets feel like a normal part of your mouth, and you only experience mild soreness after adjustments.
 
-**Can children handle braces pain?**
+### Can children handle braces pain?
 Yes, children are often more adaptable than adults. Dr. Dash uses gentle techniques for children and provides clear instructions for managing discomfort at home.
 
 If you are considering braces and have questions about comfort, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

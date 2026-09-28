@@ -3,7 +3,7 @@ title: "Emergency Dental Care in Bhubaneswar — When to Call and What to Expect
 excerpt: "Need emergency dental care in Bhubaneswar? YourDentist handles severe toothache, broken teeth, swelling, and injuries. Learn when to call and what to expect."
 category: "Local Guide"
 date: 2026-03-22
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -44,7 +44,7 @@ These symptoms need quick treatment. Delaying care can lead to more serious infe
 
 ### Severe toothache
 
-Rinse your mouth with warm salt water. Gently floss around the tooth to remove any trapped food. Take an over-the-counter pain reliever if you are not allergic. Do not place aspirin directly on the gum. Call the clinic to book an urgent appointment.
+Rinse your mouth with luke-water. Gently floss around the tooth to remove any trapped food. Take an over-the-counter pain reliever if you are not allergic. Do not place aspirin directly on the gum. Call the clinic to book an urgent appointment.
 
 ### Knocked-out tooth
 
@@ -52,15 +52,15 @@ Handle the tooth by the crown, not the root. Rinse it gently with clean water if
 
 ### Broken or chipped tooth
 
-Rinse your mouth and save any broken pieces. Apply a cold compress to reduce swelling. If the tooth is sharp, cover it with dental wax or sugar-free gum to protect your tongue and cheek. See a dentist as soon as possible.
+Rinse your mouth. Apply a cold compress to reduce swelling. If the tooth is sharp, cover it with dental wax or sugar-free gum to protect your tongue and cheek. See a dentist as soon as possible.
 
 ### Swelling or abscess
 
-Do not apply heat to the outside of your face. Rinse with warm salt water and take a pain reliever. Swelling often means infection, which needs professional treatment. Antibiotics alone may not solve the problem.
+Do not apply heat to the outside of your face. Rinse with luke-warm  water and take a pain reliever. Swelling often means infection, which needs professional treatment. Antibiotics alone may not solve the problem.
 
 ### Lost filling or crown
 
-Keep the crown safe. You can temporarily reattach it with over-the-counter dental cement if you cannot see a dentist immediately. Avoid chewing on that side. See a dentist within a day or two.
+Keep the crown safe. Avoid chewing on that side. See a dentist within a day or two.
 
 ### Object stuck between teeth
 
@@ -137,22 +137,22 @@ Not all emergencies can be prevented, but regular care reduces the risk:
 
 ## Frequently asked questions
 
-**What should I do for a severe toothache at night?**
+### What should I do for a severe toothache at night?
 Rinse with warm salt water, floss gently, and take a pain reliever. Call us in the morning, or come to the clinic during emergency hours.
 
-**Can a knocked-out tooth be saved?**
+### Can a knocked-out tooth be saved?
 Yes, if you reach a dentist within 30 to 60 minutes. Keep the tooth moist in milk or saliva and handle it only by the crown.
 
-**Is swelling a dental emergency?**
+### Is swelling a dental emergency?
 Yes. Swelling often means infection and can spread. It needs prompt dental or medical attention.
 
-**Do you accept walk-in dental emergencies?**
+### Do you accept walk-in dental emergencies?
 We prioritise emergencies, but it is best to call +91 7064719630 so we can prepare.
 
-**What if my dental emergency happens on Monday?**
+### What if my dental emergency happens on Monday?
 We are closed on Monday. If the situation is urgent, go to the nearest hospital emergency department. Otherwise, call us Tuesday morning.
 
-**How much does emergency dental treatment cost in Bhubaneswar?**
+### How much does emergency dental treatment cost in Bhubaneswar?
 Costs vary. A consultation and temporary filling may cost ₹500 to ₹2,000. Major procedures like root canals or extractions have separate costs. We give estimates before treatment.
 
 If you need emergency dental care in Bhubaneswar, call YourDentist Laser Dental Clinic at +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.). For life-threatening emergencies, go to the nearest hospital immediately.

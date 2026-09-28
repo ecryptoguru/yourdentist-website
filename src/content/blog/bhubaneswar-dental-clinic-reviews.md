@@ -144,31 +144,31 @@ Take time to read multiple reviews before choosing a dental clinic. Patterns are
 
 ## Frequently asked questions
 
-**Where can I read YourDentist reviews?**
+### Where can I read YourDentist reviews?
 Reviews are available on Google, JustDial, and Practo. You can also ask friends and family who have visited us.
 
-**What is YourDentist's rating?**
+### What is YourDentist's rating?
 YourDentist maintains an average rating of 4.9 stars based on more than 150 reviews.
 
-**Do reviews mention painless root canal treatment?**
+### Do reviews mention painless root canal treatment?
 Yes, many patients mention that root canal treatment at YourDentist was painless or much more comfortable than expected.
 
-**Are the reviews genuine?**
+### Are the reviews genuine?
 Yes. The reviews come from real patients who have visited our clinic. We do not create fake reviews.
 
-**Can I trust online dental clinic reviews in Bhubaneswar?**
+### Can I trust online dental clinic reviews in Bhubaneswar?
 Online reviews are helpful if you look at patterns over time. Read both positive and negative reviews to get a balanced view.
 
-**How do I choose a dental clinic based on reviews?**
+### How do I choose a dental clinic based on reviews?
 Look for consistent comments about the dentist's skill, cleanliness, pricing, and communication. One bad review is normal; a pattern of complaints is a warning sign.
 
-**Can I speak to a past patient before booking?**
+### Can I speak to a past patient before booking?
 Yes, we can connect you with a past patient who had a similar treatment. Many of our patients are happy to share their experience. Ask us during your consultation.
 
-**Do you respond to all reviews?**
+### Do you respond to all reviews?
 Yes, we respond to every review, positive and negative. We thank patients for positive feedback and address concerns raised in negative reviews directly.
 
-**What if I had a bad experience at YourDentist?**
+### What if I had a bad experience at YourDentist?
 We want to know. Contact us directly at +91 7064719630 and we will review your case, address your concerns, and work to resolve the issue. Your feedback helps us improve.
 
 If you want to experience the care our patients are reviewing, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

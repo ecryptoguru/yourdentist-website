@@ -219,34 +219,34 @@ Understanding how to modify Indian foods makes braces treatment much easier.
 
 ## Frequently asked questions
 
-**Can I eat pizza with braces?**
+### Can I eat pizza with braces?
 Soft pizza without a hard crust is fine. Avoid crunchy crusts.
 
-**Can I eat chocolate with braces?**
+### Can I eat chocolate with braces?
 Plain chocolate that melts easily is fine. Avoid chocolate with caramel, nuts, or hard fillings.
 
-**Can I eat rice with braces?**
+### Can I eat rice with braces?
 Yes, soft rice is one of the best foods with braces.
 
-**Can I drink coffee with braces?**
+### Can I drink coffee with braces?
 Yes, but coffee can stain clear brackets and teeth. Rinse or brush after drinking.
 
-**Can I chew gum with braces?**
+### Can I chew gum with braces?
 Regular chewing gum is not recommended. Sugar-free gum may be allowed if your dentist approves.
 
-**What is the worst food for braces?**
+### What is the worst food for braces?
 Hard candy, caramel, nuts, and popcorn are among the worst foods for braces.
 
-**Can I eat ice cream with braces?**
+### Can I eat ice cream with braces?
 Yes, ice cream is safe for braces. Avoid varieties with nuts, caramel chunks, or hard mix-ins.
 
-**How soon after getting braces can I eat normally?**
+### How soon after getting braces can I eat normally?
 For the first 3 to 5 days after getting braces, stick to soft foods. After that, you can eat most foods with care, avoiding hard and sticky items throughout treatment.
 
-**What should I eat if my braces hurt after tightening?**
+### What should I eat if my braces hurt after tightening?
 Eat soft foods like yogurt, soup, mashed potatoes, smoothies, and scrambled eggs for 1 to 2 days after adjustments. Soreness usually subsides within a few days.
 
-**Can I eat non-vegetarian food with braces?**
+### Can I eat non-vegetarian food with braces?
 Yes, but avoid bones and tough meats. Fish, soft chicken, and minced meat are good options. Cut everything into small pieces.
 
 If you have questions about eating with braces, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

@@ -2,8 +2,8 @@
 title: "Bad Breath Causes and Treatment — How to Get Rid of Halitosis"
 excerpt: "Bad breath or halitosis can be embarrassing. Learn the causes, home remedies, and professional treatments available at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-11-19
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -145,7 +145,7 @@ Most bad breath originates in the mouth. If dental treatment does not resolve it
 
 1. Brush teeth for 2 minutes with fluoride toothpaste
 2. Floss between all teeth
-3. Clean tongue with scraper or brush
+3. Clean tongue with scraper
 4. Rinse with water or antibacterial mouthwash
 5. Drink water throughout the day
 6. Chew sugar-free gum after meals
@@ -157,10 +157,10 @@ Following this routine consistently prevents most cases of bad breath.
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Professional cleaning | ₹800 - ₹2,000 |
-| Deep cleaning for gum disease | ₹2,000 - ₹8,000 |
-| Cavity filling | ₹1,000 - ₹5,000 |
-| Laser gum therapy | ₹3,000 - ₹20,000 |
+| Professional cleaning | ₹1,000 - ₹2,000 |
+| Deep cleaning for gum disease | ₹1,500 - ₹4,000 |
+| Cavity filling | ₹1,000 - ₹3,000 |
+| Laser gum therapy | ₹4,000 - ₹8,000 |
 
 ## Why choose YourDentist for bad breath treatment
 
@@ -180,31 +180,31 @@ Following this routine consistently prevents most cases of bad breath.
 
 ## Frequently asked questions
 
-**Why do I have bad breath even after brushing?**
+### Why do I have bad breath even after brushing?
 Bad breath can come from between teeth, the tongue, gum disease, or medical conditions. Brushing alone may not reach these areas.
 
-**Can gum disease cause bad breath?**
+### Can gum disease cause bad breath?
 Yes, gum disease is a common cause of chronic bad breath.
 
-**How can I get rid of bad breath permanently?**
+### How can I get rid of bad breath permanently?
 Treat the underlying cause, which may include professional cleaning, gum treatment, cavity treatment, or managing dry mouth.
 
-**Does mouthwash cure bad breath?**
+### Does mouthwash cure bad breath?
 Mouthwash masks bad breath temporarily. It does not cure the underlying cause.
 
-**When should I see a dentist for bad breath?**
+### When should I see a dentist for bad breath?
 If bad breath persists for more than 2 to 3 weeks despite good oral hygiene, see a dentist.
 
-**Can tonsil stones cause bad breath?**
+### Can tonsil stones cause bad breath?
 Yes, tonsil stones are a common cause of persistent bad breath. If you have recurring tonsil stones, consult an ENT specialist.
 
-**Does fasting cause bad breath?**
+### Does fasting cause bad breath?
 Yes, fasting or low-carbohydrate diets can cause bad breath (ketosis). This is temporary and resolves after eating.
 
-**Can medications cause bad breath?**
+### Can medications cause bad breath?
 Yes, many medications cause dry mouth, which leads to bad breath. If you suspect your medication is causing bad breath, discuss alternatives with your doctor.
 
-**Is bad breath hereditary?**
+### Is bad breath hereditary?
 No, bad breath is not hereditary. However, some genetic conditions can affect oral bacteria balance. Good oral hygiene prevents bad breath regardless of genetics.
 
 For bad breath treatment in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

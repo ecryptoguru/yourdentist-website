@@ -136,31 +136,31 @@ YourDentist follows strict laser safety protocols to ensure every procedure is p
 
 ## Frequently asked questions
 
-**Is laser dentistry painful?**
+### Is laser dentistry painful?
 Most laser procedures cause little or no pain. For soft tissue work, anesthesia is often unnecessary. For deeper treatments, anesthesia keeps you comfortable.
 
-**What are the benefits of laser root canal treatment?**
+### What are the benefits of laser root canal treatment?
 Laser root canal treatment offers better disinfection, lower risk of re-infection, and faster healing compared to traditional methods.
 
-**How long does laser teeth whitening take?**
+### How long does laser teeth whitening take?
 In-office laser whitening usually takes 60 to 90 minutes. Most patients see results immediately.
 
-**Is laser gum contouring safe?**
+### Is laser gum contouring safe?
 Yes, when done by a trained dentist. It reshapes gums with minimal bleeding and usually no stitches.
 
-**Does laser dentistry cost more in Bhubaneswar?**
+### Does laser dentistry cost more in Bhubaneswar?
 It can cost 15% to 30% more per procedure, but faster recovery and better outcomes may reduce the total cost of care.
 
-**Who is not a candidate for laser dentistry?**
+### Who is not a candidate for laser dentistry?
 Patients with certain medical conditions or complex cases may still need traditional approaches. We evaluate each case during consultation.
 
-**Can children benefit from laser dentistry?**
+### Can children benefit from laser dentistry?
 Yes, laser dentistry is particularly beneficial for children because it reduces fear, requires less anesthesia, and heals faster. Dr. Dash uses laser-assisted techniques for paediatric procedures when appropriate.
 
-**How many laser dental clinics are there in Bhubaneswar?**
+### How many laser dental clinics are there in Bhubaneswar?
 While several clinics offer some laser treatments, very few integrate laser technology across multiple procedures like YourDentist does. We are one of the few clinics in Bhubaneswar with dedicated laser systems for root canals, gum treatment, and whitening.
 
-**Can laser dentistry replace all traditional dental tools?**
+### Can laser dentistry replace all traditional dental tools?
 No, lasers complement traditional tools but cannot replace them entirely. Some procedures still require drills or hand instruments. Dr. Dash uses laser technology where it provides clear benefits and traditional methods where they work better.
 
 If you want to experience laser dentistry in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book an appointment.

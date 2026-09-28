@@ -3,7 +3,7 @@ title: "Full Mouth Dental Implants in Bhubaneswar — Complete Smile Restoration
 excerpt: "Full mouth dental implants restore all teeth with permanent, natural-looking results. Learn the options, cost, procedure, and benefits at YourDentist."
 category: "Dental Implants"
 date: 2026-08-23
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "9 min read"
 ---
 
@@ -16,15 +16,6 @@ At YourDentist Laser Dental Clinic in Bhubaneswar, Dr. Arpita Dash offers full m
 ## What are full mouth dental implants?
 
 Full mouth dental implants replace all teeth in the upper jaw, lower jaw, or both. Instead of individual implants for each tooth, a smaller number of implants (4 to 8 per arch) support a full set of fixed teeth.
-
-## Full mouth implant options
-
-| Option | Implants per arch | Best for | Cost range (INR) |
-| --- | --- | --- | --- |
-| All-on-4 | 4 | Minimal bone, cost-effective | ₹2,00,000 - ₹3,50,000 |
-| All-on-6 | 6 | Better support, more bone | ₹2,50,000 - ₹4,50,000 |
-| Implant-supported bridge | 6 to 8 | Maximum stability | ₹3,00,000 - ₹5,00,000 |
-| Implant-supported overdenture | 2 to 4 | Budget option, removable | ₹75,000 - ₹2,00,000 |
 
 ## Who needs full mouth implants?
 
@@ -86,18 +77,6 @@ Full mouth implants are recommended for patients who:
 - Final bridge attached to implants
 - Bite and fit checked and adjusted
 
-## Full mouth implant cost in Bhubaneswar
-
-| Procedure | Cost range (INR) |
-| --- | --- |
-| All-on-4 single arch | ₹2,00,000 - ₹3,50,000 |
-| All-on-4 both arches | ₹4,00,000 - ₹7,00,000 |
-| All-on-6 single arch | ₹2,50,000 - ₹4,50,000 |
-| All-on-6 both arches | ₹5,00,000 - ₹9,00,000 |
-| Implant-supported overdenture (single arch) | ₹75,000 - ₹2,00,000 |
-
-These costs include implants, surgery, abutments, and the final restoration. Bone grafting, if needed, is charged separately.
-
 ## Payment options for full mouth implants
 
 We understand full mouth implants are a significant investment. YourDentist offers:
@@ -155,7 +134,7 @@ Full mouth implants provide the best combination of function, comfort, and longe
 ## Why choose YourDentist for full mouth implants in Bhubaneswar
 
 - CBCT-guided digital planning.
-- Experienced implant surgeon, Dr. Arpita Dash.
+- Experienced implant surgeon.
 - Multiple full mouth options to suit different budgets.
 - Same-day temporary teeth in most cases.
 - Transparent pricing with written estimates.
@@ -171,34 +150,34 @@ Full mouth implants provide the best combination of function, comfort, and longe
 
 ## Frequently asked questions
 
-**How much do full mouth implants cost in Bhubaneswar?**
+### How much do full mouth implants cost in Bhubaneswar?
 Full mouth implants cost ₹4,00,000 to ₹7,00,000 for both arches at YourDentist, depending on the technique used.
 
-**How long does full mouth implant treatment take?**
+### How long does full mouth implant treatment take?
 The full process takes 3 to 7 months, including healing. You receive temporary teeth on the day of surgery.
 
-**Are full mouth implants better than dentures?**
+### Are full mouth implants better than dentures?
 Yes, for most patients. Implants provide fixed, stable teeth that preserve bone and allow normal eating.
 
-**Can I get full mouth implants if I have bone loss?**
+### Can I get full mouth implants if I have bone loss?
 Yes, bone grafting or All-on-4 technique can often overcome bone loss. Dr. Dash will assess your CBCT scan.
 
-**Do full mouth implants look natural?**
+### Do full mouth implants look natural?
 Yes, the final bridge is custom-made to match the colour, shape, and size of natural teeth.
 
-**Is full mouth implant surgery painful?**
+### Is full mouth implant surgery painful?
 The surgery is performed under local anaesthesia, so you will not feel pain during the procedure. Swelling and mild discomfort for 3 to 5 days after surgery is normal and managed with medication.
 
-**How soon can I eat after full mouth implant surgery?**
+### How soon can I eat after full mouth implant surgery?
 You can eat soft foods the same day after surgery. Stick to liquids and very soft foods for the first week, then gradually add firmer foods as healing progresses.
 
-**Can smokers get full mouth implants?**
+### Can smokers get full mouth implants?
 Smoking significantly increases the risk of implant failure. Dr. Dash strongly recommends quitting smoking before and after full mouth implant surgery for the best long-term results.
 
-**How do I clean full mouth implants?**
+### How do I clean full mouth implants?
 Clean them like natural teeth — brush twice daily, use a water flosser under the bridge, and use interdental brushes. Professional cleaning every 6 months is essential.
 
-**What if I cannot afford full mouth implants?**
+### What if I cannot afford full mouth implants?
 We offer flexible payment plans and can discuss alternative options like implant-supported overdentures, which provide good stability at a lower cost than fixed full mouth implants.
 
 For a full mouth implant consultation in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

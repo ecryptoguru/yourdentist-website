@@ -2,8 +2,8 @@
 title: "Scaling and Polishing — Why Professional Dental Cleaning Matters"
 excerpt: "Scaling and polishing removes tartar and stains that brushing cannot. Learn why professional dental cleaning is essential at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-12-01
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -134,8 +134,7 @@ Dr. Dash will recommend the ideal cleaning frequency based on your individual or
 
 | Scenario | Cost (INR) | What is included |
 | --- | --- | --- |
-| Regular 6-month cleaning | ₹800 - ₹2,000 | Scaling, polishing, fluoride |
-| Cleaning every 3 to 4 months | ₹1,600 - ₹6,000/year | More frequent maintenance |
+| Regular 6-month cleaning | ₹1000 - ₹2,000 | Scaling, polishing, fluoride |
 | Treating early gum disease | ₹3,000 - ₹15,000 | Deep cleaning, laser therapy |
 | Treating advanced gum disease | ₹15,000 - ₹50,000 | Surgery, bone grafting, implants |
 | Tooth replacement after loss | ₹25,000 - ₹50,000 per tooth | Implants, bridges, dentures |
@@ -173,40 +172,40 @@ Understanding the facts helps patients overcome fear and seek regular profession
 
 ## Frequently asked questions
 
-**Is scaling painful?**
+### Is scaling painful?
 Routine scaling is usually painless. Some patients feel mild vibration or sensitivity. Deep cleaning may need local anaesthesia.
 
-**How long does scaling and polishing take?**
+### How long does scaling and polishing take?
 A routine cleaning takes 30 to 45 minutes. Deep cleaning may take 60 to 90 minutes per quadrant.
 
-**Does scaling whiten teeth?**
+### Does scaling whiten teeth?
 Scaling removes surface stains and makes teeth look cleaner, but it does not bleach teeth like whitening.
 
-**How often should I get scaling done?**
+### How often should I get scaling done?
 Every 6 months for most people. Every 3 to 4 months for people with gum disease.
 
-**Can scaling loosen teeth?**
+### Can scaling loosen teeth?
 No. Scaling removes tartar that may make teeth feel tight. Healthy teeth become stronger after cleaning.
 
-**Can I eat normally after scaling?**
+### Can I eat normally after scaling?
 Yes, but avoid very hot, cold, or sticky foods for 24 hours if you experience sensitivity. Stick to soft foods and rinse with warm salt water.
 
-**Is laser cleaning better than ultrasonic scaling?**
+### Is laser cleaning better than ultrasonic scaling?
 Laser cleaning is used for gum disease treatment, not routine cleaning. Ultrasonic scaling is the standard for routine tartar removal. Dr. Dash may combine both for patients with gum disease.
 
-**Does dental insurance cover scaling and polishing?**
+### Does dental insurance cover scaling and polishing?
 Many dental insurance plans cover one or two professional cleanings per year. Check with your provider for details.
 
-**What is the difference between cleaning and deep cleaning?**
+### What is the difference between cleaning and deep cleaning?
 Routine cleaning removes tartar above the gumline. Deep cleaning (root planing) cleans below the gumline and is needed when gum disease has created deep pockets around teeth.
 
-**Can I drink tea or coffee after scaling?**
+### Can I drink tea or coffee after scaling?
 Avoid staining foods and drinks like tea, coffee, and turmeric-based foods for 24 to 48 hours after polishing. The freshly polished tooth surface is more susceptible to staining during this period.
 
-**Will my teeth be sensitive after scaling?**
+### Will my teeth be sensitive after scaling?
 Mild sensitivity to hot and cold is normal for 1 to 2 days after scaling. This is temporary and resolves on its own. Using fluoride toothpaste and avoiding extreme temperatures helps. If sensitivity persists beyond a week, contact Dr. Dash.
 
-**Can pregnant women get scaling done?**
+### Can pregnant women get scaling done?
 Yes, professional cleaning is safe during pregnancy and is actually recommended. Pregnancy hormones increase the risk of gum inflammation (pregnancy gingivitis). The second trimester is the safest time for dental cleaning. Inform Dr. Dash about your pregnancy before treatment.
 
 For scaling and polishing in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

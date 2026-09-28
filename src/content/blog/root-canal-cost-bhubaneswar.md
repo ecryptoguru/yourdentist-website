@@ -176,31 +176,31 @@ At YourDentist, every cost is clearly communicated before treatment begins. No h
 
 ## Frequently asked questions
 
-**How much does a root canal cost in Bhubaneswar?**
+### How much does a root canal cost in Bhubaneswar?
 A root canal in Bhubaneswar ranges from ₹3,000 for a front tooth to ₹10,000 for laser-assisted single-sitting RCT.
 
-**Why is molar root canal more expensive?**
+### Why is molar root canal more expensive?
 Molars have 3 to 4 canals and are harder to access, so they take more time and skill.
 
-**Is the crown cost included in root canal cost?**
+### Is the crown cost included in root canal cost?
 Usually not. The crown is priced separately based on the material.
 
-**Can I pay in instalments for root canal treatment?**
+### Can I pay in instalments for root canal treatment?
 We offer instalment plans for larger treatment plans. Ask during your consultation.
 
-**Does insurance cover root canal treatment?**
+### Does insurance cover root canal treatment?
 Most Indian dental insurance plans do not cover routine root canal treatment, but we provide bills for eligible reimbursement.
 
-**Is laser root canal more expensive?**
+### Is laser root canal more expensive?
 Yes, laser-assisted root canal costs ₹6,000 to ₹10,000, but it offers better disinfection and faster healing.
 
-**What happens if a root canal fails? Do I pay again?**
+### What happens if a root canal fails? Do I pay again?
 If a root canal fails, retreatment may be needed. At YourDentist, we assess the cause and discuss retreatment options. Retreatment costs ₹6,000 to ₹12,000 depending on complexity. Dr. Dash will explain your options before proceeding.
 
-**Can I get a root canal and crown on the same day?**
+### Can I get a root canal and crown on the same day?
 In most cases, the root canal is completed first and the crown is placed after 1 to 2 weeks to ensure the tooth has settled. However, for front teeth with no infection, same-day temporary crowns may be possible. Dr. Dash will advise based on your case.
 
-**Do you offer any warranty on root canal treatment?**
+### Do you offer any warranty on root canal treatment?
 We stand behind our treatment quality. If a root canal fails within the first year due to procedural issues, we will assess and retreat at a reduced cost. However, failures due to new decay, cracks, or poor oral hygiene are not covered.
 
 For a personalised root canal cost estimate in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

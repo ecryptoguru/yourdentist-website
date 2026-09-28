@@ -2,8 +2,8 @@
 title: "Teeth Grinding (Bruxism) — Causes, Damage, and Treatment"
 excerpt: "Teeth grinding can wear down teeth and cause jaw pain. Learn the causes, symptoms, and treatment options at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2027-02-15
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -94,8 +94,8 @@ Dr. Dash can diagnose bruxism through:
 
 | Type | Description | Cost range (INR) |
 | --- | --- | --- |
-| Soft nightguard | Flexible, comfortable, for mild grinding | ₹2,000 - ₹4,000 |
-| Hard nightguard | Rigid, durable, for severe grinding | ₹4,000 - ₹8,000 |
+| Soft nightguard | Flexible, comfortable, for mild grinding | ₹4,000 - ₹6,000 |
+| Hard nightguard | Rigid, durable, for severe grinding | ₹6,000 - ₹8,000 |
 | Dual-laminate nightguard | Soft inside, hard outside, best comfort and durability | ₹5,000 - ₹10,000 |
 
 ## Treatment for teeth grinding
@@ -131,7 +131,7 @@ In severe cases, muscle relaxants or medications may be prescribed for short-ter
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Nightguard | ₹2,000 - ₹8,000 |
+| Nightguard | ₹4,000 - ₹6,000 |
 | Filling for worn tooth | ₹1,000 - ₹5,000 |
 | Crown for cracked tooth | ₹4,000 - ₹18,000 |
 | Orthodontic correction | ₹25,000 - ₹1,50,000 |
@@ -178,40 +178,40 @@ Treating bruxism early with a nightguard can prevent all of these consequences a
 
 ## Frequently asked questions
 
-**How do I know if I grind my teeth at night?**
+### How do I know if I grind my teeth at night?
 Signs include worn teeth, jaw pain, morning headaches, and a partner hearing grinding sounds.
 
-**Can teeth grinding damage teeth?**
+### Can teeth grinding damage teeth?
 Yes, grinding can wear enamel, crack teeth, and damage the jaw joint.
 
-**How is teeth grinding treated?**
+### How is teeth grinding treated?
 A custom nightguard, stress management, and bite correction are common treatments.
 
-**How much does a nightguard cost in Bhubaneswar?**
+### How much does a nightguard cost in Bhubaneswar?
 A custom nightguard costs ₹2,000 to ₹8,000 at YourDentist.
 
-**Can stress cause teeth grinding?**
+### Can stress cause teeth grinding?
 Yes, stress and anxiety are leading causes of bruxism. Managing stress through exercise, meditation, and adequate sleep can reduce grinding.
 
-**Can children grind their teeth?**
+### Can children grind their teeth?
 Yes, children can grind their teeth, especially during sleep. Most children outgrow it, but if it persists or causes damage, a paediatric nightguard may be recommended.
 
-**Can bruxism be cured permanently?**
+### Can bruxism be cured permanently?
 There is no permanent cure for bruxism, but it can be managed effectively with a nightguard, stress reduction, and treating underlying causes.
 
-**What happens if bruxism is left untreated?**
+### What happens if bruxism is left untreated?
 Untreated bruxism can lead to severe tooth wear, cracked teeth, tooth loss, TMJ disorders, chronic headaches, and changes in facial appearance.
 
-**How long does a nightguard last?**
+### How long does a nightguard last?
 A quality nightguard lasts 2 to 5 years depending on grinding severity and maintenance. Dr. Dash will check your nightguard during regular visits and replace it when worn.
 
-**Can I buy a nightguard from a pharmacy?**
+### Can I buy a nightguard from a pharmacy?
 Pharmacy boil-and-bite nightguards are not recommended. They do not fit properly and can worsen bite problems. A custom nightguard from a dentist provides proper fit, comfort, and protection.
 
-**Does bruxism affect children differently?**
+### Does bruxism affect children differently?
 Children often outgrow bruxism as their permanent teeth erupt. However, if it causes headaches, tooth damage, or sleep disruption, a paediatric nightguard may be needed. Most children stop grinding by age 10 to 12.
 
-**Can bruxism cause ear pain?**
+### Can bruxism cause ear pain?
 Yes, the TMJ joint is located near the ear canal. Grinding can cause referred pain that feels like an earache. If you have ear pain with no ear infection, bruxism may be the cause.
 
 For bruxism treatment in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

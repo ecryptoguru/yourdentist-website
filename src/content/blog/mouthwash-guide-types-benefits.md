@@ -2,8 +2,8 @@
 title: "Mouthwash Guide — Types, Benefits, and How to Use It Properly"
 excerpt: "Mouthwash freshens breath and fights bacteria, but it is not a substitute for brushing. Learn the types and correct use at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-12-13
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -171,40 +171,40 @@ Following a consistent routine maximises the benefits of mouthwash. Avoid using 
 
 ## Frequently asked questions
 
-**Can mouthwash replace brushing?**
+### Can mouthwash replace brushing?
 No. Mouthwash cannot remove plaque and food particles like brushing and flossing.
 
-**Which mouthwash is best?**
+### Which mouthwash is best?
 It depends on your needs. Fluoride for cavities, antibacterial for gum disease, desensitising for sensitivity, and alcohol-free for dry mouth.
 
-**Should I rinse after mouthwash?**
+### Should I rinse after mouthwash?
 No. Avoid rinsing with water for 30 minutes after using fluoride or antibacterial mouthwash.
 
-**Can children use mouthwash?**
+### Can children use mouthwash?
 Children under 6 should not use mouthwash unless directed by a dentist. Older children should use alcohol-free mouthwash under supervision.
 
-**How often should I use mouthwash?**
+### How often should I use mouthwash?
 Once or twice daily, depending on the product and your dentist's recommendation.
 
-**Can I use mouthwash every day long-term?**
+### Can I use mouthwash every day long-term?
 Alcohol-free fluoride or cosmetic mouthwashes are safe for daily long-term use. Chlorhexidine mouthwash should only be used for short periods as prescribed by a dentist.
 
-**Does mouthwash expire?**
+### Does mouthwash expire?
 Yes, mouthwash has an expiry date. Using expired mouthwash can reduce effectiveness and may cause irritation. Check the bottle before use.
 
-**Can pregnant women use mouthwash?**
+### Can pregnant women use mouthwash?
 Alcohol-free mouthwashes are generally safe during pregnancy. However, always consult your doctor and dentist before using any new product during pregnancy.
 
-**Can mouthwash cure gum disease?**
+### Can mouthwash cure gum disease?
 No, mouthwash cannot cure gum disease on its own. It can help reduce bacteria as part of a treatment plan that includes professional cleaning and possibly laser therapy.
 
-**Can I use mouthwash after tooth extraction?**
+### Can I use mouthwash after tooth extraction?
 Yes, but not immediately. Wait 24 hours after extraction, then use a gentle saltwater rinse or prescribed chlorhexidine mouthwash. Avoid vigorous swishing for the first few days to protect the blood clot.
 
-**Does mouthwash kill good bacteria too?**
+### Does mouthwash kill good bacteria too?
 Antibacterial mouthwashes can reduce both harmful and beneficial oral bacteria. This is why long-term use of chlorhexidine is not recommended. Alcohol-free fluoride mouthwashes are gentler on the oral microbiome and safer for daily use.
 
-**Can I use mouthwash with braces?**
+### Can I use mouthwash with braces?
 Yes, mouthwash is especially helpful for braces patients because it reaches areas that are difficult to clean. Use fluoride mouthwash daily to prevent white spot lesions around brackets. Dr. Dash can recommend the best mouthwash for braces patients.
 
 For oral hygiene advice in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

@@ -155,43 +155,43 @@ Digital payments make dental care more accessible, transparent, and convenient f
 
 ## Frequently asked questions
 
-**Does YourDentist accept UPI payments?**
+### Does YourDentist accept UPI payments?
 Yes, we accept all major UPI apps including Google Pay, PhonePe, Paytm, and BHIM.
 
-**Can I pay by card at YourDentist?**
+### Can I pay by card at YourDentist?
 Yes, we accept debit and credit cards including Visa, Mastercard, and RuPay.
 
-**Do you charge extra for UPI or card payments?**
+### Do you charge extra for UPI or card payments?
 No, we do not add extra charges for digital payments.
 
-**Do you offer instalment plans?**
+### Do you offer instalment plans?
 Yes, we offer instalment options for larger treatments like braces, implants, and full mouth rehabilitation.
 
-**Is dental treatment covered by insurance?**
+### Is dental treatment covered by insurance?
 Most insurance policies cover only accidental injuries and some surgical procedures. We provide bills for reimbursement of eligible treatments.
 
-**Do you provide written bills?**
+### Do you provide written bills?
 Yes, every payment is recorded and a bill is provided.
 
-**Can I pay in instalments for all treatments?**
+### Can I pay in instalments for all treatments?
 Instalment plans are available for treatments above ₹25,000 such as braces, implants, and full mouth rehabilitation. Smaller treatments are typically paid in full at the time of service.
 
-**Do you accept international cards?**
+### Do you accept international cards?
 We accept Visa and Mastercard, including international cards. However, foreign currency transactions may incur bank charges. Contact your bank for details.
 
-**Can I prepay for a treatment plan?**
+### Can I prepay for a treatment plan?
 Yes, you can prepay for a full treatment plan. We offer package pricing for comprehensive treatments like full mouth rehabilitation, which can save you money compared to paying per procedure.
 
-**What if I cannot afford the full treatment upfront?**
+### What if I cannot afford the full treatment upfront?
 Talk to us during your consultation. We can often phase the treatment over multiple visits to spread the cost, or set up an instalment plan for eligible treatments.
 
-**Can I use multiple payment methods for one treatment?**
+### Can I use multiple payment methods for one treatment?
 Yes, you can split payments across UPI, card, and cash if needed. For example, you can pay part by UPI and part by card. Let our reception team know how you would like to split the payment.
 
-**Do you offer any discounts for senior citizens?**
+### Do you offer any discounts for senior citizens?
 Yes, we offer special pricing for senior citizens on routine checkups and cleanings. Ask about senior citizen discounts when booking your appointment.
 
-**Is there a penalty for late instalment payments?**
+### Is there a penalty for late instalment payments?
 We work with patients to ensure instalment plans are manageable. If you anticipate a delay, please inform us in advance. We do not charge penalties but appreciate timely communication so we can adjust the schedule if needed.
 
 For affordable dental care with flexible payment options in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book an appointment.

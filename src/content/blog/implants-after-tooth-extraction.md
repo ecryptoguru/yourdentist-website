@@ -3,7 +3,7 @@ title: "Dental Implants After Tooth Extraction — Timing and Options"
 excerpt: "Should you get an implant immediately after tooth extraction or wait? Learn about immediate, early, and delayed implant placement at YourDentist."
 category: "Dental Implants"
 date: 2026-09-04
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-04
 readTime: "8 min read"
 ---
 
@@ -199,31 +199,31 @@ Proper care during the healing period ensures the best conditions for successful
 
 ## Frequently asked questions
 
-**Can I get an implant the same day as extraction?**
+### Can I get an implant the same day as extraction?
 Yes, in suitable cases with no infection and good bone. Dr. Dash will assess if you qualify.
 
-**How long should I wait after extraction before getting an implant?**
+### How long should I wait after extraction before getting an implant?
 It depends on the case. Immediate placement is same day, early placement is 2 to 8 weeks, and delayed placement is 3 to 6 months.
 
-**What is socket preservation?**
+### What is socket preservation?
 Socket preservation is placing bone graft material into the extraction socket to maintain bone volume for future implant placement.
 
-**Will I have a gap in my smile while waiting for an implant?**
+### Will I have a gap in my smile while waiting for an implant?
 We provide temporary tooth options like flippers or retainers to fill the gap during healing.
 
-**How much does an implant cost after extraction in Bhubaneswar?**
+### How much does an implant cost after extraction in Bhubaneswar?
 The total cost including extraction, implant, and crown ranges from ₹38,000 to ₹73,000.
 
-**Can smokers get implants after extraction?**
+### Can smokers get implants after extraction?
 Smoking increases the risk of implant failure. Dr. Dash recommends quitting smoking before implant placement. If you cannot quit, delayed placement with careful monitoring may be the safest option.
 
-**What if I do not get an implant after extraction?**
+### What if I do not get an implant after extraction?
 If you do not replace the missing tooth, the jawbone shrinks, adjacent teeth shift into the gap, and the opposing tooth may over-erupt. This can cause bite problems and make future implant placement more difficult and expensive.
 
-**How long after extraction can I still get an implant?**
+### How long after extraction can I still get an implant?
 You can get an implant years after extraction, but you may need bone grafting if the jawbone has shrunk significantly. Socket preservation at the time of extraction helps prevent this.
 
-**Can I get an immediate implant for a molar?**
+### Can I get an immediate implant for a molar?
 Immediate implants for molars are possible but more challenging due to the larger socket and multiple roots. Dr. Dash will assess your CBCT scan to determine if immediate placement is safe for your molar.
 
 For an implant consultation after tooth extraction in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

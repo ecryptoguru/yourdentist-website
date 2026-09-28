@@ -176,34 +176,34 @@ The cost depends on the severity of crowding and the treatment chosen.
 
 ## Frequently asked questions
 
-**Why are my teeth crooked?**
+### Why are my teeth crooked?
 Crooked teeth can be caused by genetics, childhood habits, tooth loss, jaw size, or injury.
 
-**Can crooked teeth cause health problems?**
+### Can crooked teeth cause health problems?
 Yes, crooked teeth can make cleaning difficult, leading to cavities, gum disease, and jaw problems.
 
-**What is the best treatment for crooked teeth?**
+### What is the best treatment for crooked teeth?
 Braces or clear aligners are the most effective treatments. The best option depends on the severity and your preference.
 
-**Can crooked teeth be fixed without braces?**
+### Can crooked teeth be fixed without braces?
 Minor cosmetic issues can be improved with veneers, but true alignment usually requires braces or aligners.
 
-**At what age should crooked teeth be treated?**
+### At what age should crooked teeth be treated?
 Early evaluation by age 7 helps plan treatment. Full braces usually happen between ages 10 and 14.
 
-**How much do braces cost for crooked teeth in Bhubaneswar?**
+### How much do braces cost for crooked teeth in Bhubaneswar?
 Metal braces cost ₹25,000 to ₹40,000, and clear aligners cost ₹60,000 to ₹1,50,000.
 
-**Can crooked teeth get worse with age?**
+### Can crooked teeth get worse with age?
 Yes, teeth can continue to shift throughout life, especially if retainers are not worn after orthodontic treatment. Wisdom teeth eruption can also cause crowding in the lower front teeth.
 
-**Are clear aligners effective for severely crooked teeth?**
+### Are clear aligners effective for severely crooked teeth?
 Clear aligners work well for mild to moderate crowding. For severe cases, traditional braces may be more effective. Dr. Dash will assess your case and recommend the best option.
 
-**Can I fix crooked teeth if I am over 40?**
+### Can I fix crooked teeth if I am over 40?
 Yes, there is no upper age limit for orthodontic treatment. Adult treatment may take slightly longer but results are equally effective. Many adults in Bhubaneswar choose clear aligners for discreet treatment.
 
-**Will I need extractions before braces?**
+### Will I need extractions before braces?
 Extractions may be needed if there is severe crowding and not enough space for all teeth. Dr. Dash will assess whether extractions are necessary or if expansion can create enough space.
 
 If you want to fix crooked teeth in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

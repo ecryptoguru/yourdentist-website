@@ -2,8 +2,8 @@
 title: "Baby Teething Symptoms and Care — What Parents Should Know"
 excerpt: "Teething can be uncomfortable for babies. Learn the symptoms, safe remedies, and when to see a dentist at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-12-29
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -133,7 +133,7 @@ Always consult your paediatrician before giving any medication to your baby.
 ## Why choose YourDentist for paediatric dental care
 
 - Child-friendly environment.
-- Experienced paediatric dentist, Dr. Arpita Dash.
+- Experienced paediatric dentist.
 - Guidance for parents at every developmental stage.
 - Preventive care for baby teeth.
 - Early cavity detection.
@@ -148,31 +148,31 @@ Always consult your paediatrician before giving any medication to your baby.
 
 ## Frequently asked questions
 
-**When do babies start teething?**
+### When do babies start teething?
 Most babies start teething around 6 months, but it can begin as early as 3 months or as late as 12 months.
 
-**How long does teething last?**
+### How long does teething last?
 Each tooth usually causes discomfort for a few days before and after it appears. The entire teething process can last until age 3.
 
-**Can teething cause fever?**
+### Can teething cause fever?
 Teething may cause a slight temperature rise, but high fever is not caused by teething. See a doctor for high fever.
 
-**What can I give my baby for teething pain?**
+### What can I give my baby for teething pain?
 Teething rings, cold washcloths, gum massage, and paediatrician-approved pain relievers are safe options.
 
-**When should my baby first see a dentist?**
+### When should my baby first see a dentist?
 By their first birthday or within 6 months of the first tooth appearing.
 
-**Is it normal for teething to cause a runny nose?**
+### Is it normal for teething to cause a runny nose?
 A mild runny nose can accompany teething due to increased drooling, but a persistent runny nose with thick mucus is likely a cold and should be evaluated by a doctor.
 
-**Can I use teething powder for my baby?**
+### Can I use teething powder for my baby?
 Some traditional teething powders are not recommended as they may contain ingredients that are not safe for infants. Always consult your paediatrician before using any teething product.
 
-**What if my baby refuses to eat during teething?**
+### What if my baby refuses to eat during teething?
 Offer soft, cool foods and extra fluids. If your baby refuses to eat or drink for more than a day, consult your paediatrician.
 
-**Are late teeth a concern?**
+### Are late teeth a concern?
 Some babies are late teethers and this is usually normal. However, if no teeth have appeared by 18 months, schedule a dental visit to rule out any underlying issues.
 
 For paediatric dental care in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

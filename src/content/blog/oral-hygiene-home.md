@@ -139,31 +139,31 @@ Small daily mistakes compound over years into serious dental problems. Correctin
 
 ## Frequently asked questions
 
-**How long should I brush my teeth?**
+### How long should I brush my teeth?
 Brush for two minutes, twice a day. Use a timer to make sure you are not rushing.
 
-**Is an electric toothbrush better than a manual one?**
+### Is an electric toothbrush better than a manual one?
 An electric toothbrush can help if you brush too hard or too fast, but a manual brush works well with proper technique.
 
-**Should I floss before or after brushing?**
+### Should I floss before or after brushing?
 Either is fine. The important thing is that you floss daily.
 
-**Can I brush too much?**
+### Can I brush too much?
 Yes. Brushing more than three times a day or brushing too hard can damage enamel and gums.
 
-**What type of toothpaste should I use?**
+### What type of toothpaste should I use?
 Use a fluoride toothpaste. Choose one based on your needs, such as sensitivity, whitening, or gum health.
 
-**Why do my gums bleed when I brush?**
+### Why do my gums bleed when I brush?
 Bleeding gums are usually a sign of gingivitis or brushing too hard. If it persists, see a dentist for a gum check.
 
-**Is charcoal toothpaste safe for daily use?**
+### Is charcoal toothpaste safe for daily use?
 No, charcoal toothpaste is highly abrasive and can wear down enamel over time. Dr. Dash recommends fluoride toothpaste for daily use. Charcoal products should be avoided or used very occasionally.
 
-**Should I brush before or after breakfast?**
+### Should I brush before or after breakfast?
 Brushing before breakfast is ideal because it removes overnight bacteria and coats teeth with fluoride before acidic foods. If you prefer brushing after breakfast, wait at least 30 minutes to allow enamel to re-harden.
 
-**How do I clean around braces or implants?**
+### How do I clean around braces or implants?
 For braces, use interdental brushes, orthodontic floss threaders, and a water flosser. For implants, use a soft brush, water flosser, and non-abrasive toothpaste. Dr. Dash provides specific cleaning instructions for patients with braces or implants.
 
 For a professional cleaning or a personalised oral hygiene assessment, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

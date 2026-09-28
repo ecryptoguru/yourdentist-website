@@ -2,8 +2,8 @@
 title: "Dental Sealants for Kids — Protect Back Teeth from Cavities"
 excerpt: "Dental sealants protect children's back teeth from cavities by sealing grooves. Learn how sealants work, cost, and benefits at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-12-21
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -170,40 +170,40 @@ Dr. Dash will assess your child's teeth and recommend the ideal timing for seala
 
 ## Frequently asked questions
 
-**At what age should children get sealants?**
+### At what age should children get sealants?
 Children should get sealants when their permanent molars come in, usually around ages 6 and 12.
 
-**Are sealants painful?**
+### Are sealants painful?
 No, sealant application is completely painless and does not require drilling or anaesthesia.
 
-**How much do sealants cost?**
+### How much do sealants cost?
 Sealants cost ₹500 to ₹1,500 per tooth at YourDentist.
 
-**Do sealants really prevent cavities?**
+### Do sealants really prevent cavities?
 Yes, sealants can reduce the risk of cavities on molars by up to 80%.
 
-**Can adults get sealants?**
+### Can adults get sealants?
 Yes, adults with deep grooves and no decay can also benefit from sealants.
 
-**Do sealants contain BPA?**
+### Do sealants contain BPA?
 Sealants contain trace amounts of BPA, but the level is extremely low and not considered harmful. The protective benefits far outweigh any minimal risk.
 
-**Can sealants come off?**
+### Can sealants come off?
 Yes, sealants can wear down or come off over time. Dr. Dash checks them at every checkup and can reapply them if needed.
 
-**Are sealants visible on teeth?**
+### Are sealants visible on teeth?
 Sealants are clear or tooth-coloured and are not noticeable when your child smiles or talks.
 
-**Can my child eat normally after getting sealants?**
+### Can my child eat normally after getting sealants?
 Yes, your child can eat normally immediately after the procedure. There are no restrictions.
 
-**How are sealants different from fluoride treatment?**
+### How are sealants different from fluoride treatment?
 Sealants protect the chewing surfaces by creating a physical barrier over grooves and pits. Fluoride strengthens all tooth surfaces by making enamel more resistant to acid. Both work together for complete protection. Dr. Dash recommends both for children at high cavity risk.
 
-**Can sealants be applied over early cavities?**
+### Can sealants be applied over early cavities?
 In some cases, sealants can be applied over very early, non-cavitated lesions to stop progression. Dr. Dash will assess whether the decay has gone too deep for sealant application. If it has, a filling is needed instead.
 
-**Are sealants covered by insurance?**
+### Are sealants covered by insurance?
 Some dental insurance plans cover sealants for children under a certain age. We provide detailed invoices with procedure codes for insurance submission. Check with your provider for coverage details.
 
 For dental sealants for your child in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

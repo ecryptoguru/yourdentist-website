@@ -3,7 +3,7 @@ title: "All-on-4 Dental Implants in Bhubaneswar — Full Arch Solution"
 excerpt: "All-on-4 dental implants replace a full arch of teeth with just 4 implants. Learn the procedure, cost, benefits, and recovery at YourDentist Bhubaneswar."
 category: "Dental Implants"
 date: 2026-08-11
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "9 min read"
 ---
 
@@ -47,7 +47,7 @@ Dr. Arpita Dash evaluates each patient with CBCT scans and clinical examination 
 
 Dr. Dash examines your mouth, reviews CBCT scans, and discusses your goals. A treatment plan is created with the expected cost and timeline.
 
-### Step 2: Imant surgery
+### Step 2: Implant surgery
 
 Four implants are placed in the jawbone under local anesthesia. The surgery takes 2 to 3 hours per arch. Most patients go home the same day.
 
@@ -143,7 +143,7 @@ Following the diet progression carefully ensures proper healing and implant inte
 ## Why choose YourDentist for All-on-4 in Bhubaneswar
 
 - Digital planning with CBCT scans.
-- Experienced implant surgeon, Dr. Arpita Dash.
+- Experienced implant surgeon.
 - Same-day temporary teeth in most cases.
 - Transparent pricing with written estimates.
 - Flexible payment plans for full arch cases.
@@ -158,31 +158,31 @@ Following the diet progression carefully ensures proper healing and implant inte
 
 ## Frequently asked questions
 
-**How much do All-on-4 implants cost in Bhubaneswar?**
+### How much do All-on-4 implants cost in Bhubaneswar?
 All-on-4 implants cost ₹2,00,000 to ₹3,50,000 per arch at YourDentist.
 
-**How long does All-on-4 treatment take?**
+### How long does All-on-4 treatment take?
 The full process takes 3 to 7 months, but you get temporary teeth on the same day as surgery.
 
-**Is All-on-4 better than dentures?**
+### Is All-on-4 better than dentures?
 Yes, for most patients. All-on-4 provides fixed, stable teeth that do not slip and preserve jawbone.
 
-**Can I get All-on-4 if I have bone loss?**
+### Can I get All-on-4 if I have bone loss?
 Yes, the angled placement of implants often makes All-on-4 possible even with moderate bone loss.
 
-**How many teeth are in an All-on-4 bridge?**
+### How many teeth are in an All-on-4 bridge?
 A typical All-on-4 bridge has 10 to 12 teeth per arch.
 
-**Is the surgery painful?**
+### Is the surgery painful?
 All-on-4 surgery is performed under local anaesthesia, so you will not feel pain during the procedure. Swelling and mild discomfort for 3 to 5 days after surgery is normal and manageable with medication.
 
-**Can I get All-on-4 for both upper and lower jaws?**
+### Can I get All-on-4 for both upper and lower jaws?
 Yes, All-on-4 can be done for both arches either simultaneously or separately. Dr. Dash will recommend the best approach based on your oral health and comfort.
 
-**How long do All-on-4 implants last?**
+### How long do All-on-4 implants last?
 With proper care, All-on-4 implants can last 15 to 25+ years. The bridge may need replacement after 10 to 15 years due to normal wear.
 
-**Can smokers get All-on-4 implants?**
+### Can smokers get All-on-4 implants?
 Smoking increases the risk of implant failure. Dr. Dash strongly recommends quitting smoking before and after All-on-4 surgery for the best long-term results.
 
 For an All-on-4 consultation in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

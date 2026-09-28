@@ -140,22 +140,22 @@ Bhubaneswar dental treatment costs are generally 20% to 40% lower than Delhi, Mu
 
 ## Frequently asked questions
 
-**How much does a root canal cost in Bhubaneswar?**
+### How much does a root canal cost in Bhubaneswar?
 A root canal in Bhubaneswar ranges from ₹3,000 for a front tooth to ₹8,000 for a complex molar. Laser-assisted RCT costs ₹6,000 to ₹10,000.
 
-**What is the cheapest dental treatment in Bhubaneswar?**
+### What is the cheapest dental treatment in Bhubaneswar?
 Routine checkups and scaling are the most affordable, starting around ₹800. Consultation with X-rays typically costs ₹300 to ₹800.
 
-**Are braces expensive in Bhubaneswar?**
+### Are braces expensive in Bhubaneswar?
 Metal braces start around ₹25,000, while clear aligners can go up to ₹1,50,000. The best choice depends on your bite, age, and budget.
 
-**Does YourDentist offer payment plans?**
+### Does YourDentist offer payment plans?
 Yes, we offer instalment options for large treatments like braces and full mouth implants. Ask during your consultation.
 
-**Why do dental implant costs vary so much?**
+### Why do dental implant costs vary so much?
 Implant cost depends on the brand, whether bone grafting is needed, the type of crown, and the dentist's experience.
 
-**How can I get an exact cost estimate?**
+### How can I get an exact cost estimate?
 Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book a consultation at our Bomikhal clinic. We will examine your case and provide a detailed estimate.
 
 For a personalised treatment plan and exact cost, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) today.

@@ -2,8 +2,8 @@
 title: "Best Cosmetic Dentist in Bhubaneswar — Dr. Arpita Dash Smile Results"
 excerpt: "Looking for the best cosmetic dentist in Bhubaneswar? Dr. Arpita Dash at YourDentist offers veneers, whitening, smile makeovers, and more."
 category: "Cosmetic Dentistry"
-date: 2026-10-18
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -65,26 +65,26 @@ The dentist should listen to your goals and explain what is realistically possib
 
 ### Case 1: Stained and chipped front teeth
 
-A 35-year-old patient from Saheed Nagar had yellow, chipped front teeth. Dr. Dash performed laser teeth whitening followed by 6 porcelain veneers. The result was a bright, even smile that looked completely natural.
+A 35-year-old patient from Bomikhal had yellow, chipped front teeth. Dr. Dash performed laser teeth whitening followed by 6 porcelain veneers. The result was a bright, even smile that looked completely natural.
 
 ### Case 2: Gummy smile with short teeth
 
-A 28-year-old patient from KIIT felt her teeth looked too short because of excess gum tissue. Dr. Dash performed laser gum contouring and placed 8 E-max veneers. Her smile became balanced and confident.
+A 28-year-old patient from Rasulgarh felt her teeth looked too short because of excess gum tissue. Dr. Dash performed laser gum contouring and placed 8 E-max veneers. Her smile became balanced and confident.
 
 ### Case 3: Gaps between front teeth
 
-A 22-year-old student from Patia had gaps between his upper front teeth. Instead of braces, he chose composite bonding. Dr. Dash closed the gaps in a single visit, giving him a natural smile without tooth reduction.
+A 22-year-old student from Jharpada had gaps between his upper front teeth. Instead of braces, he chose composite bonding. Dr. Dash closed the gaps in a single visit, giving him a natural smile without tooth reduction.
 
 ## Cost of cosmetic treatments at YourDentist
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Teeth whitening | ₹5,000 - ₹12,000 |
-| Composite bonding | ₹2,000 - ₹8,000 per tooth |
-| Porcelain veneers | ₹10,000 - ₹20,000 per tooth |
-| Zirconia crowns | ₹10,000 - ₹18,000 per tooth |
-| Gum contouring | ₹5,000 - ₹25,000 |
-| Smile makeover | ₹80,000 - ₹2,00,000 |
+| Teeth whitening | ₹8,000 - ₹12,000 |
+| Composite bonding | ₹2,500 - ₹4,000 per tooth |
+| Porcelain veneers | ₹7,000 - ₹20,000 per tooth |
+| Zirconia crowns | ₹7,000 - ₹18,000 per tooth |
+| Gum contouring | ₹2,000 - ₹8,000 |
+| Smile makeover | ₹18,000 - ₹2,00,000 |
 
 ## Why choose Dr. Arpita Dash for cosmetic dentistry
 
@@ -167,31 +167,31 @@ Cosmetic dentistry in Bhubaneswar is becoming more accessible and advanced, with
 
 ## Frequently asked questions
 
-**Who is the best cosmetic dentist in Bhubaneswar?**
+### Who is the best cosmetic dentist in Bhubaneswar?
 Dr. Arpita Dash at YourDentist is highly rated for cosmetic dentistry including veneers, whitening, and smile makeovers.
 
-**How much does a smile makeover cost at YourDentist?**
-A smile makeover for 6 to 8 front teeth costs ₹80,000 to ₹2,00,000 depending on treatments.
+### How much does a smile makeover cost at YourDentist?
+A smile makeover for 6 to 8 front teeth costs ₹18,000 to ₹2,00,000 depending on treatments.
 
-**Are cosmetic dental procedures safe?**
+### Are cosmetic dental procedures safe?
 Yes, when performed by an experienced dentist. Cosmetic procedures at YourDentist protect your oral health while improving appearance.
 
-**Can I see my smile before treatment?**
+### Can I see my smile before treatment?
 Yes, Dr. Dash uses digital smile design to show you a preview of your new smile.
 
-**How long do veneers last?**
+### How long do veneers last?
 Porcelain veneers last 10 to 15 years with proper care.
 
-**Can I combine multiple cosmetic treatments?**
+### Can I combine multiple cosmetic treatments?
 Yes, many patients combine treatments like whitening, veneers, and gum contouring for a complete smile makeover. Dr. Dash will plan the sequence for optimal results.
 
-**How do I maintain my cosmetic dental work?**
+### How do I maintain my cosmetic dental work?
 Maintain good oral hygiene, visit the dentist every 6 months, avoid staining foods, wear a nightguard if you grind your teeth, and avoid biting hard objects.
 
-**Is cosmetic dentistry painful?**
+### Is cosmetic dentistry painful?
 Most cosmetic procedures are not painful. Veneers and bonding involve minimal tooth reduction. Gum contouring with laser is virtually painless. Dr. Dash uses anaesthesia when needed.
 
-**How long does a smile makeover take?**
+### How long does a smile makeover take?
 A smile makeover can take from a single visit (for bonding or whitening) to several weeks (for veneers or aligners). Dr. Dash will provide a timeline during your consultation.
 
 For a cosmetic dentistry consultation in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

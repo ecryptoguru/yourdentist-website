@@ -2,8 +2,8 @@
 title: "Gum Contouring for Gummy Smile — Laser Treatment at YourDentist"
 excerpt: "Gum contouring fixes a gummy smile by reshaping the gum line with a laser. Learn the procedure, cost, recovery, and results at YourDentist Bhubaneswar."
 category: "Cosmetic Dentistry"
-date: 2026-10-02
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -65,7 +65,7 @@ The entire procedure takes 30 to 60 minutes.
 
 | Procedure | Cost range (INR) |
 | --- | --- |
-| Single tooth gum contouring | ₹1,500 - ₹5,000 |
+| Single tooth gum contouring | ₹2,000 - ₹3,000 |
 | Multiple teeth (4 to 6 front teeth) | ₹5,000 - ₹15,000 |
 | Full upper arch | ₹10,000 - ₹25,000 |
 
@@ -170,31 +170,31 @@ Following these dietary guidelines ensures smooth healing after gum contouring.
 
 ## Frequently asked questions
 
-**Is gum contouring painful?**
+### Is gum contouring painful?
 No. The procedure is done under local anaesthesia. Most patients feel no pain during treatment. Mild tenderness for 2 to 3 days after is normal.
 
-**How long does gum contouring take?**
+### How long does gum contouring take?
 The procedure takes 30 to 60 minutes depending on the number of teeth treated.
 
-**Is gum contouring permanent?**
+### Is gum contouring permanent?
 Yes, the results are permanent. The removed gum tissue does not grow back.
 
-**How much does gum contouring cost in Bhubaneswar?**
+### How much does gum contouring cost in Bhubaneswar?
 Gum contouring costs ₹5,000 to ₹25,000 at YourDentist, depending on the number of teeth treated.
 
-**Can gum contouring fix a gummy smile?**
+### Can gum contouring fix a gummy smile?
 Yes, gum contouring is the most effective treatment for a gummy smile caused by excess gum tissue.
 
-**Will my gums grow back after contouring?**
+### Will my gums grow back after contouring?
 No, the removed gum tissue does not grow back. The results are permanent, and the new gum line is stable.
 
-**Can I combine gum contouring with veneers?**
+### Can I combine gum contouring with veneers?
 Yes, many patients combine gum contouring with veneers for a complete smile makeover. Dr. Dash often recommends contouring first to establish the gum line, then placing veneers for optimal results.
 
-**Is there any scarring after laser gum contouring?**
+### Is there any scarring after laser gum contouring?
 No, laser gum contouring does not leave visible scars. The laser seals tissue as it works, resulting in clean healing with no stitches.
 
-**How soon can I brush my teeth after gum contouring?**
+### How soon can I brush my teeth after gum contouring?
 You can brush your teeth the same day, but avoid brushing directly on the treated gum area for 3 days. Use a gentle rinse with warm salt water instead.
 
 For gum contouring in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

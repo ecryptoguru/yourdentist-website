@@ -2,8 +2,8 @@
 title: "Laser Teeth Whitening in Bhubaneswar — Fast, Safe, and Effective"
 excerpt: "Laser teeth whitening brightens your smile by 5 to 8 shades in one session. Learn the procedure, cost, and results at YourDentist Bhubaneswar."
 category: "Laser Dentistry"
-date: 2026-10-30
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -156,31 +156,31 @@ Always whiten before other cosmetic procedures so that restorations can be match
 
 ## Frequently asked questions
 
-**How much does laser teeth whitening cost in Bhubaneswar?**
+### How much does laser teeth whitening cost in Bhubaneswar?
 Laser whitening costs ₹8,000 to ₹12,000 at YourDentist.
 
-**How long does laser whitening take?**
+### How long does laser whitening take?
 The procedure takes 60 to 90 minutes, usually in a single session.
 
-**How many shades lighter will my teeth get?**
+### How many shades lighter will my teeth get?
 Most patients see 5 to 8 shades of improvement.
 
-**Is laser whitening painful?**
+### Is laser whitening painful?
 No. Some patients feel temporary sensitivity, but the procedure itself is not painful.
 
-**How long does laser whitening last?**
+### How long does laser whitening last?
 Results last 1 to 3 years depending on diet, oral hygiene, and smoking habits.
 
-**Can I get laser whitening if I have sensitive teeth?**
+### Can I get laser whitening if I have sensitive teeth?
 Yes, but Dr. Dash may recommend desensitising treatment before whitening. She also uses lower-concentration gels for sensitive patients.
 
-**Will laser whitening damage my enamel?**
+### Will laser whitening damage my enamel?
 No, professional laser whitening does not damage enamel when performed correctly by a dentist.
 
-**Can pregnant women get laser whitening?**
+### Can pregnant women get laser whitening?
 No, whitening is not recommended during pregnancy or while nursing.
 
-**How often can I get laser whitening?**
+### How often can I get laser whitening?
 Most patients get laser whitening once a year. Take-home trays can be used for touch-ups between sessions.
 
 For laser teeth whitening in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

@@ -3,7 +3,7 @@ title: "Dental Implant Failure — Signs, Causes, and What to Do"
 excerpt: "Dental implant failure is rare but possible. Learn the signs of implant failure, common causes, and treatment options at YourDentist Bhubaneswar."
 category: "Dental Implants"
 date: 2026-08-27
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -91,7 +91,7 @@ If the implant is still stable but there is bone loss around it, treatment may i
 - Bone grafting around the implant
 - Adjusting the bite to reduce overload
 
-### Imant removal and replacement
+### Implant removal and replacement
 
 If the implant cannot be saved, it is removed. After healing, a new implant can be placed. In some cases, bone grafting is needed before the new implant.
 
@@ -143,7 +143,7 @@ Understanding your risk factors helps you and Dr. Dash plan for implant success.
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Diagnosis and consultation | ₹300 - ₹800 |
+| Diagnosis and consultation | ₹200 - ₹1000 |
 | Implant removal | ₹2,000 - ₹8,000 |
 | Bone grafting for replacement | ₹5,000 - ₹20,000 |
 | New implant placement | ₹25,000 - ₹50,000 |
@@ -169,31 +169,31 @@ Early diagnosis and treatment are always less expensive than implant removal and
 
 ## Frequently asked questions
 
-**Can a failed dental implant be replaced?**
+### Can a failed dental implant be replaced?
 Yes, in most cases. After removing the failed implant and allowing healing, a new implant can be placed, sometimes with bone grafting.
 
-**How common is dental implant failure?**
+### How common is dental implant failure?
 Implant failure is rare. The success rate is 95% to 98% over 10 years.
 
-**What are the first signs of implant failure?**
+### What are the first signs of implant failure?
 Pain, looseness, swelling, bleeding, or pus around the implant are early signs. Contact your dentist immediately.
 
-**Can smoking cause implant failure?**
+### Can smoking cause implant failure?
 Yes, smoking significantly increases the risk of implant failure by reducing blood flow and slowing healing.
 
-**How is peri-implantitis treated?**
+### How is peri-implantitis treated?
 Treatment includes deep cleaning, antibiotics, laser disinfection, and sometimes bone grafting around the implant.
 
-**Can I prevent implant failure?**
+### Can I prevent implant failure?
 Yes, most implant failures are preventable. Choose an experienced dentist, maintain excellent oral hygiene, do not smoke, wear a nightguard if you grind, and attend all follow-up appointments.
 
-**How often should I get my implants checked?**
+### How often should I get my implants checked?
 We recommend a professional checkup and cleaning every 6 months. Dr. Dash may recommend more frequent visits if you have risk factors like smoking or diabetes.
 
-**Does insurance cover implant failure treatment?**
+### Does insurance cover implant failure treatment?
 Most dental insurance plans do not cover implants or implant failure treatment. We provide detailed bills for any eligible reimbursement.
 
-**Can peri-implantitis be cured?**
+### Can peri-implantitis be cured?
 Early-stage peri-implantitis (mucositis) can be reversed with professional cleaning and improved hygiene. Advanced peri-implantitis with bone loss is harder to treat but can often be managed with laser therapy and bone grafting.
 
 If you are concerned about your dental implant, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

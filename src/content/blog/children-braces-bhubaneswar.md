@@ -2,8 +2,8 @@
 title: "Braces for Children in Bhubaneswar — When, Why, and Cost"
 excerpt: "Braces help children achieve straight teeth and a healthy bite. Learn the right age, types, cost, and process at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2027-01-22
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -167,40 +167,40 @@ At YourDentist, we offer flexible payment plans with no-cost EMI options to make
 
 ## Frequently asked questions
 
-**What is the right age for braces?**
+### What is the right age for braces?
 The first orthodontic evaluation should happen by age 7. Most children get braces between ages 10 and 14.
 
-**How much do braces cost for children in Bhubaneswar?**
+### How much do braces cost for children in Bhubaneswar?
 Metal braces cost ₹25,000 to ₹40,000 at YourDentist.
 
-**Are braces painful for children?**
+### Are braces painful for children?
 Braces may cause mild soreness for a few days after placement and adjustments. This is normal and manageable.
 
-**How long do children need braces?**
+### How long do children need braces?
 Most children wear braces for 12 to 24 months.
 
-**Can my child eat normally with braces?**
+### Can my child eat normally with braces?
 Your child should avoid hard, sticky, and chewy foods. Most soft foods are fine.
 
-**Will braces affect my child's speech?**
+### Will braces affect my child's speech?
 Braces may cause a slight lisp for the first few days, but speech typically returns to normal within a week.
 
-**What if a bracket breaks?**
+### What if a bracket breaks?
 Contact YourDentist immediately. Dr. Dash will repair or replace the bracket. In the meantime, cover any sharp edges with orthodontic wax.
 
-**Can my child play sports with braces?**
+### Can my child play sports with braces?
 Yes, but they should wear a mouthguard designed for braces to protect both teeth and brackets.
 
-**How often are adjustment visits needed?**
+### How often are adjustment visits needed?
 Most children need adjustment visits every 4 to 8 weeks.
 
-**Can my child get clear aligners instead of braces?**
+### Can my child get clear aligners instead of braces?
 Clear aligners are suitable for older children and teenagers who have all permanent teeth and can follow instructions reliably. Dr. Dash will assess if your child is a good candidate for aligners during the consultation.
 
-**What if my child does not want braces?**
+### What if my child does not want braces?
 Dr. Dash is experienced in working with reluctant children. She explains the process in a child-friendly way and helps them feel involved in their treatment. Ceramic braces or clear aligners can also help self-conscious teens feel more comfortable.
 
-**Will my child need teeth extracted before braces?**
+### Will my child need teeth extracted before braces?
 Some children need extractions to create space for crowded teeth. Dr. Dash evaluates this during the consultation and only recommends extractions when necessary. Not all children need extractions before braces.
 
 For children's braces in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

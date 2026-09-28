@@ -123,31 +123,31 @@ These prices do not include the crown. We provide a full estimate before startin
 
 ## Frequently asked questions
 
-**Is root canal treatment safe?**
+### Is root canal treatment safe?
 Yes. Modern root canal treatment is a safe and routine procedure. It removes infection and saves your natural tooth.
 
-**Does root canal treatment cause other diseases?**
+### Does root canal treatment cause other diseases?
 No. This claim is based on outdated and discredited research. Root canal treatment eliminates bacteria from the infected tooth.
 
-**How painful is a root canal really?**
+### How painful is a root canal really?
 With modern anesthesia, you should not feel pain during the procedure. Some pressure is normal. Mild soreness after treatment lasts a day or two.
 
-**Can a root canal be done in one visit?**
+### Can a root canal be done in one visit?
 Yes, most cases at our Bhubaneswar clinic are completed in a single sitting.
 
-**What happens if I delay root canal treatment?**
+### What happens if I delay root canal treatment?
 Delaying treatment can lead to abscess, bone infection, and possible tooth loss. The infection can also spread to other areas.
 
-**Do I need a crown after every root canal?**
+### Do I need a crown after every root canal?
 Most teeth need a crown after RCT for protection. Front teeth with minimal damage may sometimes be restored with a filling.
 
-**How successful is root canal treatment?**
+### How successful is root canal treatment?
 Root canal treatment has a success rate of over 95% when performed by an experienced dentist using modern technology. At YourDentist, Dr. Dash uses rotary endodontics and laser disinfection to achieve consistently high success rates.
 
-**Can a root canal tooth get infected again?**
+### Can a root canal tooth get infected again?
 Reinfection is rare but possible if the tooth is not properly sealed or if new decay develops. Regular checkups and good oral hygiene prevent reinfection. If reinfection occurs, retreatment can usually save the tooth.
 
-**Is root canal treatment safe during pregnancy?**
+### Is root canal treatment safe during pregnancy?
 Yes, root canal treatment can be performed during the second trimester if necessary. Dr. Dash takes precautions including using pregnancy-safe anesthesia and avoiding X-rays unless absolutely needed with proper shielding.
 
 Stop letting old myths keep you from treatment. If you have tooth pain or suspect you need a root canal in Bhubaneswar, call YourDentist Laser Dental Clinic at +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book a consultation.

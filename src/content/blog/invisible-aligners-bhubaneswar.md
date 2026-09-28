@@ -183,37 +183,37 @@ A detailed estimate is provided after the initial consultation.
 
 ## Frequently asked questions
 
-**How much do clear aligners cost in Bhubaneswar?**
+### How much do clear aligners cost in Bhubaneswar?
 Clear aligners at YourDentist cost ₹60,000 to ₹1,50,000 depending on the case.
 
-**Are clear aligners painful?**
+### Are clear aligners painful?
 Aligners may feel tight for a few days after each new set, but they are generally more comfortable than braces.
 
-**How long should I wear aligners each day?**
+### How long should I wear aligners each day?
 Aligners should be worn 20 to 22 hours per day for best results.
 
-**Can I eat with aligners on?**
+### Can I eat with aligners on?
 No, remove aligners before eating or drinking anything except water.
 
-**Are aligners better than braces?**
+### Are aligners better than braces?
 Aligners are better for mild to moderate cases and people who want a discreet option. Braces are better for complex cases.
 
-**How often do I need to visit the dentist with aligners?**
+### How often do I need to visit the dentist with aligners?
 Usually every 6 to 8 weeks for progress checks.
 
-**What happens if I lose an aligner?**
+### What happens if I lose an aligner?
 Contact YourDentist immediately. Dr. Dash may advise you to wear the previous set while a replacement is made. Do not skip wearing aligners, as teeth can shift quickly.
 
-**Can I drink water with aligners in?**
+### Can I drink water with aligners in?
 Yes, you can drink plain water with aligners in. Remove them for any other beverage to prevent staining and warping.
 
-**Will aligners affect my speech?**
+### Will aligners affect my speech?
 You may have a slight lisp for the first few days. Your tongue will adjust, and speech returns to normal within a week for most patients.
 
-**Can I get aligners for just my top teeth?**
+### Can I get aligners for just my top teeth?
 In some cases, single-arch treatment is possible. However, most cases require both upper and lower aligners to ensure the bite fits properly. Dr. Dash will assess if single-arch treatment is suitable for you.
 
-**What happens after aligner treatment ends?**
+### What happens after aligner treatment ends?
 You will need retainers to maintain your new smile. Dr. Dash will provide either removable or fixed retainers and advise on how long to wear them. Without retainers, teeth can shift back over time.
 
 If you want a straighter smile with invisible aligners in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

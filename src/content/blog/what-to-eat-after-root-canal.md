@@ -3,7 +3,7 @@ title: "What to Eat After Root Canal Treatment — Diet Guide for 7 Days"
 excerpt: "After a root canal, your tooth needs gentle care. This 7-day diet guide tells you what to eat and avoid for smooth recovery at YourDentist Bhubaneswar."
 category: "Root Canal"
 date: 2026-05-23
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -119,9 +119,9 @@ Avoid alcohol for at least 48 hours, especially if you are taking pain medicatio
 | Day 2 | Oatmeal | Rice, dal, soft vegetables | Idli with sambar | Smoothie |
 | Day 3 | Scrambled eggs | Rice, dal, paneer | Lukewarm soup and bread | Custard |
 | Day 4 | Soft dosa | Rice, fish curry, vegetables | Chapati with dal | Banana |
-| Day 5 | Porridge | Rice, chicken, vegetables | Pasta with soft sauce | Yogurt |
+| Day 5 | Porridge | Rice, vegetables | Pasta with soft sauce | Yogurt |
 | Day 6 | Toast with butter (soft) | Rice, dal, sabzi | Khichdi | Smoothie |
-| Day 7 | Upma | Rice, dal, paneer bhurji | Soft chapati with dal | Soft fruit |
+| Day 7 | Upma | Rice, dal, paneer burji | Soft chapati with dal | Soft fruit |
 
 This plan keeps meals soft and nutritious while gradually increasing variety.
 
@@ -178,34 +178,34 @@ Following this progression ensures the treated tooth heals properly without unne
 
 ## Frequently asked questions
 
-**Can I eat immediately after a root canal?**
+### Can I eat immediately after a root canal?
 Wait until the anesthesia wears off to avoid biting your cheek or tongue. Start with soft, cool foods.
 
-**How long should I eat soft food after a root canal?**
+### How long should I eat soft food after a root canal?
 Eat soft food for at least 2 to 3 days. Avoid hard or sticky foods until the permanent crown is placed.
 
-**Can I drink coffee after a root canal?**
+### Can I drink coffee after a root canal?
 Avoid very hot coffee for the first 24 hours. Lukewarm coffee is fine after that.
 
-**Can I eat rice after a root canal?**
+### Can I eat rice after a root canal?
 Yes, soft rice is a good choice. Make sure it is not too hot.
 
-**Can I eat spicy food after a root canal?**
+### Can I eat spicy food after a root canal?
 Avoid spicy food for the first 2 to 3 days as it may irritate the treated area.
 
-**When can I eat hard food again?**
+### When can I eat hard food again?
 After the permanent crown is placed, you can eat most hard foods. Until then, be cautious.
 
-**Can I drink alcohol after a root canal?**
+### Can I drink alcohol after a root canal?
 Avoid alcohol for at least 48 hours after treatment, especially if you are taking pain medication or antibiotics. Alcohol can interfere with healing and medication effectiveness.
 
-**What if my temporary filling falls out while eating?**
+### What if my temporary filling falls out while eating?
 Call YourDentist immediately at +91 7064719630. Do not eat on that side and avoid hard or sticky foods. We will schedule a same-day appointment to replace the filling and protect the tooth.
 
-**Can I eat non-vegetarian food after a root canal?**
+### Can I eat non-vegetarian food after a root canal?
 Yes, but wait until day 3 or 4. Start with tender, well-cooked fish or chicken. Avoid chewy meats, bones, and hard pieces until the permanent crown is placed.
 
-**Is it normal to have no appetite after a root canal?**
+### Is it normal to have no appetite after a root canal?
 Yes, mild discomfort and medication can reduce appetite. Eat small, frequent meals of soft, nutritious foods like dal, yogurt, and smoothies. Stay hydrated with plenty of water.
 
 For more guidance on recovery after root canal treatment, contact YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

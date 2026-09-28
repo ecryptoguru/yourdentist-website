@@ -2,8 +2,8 @@
 title: "Gum Disease Stages and Treatment — Protect Your Teeth and Gums"
 excerpt: "Gum disease ranges from mild gingivitis to severe periodontitis. Learn the stages, symptoms, and treatments at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2027-01-26
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -95,10 +95,10 @@ Antibiotics may be used to control bacterial infection, either as tablets or pla
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Routine cleaning | ₹800 - ₹2,000 |
-| Scaling and root planing (per quadrant) | ₹2,000 - ₹5,000 |
-| Laser gum therapy | ₹8,000 - ₹25,000 |
-| Gum surgery | ₹15,000 - ₹50,000 |
+| Routine cleaning | ₹1,000 - ₹2,000 |
+| Scaling and root planing (per quadrant) | ₹1,500 - ₹5,000 |
+| Laser gum therapy | ₹4,000 - ₹8,000 |
+| Gum surgery | ₹5,000 - ₹25,000 |
 
 ## Preventing gum disease
 
@@ -168,43 +168,43 @@ Regular maintenance visits are critical for preventing gum disease recurrence an
 
 ## Frequently asked questions
 
-**Can gum disease be reversed?**
+### Can gum disease be reversed?
 Gingivitis can be reversed. Periodontitis cannot be reversed, but it can be controlled and managed.
 
-**How do I know if I have gum disease?**
+### How do I know if I have gum disease?
 Signs include bleeding gums, bad breath, receding gums, and loose teeth. Regular checkups help detect it early.
 
-**Is gum disease painful?**
+### Is gum disease painful?
 Early gum disease may not hurt. Advanced gum disease can cause pain, swelling, and difficulty chewing.
 
-**How often should I get my gums checked?**
+### How often should I get my gums checked?
 Every 6 months as part of your routine dental checkup. More often if you have gum disease.
 
-**Can gum disease cause tooth loss?**
+### Can gum disease cause tooth loss?
 Yes, untreated gum disease is a leading cause of tooth loss in adults.
 
-**Can I treat gum disease at home?**
+### Can I treat gum disease at home?
 Gingivitis can be improved with good oral hygiene. However, once tartar forms, only a dentist can remove it. Periodontitis requires professional treatment.
 
-**How long does gum disease treatment take?**
+### How long does gum disease treatment take?
 Gingivitis treatment takes one visit. Scaling and root planing may take 2 to 4 visits. Laser therapy is usually completed in 1 to 2 sessions.
 
-**Does gum disease treatment hurt?**
+### Does gum disease treatment hurt?
 Routine cleaning is painless. Deep cleaning may cause mild discomfort and is often done under local anaesthesia. Laser gum therapy is less painful than traditional surgery.
 
-**Can gum disease come back after treatment?**
+### Can gum disease come back after treatment?
 Yes, gum disease can recur without good oral hygiene and regular dental visits. Maintenance visits every 3 to 6 months are important.
 
-**Is laser gum therapy better than traditional surgery?**
+### Is laser gum therapy better than traditional surgery?
 Laser gum therapy offers several advantages: less pain, faster healing, no stitches, and reduced bleeding. Dr. Dash uses laser therapy for moderate periodontitis cases with excellent results.
 
-**Can diabetes cause gum disease?**
+### Can diabetes cause gum disease?
 Yes, diabetes increases the risk of gum disease because high blood sugar weakens the body's ability to fight infection. Conversely, gum disease can make blood sugar harder to control. Treating gum disease can actually help improve diabetes management.
 
-**How deep are gum pockets in healthy vs diseased gums?**
+### How deep are gum pockets in healthy vs diseased gums?
 Healthy gums have pockets of 1 to 3 mm. Pockets of 4 to 5 mm indicate early periodontitis. Pockets of 6 mm or more indicate advanced periodontitis requiring professional treatment.
 
-**Can gum disease cause bad breath?**
+### Can gum disease cause bad breath?
 Yes, persistent bad breath (halitosis) is a common symptom of gum disease. The bacteria that cause gum disease produce sulphur compounds that create odour. Treating the gum infection eliminates the bad breath.
 
 For gum disease treatment in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

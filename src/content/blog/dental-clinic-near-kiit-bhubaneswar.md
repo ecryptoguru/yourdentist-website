@@ -135,34 +135,34 @@ Understanding these common issues helps students seek timely treatment before pr
 
 ## Frequently asked questions
 
-**How far is YourDentist from KIIT?**
+### How far is YourDentist from KIIT?
 YourDentist in Bomikhal is about 20 to 35 minutes from KIIT by auto-rickshaw or cab.
 
-**Do you offer student discounts?**
+### Do you offer student discounts?
 We keep our pricing competitive for students. Ask about payment plans for braces and other major treatments.
 
-**Can I get braces while studying at KIIT?**
+### Can I get braces while studying at KIIT?
 Yes. Braces or aligners can be managed with monthly visits during your studies. Aligners may be more convenient if you travel home often.
 
-**Is teeth whitening safe for students?**
+### Is teeth whitening safe for students?
 Yes, professional teeth whitening is safe. Avoid over-the-counter products that may damage enamel.
 
-**What should I do for a toothache in my KIIT hostel?**
+### What should I do for a toothache in my KIIT hostel?
 Rinse with warm salt water, take a pain reliever, and call +91 7064719630 to book an appointment. Do not ignore the pain.
 
-**Are evening appointments available for KIIT students?**
+### Are evening appointments available for KIIT students?
 Yes, we are open every evening from 5:00 PM to 8:30 PM, Tuesday to Sunday.
 
-**Can I get a dental checkup during semester breaks?**
+### Can I get a dental checkup during semester breaks?
 Yes, semester breaks are an ideal time for dental treatment. We see many KIIT students during winter and summer breaks for braces adjustments, wisdom tooth extractions, and whitening.
 
-**Do you treat international students at KIIT?**
+### Do you treat international students at KIIT?
 Yes, we welcome international students. Our staff can communicate in English and provide detailed treatment plans and invoices for insurance purposes.
 
-**Can I get aligners if I travel home between semesters?**
+### Can I get aligners if I travel home between semesters?
 Yes, clear aligners are ideal for students who travel frequently. You receive multiple sets in advance and only need checkup visits every 6 to 8 weeks. Dr. Dash can plan your treatment around your academic calendar.
 
-**What if I have a dental emergency in my hostel at night?**
+### What if I have a dental emergency in my hostel at night?
 Call +91 7064719630 immediately. We provide phone guidance for after-hours emergencies and will schedule you for the earliest available appointment the next morning.
 
 If you are a student or faculty member at KIIT looking for a dental clinic near you, visit YourDentist Laser Dental Clinic in Bomikhal. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book an appointment.

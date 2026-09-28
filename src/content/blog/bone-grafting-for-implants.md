@@ -3,7 +3,7 @@ title: "Bone Grafting for Dental Implants — When Is It Needed?"
 excerpt: "Bone grafting rebuilds jawbone for dental implants. Learn when grafting is needed, types of grafts, cost, and recovery at YourDentist Bhubaneswar."
 category: "Dental Implants"
 date: 2026-08-19
-lastUpdated: 2026-07-17
+lastUpdated: 2026-08-19
 readTime: "8 min read"
 ---
 
@@ -167,31 +167,31 @@ Socket preservation at the time of extraction is the best way to maintain bone f
 
 ## Frequently asked questions
 
-**Is bone grafting painful?**
+### Is bone grafting painful?
 The procedure is done under anesthesia. Most patients feel mild discomfort for 2 to 3 days after, manageable with pain medication.
 
-**How long does bone grafting take to heal?**
+### How long does bone grafting take to heal?
 Bone grafts take 3 to 6 months to integrate before an implant can be placed.
 
-**Can I get an implant without bone grafting?**
+### Can I get an implant without bone grafting?
 Yes, if your jawbone is thick and dense enough. Dr. Dash will determine this from your CBCT scan.
 
-**How much does bone grafting cost in Bhubaneswar?**
+### How much does bone grafting cost in Bhubaneswar?
 Bone grafting costs ₹5,000 to ₹30,000 depending on the type and extent of grafting needed.
 
-**What is a sinus lift?**
+### What is a sinus lift?
 A sinus lift adds bone to the upper jaw near the sinus cavity to create enough height for dental implants.
 
-**Can smokers get bone grafts?**
+### Can smokers get bone grafts?
 Smoking significantly reduces graft success rates. Dr. Dash strongly recommends quitting smoking before grafting and during the healing period. Patients who continue smoking have a higher risk of graft failure.
 
-**How do I know if I need bone grafting?**
+### How do I know if I need bone grafting?
 A CBCT scan at YourDentist will show the exact bone height, width, and density. If the bone is insufficient for implant placement, Dr. Dash will recommend grafting.
 
-**Is bone grafting safe?**
+### Is bone grafting safe?
 Yes, bone grafting is a well-established procedure with a high success rate. The materials used are processed and sterilised to eliminate any risk of disease transmission. Dr. Dash uses only certified grafting materials.
 
-**Can bone grafting and implant placement be done at the same time?**
+### Can bone grafting and implant placement be done at the same time?
 In some cases, minor grafting can be done simultaneously with implant placement. This reduces the total treatment time. However, for larger grafts or sinus lifts, a separate healing period is needed before implant placement.
 
 For a bone grafting assessment in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

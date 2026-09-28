@@ -2,8 +2,8 @@
 title: "How to Help Children Overcome Dental Anxiety — Parent Tips"
 excerpt: "Dental anxiety is common in children. Learn practical tips to make dental visits calm and positive at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2027-01-10
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -185,40 +185,40 @@ Dr. Dash selects the most appropriate technique based on your child's age, anxie
 
 ## Frequently asked questions
 
-**How can I calm my child before a dental visit?**
+### How can I calm my child before a dental visit?
 Use positive language, role-play at home, read books, and stay calm yourself.
 
-**Should I stay with my child during the dental exam?**
+### Should I stay with my child during the dental exam?
 Yes, most children feel more secure with a parent nearby.
 
-**What should I not say to my child about the dentist?**
+### What should I not say to my child about the dentist?
 Avoid words like pain, needle, drill, or hurt. Keep the conversation positive.
 
-**Can dental anxiety affect my child's oral health?**
+### Can dental anxiety affect my child's oral health?
 Yes, anxious children may avoid dental visits, leading to untreated cavities and gum problems.
 
-**Is laughing gas safe for children?**
+### Is laughing gas safe for children?
 Yes, nitrous oxide is safe and commonly used to help anxious children relax during dental treatment.
 
-**At what age should I first take my child to the dentist?**
+### At what age should I first take my child to the dentist?
 The first dental visit should happen by the child's first birthday or within 6 months of the first tooth appearing. Early visits are usually just checkups and help the child get comfortable with the dental environment.
 
-**What if my child had a bad experience at another dentist?**
+### What if my child had a bad experience at another dentist?
 Dr. Dash is experienced in helping children who have had negative dental experiences. She uses a gradual approach, starting with simple visits and building trust over time.
 
-**Can I be in the room during my child's treatment?**
+### Can I be in the room during my child's treatment?
 Yes, parents are welcome to stay during appointments. Your presence provides comfort and reassurance.
 
-**How long does a child's dental appointment take?**
+### How long does a child's dental appointment take?
 A routine checkup takes 20 to 30 minutes. Treatment appointments may take longer, but Dr. Dash keeps them as short as possible for anxious children.
 
-**What if my child refuses to open their mouth at the dentist?**
+### What if my child refuses to open their mouth at the dentist?
 Dr. Dash uses gentle behaviour management techniques like tell-show-do and positive reinforcement. She never forces a child. If needed, she may schedule a desensitisation visit where no treatment is done, just building comfort. Over 1 to 2 visits, most children become cooperative.
 
-**Can siblings attend dental appointments together?**
+### Can siblings attend dental appointments together?
 Yes, siblings can attend together. Seeing an older sibling have a positive visit often helps younger children feel more comfortable. Dr. Dash can see siblings in sequence during the same appointment slot.
 
-**How often should my anxious child visit the dentist?**
+### How often should my anxious child visit the dentist?
 Every 6 months for routine checkups. For very anxious children, Dr. Dash may recommend more frequent short visits to build comfort gradually. Consistency is key to overcoming dental anxiety.
 
 For child-friendly dental care in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

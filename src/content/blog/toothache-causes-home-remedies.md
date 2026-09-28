@@ -2,8 +2,8 @@
 title: "Toothache Causes, Home Remedies, and When to See a Dentist"
 excerpt: "Toothache can range from mild sensitivity to severe pain. Learn the causes, safe home remedies, and when to visit YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2027-01-30
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -117,10 +117,10 @@ See Dr. Arpita Dash immediately if you have:
 | Treatment | Cost range (INR) |
 | --- | --- |
 | Filling | ₹1,000 - ₹5,000 |
-| Root canal | ₹3,000 - ₹10,000 |
-| Extraction | ₹500 - ₹3,000 |
+| Root canal | 4,000 - ₹8,000 |
+| Extraction | ₹1000 - ₹3,000 |
 | Gum treatment | ₹2,000 - ₹8,000 |
-| Crown | ₹4,000 - ₹18,000 |
+| Crown | ₹4,000 - ₹22,000 |
 
 ## Emergency dental care at YourDentist
 
@@ -168,31 +168,31 @@ Understanding the type of pain helps you know how urgently to seek care.
 
 ## Frequently asked questions
 
-**What is the fastest way to relieve toothache?**
+### What is the fastest way to relieve toothache?
 Rinse with warm salt water, take pain relievers, and apply a cold compress. See a dentist as soon as possible.
 
-**Can toothache go away on its own?**
+### Can toothache go away on its own?
 Pain may decrease temporarily, but the underlying problem usually worsens without treatment.
 
-**When is toothache an emergency?**
+### When is toothache an emergency?
 Severe pain with swelling, fever, or difficulty swallowing is a dental emergency.
 
-**How much does toothache treatment cost?**
-Costs range from ₹500 for extraction to ₹10,000 for root canal treatment.
+### How much does toothache treatment cost?
+Costs range from ₹1000 for extraction to ₹8,000 for root canal treatment.
 
-**Can I use clove oil for toothache?**
+### Can I use clove oil for toothache?
 Clove oil can provide temporary relief, but it does not treat the cause. See a dentist for proper treatment.
 
-**Why does my toothache get worse at night?**
+### Why does my toothache get worse at night?
 When you lie down, blood flow to the head increases, which can increase pressure and pain in an inflamed tooth. Elevating your head with pillows can help reduce throbbing pain.
 
-**Can a sinus infection cause toothache?**
+### Can a sinus infection cause toothache?
 Yes, sinus pressure can cause pain in the upper back teeth. If you have a cold or sinus congestion along with toothache, the sinuses may be the cause.
 
-**How long can I wait with a toothache before seeing a dentist?**
+### How long can I wait with a toothache before seeing a dentist?
 Mild sensitivity can wait a few days, but severe or worsening pain should be seen within 24 to 48 hours. Pain with swelling or fever is an emergency.
 
-**Can stress cause toothache?**
+### Can stress cause toothache?
 Stress can cause teeth grinding (bruxism), which leads to tooth wear, sensitivity, and jaw pain. A nightguard can protect your teeth.
 
 For toothache treatment in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

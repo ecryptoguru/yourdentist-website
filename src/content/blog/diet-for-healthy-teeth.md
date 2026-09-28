@@ -2,8 +2,8 @@
 title: "Best Foods for Healthy Teeth — What to Eat and Avoid"
 excerpt: "Your diet affects your teeth. Learn the best foods for strong enamel, healthy gums, and a bright smile at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-12-25
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -192,40 +192,40 @@ Limiting these foods to occasional treats and rinsing with water after consuming
 
 ## Frequently asked questions
 
-**What foods strengthen tooth enamel?**
+### What foods strengthen tooth enamel?
 Dairy products, leafy greens, nuts, and crunchy vegetables provide calcium and minerals that strengthen enamel.
 
-**What foods cause the most cavities?**
+### What foods cause the most cavities?
 Sugary snacks, soft drinks, sticky candies, and frequent snacking are the biggest causes of cavities.
 
-**Can acidic foods damage teeth?**
+### Can acidic foods damage teeth?
 Yes, frequent exposure to acids can erode enamel over time.
 
-**Is milk good for teeth?**
+### Is milk good for teeth?
 Yes, milk is rich in calcium and helps strengthen teeth and bones.
 
-**Should I brush after every meal?**
+### Should I brush after every meal?
 Wait 30 minutes after acidic meals. Brushing too soon can wear softened enamel.
 
-**Can chewing gum help my teeth?**
+### Can chewing gum help my teeth?
 Yes, sugar-free gum containing xylitol can help prevent cavities by stimulating saliva and reducing bacteria. Avoid sugary gum.
 
-**Are fruits bad for teeth because of sugar?**
+### Are fruits bad for teeth because of sugar?
 Whole fruits are generally safe because they contain fibre and water that help clean teeth. However, fruit juices are concentrated sources of sugar and acid and should be limited.
 
-**Does drinking water after meals help teeth?**
+### Does drinking water after meals help teeth?
 Yes, rinsing with water after meals washes away food particles and neutralises acids, reducing the risk of cavities.
 
-**What should I give my child for healthy teeth?**
+### What should I give my child for healthy teeth?
 Cheese, yoghurt, fruits, vegetables, nuts, and water. Limit sweets, chocolates, and sugary drinks to occasional treats.
 
-**Can a vegetarian diet support healthy teeth?**
+### Can a vegetarian diet support healthy teeth?
 Yes, a well-planned vegetarian diet can support excellent dental health. Include dairy products for calcium, leafy greens for vitamins, nuts for protein, and fortified foods for vitamin D. Vegans should ensure adequate calcium and vitamin B12 intake through fortified foods or supplements.
 
-**Is green tea good for teeth?**
+### Is green tea good for teeth?
 Yes, green tea contains polyphenols that reduce bacteria and inflammation in the mouth. It also contains fluoride in small amounts. Drink unsweetened green tea for maximum dental benefit.
 
-**How does pregnancy affect dietary needs for teeth?**
+### How does pregnancy affect dietary needs for teeth?
 Pregnancy increases the need for calcium, vitamin D, and folic acid. Hormonal changes make gums more susceptible to inflammation. Pregnant women should eat calcium-rich foods, avoid sugary snacks, and maintain regular dental checkups. Dr. Dash provides pregnancy-specific dietary advice for optimal oral health.
 
 For dietary advice for healthy teeth in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

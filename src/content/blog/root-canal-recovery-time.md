@@ -148,34 +148,34 @@ Understanding your expected recovery time based on tooth type helps you plan you
 
 ## Frequently asked questions
 
-**How long does it take to recover from a root canal?**
+### How long does it take to recover from a root canal?
 Most patients recover within 2 to 3 days. Full function is restored after the permanent crown is placed.
 
-**Can I go back to work the day after a root canal?**
+### Can I go back to work the day after a root canal?
 Yes, most people return to work the next day.
 
-**How long does swelling last after a root canal?**
+### How long does swelling last after a root canal?
 Mild swelling usually peaks within 24 hours and improves over 2 to 3 days.
 
-**Can I exercise after a root canal?**
+### Can I exercise after a root canal?
 Light exercise is fine after 24 hours. Avoid strenuous exercise for 2 to 3 days.
 
-**When can I eat normally after a root canal?**
+### When can I eat normally after a root canal?
 You can eat soft foods immediately. Normal eating resumes gradually over 1 to 2 weeks.
 
-**What if my tooth still hurts a week after a root canal?**
+### What if my tooth still hurts a week after a root canal?
 Mild soreness is normal for a few days. If pain persists beyond a week, contact your dentist.
 
-**Can I drink coffee after a root canal?**
+### Can I drink coffee after a root canal?
 Avoid hot drinks for the first 24 hours while you are still numb. After that, you can drink coffee, but avoid very hot temperatures for 2 to 3 days. Do not use a straw for the first 24 hours.
 
-**Will I need antibiotics after a root canal?**
+### Will I need antibiotics after a root canal?
 Antibiotics are not always needed after a root canal. Dr. Dash may prescribe them if there was a severe infection, swelling, or pus. Always complete the full course if prescribed.
 
-**Can I fly after a root canal?**
+### Can I fly after a root canal?
 It is best to wait 24 to 48 hours after a root canal before flying. Changes in cabin pressure can cause discomfort in a recently treated tooth. If you must travel, consult Dr. Dash first.
 
-**How soon can I brush the treated tooth?**
+### How soon can I brush the treated tooth?
 You can brush normally the same day, but be gentle around the treated tooth. Avoid vigorous rinsing for 24 hours. Use a soft-bristle brush.
 
 For comfortable root canal treatment with a fast recovery, visit YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

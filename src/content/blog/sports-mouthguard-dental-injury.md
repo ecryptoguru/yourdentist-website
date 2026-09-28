@@ -2,8 +2,8 @@
 title: "Sports Mouthguard — Protect Your Teeth from Injury"
 excerpt: "A sports mouthguard protects teeth, gums, and jaws during contact sports. Learn about types, benefits, and getting a custom mouthguard at YourDentist."
 category: "General Dental Health"
-date: 2027-02-27
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -127,7 +127,7 @@ For athletes with braces, Dr. Dash recommends specially designed orthodontic mou
 | Injury type | Treatment cost (INR) | Mouthguard cost (INR) | Prevention value |
 | --- | --- | --- | --- |
 | Chipped tooth | ₹1,000 - ₹5,000 (bonding) | ₹2,000 - ₹8,000 | Saves pain and cost |
-| Knocked-out tooth | ₹25,000 - ₹50,000 (implant) | ₹2,000 - ₹8,000 | Saves ₹23,000+ |
+| Knocked-out tooth | ₹20,000 - ₹50,000 (implant) | ₹2,000 - ₹8,000 | Saves ₹23,000+ |
 | Broken bracket (braces patient) | ₹500 - ₹2,000 (repair) | ₹2,000 - ₹8,000 | Prevents lacerations |
 | Jaw fracture | ₹50,000+ (surgery) | ₹2,000 - ₹8,000 | Prevents hospitalisation |
 | Multiple tooth injury | ₹50,000 - ₹2,00,000 | ₹2,000 - ₹8,000 | Saves massive cost |
@@ -173,40 +173,40 @@ Regular inspection ensures your mouthguard continues to provide optimal protecti
 
 ## Frequently asked questions
 
-**Do I need a mouthguard for sports?**
+### Do I need a mouthguard for sports?
 Yes, mouthguards protect your teeth, gums, and jaw during contact and high-impact sports.
 
-**What type of mouthguard is best?**
+### What type of mouthguard is best?
 Custom mouthguards made by a dentist provide the best fit and protection.
 
-**How much does a custom mouthguard cost?**
+### How much does a custom mouthguard cost?
 Custom mouthguards cost ₹2,000 to ₹8,000 at YourDentist.
 
-**Can I wear a mouthguard with braces?**
+### Can I wear a mouthguard with braces?
 Yes, custom mouthguards can be made to fit over braces.
 
-**How do I clean my mouthguard?**
+### How do I clean my mouthguard?
 Rinse after use and clean with mild soap and cool water. Store in a ventilated case.
 
-**How long does a custom mouthguard last?**
+### How long does a custom mouthguard last?
 With proper care, a custom mouthguard lasts 1 to 2 years. Athletes who grind their teeth or play frequently may need replacement sooner.
 
-**Should children wear mouthguards?**
+### Should children wear mouthguards?
 Yes, children who play sports should wear mouthguards. Dr. Dash can make custom mouthguards for children and replace them as they grow.
 
-**Can I talk with a mouthguard in?**
+### Can I talk with a mouthguard in?
 Custom mouthguards are designed to allow normal speech and breathing. Stock mouthguards may interfere with speech.
 
-**When should I replace my mouthguard?**
+### When should I replace my mouthguard?
 Replace your mouthguard if it shows cracks, tears, thinning, or if it no longer fits snugly. Growing children may need a new mouthguard each season.
 
-**Can I use a mouthguard for teeth grinding instead of sports?**
+### Can I use a mouthguard for teeth grinding instead of sports?
 No. Sports mouthguards and nightguards for bruxism are designed differently. Sports mouthguards are thicker to absorb impact, while nightguards are designed to distribute grinding forces. Dr. Dash can provide both if needed.
 
-**Does a mouthguard affect breathing during sports?**
+### Does a mouthguard affect breathing during sports?
 Custom mouthguards are designed to allow normal breathing and speaking. Stock mouthguards may interfere with breathing and should be avoided for competitive sports.
 
-**Are mouthguards mandatory in any sports in Bhubaneswar?**
+### Are mouthguards mandatory in any sports in Bhubaneswar?
 While not legally mandated, many school and college sports associations in Bhubaneswar recommend mouthguards for contact sports. Dr. Dash can provide a letter recommending a mouthguard if your school requires one.
 
 For a custom sports mouthguard in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

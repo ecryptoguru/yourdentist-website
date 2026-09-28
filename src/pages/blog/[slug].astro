@@ -6,6 +6,8 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { getCollection, render } from 'astro:content';
 import { doctor, clinicInfo } from '@/lib/data';
 import { formatDate } from '@/lib/format';
+import { parseFaq, countWords } from '@/lib/blog-faq';
+import { slugifyCategory } from '@/lib/blog-categories';
 
 export async function getStaticPaths() {
   const posts = await getCollection('blog');
@@ -24,25 +26,56 @@ if (!post) {
 
 const data = post.data;
 const { Content } = await render(post);
-const relatedPosts = posts.filter((p) => p.id !== slug && p.data.category === data.category).slice(0, 2);
+const faqs = parseFaq(post.body ?? '');
+const wordCount = countWords(post.body ?? '');
+const categorySlug = slugifyCategory(data.category);
+
+const relatedPosts = [
+  ...posts.filter((p) => p.id !== slug && p.data.category === data.category),
+  ...posts
+    .filter((p) => p.id !== slug && p.data.category !== data.category)
+    .sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime()),
+]
+  .slice(0, 3)
+  .map((p) => ({ id: p.id, ...p.data }));
+
+const siteUrl = 'https://www.yourdentistdentalclinic.com';
 
 const articleLd = {
   '@context': 'https://schema.org',
   '@type': 'BlogPosting',
+  '@id': `${siteUrl}/blog/${slug}/#article`,
   headline: data.title,
   description: data.excerpt,
-  image: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  image: `${siteUrl}/images/clinic.jpg`,
   datePublished: data.date,
   dateModified: data.lastUpdated || data.date,
-  author: { '@type': 'Person', name: doctor.name, jobTitle: 'Dental Surgeon & Smile Specialist', url: 'https://www.yourdentistdentalclinic.com/about/' },
-  publisher: { '@type': 'Organization', name: clinicInfo.name, logo: { '@type': 'ImageObject', url: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg' } },
-  mainEntityOfPage: { '@type': 'WebPage', '@id': `https://www.yourdentistdentalclinic.com/blog/${slug}/` },
+  inLanguage: 'en-IN',
+  wordCount,
+  articleSection: data.category,
+  keywords: [data.category, 'dentist Bhubaneswar', 'dental clinic Bhubaneswar', 'Dr. Arpita Dash', 'YourDentist'],
+  author: { '@type': 'Person', '@id': `${siteUrl}/#person`, name: doctor.name, jobTitle: 'Dental Surgeon & Smile Specialist', url: `${siteUrl}/about/` },
+  publisher: { '@type': 'Organization', '@id': `${siteUrl}/#organization`, name: clinicInfo.name, logo: { '@type': 'ImageObject', url: `${siteUrl}/images/clinic.jpg` } },
+  mainEntityOfPage: { '@type': 'WebPage', '@id': `${siteUrl}/blog/${slug}/` },
+  isPartOf: { '@type': 'Blog', '@id': `${siteUrl}/blog/#blog`, name: 'YourDentist Dental Health Blog' },
+  speakable: { '@type': 'SpeakableSpecification', cssSelector: ['h1', '.speakable-summary'] },
+};
+
+const faqLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: faqs.map((f) => ({
+    '@type': 'Question',
+    name: f.question,
+    acceptedAnswer: { '@type': 'Answer', text: f.answer },
+  })),
 };
 ---
 
 <BaseLayout title={`${data.title} | YourDentist Bhubaneswar`} description={data.excerpt} type="article">
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(articleLd)} />
+    {faqs.length > 0 && <script type="application/ld+json" set:html={JSON.stringify(faqLd)} />}
   </Fragment>
   <Header />
   <main class="flex-1 pt-36">
@@ -51,7 +84,7 @@ const articleLd = {
       <article>
         <div class="reveal">
           <div class="aspect-video bg-teal-50 dark:bg-teal-900/30 rounded-xl flex items-center justify-center mb-8 border border-slate-200/40 dark:border-warm-600 shadow-premium">
-            <span class="inline-block bg-white/90 dark:bg-warm-100/90 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 px-4 py-1.5 font-medium rounded-full">{data.category}</span>
+            <a href={`/blog/category/${categorySlug}/`} class="inline-block bg-white/90 dark:bg-warm-100/90 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 px-4 py-1.5 font-medium rounded-full hover:bg-teal-700 hover:text-white dark:hover:bg-teal-600 dark:hover:text-white transition-colors duration-300">{data.category}</a>
           </div>
         </div>
 
@@ -90,6 +123,12 @@ const articleLd = {
           </div>
         </div>
 
+        <div class="reveal" style="transition-delay: 0.18s">
+          <div class="speakable-summary not-prose bg-teal-50/60 dark:bg-teal-900/20 border-l-4 border-teal-500 dark:border-teal-600 rounded-r-xl px-5 py-4 mb-10">
+            <p class="text-slate-600 dark:text-warm-300 text-[15px] leading-relaxed">{data.excerpt}</p>
+          </div>
+        </div>
+
         <div class="reveal" style="transition-delay: 0.2s">
           <div class="prose prose-slate dark:prose-invert max-w-none mb-12">
             <Content />
@@ -106,6 +145,10 @@ const articleLd = {
                 <h3 class="font-heading text-base font-semibold text-slate-900 dark:text-warm-100 mb-1">About {doctor.name}</h3>
                 <p class="text-slate-600 dark:text-warm-300 text-sm leading-relaxed mb-3">
                   Dr. Arpita Dash is a Dental Surgeon & Smile Specialist with {doctor.experience} years of experience in Bhubaneswar, specializing in root canal treatment, orthodontics, dental implants, and aesthetic dentistry. She has treated over {doctor.patients} patients with a 4.9-star rating.
+                </p>
+                <p class="text-slate-500 dark:text-warm-400 text-xs leading-relaxed mb-3">
+                  {clinicInfo.name} — {clinicInfo.address} ·
+                  <a href={clinicInfo.phoneLink} class="text-teal-700 dark:text-teal-400 hover:underline">{clinicInfo.phone}</a>
                 </p>
                 <a href="/about/" class="inline-flex items-center gap-1.5 text-teal-700 dark:text-teal-400 font-medium text-sm hover:gap-2.5 transition-all duration-300">
                   Learn more about Dr. Arpita Dash
@@ -130,12 +173,12 @@ const articleLd = {
         {relatedPosts.length > 0 && (
           <div class="reveal" style="transition-delay: 0.4s">
             <h3 class="font-heading text-xl font-semibold text-slate-900 dark:text-warm-100 mb-5">Related Articles</h3>
-            <div class="grid sm:grid-cols-2 gap-4">
+            <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
               {relatedPosts.map((related) => (
                 <a href={`/blog/${related.id}/`}>
-                  <div class="bg-white dark:bg-warm-800 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600 hover:border-teal-200/80 dark:hover:border-teal-600/80 hover:shadow-premium transition-all duration-300 shadow-premium">
-                    <span class="inline-block text-xs mb-2 border border-teal-200 dark:border-teal-700 text-teal-700 dark:text-teal-400 font-medium px-2 py-0.5 rounded-full">{related.data.category}</span>
-                    <h4 class="font-medium text-slate-900 dark:text-warm-100 text-sm line-clamp-2 leading-snug">{related.data.title}</h4>
+                  <div class="bg-white dark:bg-warm-800 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600 hover:border-teal-200/80 dark:hover:border-teal-600/80 hover:shadow-premium transition-all duration-300 shadow-premium h-full">
+                    <span class="inline-block text-xs mb-2 border border-teal-200 dark:border-teal-700 text-teal-700 dark:text-teal-400 font-medium px-2 py-0.5 rounded-full">{related.category}</span>
+                    <h4 class="font-medium text-slate-900 dark:text-warm-100 text-sm line-clamp-2 leading-snug">{related.title}</h4>
                   </div>
                 </a>
               ))}

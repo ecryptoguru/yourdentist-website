@@ -3,7 +3,7 @@ title: "How Many Sittings for Root Canal? Single-Sitting vs Multiple Explained"
 excerpt: "How many sittings does a root canal need? At YourDentist Bhubaneswar, most root canals are done in a single sitting. Learn when multiple visits are needed."
 category: "Root Canal"
 date: 2026-06-04
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -159,10 +159,12 @@ At YourDentist, the cost depends on the tooth and complexity, not just the numbe
 
 | Tooth type | Single-sitting cost (INR) | Multi-sitting cost (INR) |
 | --- | --- | --- |
-| Front tooth | ₹3,000 - ₹5,000 | ₹4,000 - ₹6,000 |
+| Front tooth | ₹4,000 - ₹5,000 | ₹4,000 - ₹6,000 |
 | Premolar | ₹4,000 - ₹6,500 | ₹5,000 - ₹7,500 |
 | Molar | ₹5,000 - ₹8,000 | ₹6,500 - ₹10,000 |
 | Laser-assisted RCT | ₹6,000 - ₹10,000 | ₹8,000 - ₹12,000 |
+
+##
 
 ## Related dental services at YourDentist
 
@@ -173,34 +175,34 @@ At YourDentist, the cost depends on the tooth and complexity, not just the numbe
 
 ## Frequently asked questions
 
-**Can a root canal be done in one sitting?**
+### Can a root canal be done in one sitting?
 Yes, most root canals at YourDentist are completed in a single sitting.
 
-**How many sittings are needed for molar root canal?**
+### How many sittings are needed for molar root canal?
 Most molars can be treated in one sitting. Complex cases may need two visits.
 
-**Why do some root canals need two sittings?**
+### Why do some root canals need two sittings?
 Severe infection, swelling, or complex canal anatomy may require medication between visits.
 
-**Is single-sitting root canal better?**
+### Is single-sitting root canal better?
 It is more convenient and reduces infection risk, but the dentist will choose the best approach for your case.
 
-**How many days gap between two sittings?**
-The gap is usually 3 to 7 days, depending on the infection.
+### How many days gap between two sittings?
+The gap is usually 1 to 7 days, depending on the infection.
 
-**Does multi-sitting root canal cost more?**
+### Does multi-sitting root canal cost more?
 It may cost slightly more due to additional visits and medication.
 
-**Can I choose single-sitting even if my case is complex?**
+### Can I choose single-sitting even if my case is complex?
 Dr. Dash will assess your case and advise honestly. If single-sitting is not safe for your infection level, she will recommend multiple visits. Attempting single-sitting on a severe infection can lead to treatment failure.
 
-**What if I cannot come back for a second sitting?**
+### What if I cannot come back for a second sitting?
 If you are travelling from outside Bhubaneswar, tell Dr. Dash during your consultation. She can plan treatment to minimise visits or schedule visits close together. However, do not skip a required second visit, as this risks infection returning.
 
-**Is the temporary filling between visits safe?**
+### Is the temporary filling between visits safe?
 Yes, the temporary filling is designed to seal the tooth between visits. However, avoid hard, sticky, or chewy foods on that side. If the temporary filling falls out, call YourDentist immediately for a replacement.
 
-**How long does each sitting take?**
+### How long does each sitting take?
 A single-sitting root canal takes 45 to 90 minutes. In multi-sitting treatment, the first visit takes 30 to 45 minutes and the second visit takes 30 to 45 minutes. The total time is similar, just spread across visits.
 
 If you want to know how many sittings your root canal will need, book a consultation at YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

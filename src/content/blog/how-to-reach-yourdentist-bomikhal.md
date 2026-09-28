@@ -171,34 +171,34 @@ Once you know how to reach us, book your appointment by:
 
 ## Frequently asked questions
 
-**How do I find YourDentist on Google Maps?**
+### How do I find YourDentist on Google Maps?
 Search for "YourDentist Laser Dental Clinic" or use the address Plot 190/2972, E Canal Road, Bomikhal.
 
-**Is the clinic easy to find for first-time visitors?**
+### Is the clinic easy to find for first-time visitors?
 Yes. It is on E Canal Road main road, beside SHIBANI ENCLAVE, on the ground floor.
 
-**Can I park my car near the clinic?**
+### Can I park my car near the clinic?
 Yes, parking is available on E Canal Road near the clinic.
 
-**Which is the nearest bus stop?**
+### Which is the nearest bus stop?
 The Bomikhal bus stop is nearby. From there, it is a short auto or walk to E Canal Road.
 
-**How long does it take to reach from Saheed Nagar?**
+### How long does it take to reach from Saheed Nagar?
 About 5 to 10 minutes by auto or cab.
 
-**Is YourDentist accessible for elderly patients?**
+### Is YourDentist accessible for elderly patients?
 Yes, the clinic is on the ground floor and easily accessible.
 
-**Can I use Ola or Uber to reach the clinic?**
+### Can I use Ola or Uber to reach the clinic?
 Yes, Ola and Uber operate in Bhubaneswar. Search for "YourDentist Laser Dental Clinic" or "SHIBANI ENCLAVE, Bomikhal" as your destination.
 
-**Is the clinic wheelchair accessible?**
+### Is the clinic wheelchair accessible?
 The clinic is on the ground floor with no steps at the entrance, making it accessible for patients with limited mobility. Please call us in advance if you need assistance.
 
-**Are there restaurants or cafes near the clinic?**
+### Are there restaurants or cafes near the clinic?
 Yes, Bomikhal and nearby Saheed Nagar have several restaurants, cafes, and food options. If you have a long appointment, you can grab a meal nearby.
 
-**Can I reach the clinic by bus from Patia or KIIT?**
+### Can I reach the clinic by bus from Patia or KIIT?
 Yes, city buses connect Patia and KIIT to Bomikhal. Ask for buses going towards Saheed Nagar or Bomikhal and get off at the Bomikhal stop.
 
 If you need further directions, call YourDentist Laser Dental Clinic at +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.). We will guide you to our Bomikhal clinic.

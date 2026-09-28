@@ -181,34 +181,34 @@ Clear aligners are easier to clean around because they are removable, but both r
 
 ## Frequently asked questions
 
-**How do I brush my teeth with braces?**
+### How do I brush my teeth with braces?
 Brush at a 45-degree angle to the gumline and around each bracket for two minutes, twice a day.
 
-**How often should I brush with braces?**
+### How often should I brush with braces?
 At least twice a day, ideally after every meal.
 
-**Can I use a normal toothbrush with braces?**
+### Can I use a normal toothbrush with braces?
 A soft-bristle toothbrush or electric toothbrush works best. Some patients prefer an orthodontic brush.
 
-**How do I floss with braces?**
+### How do I floss with braces?
 Use a floss threader, orthodontic floss, or water flosser to clean between teeth under the wires.
 
-**What happens if I don't clean my teeth with braces?**
+### What happens if I don't clean my teeth with braces?
 Poor hygiene can cause cavities, gum disease, white spots, and bad breath.
 
-**Can I eat normally with braces?**
+### Can I eat normally with braces?
 You can eat most foods, but avoid hard, sticky, and chewy foods that can damage braces.
 
-**Can I use mouthwash with braces?**
+### Can I use mouthwash with braces?
 Yes, a fluoride mouthwash is recommended for braces patients. It helps strengthen enamel and reach areas that brushing may miss. Ask Dr. Dash for a specific recommendation.
 
-**How long does it take to clean teeth with braces?**
+### How long does it take to clean teeth with braces?
 Plan for 10 to 15 minutes per session, including brushing, flossing, and using an interdental brush. This is longer than without braces but is necessary for good oral health.
 
-**What is a water flosser and do I need one?**
+### What is a water flosser and do I need one?
 A water flosser uses a stream of water to clean between teeth and around braces. It is highly effective and recommended for braces patients who find traditional flossing difficult.
 
-**Will braces leave marks on my teeth?**
+### Will braces leave marks on my teeth?
 With proper cleaning, braces will not leave marks. However, poor oral hygiene can cause white spot lesions (permanent white marks) around brackets. This is preventable with good cleaning habits.
 
 If you have braces or are planning to get them, visit YourDentist Laser Dental Clinic in Bhubaneswar for professional guidance. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

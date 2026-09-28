@@ -42,8 +42,10 @@ yarn-error.log*
 next-env.d.ts
 
 # IDE / agent files
-.devin
-.windsurf
+.devin/
+.vscode/
 
+# blog migration source (kept locally, not tracked)
+updated blogs/
 # cloudflare
 .wrangler

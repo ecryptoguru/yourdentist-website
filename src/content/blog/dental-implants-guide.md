@@ -3,7 +3,7 @@ title: "Dental Implant Procedure Step-by-Step — What to Expect at YourDentist"
 excerpt: "Dental implants are the most reliable way to replace missing teeth. Learn the full implant procedure, healing time, cost, and success rate at YourDentist Bhubaneswar."
 category: "Dental Implants"
 date: 2026-02-02
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "9 min read"
 ---
 
@@ -81,7 +81,7 @@ With proper care, dental implants can last 15 years or longer. In many cases, th
 
 | Procedure | Cost range (INR) |
 | --- | --- |
-| Single tooth implant | ₹25,000 - ₹50,000 |
+| Single tooth implant | ₹15,000 - ₹50,000 |
 | Implant with bone grafting | ₹35,000 - ₹60,000 |
 | All-on-4 full arch implants | ₹2,00,000 - ₹3,50,000 |
 | Full mouth reconstruction | ₹3,00,000 - ₹5,00,000 |
@@ -125,22 +125,22 @@ Implants cost more initially, but they last longer and protect your jawbone. Bri
 
 ## Frequently asked questions
 
-**How painful is dental implant surgery?**
+### How painful is dental implant surgery?
 The surgery is done under anesthesia. Most patients feel mild discomfort for two to three days after, similar to a tooth extraction.
 
-**How long does a dental implant take to heal?**
+### How long does a dental implant take to heal?
 The implant fuses with the bone over two to six months. The total time including crown placement is usually three to six months.
 
-**What is the success rate of dental implants?**
+### What is the success rate of dental implants?
 Dental implants have a success rate of over 95% in healthy patients.
 
-**Can everyone get dental implants?**
+### Can everyone get dental implants?
 Most adults can. Heavy smokers, uncontrolled diabetics, and patients with severe bone loss may need additional treatment first.
 
-**How much do dental implants cost in Bhubaneswar?**
-A single tooth implant at YourDentist ranges from ₹25,000 to ₹50,000, depending on the brand and complexity.
+### How much do dental implants cost in Bhubaneswar?
+A single tooth implant at YourDentist ranges from ₹15,000 to ₹50,000, depending on the brand and complexity.
 
-**Do dental implants feel like real teeth?**
+### Do dental implants feel like real teeth?
 Yes, once healed and crowned, implants look and function like natural teeth. You can eat, speak, and brush normally.
 
 If you have missing teeth and want a permanent solution, book a dental implant consultation at YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

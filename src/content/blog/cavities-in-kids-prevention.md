@@ -2,8 +2,8 @@
 title: "Cavities in Kids — Prevention, Signs, and Treatment"
 excerpt: "Cavities in children are common but preventable. Learn the causes, warning signs, and treatment options at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2027-01-02
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -154,9 +154,9 @@ Consistent prevention at each age stage dramatically reduces the risk of cavitie
 | Treatment | Cost range (INR) |
 | --- | --- |
 | Paediatric filling | ₹800 - ₹2,500 |
-| Pulpotomy | ₹2,000 - ₹5,000 |
-| Stainless steel crown | ₹2,000 - ₹4,000 |
-| Zirconia crown | ₹4,000 - ₹8,000 |
+| Pulpotomy | ₹4,000 - ₹5,000 |
+| Stainless steel crown | ₹3,000 - ₹4,000 |
+| Zirconia crown | ₹7,000 - ₹10,000 |
 | Extraction | ₹500 - ₹2,000 |
 
 ## Why choose YourDentist for paediatric cavity care
@@ -177,40 +177,40 @@ Consistent prevention at each age stage dramatically reduces the risk of cavitie
 
 ## Frequently asked questions
 
-**How common are cavities in children?**
+### How common are cavities in children?
 Cavities are very common in children, but they are largely preventable with good habits and regular dental visits.
 
-**Do baby teeth need fillings?**
+### Do baby teeth need fillings?
 Yes. Untreated cavities in baby teeth can cause pain, infection, and problems with permanent teeth.
 
-**What causes cavities in toddlers?**
+### What causes cavities in toddlers?
 Frequent sugar exposure, bedtime bottles, poor brushing, and not visiting the dentist early are the main causes.
 
-**How can I prevent cavities in my child?**
+### How can I prevent cavities in my child?
 Limit sugar, brush twice daily with fluoride toothpaste, avoid bedtime bottles, apply sealants, and visit the dentist regularly.
 
-**Is fluoride safe for children?**
+### Is fluoride safe for children?
 Yes, when used in the correct amount. Use a rice-grain sized smear for children under 3 and a pea-sized amount for children 3 to 6.
 
-**Can cavities in baby teeth affect permanent teeth?**
+### Can cavities in baby teeth affect permanent teeth?
 Yes, untreated cavities in baby teeth can cause infections that spread to developing permanent teeth beneath them. Early loss of baby teeth can also cause crowding and alignment issues.
 
-**How often should my child visit the dentist?**
+### How often should my child visit the dentist?
 Children should visit the dentist every 6 months for checkups and cleaning. Children with a history of cavities may need visits every 3 to 4 months.
 
-**Are dental sealants safe for children?**
+### Are dental sealants safe for children?
 Yes, dental sealants are safe and highly effective. They protect the chewing surfaces of back teeth where most cavities form. Sealants are recommended for children as soon as permanent molars erupt.
 
-**What should I do if my child has a cavity?**
+### What should I do if my child has a cavity?
 Schedule a dental appointment as soon as possible. Early treatment prevents the cavity from growing and causing pain or infection.
 
-**Can cavities spread between teeth?**
+### Can cavities spread between teeth?
 Yes, bacteria from one decayed tooth can spread to adjacent teeth, especially if oral hygiene is poor. Treating cavities promptly prevents spread to neighbouring teeth.
 
-**Are silver fillings safe for children?**
+### Are silver fillings safe for children?
 At YourDentist, we use tooth-coloured composite fillings for children, which are safe, mercury-free, and aesthetically superior. Silver amalgam fillings are not recommended for children due to mercury concerns and visible appearance.
 
-**How can I make my child enjoy brushing?**
+### How can I make my child enjoy brushing?
 Use flavoured toothpaste, colourful brushes, brushing apps with timers, and brush together as a family. Make it a fun routine rather than a chore. Dr. Dash can recommend child-friendly oral care products during your visit.
 
 For paediatric cavity care in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

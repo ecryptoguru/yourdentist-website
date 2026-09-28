@@ -117,22 +117,22 @@ Skipping retainers is one of the biggest reasons orthodontic treatment fails. Th
 
 ## Frequently asked questions
 
-**Are braces or aligners better?**
+### Are braces or aligners better?
 It depends on your case. Braces work better for complex issues. Aligners work well for mild to moderate cases and offer more discretion.
 
-**Do braces hurt more than aligners?**
+### Do braces hurt more than aligners?
 Braces can irritate the cheeks, especially after adjustments. Aligners feel tight when you switch trays. Neither should cause severe pain.
 
-**How long do braces take in Bhubaneswar?**
+### How long do braces take in Bhubaneswar?
 Most braces cases take 12 to 24 months. Simple cases may finish sooner.
 
-**How much do clear aligners cost in Bhubaneswar?**
+### How much do clear aligners cost in Bhubaneswar?
 Clear aligners at YourDentist range from ₹60,000 to ₹1,50,000 depending on case complexity and the number of trays.
 
-**Can I eat normally with aligners?**
+### Can I eat normally with aligners?
 Yes, but you must remove them before eating. Brush your teeth before putting them back in.
 
-**Are retainers necessary after braces or aligners?**
+### Are retainers necessary after braces or aligners?
 Yes. Retainers keep your teeth in position after active treatment. Skipping them often leads to relapse.
 
 Not sure whether braces or aligners are right for you? Book an orthodontic consultation with Dr. Arpita Dash at YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to schedule your visit.

@@ -2,8 +2,8 @@
 title: "Teeth Whitening Cost in Bhubaneswar — Laser vs Chemical Guide"
 excerpt: "Teeth whitening in Bhubaneswar costs ₹5,000 to ₹12,000. Compare laser and chemical whitening prices, results, and options at YourDentist."
 category: "Cosmetic Dentistry"
-date: 2026-10-06
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -171,31 +171,31 @@ Following these tips can keep your smile bright for 2 to 3 years after whitening
 
 ## Frequently asked questions
 
-**How much does teeth whitening cost in Bhubaneswar?**
+### How much does teeth whitening cost in Bhubaneswar?
 Laser whitening costs ₹8,000 to ₹12,000. Chemical whitening costs ₹5,000 to ₹8,000 at YourDentist.
 
-**Is laser whitening better than chemical whitening?**
+### Is laser whitening better than chemical whitening?
 Laser whitening is faster and can achieve more shades of improvement in one session. Chemical whitening is gentler and more affordable.
 
-**How long does teeth whitening last?**
+### How long does teeth whitening last?
 Results last 1 to 3 years depending on your diet, oral hygiene, and whether you smoke.
 
-**Does teeth whitening damage teeth?**
+### Does teeth whitening damage teeth?
 No. Professional whitening by a dentist is safe and does not damage enamel when done correctly.
 
-**Can I whiten crowns or veneers?**
+### Can I whiten crowns or veneers?
 No. Crowns and veneers do not respond to whitening. If they are stained, they need to be replaced.
 
-**Does teeth whitening cause sensitivity?**
+### Does teeth whitening cause sensitivity?
 Some patients experience temporary sensitivity for 1 to 3 days after whitening. This is normal and resolves on its own. Dr. Dash can apply a desensitising agent if needed.
 
-**Can I eat normally after teeth whitening?**
+### Can I eat normally after teeth whitening?
 For the first 48 hours, avoid staining foods and drinks like coffee, tea, red wine, and coloured curries. Stick to a white diet (rice, milk, yogurt, chicken, bread) for best results.
 
-**How often can I whiten my teeth?**
+### How often can I whiten my teeth?
 Professional whitening can be done every 6 to 12 months. Over-whitening can damage enamel, so it is important to follow Dr. Dash's recommendations.
 
-**Are over-the-counter whitening kits safe?**
+### Are over-the-counter whitening kits safe?
 Over-the-counter kits are less effective and can damage gums if not used correctly. Professional whitening at a dental clinic uses controlled gel concentrations and gum protection for safe, predictable results.
 
 For teeth whitening in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

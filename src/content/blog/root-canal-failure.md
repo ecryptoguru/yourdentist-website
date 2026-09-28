@@ -3,7 +3,7 @@ title: "Root Canal Failure — Signs, Causes, and What to Do Next"
 excerpt: "Root canal failure is rare but possible. Learn the signs, causes, and treatment options including retreatment and apicoectomy at YourDentist Bhubaneswar."
 category: "Root Canal"
 date: 2026-06-08
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -115,11 +115,11 @@ Root canal retreatment has a success rate of 65% to 85%, depending on the cause 
 
 | Treatment | Cost range (INR) |
 | --- | --- |
-| Root canal retreatment | ₹6,000 - ₹12,000 |
-| Apicoectomy | ₹8,000 - ₹15,000 |
-| New crown | ₹4,000 - ₹18,000 |
-| Extraction | ₹500 - ₹3,000 |
-| Dental implant | ₹25,000 - ₹50,000 |
+| Root canal retreatment | ₹4,000 - ₹7,000 |
+| Apicoectomy | ₹8,000 - ₹10,000 |
+| New crown | ₹4,000 - ₹20,000 |
+| Extraction | ₹1500 - ₹3,000 |
+| Dental implant | ₹15,000 - ₹20,000 |
 
 The exact cost depends on the complexity and whether additional procedures are needed.
 
@@ -188,31 +188,31 @@ Early intervention improves the chances of saving the tooth.
 
 ## Frequently asked questions
 
-**What are the signs of root canal failure?**
+### What are the signs of root canal failure?
 Persistent pain, swelling, gum pimple, bad taste, and difficulty chewing can indicate root canal failure.
 
-**Why do root canals fail?**
+### Why do root canals fail?
 Failure can occur due to missed canals, incomplete cleaning, delayed crown placement, new decay, or complex tooth anatomy.
 
-**Can a failed root canal be fixed?**
+### Can a failed root canal be fixed?
 Yes, retreatment or apicoectomy can often save a tooth after a failed root canal.
 
-**How long after a root canal can it fail?**
+### How long after a root canal can it fail?
 Failure can occur months or years later, often due to new decay, a cracked tooth, or missed canals.
 
-**Is root canal retreatment painful?**
+### Is root canal retreatment painful?
 Retreatment is done under anesthesia and should not be painful. Mild soreness after is normal.
 
-**When is extraction the only option?**
+### When is extraction the only option?
 Extraction is recommended when the tooth is too damaged, has severe bone loss, or cannot be cleaned properly.
 
-**Can root canal failure happen years after treatment?**
+### Can root canal failure happen years after treatment?
 Yes, failure can occur years or even decades after a successful root canal. Common late causes include new decay, tooth cracks, gum disease, or gradual bacterial leakage. Regular dental checkups help detect these issues early.
 
-**Is apicoectomy painful?**
+### Is apicoectomy painful?
 Apicoectomy is done under local anaesthesia and is not painful during the procedure. Mild swelling and soreness for 2 to 3 days after surgery is normal. Most patients return to work the next day.
 
-**Can I prevent root canal failure after treatment?**
+### Can I prevent root canal failure after treatment?
 Yes. Get the permanent crown placed promptly, maintain excellent oral hygiene, avoid biting hard foods on the treated tooth, attend 6-month checkups, and address any new dental issues immediately. These steps significantly reduce failure risk.
 
 If you suspect your root canal has failed, contact YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) for an evaluation.

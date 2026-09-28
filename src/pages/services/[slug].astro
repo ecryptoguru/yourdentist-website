@@ -67,7 +67,7 @@ const serviceSchema = {
 
 ---
 
-<BaseLayout title={`${data.title} in Bhubaneswar | YourDentist Laser Dental Clinic`} description={`${data.shortDescription} Available at YourDentist Laser Dental Clinic in Bhubaneswar by Dr. Arpita Dash. Book your appointment today!`} type="article">
+<BaseLayout title={`${data.title} in Bhubaneswar | YourDentist Laser Dental Clinic`} description={`${data.shortDescription} Available at YourDentist Laser Dental Clinic in Bhubaneswar by Dr. Arpita Dash. Book your appointment today!`} type="article" includeGlobalFaq>
   <Fragment slot="head">
     <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
   </Fragment>

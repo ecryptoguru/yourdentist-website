@@ -3,7 +3,7 @@ title: "Composite Bonding for Teeth — Fix Chips and Gaps Without Veneers"
 excerpt: "Composite bonding repairs chipped, gapped, or discoloured teeth in a single visit. Learn the procedure, cost, and benefits at YourDentist Bhubaneswar."
 category: "Cosmetic Dentistry"
 date: 2026-09-28
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -71,10 +71,10 @@ The entire procedure takes 30 to 60 minutes per tooth.
 
 | Procedure | Cost per tooth (INR) |
 | --- | --- |
-| Single tooth bonding | ₹2,000 - ₹8,000 |
-| Diastema closure (gap closing) | ₹3,000 - ₹10,000 |
+| Single tooth bonding | ₹2,000 - ₹5,000 |
+| Diastema closure (gap closing) | ₹5,000 - ₹6,000 |
 | Multiple teeth bonding (4 to 6) | ₹10,000 - ₹40,000 |
-| Edge bonding (repairing chipped edges) | ₹2,000 - ₹6,000 |
+| Edge bonding (repairing chipped edges) | ₹2,000 - ₹4,000 |
 
 ## Advantages of composite bonding
 
@@ -147,9 +147,9 @@ Following this maintenance schedule ensures your bonding looks great and lasts a
 
 | Treatment | Cost per tooth (INR) | Lifespan | Tooth reduction | Visits |
 | --- | --- | --- | --- | --- |
-| Composite bonding | ₹2,000 - ₹8,000 | 3 to 7 years | None | 1 |
+| Composite bonding | ₹2,000 - ₹4,000 | 3 to 7 years | None | 1 |
 | Porcelain veneers | ₹10,000 - ₹20,000 | 10 to 15 years | Minimal | 2 to 3 |
-| Teeth whitening | ₹5,000 - ₹12,000 (full arch) | 1 to 2 years | None | 1 |
+| Teeth whitening | ₹8,000 - ₹12,000 (full arch) | 6 months to 1 year | None | 1 |
 | Dental crowns | ₹4,000 - ₹18,000 | 10 to 15 years | Significant | 2 |
 | Orthodontics (for gaps) | ₹25,000 - ₹1,50,000 | Permanent | None | Multiple |
 
@@ -184,40 +184,40 @@ Composite bonding is versatile and suitable for patients of all ages.
 
 ## Frequently asked questions
 
-**How much does composite bonding cost in Bhubaneswar?**
-Composite bonding costs ₹2,000 to ₹8,000 per tooth at YourDentist.
+### How much does composite bonding cost in Bhubaneswar?
+Composite bonding costs ₹2,000 to ₹5,000 per tooth at YourDentist.
 
-**How long does composite bonding take?**
+### How long does composite bonding take?
 Most bonding procedures are completed in a single visit, taking 30 to 60 minutes per tooth.
 
-**Does composite bonding hurt?**
+### Does composite bonding hurt?
 No. Bonding usually requires no anaesthesia and is painless. The tooth surface is only lightly roughened.
 
-**How long does composite bonding last?**
+### How long does composite bonding last?
 With proper care, bonding lasts 3 to 7 years. It may need occasional repolishing or repair.
 
-**Can composite bonding close gaps between teeth?**
+### Can composite bonding close gaps between teeth?
 Yes, bonding is an effective and affordable way to close small gaps between front teeth.
 
-**Can bonding be removed or reversed?**
+### Can bonding be removed or reversed?
 Yes, composite bonding can be removed and replaced if needed. Since it does not require significant tooth reduction, the process is largely reversible.
 
-**Does bonding stain like natural teeth?**
+### Does bonding stain like natural teeth?
 Composite resin can stain over time from coffee, tea, and tobacco. Regular polishing during dental visits helps maintain its appearance.
 
-**Can I eat normally after composite bonding?**
+### Can I eat normally after composite bonding?
 Yes, you can eat normally after bonding. However, avoid biting very hard objects with bonded teeth as the resin can chip.
 
-**Is bonding suitable for front teeth?**
+### Is bonding suitable for front teeth?
 Yes, bonding is commonly used on front teeth for chips, gaps, and shape improvement. The resin is colour-matched to blend naturally with your teeth.
 
-**Can bonding fix a single chipped tooth?**
+### Can bonding fix a single chipped tooth?
 Yes, chipped tooth repair is one of the most common uses of composite bonding. Dr. Dash can restore the tooth's original shape in a single 30 to 60 minute visit, with results that look completely natural.
 
-**Will bonding match my tooth colour exactly?**
+### Will bonding match my tooth colour exactly?
 Dr. Dash uses a shade guide to select a composite resin that matches your natural tooth colour. The resin is layered and sculpted to mimic the translucency and texture of your enamel, making the bonding virtually indistinguishable from your natural teeth.
 
-**Can I whiten my teeth after getting bonding?**
+### Can I whiten my teeth after getting bonding?
 Composite resin does not respond to whitening treatments. If you plan to whiten your teeth, do so before getting bonding. Dr. Dash will then match the bonding to your newly whitened tooth shade.
 
 For composite bonding in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

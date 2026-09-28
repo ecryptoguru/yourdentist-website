@@ -3,7 +3,7 @@ title: "Same-Day Dental Implants — Immediate Tooth Replacement Guide"
 excerpt: "Same-day dental implants place an implant and temporary tooth in one visit. Learn who qualifies, the procedure, cost, and risks at YourDentist Bhubaneswar."
 category: "Dental Implants"
 date: 2026-08-31
-lastUpdated: 2026-07-17
+lastUpdated: 2026-08-31
 readTime: "8 min read"
 ---
 
@@ -154,31 +154,31 @@ Dr. Dash evaluates all these factors before recommending same-day implants.
 
 ## Frequently asked questions
 
-**Can I get a dental implant the same day as extraction?**
+### Can I get a dental implant the same day as extraction?
 Yes, in suitable cases. Dr. Dash will assess your bone and gum condition to determine if same-day implant is possible.
 
-**How much does a same-day implant cost in Bhubaneswar?**
+### How much does a same-day implant cost in Bhubaneswar?
 A same-day implant costs ₹30,000 to ₹55,000 at YourDentist, including the temporary crown.
 
-**Is same-day implant safe?**
+### Is same-day implant safe?
 Yes, when done by an experienced dentist on a suitable candidate. The success rate is slightly lower than traditional implants but still high.
 
-**Can I eat with the temporary crown?**
+### Can I eat with the temporary crown?
 The temporary crown is for appearance only. Avoid chewing on it for 6 to 8 weeks.
 
-**How long until I get my permanent crown?**
+### How long until I get my permanent crown?
 The permanent crown is placed after 3 to 6 months of healing.
 
-**Can smokers get same-day implants?**
+### Can smokers get same-day implants?
 Smoking significantly increases the risk of implant failure. Dr. Dash recommends quitting smoking at least 2 weeks before and during the entire healing period for same-day implants.
 
-**What happens if the implant fails?**
+### What happens if the implant fails?
 If an implant fails to fuse with the bone, it is removed and the area is allowed to heal. A new implant can be placed after 3 to 6 months. Dr. Dash monitors healing closely to detect any issues early.
 
-**Are same-day implants more expensive than traditional implants?**
+### Are same-day implants more expensive than traditional implants?
 Same-day implants cost slightly more due to the immediate temporary crown and more complex planning, but the difference is usually modest.
 
-**Can I get same-day implants for multiple teeth?**
+### Can I get same-day implants for multiple teeth?
 Yes, in some cases multiple teeth can be replaced with same-day implants. Dr. Dash will assess whether you are a suitable candidate based on bone quality and overall oral health.
 
 For a same-day implant consultation in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

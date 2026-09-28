@@ -3,7 +3,7 @@ title: "How Long Does a Root Canal Take? Step-by-Step Timeline"
 excerpt: "How long does a root canal take? Most root canals at YourDentist Bhubaneswar are completed in 45 to 90 minutes in a single sitting. Learn the full timeline."
 category: "Root Canal"
 date: 2026-05-15
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -79,10 +79,10 @@ After root canal treatment, the tooth needs a crown to protect it. The timeline 
 
 | Step | Time |
 | --- | --- |
-| Root canal treatment | Same day |
-| Impression for crown | 1 to 7 days after root canal |
-| Crown fabrication | 3 to 7 days |
-| Crown placement | 1 to 2 weeks after root canal |
+| Root canal treatment | Same day or 2 sittings |
+| Impression/Scanning for crown | 1 to 7 days after root canal |
+| Crown fabrication | 2 to 4 days |
+| Crown placement | 5 - 10 days root canal |
 
 Some crowns can be made same-day with CAD-CAM technology.
 
@@ -161,34 +161,34 @@ Understanding each component helps you plan your day around the appointment with
 
 ## Frequently asked questions
 
-**How long does a root canal take at YourDentist?**
+### How long does a root canal take at YourDentist?
 Most root canals take 45 to 90 minutes depending on the tooth and complexity.
 
-**Can a root canal be done in one sitting?**
+### Can a root canal be done in one sitting?
 Yes, most cases at YourDentist are completed in a single sitting.
 
-**How long does molar root canal take?**
+### How long does molar root canal take?
 Molar root canals usually take 75 to 90 minutes because they have 3 to 4 canals.
 
-**When can I eat after a root canal?**
+### When can I eat after a root canal?
 Wait until the anesthesia wears off, then start with soft foods for the first day.
 
-**How long before I get my crown after a root canal?**
-The crown is usually placed 1 to 2 weeks after the root canal.
+### How long before I get my crown after a root canal?
+The crown is usually placed 5 to 10 days after the root canal.
 
-**Can I go to work after a root canal?**
+### Can I go to work after a root canal?
 Yes, most patients return to work the same day or the next day.
 
-**Why does my root canal take longer than my friend's?**
+### Why does my root canal take longer than my friend's?
 Root canal time varies by tooth type, number of canals, canal shape, and infection severity. A molar with 4 curved canals takes longer than a front tooth with 1 straight canal. Dr. Dash will give you an estimated time before starting.
 
-**Can I bring headphones or listen to music during the procedure?**
+### Can I bring headphones or listen to music during the procedure?
 Yes, many patients find listening to music or a podcast helps them relax during the procedure. We welcome you to bring headphones. The dental chair time passes more comfortably this way.
 
-**Will I need multiple visits for a severe infection?**
+### Will I need multiple visits for a severe infection?
 If the infection is severe with swelling or pus, Dr. Dash may place medication in the canal and ask you to return in 1 to 2 weeks to complete the treatment. This ensures the infection is fully controlled before sealing the canal.
 
-**How long do I need to wait for the crown after the root canal?**
-The crown is typically placed 1 to 2 weeks after the root canal. This allows the tooth to settle and ensures no lingering symptoms. The crown appointment takes 30 to 45 minutes.
+### How long do I need to wait for the crown after the root canal?
+The crown is typically placed 5 to 10 days after the root canal. This allows the tooth to settle and ensures no lingering symptoms. The crown appointment takes 30 to 45 minutes.
 
 If you are worried about how long your root canal will take, book a consultation at YourDentist Laser Dental Clinic in Bhubaneswar. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

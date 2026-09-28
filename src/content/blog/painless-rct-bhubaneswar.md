@@ -105,22 +105,22 @@ A crown is usually recommended after RCT and is priced separately. We provide a 
 
 ## Frequently asked questions
 
-**Is root canal treatment painful at YourDentist Bhubaneswar?**
+### Is root canal treatment painful at YourDentist Bhubaneswar?
 No. With modern anesthesia and laser-assisted techniques, the procedure is virtually painless. Most patients compare it to getting a filling.
 
-**How long does a root canal take at YourDentist?**
+### How long does a root canal take at YourDentist?
 Most root canals at our Bomikhal clinic are completed in 45 to 90 minutes, often in a single sitting.
 
-**Do I need multiple visits for root canal treatment?**
+### Do I need multiple visits for root canal treatment?
 Most cases do not. Only severe infections with swelling may need a second visit after a few days of medication.
 
-**Can I eat after a root canal?**
+### Can I eat after a root canal?
 Yes, but wait until the anesthesia wears off to avoid biting your cheek or tongue. Eat soft foods for the first day.
 
-**How much does a painless root canal cost in Bhubaneswar?**
+### How much does a painless root canal cost in Bhubaneswar?
 Costs range from ₹3,000 for a front tooth to ₹10,000 for laser-assisted single-sitting RCT. We give a confirmed estimate after examination.
 
-**Will I need a crown after root canal treatment?**
+### Will I need a crown after root canal treatment?
 Yes, in most cases. A crown protects the weakened tooth and restores full function. We will discuss crown options and costs during your visit.
 
 If you are experiencing tooth pain or have been told you need a root canal, do not wait. Call YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [send a WhatsApp message](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book a painless consultation.

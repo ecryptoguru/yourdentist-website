@@ -141,34 +141,34 @@ We do not push unnecessary treatments. If the tooth can be saved, we explain why
 
 ## Frequently asked questions
 
-**Is it better to get a root canal or extraction?**
+### Is it better to get a root canal or extraction?
 Saving the tooth with a root canal is usually better for your long-term oral health and function.
 
-**Is extraction cheaper than root canal?**
+### Is extraction cheaper than root canal?
 Extraction has a lower initial cost, but replacing the tooth later usually makes it more expensive in the long run.
 
-**Can I extract instead of root canal?**
+### Can I extract instead of root canal?
 Yes, but it is usually not recommended unless the tooth cannot be saved.
 
-**What happens if I don't replace an extracted tooth?**
+### What happens if I don't replace an extracted tooth?
 Neighbouring teeth can shift, the jawbone can shrink, and your bite can change.
 
-**How long does a root canal last?**
+### How long does a root canal last?
 With proper care and a crown, a root canal-treated tooth can last a lifetime.
 
-**Is root canal recovery painful?**
+### Is root canal recovery painful?
 Most patients experience mild soreness for 1 to 2 days, which is manageable with pain medication.
 
-**Can a root canal fail and need extraction later?**
+### Can a root canal fail and need extraction later?
 Yes, in about 5 to 10% of cases, a root canal may fail due to missed canals, reinfection, or a cracked root. If this happens, Dr. Dash can often retreat the tooth or recommend an apicoectomy. Extraction is the last resort.
 
-**How soon can I eat after a root canal or extraction?**
+### How soon can I eat after a root canal or extraction?
 After a root canal, wait until the anesthesia wears off (2 to 3 hours) and eat soft foods. After extraction, wait 2 to 3 hours, avoid hot foods, and do not chew on the extraction side for at least a week.
 
-**Does insurance cover root canal or extraction?**
+### Does insurance cover root canal or extraction?
 Most dental insurance plans in India cover both root canal treatment and extraction. However, coverage varies widely. We provide detailed invoices with procedure codes for insurance submission.
 
-**Can I get an implant immediately after extraction?**
+### Can I get an implant immediately after extraction?
 In some cases, yes. Immediate implant placement is possible when there is no infection and the bone is healthy. Dr. Dash will assess your suitability during the consultation.
 
 If you are deciding between root canal and extraction, get a professional opinion first. Call YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book a consultation.

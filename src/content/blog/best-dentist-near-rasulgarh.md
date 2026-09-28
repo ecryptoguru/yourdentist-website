@@ -3,7 +3,7 @@ title: "Best Dentist Near Rasulgarh, Bhubaneswar — 10 Minutes from Your Home"
 excerpt: "Looking for the best dentist near Rasulgarh, Bhubaneswar? YourDentist Laser Dental Clinic in Bomikhal is just 10 minutes away with flexible evening appointments."
 category: "Local Guide"
 date: 2026-03-25
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -71,13 +71,13 @@ One patient from the Rasulgarh industrial area needed a single-sitting root cana
 
 | Procedure | Cost range (INR) |
 | --- | --- |
-| Consultation | ₹300 - ₹800 |
-| Scaling | ₹800 - ₹2,000 |
+| Consultation | ₹200 - ₹1,000 |
+| Scaling | ₹1,000 - ₹2,000 |
 | Filling | ₹1,000 - ₹5,000 |
-| Root canal | ₹3,000 - ₹10,000 |
-| Crown | ₹4,000 - ₹18,000 |
-| Braces | ₹25,000 - ₹1,50,000 |
-| Implant | ₹25,000 - ₹50,000 |
+| Root canal | ₹4,000 - ₹10,000 |
+| Crown | ₹4,000 - ₹20,000 |
+| Braces/Aligners | ₹25,000 - ₹1,50,000 |
+| Implant | ₹10,000 - ₹20,000 |
 
 We provide written estimates before treatment and accept cash, UPI, cards, and instalment plans for larger procedures.
 
@@ -130,34 +130,31 @@ To book your appointment from Rasulgarh, call +91 7064719630 or send a WhatsApp 
 
 ## Frequently asked questions
 
-**How far is YourDentist from Rasulgarh?**
+### How far is YourDentist from Rasulgarh?
 YourDentist in Bomikhal is about 10 minutes from Rasulgarh by auto-rickshaw or cab.
 
-**Are evening appointments available?**
+### Are evening appointments available?
 Yes, we are open every evening from 5:00 PM to 8:30 PM, Tuesday to Sunday.
 
-**What is the best transport option from Rasulgarh?**
+### What is the best transport option from Rasulgarh?
 Auto-rickshaw is the most common and affordable option. Cabs and own vehicles are also convenient.
 
-**Do you offer emergency dental care for Rasulgarh patients?**
-Yes, we handle dental emergencies during clinic hours. Call +91 7064719630 before visiting.
+### Is YourDentist open on Sunday?
+Yes, we are open Sunday morning.
 
-**Is YourDentist open on Sunday?**
-Yes, we are open Sunday morning and evening.
-
-**Can I get braces if I live in Rasulgarh?**
+### Can I get braces if I live in Rasulgarh?
 Yes. Braces and clear aligners are available at our clinic. Regular monthly visits fit well with the short travel time.
 
-**Do you treat children from Rasulgarh?**
+### Do you treat children from Rasulgarh?
 Yes, Dr. Dash provides paediatric dental care in a child-friendly environment. We recommend starting dental visits by age 2.
 
-**Can I get a same-day root canal from Rasulgarh?**
+### Can I get a same-day root canal from Rasulgarh?
 Yes, single-sitting root canal treatment is available. Many Rasulgarh patients come in the evening and return home the same day pain-free.
 
-**Is parking available at YourDentist?**
+### Is parking available at YourDentist?
 Yes, parking is available near the clinic for patients coming by their own vehicle from Rasulgarh.
 
-**Do you accept walk-in patients from Rasulgarh?**
+### Do you accept walk-in patients from Rasulgarh?
 We recommend booking an appointment to avoid waiting. However, emergency walk-ins are accepted during clinic hours. Call ahead to check availability.
 
 If you are looking for the best dentist near Rasulgarh, YourDentist Laser Dental Clinic in Bomikhal is just 10 minutes away. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

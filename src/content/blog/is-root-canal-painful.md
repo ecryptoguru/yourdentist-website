@@ -3,7 +3,7 @@ title: "Is Root Canal Treatment Painful? Everything You Need to Know"
 excerpt: "Worried about root canal pain? Modern root canal treatment is virtually painless. Learn why RCT relieves pain, not causes it, at YourDentist Bhubaneswar."
 category: "Root Canal"
 date: 2026-05-07
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "8 min read"
 ---
 
@@ -90,8 +90,8 @@ The only alternative to a root canal is tooth extraction. However, extracting a 
 
 | Tooth type | Cost range (INR) |
 | --- | --- |
-| Front tooth | ₹3,000 - ₹5,000 |
-| Premolar | ₹4,000 - ₹6,500 |
+| Front tooth | ₹4,000 - ₹5,000 |
+| Premolar | ₹4,000 - ₹5,000 |
 | Molar | ₹5,000 - ₹8,000 |
 | Laser-assisted single-sitting RCT | ₹6,000 - ₹10,000 |
 
@@ -136,34 +136,34 @@ Most patients are surprised at how comfortable the entire process is, especially
 
 ## Frequently asked questions
 
-**Is root canal treatment painful?**
+### Is root canal treatment painful?
 No. Modern root canal treatment is done under anesthesia and should not cause pain during the procedure.
 
-**Why do root canals have a painful reputation?**
+### Why do root canals have a painful reputation?
 The reputation comes from older methods. Modern techniques, anesthesia, and equipment have made root canals much more comfortable.
 
-**Will I feel pain after a root canal?**
+### Will I feel pain after a root canal?
 Mild soreness for one to two days is normal. It is usually manageable with normal pain medication.
 
-**Can a root canal be done without anesthesia?**
+### Can a root canal be done without anesthesia?
 No. Local anesthesia is used to keep you comfortable during the procedure.
 
-**How long does the pain last after a root canal?**
+### How long does the pain last after a root canal?
 Most soreness disappears within 48 hours. If pain persists beyond a week, contact your dentist.
 
-**What should I do if my root canal hurts?**
+### What should I do if my root canal hurts?
 Take prescribed pain medication, rest, eat soft foods, and contact the clinic if the pain is severe or does not improve.
 
-**Can I drive home after a root canal?**
+### Can I drive home after a root canal?
 Yes, root canal treatment uses local anesthesia, not sedation. You can drive yourself home after the appointment.
 
-**How soon can I eat after a root canal?**
+### How soon can I eat after a root canal?
 Wait until the anesthesia wears off (about 2 to 3 hours) to avoid biting your cheek or tongue. Eat soft foods on the first day and avoid chewing on the treated side until the crown is placed.
 
-**Will I need antibiotics after a root canal?**
+### Will I need antibiotics after a root canal?
 Antibiotics are not always needed. Dr. Dash may prescribe them if there was a severe infection or swelling before the procedure. Always complete the full course if prescribed.
 
-**Can children get root canals?**
+### Can children get root canals?
 Yes, children may need root canals on baby teeth if the pulp is infected. Dr. Dash performs paediatric root canals (pulpotomy) to save baby teeth until permanent teeth erupt.
 
 Do not let fear of pain stop you from getting a root canal. The procedure relieves pain, not causes it. Call YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book a consultation.

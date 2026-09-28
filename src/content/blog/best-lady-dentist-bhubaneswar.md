@@ -3,7 +3,7 @@ title: "Best Lady Dentist in Bhubaneswar — Dr. Arpita Dash Profile"
 excerpt: "Dr. Arpita Dash is one of the best lady dentists in Bhubaneswar. Learn about her qualifications, experience, specialities, and patient-focused approach at YourDentist."
 category: "Local Guide"
 date: 2026-04-17
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -15,7 +15,7 @@ This profile explains her background, specialities, and approach to dental care 
 
 ## About Dr. Arpita Dash
 
-Dr. Arpita Dash is a Dental Surgeon and Smile Specialist at YourDentist Laser Dental Clinic in Bomikhal, Bhubaneswar. She has over 10 years of clinical experience and has completed more than 10,000 dental procedures. Her work covers root canal treatment, dental implants, orthodontic treatment with braces and aligners, crowns and bridges, aesthetic dentistry, and smile designing.
+Dr. Arpita Dash is a Dental Surgeon and Smile Specialist at YourDentist Laser Dental Clinic in Bomikhal, Bhubaneswar. She has over 10 years of clinical experience and has completed more than 10,000 dental procedures. Her work covers root canal treatment, crowns and bridges, dental implants, orthodontic treatment with braces, aesthetic dentistry and smile designing.
 
 She is known for her patient-first approach, taking time to explain diagnoses and treatment options before starting any procedure.
 
@@ -28,6 +28,7 @@ Some patients specifically look for a female dentist for reasons including:
 - **Better communication:** Some patients feel they can discuss concerns more openly with a female dentist.
 - **Family preference:** Mothers often prefer a lady dentist for their daughters and for themselves.
 - **Cultural comfort:** In some families, women prefer female healthcare providers.
+*
 
 Dr. Arpita Dash has built a practice that welcomes these patients and makes them feel comfortable.
 
@@ -55,16 +56,6 @@ At YourDentist, Dr. Dash follows a simple principle: listen first, treat second.
 
 This approach has earned her strong patient loyalty and positive reviews.
 
-## Patient reviews and ratings
-
-YourDentist Laser Dental Clinic has a 4.9-star rating based on more than 150 reviews. Common comments about Dr. Arpita Dash include:
-
-- "Very gentle and patient with my child."
-- "Explained the root canal process clearly. I was not scared."
-- "Best lady dentist in Bhubaneswar for braces."
-- "She did not rush the consultation."
-- "My implants feel completely natural."
-
 ## Conditions treated by Dr. Arpita Dash
 
 Dr. Arpita Dash treats a wide range of dental problems, including:
@@ -87,20 +78,20 @@ Dr. Arpita Dash treats a wide range of dental problems, including:
 - Specialist in root canals, implants, braces, and aesthetic dentistry
 - Patient-focused communication
 - Advanced technology at her clinic
-- Strong patient reviews and referrals
+- Strong patient referrals
 - Continuous learning and updated techniques
 
 ## Cost of consultations and treatments
 
 | Service | Cost range (INR) |
 | --- | --- |
-| Consultation | ₹300 - ₹800 |
-| Scaling | ₹800 - ₹2,000 |
+| Consultation | ₹200 - ₹1,000 |
+| Scaling | ₹1,000 - ₹3,000 |
 | Filling | ₹1,000 - ₹5,000 |
-| Root canal | ₹3,000 - ₹10,000 |
+| Root canal | ₹4,000 - ₹10,000 |
 | Crown | ₹4,000 - ₹18,000 |
 | Braces | ₹25,000 - ₹1,50,000 |
-| Implant | ₹25,000 - ₹50,000 |
+| Implant | ₹15,000 - ₹20,000 |
 
 ## Clinic location and timings
 
@@ -143,34 +134,31 @@ Patients from across Bhubaneswar and nearby Cuttack visit YourDentist for qualit
 
 ## Frequently asked questions
 
-**Is Dr. Arpita Dash a female dentist in Bhubaneswar?**
+### Is Dr. Arpita Dash a female dentist in Bhubaneswar?
 Yes, Dr. Arpita Dash is a female dental surgeon practising at YourDentist Laser Dental Clinic in Bomikhal, Bhubaneswar.
 
-**What are Dr. Arpita Dash's specialities?**
-She specialises in root canal treatment, dental implants, braces and aligners, crowns and bridges, aesthetic dentistry, and smile designing.
+### What are Dr. Arpita Dash's specialities?
+She specialises in root canal treatment, Cosmetic Dentistry, Laser Dentistry, Braces and Aligners, Crowns and Bridges, Smile designing.
 
-**How experienced is Dr. Arpita Dash?**
+### How experienced is Dr. Arpita Dash?
 Dr. Dash has over 10 years of experience and has completed more than 10,000 dental procedures.
 
-**Does Dr. Arpita Dash treat children?**
+### Does Dr. Arpita Dash treat children?
 Yes, she provides paediatric dental care in a child-friendly environment.
 
-**Can I get braces from Dr. Arpita Dash?**
+### Can I get braces from Dr. Arpita Dash?
 Yes. She offers metal braces, ceramic braces, and clear aligners.
 
-**Where is YourDentist clinic located?**
+### Where is YourDentist clinic located?
 The clinic is at Plot 190/2972, E Canal Road, Bomikhal, Bhubaneswar, near Saheed Nagar and Rasulgarh.
 
-**Does Dr. Arpita Dash offer laser dentistry?**
+### Does Dr. Arpita Dash offer laser dentistry?
 Yes, Dr. Dash is trained in laser dentistry and offers laser gum treatment, laser-assisted root canal disinfection, and laser frenectomy.
 
-**Can I book an evening appointment?**
+### Can I book an evening appointment?
 Yes, YourDentist offers evening appointments from 5:00 PM to 8:30 PM, Tuesday to Sunday, for working professionals and students.
 
-**Does Dr. Dash treat dental emergencies?**
-Yes, same-day emergency appointments are available. Call +91 7064719630 for urgent care.
-
-**What payment methods are accepted?**
+### What payment methods are accepted?
 YourDentist accepts UPI, debit/credit cards, cash, and instalment plans for larger treatments like braces and implants.
 
 If you are looking for the best lady dentist in Bhubaneswar, book a consultation with Dr. Arpita Dash at YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

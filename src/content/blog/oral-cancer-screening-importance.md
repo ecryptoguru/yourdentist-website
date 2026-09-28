@@ -2,8 +2,8 @@
 title: "Oral Cancer Screening — Why Early Detection Saves Lives"
 excerpt: "Oral cancer can be life-threatening if not caught early. Learn the risk factors, signs, and screening process at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2027-03-03
-lastUpdated: 2026-07-17
+date: 2026-09-28
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -158,40 +158,40 @@ Dr. Dash counsels patients on the risks of these habits and provides resources f
 
 ## Frequently asked questions
 
-**What is oral cancer screening?**
+### What is oral cancer screening?
 It is a quick examination of the mouth and neck to look for signs of cancer or precancerous conditions.
 
-**How long does oral cancer screening take?**
+### How long does oral cancer screening take?
 The visual and physical exam takes 5 to 10 minutes during a routine checkup.
 
-**Who is at risk for oral cancer?**
+### Who is at risk for oral cancer?
 Tobacco users, heavy alcohol drinkers, people with HPV infection, and those over 40 are at higher risk.
 
-**What are the signs of oral cancer?**
+### What are the signs of oral cancer?
 Non-healing sores, red or white patches, lumps, difficulty swallowing, and persistent sore throat.
 
-**How often should I get screened?**
+### How often should I get screened?
 Adults should be screened at least once a year, ideally during routine dental checkups.
 
-**Is oral cancer screening painful?**
+### Is oral cancer screening painful?
 No, the screening is completely painless. It involves only a visual and physical examination. A biopsy may cause mild discomfort but is done under local anaesthesia.
 
-**Can oral cancer be cured?**
+### Can oral cancer be cured?
 Yes, when detected early, oral cancer is highly treatable. Early-stage cancer has a survival rate of over 80%.
 
-**Does paan cause oral cancer?**
+### Does paan cause oral cancer?
 Paan with tobacco and supari is a major risk factor for oral cancer in India. Long-term use significantly increases the risk.
 
-**Is oral cancer screening covered in a regular dental checkup?**
+### Is oral cancer screening covered in a regular dental checkup?
 Yes, at YourDentist, oral cancer screening is included in every routine dental checkup at no additional cost.
 
-**Can non-smokers get oral cancer?**
+### Can non-smokers get oral cancer?
 Yes, while tobacco is the biggest risk factor, non-smokers can develop oral cancer due to HPV infection, alcohol use, genetics, or poor diet. This is why screening is important for all adults, not just tobacco users.
 
-**What is leukoplakia and is it cancer?**
+### What is leukoplakia and is it cancer?
 Leukoplakia is a white patch in the mouth that cannot be scraped off. It is a precancerous condition, meaning it can develop into cancer if left untreated. Dr. Dash monitors leukoplakia closely and may recommend biopsy or removal.
 
-**How can I quit tobacco to reduce oral cancer risk?**
+### How can I quit tobacco to reduce oral cancer risk?
 Dr. Dash provides tobacco cessation counselling and can refer you to support programmes. Quitting tobacco immediately reduces your cancer risk, and your body begins healing within days. Nicotine replacement therapy and behavioural support can help you quit successfully.
 
 For oral cancer screening in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.).

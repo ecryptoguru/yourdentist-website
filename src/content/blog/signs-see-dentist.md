@@ -3,7 +3,7 @@ title: "Signs You Need a Root Canal — 7 Symptoms Not to Ignore"
 excerpt: "Severe tooth pain, sensitivity, and gum swelling may mean you need a root canal. Learn 7 warning signs and when to visit YourDentist Bhubaneswar."
 category: "Root Canal"
 date: 2026-02-25
-lastUpdated: 2026-07-17
+lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
@@ -83,8 +83,8 @@ Yes, in most cases. Root canal treatment removes the infected pulp and seals the
 
 | Tooth type | Cost range (INR) |
 | --- | --- |
-| Front tooth | ₹3,000 - ₹5,000 |
-| Premolar | ₹4,000 - ₹6,500 |
+| Front tooth | ₹4,000 - ₹5,000 |
+| Premolar | ₹4,000 - ₹6,000 |
 | Molar | ₹5,000 - ₹8,000 |
 | Laser-assisted single-sitting RCT | ₹6,000 - ₹10,000 |
 
@@ -120,22 +120,22 @@ A root canal done early is usually simpler, more comfortable, and more successfu
 
 ## Frequently asked questions
 
-**Can a tooth infection heal on its own?**
+### Can a tooth infection heal on its own?
 No. The infection is inside the tooth where your immune system cannot reach it. It needs root canal treatment or extraction.
 
-**How do I know if my toothache is serious?**
+### How do I know if my toothache is serious?
 If the pain is severe, lasts more than a day or two, or is accompanied by swelling or fever, see a dentist immediately.
 
-**Is a root canal the only option for an infected tooth?**
+### Is a root canal the only option for an infected tooth?
 Root canal treatment or extraction are the two options. Saving the tooth with a root canal is usually preferred.
 
-**How urgent is a root canal?**
+### How urgent is a root canal?
 Urgent. Delaying treatment can lead to abscess, bone infection, and spread of bacteria.
 
-**Can I take antibiotics instead of a root canal?**
+### Can I take antibiotics instead of a root canal?
 Antibiotics may reduce symptoms temporarily, but they do not remove the infected pulp. The infection will return.
 
-**What happens if I ignore the symptoms?**
+### What happens if I ignore the symptoms?
 The infection can spread, cause severe pain, damage bone, and may require extraction or hospital treatment in extreme cases.
 
 If you have any of these warning signs, do not wait. Call YourDentist Laser Dental Clinic in Bhubaneswar at +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) for an urgent consultation.

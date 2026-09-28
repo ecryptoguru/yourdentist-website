@@ -149,34 +149,34 @@ YourDentist proves that affordable dental care does not require compromising on 
 
 ## Frequently asked questions
 
-**Is dental treatment cheaper in Bhubaneswar than in Delhi?**
+### Is dental treatment cheaper in Bhubaneswar than in Delhi?
 Yes, dental treatment in Bhubaneswar is generally 30% to 60% cheaper than in Delhi for the same quality.
 
-**Is the quality of dental care in Bhubaneswar as good as metro cities?**
+### Is the quality of dental care in Bhubaneswar as good as metro cities?
 Yes, many Bhubaneswar clinics use the same technology and materials as metro clinics, and dentists are equally qualified.
 
-**Which city is best for dental implants in India?**
+### Which city is best for dental implants in India?
 Bhubaneswar offers excellent value for dental implants, with costs significantly lower than Mumbai, Delhi, and Bangalore.
 
-**Why is dental treatment cheaper in Bhubaneswar?**
+### Why is dental treatment cheaper in Bhubaneswar?
 Lower rent, lower staff costs, and lower cost of living contribute to more affordable dental care.
 
-**Should I travel to Bhubaneswar for dental treatment?**
+### Should I travel to Bhubaneswar for dental treatment?
 For complex or expensive procedures, travelling to Bhubaneswar can save money. For routine care, a local clinic is usually more convenient.
 
-**How can I get a cost estimate for treatment in Bhubaneswar?**
+### How can I get a cost estimate for treatment in Bhubaneswar?
 Call +91 7064719630 or [message us on WhatsApp](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.). We can discuss your case and provide a detailed estimate.
 
-**Can I get a refund if I cancel treatment?**
+### Can I get a refund if I cancel treatment?
 Treatment that has not been started is fully refundable. For treatment in progress, the completed portion is charged. Dr. Dash will explain the refund policy before starting any procedure.
 
-**Do you provide invoices for insurance claims?**
+### Do you provide invoices for insurance claims?
 Yes, we provide detailed invoices with procedure codes that can be submitted to your health insurance provider. Please note that most dental treatments are not covered by standard health insurance in India.
 
-**Can outstation patients get a consultation before travelling?**
+### Can outstation patients get a consultation before travelling?
 Yes, you can share your X-rays and photos via WhatsApp for a preliminary opinion. Dr. Dash will advise whether an in-person visit is needed and provide an estimated treatment plan and cost.
 
-**Is there accommodation near YourDentist for outstation patients?**
+### Is there accommodation near YourDentist for outstation patients?
 Yes, there are several hotels and guesthouses near Bomikhal and Saheed Nagar, ranging from budget to mid-range options. We can recommend nearby accommodation for outstation patients.
 
 If you want high-quality dental care at affordable prices in Bhubaneswar, visit YourDentist Laser Dental Clinic. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) today.

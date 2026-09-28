@@ -20,7 +20,7 @@ Next.js provides an MCP endpoint for AI-assisted debugging:
 NEXT_MCP=1 npm run dev
 ```
 
-This exposes an MCP endpoint that AI tools (like Claude Code) can connect to for:
+This exposes an MCP endpoint that AI tools (like Devin) can connect to for:
 - Inspecting build output
 - Checking route information
 - Analyzing bundle composition

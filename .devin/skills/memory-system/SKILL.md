@@ -1,9 +1,11 @@
 ---
 name: memory-system
-description: Persistent cross-session memory management. Enables agents to remember user preferences, project conventions, and past decisions across different sessions using a structured MEMORY.md index and topic files.
-when_to_use: "When the user says 'remember this', 'save this for later', 'don't forget', or when starting a new session and needing to recall past context. Also when /remember workflow is invoked."
-allowed-tools: Read, Write, Grep, Glob
-effort: low
+description: "Persistent cross-session memory management. Enables agents to remember user preferences, project conventions, and past decisions across different sessions using a structured MEMORY.md index and topic files. When the user says 'remember this', 'save this for later', 'don't forget', or when starting a new session and needing to recall past context. Also when /remember workflow is invoked."
+allowed-tools:
+  - read
+  - write
+  - grep
+  - glob
 ---
 
 # Memory System — Persistent Cross-Session Memory

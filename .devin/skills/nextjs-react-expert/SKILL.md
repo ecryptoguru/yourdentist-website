@@ -1,9 +1,13 @@
 ---
 name: nextjs-react-expert
-description: React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations.
-when_to_use: "When building React components, optimizing Next.js performance, eliminating waterfalls, or reducing bundle size. For React/Next.js web projects."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: high
+description: "React and Next.js performance optimization from Vercel Engineering. Use when building React components, optimizing performance, eliminating waterfalls, reducing bundle size, reviewing code for performance issues, or implementing server/client-side optimizations. When building React components, optimizing Next.js performance, eliminating waterfalls, or reducing bundle size. For React/Next.js web projects."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Next.js & React Performance Expert
@@ -85,37 +89,7 @@ effort: high
 
 ---
 
-## 📊 Impact Priority Guide
-
-**Use this order when doing comprehensive optimization:**
-
-```
-1️⃣ CRITICAL (Biggest Gains - Do First):
-   ├─ Section 1: Eliminating Waterfalls
-   │  └─ Each waterfall adds full network latency (100-500ms+)
-   └─ Section 2: Bundle Size Optimization
-      └─ Affects Time to Interactive and Largest Contentful Paint
-
-2️⃣ HIGH (Significant Impact - Do Second):
-   └─ Section 3: Server-Side Performance
-      └─ Eliminates server-side waterfalls, faster response times
-
-3️⃣ MEDIUM (Moderate Gains - Do Third):
-   ├─ Section 4: Client-Side Data Fetching
-   ├─ Section 5: Re-render Optimization
-   └─ Section 6: Rendering Performance
-
-4️⃣ LOW (Polish - Do Last):
-   ├─ Section 7: JavaScript Performance
-   └─ Section 8: Advanced Patterns
-
-🔥 **MODERN (Next.js 16+):**
-   └─ Section 9: Cache Components (Replaces most traditional revalidation)
-```
-
----
-
-## 🔗 Related Skills
+##  Related Skills
 
 | Need                    | Skill                             |
 | ----------------------- | --------------------------------- |
@@ -186,94 +160,11 @@ Before shipping to production:
 
 ---
 
-## 🎯 How to Use This Skill
-
-### For New Features:
-
-1. Check **Section 1 & 2** while building (prevent waterfalls, keep bundle small)
-2. Use server components by default (Section 3)
-3. Apply memoization for expensive operations (Section 5)
-
-### For Performance Reviews:
-
-1. Start with **Section 1** (waterfalls = biggest impact)
-2. Then **Section 2** (bundle size)
-3. Then **Section 3** (server-side)
-4. Finally other sections as needed
-
-### For Debugging Slow Performance:
-
-1. Identify the symptom (slow load, lag, etc.)
-2. Use Quick Decision Tree above
-3. Read relevant section
-4. Apply fixes in priority order
-
----
-
-## 📚 Learning Path
-
-**Beginner (Focus on Critical):**
-→ Section 1: Eliminating Waterfalls
-→ Section 2: Bundle Size Optimization
-
-**Intermediate (Add High Priority):**
-→ Section 3: Server-Side Performance
-→ Section 5: Re-render Optimization
-
-**Advanced (Full Optimization):**
-→ All sections + Section 8: Advanced Patterns
-
----
-
 ## 🔍 Validation Script
 
 | Script                                 | Purpose                     | Command                                                      |
 | -------------------------------------- | --------------------------- | ------------------------------------------------------------ |
 | `scripts/react_performance_checker.py` | Automated performance audit | `python scripts/react_performance_checker.py <project_path>` |
-
----
-
-## 📖 Section Details
-
-### Section 1: Eliminating Waterfalls (CRITICAL)
-
-**Impact:** Each waterfall adds 100-500ms+ latency
-**Key Concepts:** Parallel fetching, Promise.all(), Suspense boundaries, preloading
-
-### Section 2: Bundle Size Optimization (CRITICAL)
-
-**Impact:** Directly affects Time to Interactive, Largest Contentful Paint
-**Key Concepts:** Dynamic imports, tree-shaking, barrel import avoidance
-
-### Section 3: Server-Side Performance (HIGH)
-
-**Impact:** Faster server responses, better SEO
-**Key Concepts:** Parallel server fetching, streaming, API route optimization
-
-### Section 4: Client-Side Data Fetching (MEDIUM-HIGH)
-
-**Impact:** Reduces redundant requests, better UX
-**Key Concepts:** SWR deduplication, localStorage caching, event listeners
-
-### Section 5: Re-render Optimization (MEDIUM)
-
-**Impact:** Smoother UI, less wasted computation
-**Key Concepts:** React.memo, useMemo, useCallback, component structure
-
-### Section 6: Rendering Performance (MEDIUM)
-
-**Impact:** Better rendering efficiency
-**Key Concepts:** Virtualization, image optimization, layout thrashing
-
-### Section 7: JavaScript Performance (LOW-MEDIUM)
-
-**Impact:** Incremental improvements in hot paths
-**Key Concepts:** Loop optimization, caching, RegExp hoisting
-
-### Section 8: Advanced Patterns (VARIABLE)
-
-**Impact:** Specific use cases
-**Key Concepts:** useLatest hook, init-once patterns, event handler refs
 
 ---
 

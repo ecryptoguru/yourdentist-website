@@ -113,8 +113,14 @@ class UXAuditor:
 
         # Pre-calculate common flags
         has_long_text = bool(re.search(r'<p|<div.*class=.*text|article|<span.*text', content, re.IGNORECASE))
-        has_form = bool(re.search(r'<form|<input|password|credit|card|payment', content, re.IGNORECASE))
-        complex_elements = len(re.findall(r'<input|<select|<textarea|<option', content, re.IGNORECASE))
+        # Only flag forms when actual form-like elements are present; avoid
+        # matching CSS class names such as `bg-card` or `text-card-foreground`.
+        has_form = bool(re.search(
+            r'<form\b|<input\b|<select\b|<textarea\b|<Input\b|<Select\b|<Textarea\b|\bpassword\b|\bpayment\b|\bcredit\b',
+            content,
+            re.IGNORECASE,
+        ))
+        complex_elements = len(re.findall(r'<input\b|<select\b|<textarea\b|<option\b|<Input\b|<Select\b|<Textarea\b', content, re.IGNORECASE))
 
         # --- 1. PSYCHOLOGY LAWS ---
         # Hick's Law
@@ -209,7 +215,7 @@ class UXAuditor:
 
         # Familiar patterns
         if has_form:
-            has_standard_labels = bool(re.search(r'<label|placeholder|aria-label', content, re.IGNORECASE))
+            has_standard_labels = bool(re.search(r'<label|Label|FormField|placeholder|aria-label|aria-labelledby', content, re.IGNORECASE))
             if not has_standard_labels:
                 self.issues.append(f"[Cognitive Load] {filename}: Form inputs without labels. Use <label> for accessibility and clarity.")
 
@@ -673,8 +679,9 @@ class UXAuditor:
 
     def audit_directory(self, directory: str) -> None:
         extensions = {'.tsx', '.jsx', '.html', '.vue', '.svelte', '.css'}
+        skip_dirs = {'node_modules', '.git', 'dist', 'build', '.next', 'artifacts', 'renders', 'compiled', 'posters', 'clips', 'marketing-motion', '.worktrees'}
         for root, dirs, files in os.walk(directory):
-            dirs[:] = [d for d in dirs if d not in {'node_modules', '.git', 'dist', 'build', '.next'}]
+            dirs[:] = [d for d in dirs if d not in skip_dirs]
             for file in files:
                 if Path(file).suffix in extensions:
                     self.audit_file(os.path.join(root, file))

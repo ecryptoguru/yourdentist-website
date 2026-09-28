@@ -1,9 +1,13 @@
 ---
 name: server-management
-description: Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands.
-when_to_use: "When managing servers, configuring process managers (PM2), setting up monitoring, or planning scaling strategies."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: high
+description: "Server management principles and decision-making. Process management, monitoring strategy, and scaling decisions. Teaches thinking, not commands. When managing servers, configuring process managers (PM2), setting up monitoring, or planning scaling strategies."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Server Management

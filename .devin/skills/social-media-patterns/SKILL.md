@@ -1,9 +1,12 @@
 ---
 name: social-media-patterns
-description: Social media strategy principles. Cross-platform positioning, platform-native content, engagement discipline, and community trust across X, LinkedIn, Reddit, and paid social.
-when_to_use: "When creating social media strategies, planning platform-native content for X, LinkedIn, or Reddit, or building community engagement."
-allowed-tools: Read, Write, Edit, Glob, Grep
-effort: medium
+description: "Social media strategy principles. Cross-platform positioning, platform-native content, engagement discipline, and community trust across X, LinkedIn, Reddit, and paid social. When creating social media strategies, planning platform-native content for X, LinkedIn, or Reddit, or building community engagement."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
 ---
 
 # Social Media Patterns

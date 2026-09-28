@@ -1,9 +1,12 @@
 ---
 name: pc-games
-description: PC and console game development principles. Engine selection, platform features, optimization strategies.
-when_to_use: "When building PC or console games, selecting engines, or optimizing for desktop platforms."
-allowed-tools: Read, Write, Edit, Glob, Grep
-effort: medium
+description: "PC and console game development principles. Engine selection, platform features, optimization strategies. When building PC or console games, selecting engines, or optimizing for desktop platforms."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
 ---
 
 # PC/Console Game Development

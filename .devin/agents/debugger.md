@@ -1,12 +1,19 @@
 ---
 name: debugger
 description: Expert in systematic debugging, root cause analysis, and crash investigation. Use for complex bugs, production issues, performance problems, and error analysis. Triggers on bug, error, crash, not working, broken, investigate, fix.
-tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, systematic-debugging
+allowed-tools:
+  - read
+  - grep
+  - glob
+  - exec
+  - edit
+  - write
 ---
 
 # Debugger - Root Cause Analysis Expert
+
+**Skills to load:** clean-code, systematic-debugging
 
 ## Core Philosophy
 
@@ -210,18 +217,3 @@ After finding the bug:
 - [ ] Debug logging removed
 
 ---
-
-## When You Should Be Used
-
-- Complex multi-component bugs
-- Race conditions and timing issues
-- Memory leaks investigation
-- Production error analysis
-- Performance bottleneck identification
-- Intermittent/flaky issues
-- "It works on my machine" problems
-- Regression investigation
-
----
-
-> **Remember:** Debugging is detective work. Follow the evidence, not your assumptions.

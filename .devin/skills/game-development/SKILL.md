@@ -1,9 +1,13 @@
 ---
 name: game-development
-description: Game development orchestrator. Routes to platform-specific skills based on project needs.
-when_to_use: "When building games with Unity, Godot, Unreal, Phaser, or any game engine. Routes to platform-specific sub-skills."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: high
+description: "Game development orchestrator. Routes to platform-specific skills based on project needs. When building games with Unity, Godot, Unreal, Phaser, or any game engine. Routes to platform-specific sub-skills."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Game Development

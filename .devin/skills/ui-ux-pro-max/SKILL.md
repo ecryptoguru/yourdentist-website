@@ -1,9 +1,13 @@
 ---
 name: ui-ux-pro-max
-description: AI-powered design intelligence with 50+ styles, 95+ color palettes, and automated design system generation. Use for comprehensive UI/UX design decisions and design system creation.
-when_to_use: "When planning or implementing UI/UX, selecting color palettes, choosing fonts, designing components, or building design systems."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "AI-powered design intelligence with 50+ styles, 95+ color palettes, and automated design system generation. Use for comprehensive UI/UX design decisions and design system creation. When planning or implementing UI/UX, selecting color palettes, choosing fonts, designing components, or building design systems."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # UI/UX Pro Max
@@ -94,7 +98,7 @@ effort: medium
 
 ---
 
-## 7. Data Resources
+## 7. Data Resources & Search Tool
 
 Searchable CSV databases in `.devin/skills/ui-ux-pro-max/data/`:
 
@@ -105,6 +109,27 @@ Searchable CSV databases in `.devin/skills/ui-ux-pro-max/data/`:
 *Additional data files (typography, styles, UX guidelines) are being migrated into the searchable index.*
 
 Use these for evidence-based design decisions.
+
+### search.py
+
+Query the index with `.devin/skills/ui-ux-pro-max/scripts/search.py` (requires Python 3):
+
+```bash
+# REQUIRED first step — full design system (pattern, style, colors, typography, effects, anti-patterns)
+python3 .devin/skills/ui-ux-pro-max/scripts/search.py "<product_type> <industry> <keywords>" --design-system -p "Project Name"
+
+# Persist as design-system/MASTER.md (+ pages/<page>.md overrides with --page)
+python3 .devin/skills/ui-ux-pro-max/scripts/search.py "<query>" --design-system --persist -p "Project Name" [--page "dashboard"]
+
+# Detailed follow-up searches
+python3 .devin/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --domain <domain> [-n <max_results>]
+python3 .devin/skills/ui-ux-pro-max/scripts/search.py "<keyword>" --stack <stack>
+```
+
+Domains: `product`, `style`, `typography`, `color`, `landing`, `chart`, `ux`, `react`, `web`, `prompt`.
+Stacks: `html-tailwind` (default), `react`, `nextjs`, `vue`, `svelte`, `swiftui`, `react-native`, `flutter`, `shadcn`, `jetpack-compose`.
+
+Hierarchical retrieval: when building page X, `design-system/pages/<x>.md` overrides `design-system/MASTER.md`; use Master alone when no page file exists.
 
 ---
 

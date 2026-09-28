@@ -1,6 +1,6 @@
-# AG Kit Scripts
+# LyraDevs Scripts
 
-Master validation and utility scripts for the AG Kit system.
+Master validation and utility scripts for the LyraDevs system.
 
 ## Master Scripts
 

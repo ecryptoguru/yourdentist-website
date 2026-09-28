@@ -1,9 +1,13 @@
 ---
 name: data-pipeline-patterns
-description: Data pipeline engineering principles. ETL/ELT design, idempotency, observability, schema drift handling, streaming, and data quality.
-when_to_use: "When designing data pipelines, ETL/ELT workflows, stream processing, batch jobs, or data quality systems."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "Data pipeline engineering principles. ETL/ELT design, idempotency, observability, schema drift handling, streaming, and data quality. When designing data pipelines, ETL/ELT workflows, stream processing, batch jobs, or data quality systems."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Data Pipeline Patterns

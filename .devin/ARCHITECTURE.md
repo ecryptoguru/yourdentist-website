@@ -1,16 +1,17 @@
-# AG Kit Architecture
+# LyraDevs Kit Architecture
 
-> Comprehensive AI Agent Capability Expansion Toolkit — 2026.5.13
+> Devin-Desktop-native agent capability toolkit — 2026.9.14
 
 ---
 
 ## 📋 Overview
 
-AG Kit is a modular system consisting of:
+LyraDevs is a modular system consisting of:
 
-- **27 Specialist Agents** - Role-based AI personas (1 major upgrade in 2026.5.13)
-- **69 Skills** - Domain-specific knowledge modules with conditional loading
-- **17 Workflows** - Slash command procedures
+- **25 Specialist Agents** - Role-based subagent profiles (`.devin/agents/`)
+- **81 Skills** - Domain knowledge modules + slash-command routers (`.devin/skills/`)
+
+Runtime model set: SWE-2 (floor) · GLM-5.3 · DeepSeek-V4-Flash — all 1M-context agentic models.
 
 ---
 
@@ -19,23 +20,23 @@ AG Kit is a modular system consisting of:
 ```plaintext
 .devin/
 ├── ARCHITECTURE.md          # This file
-├── agents/                  # 27 Specialist Agents
-├── skills/                  # 69 Skills (with conditional loading)
-├── workflows/               # 17 Slash Commands
-├── rules/                   # Global Rules
-├── memory/                  # Persistent Memory (2026.5.13)
-└── scripts/                 # Master Validation Scripts
+├── agents/                  # 25 Specialist Agents (custom subagent profiles)
+├── skills/                  # 83 Skills (domain knowledge + /command routers)
+├── rules/                   # Global Rules (always_on + glob-triggered)
+├── memory/                  # Persistent Memory (index + topic files)
+├── hooks.v1.json            # PreToolUse destructive-command guard
+└── scripts/                 # Master Validation Scripts + kit validator + exec guard
 ```
 
 ---
 
-## 🤖 Agents (27)
+## 🤖 Agents (25)
 
 Specialist AI personas for different domains.
 
 | Agent                               | Focus                      | Skills Used                                                                                                                    |
 | ----------------------------------- | -------------------------- | ------------------------------------------------------------------------------------------------------------------------------ |
-| `orchestrator`                      | Multi-agent coordination   | parallel-agents, coordinator-mode, memory-system, context-compression, verify-changes                                          |
+| `orchestrator`                      | Multi-agent coordination   | coordinator-mode, memory-system, verify-changes                                                                                |
 | `project-planner`                   | Discovery, task planning   | brainstorming, plan-writing, architecture                                                                                      |
 | `frontend-specialist`               | Web UI/UX                  | frontend-design, nextjs-react-expert, tailwind-patterns, composition-patterns, web-design-guidelines                           |
 | `backend-specialist`                | API, business logic        | api-patterns, nodejs-best-practices, database-design, postgres-best-practices                                                  |
@@ -53,7 +54,6 @@ Specialist AI personas for different domains.
 | `product-manager`                   | Requirements, user stories, backlog, MVP | plan-writing, brainstorming                                                                                                    |
 | `qa-automation-engineer`            | E2E testing, CI pipelines  | webapp-testing, testing-patterns                                                                                               |
 | `code-archaeologist`                | Legacy code, refactoring   | clean-code, refactoring-patterns, code-review-checklist                                                                        |
-| `explorer-agent`                    | Codebase analysis          | -                                                                                                                              |
 | `ai-engineer`                       | LLM systems, RAG, evals    | llm-patterns, testing-patterns, python-patterns                                                                                |
 | `autonomous-optimization-architect` | LLM cost routing           | llm-patterns, typescript-expert, python-patterns                                                                               |
 | `compliance-auditor`                | SOC 2, GDPR, ISO 27001     | vulnerability-scanner, documentation-templates                                                                                 |
@@ -64,235 +64,235 @@ Specialist AI personas for different domains.
 
 ---
 
-## 🧩 Skills (69)
+## 🧩 Skills (81)
 
-Modular knowledge domains that agents can load on-demand based on task context. Each skill has `when_to_use` and `effort` frontmatter fields for conditional/intelligent loading.
-
-**Effort Legend:**
-
-- **High** — 150+ lines. Deep expertise with actionable protocols, checklists, and anti-patterns.
-- **Medium** — 80-149 lines. Solid guidance with clear principles and decision frameworks.
-- **Low** — Under 80 lines. Compact reference or stub; suitable for quick lookup but may need expansion for complex tasks.
+Modular knowledge domains that load on-demand. Triggering is driven by `name` + `description` (trigger text lives in the description — Devin's documented behavior); bodies stay minimal. 15 slash-command routers (`plan`, `verify`, `test`, etc.) delegate to domain skills.
 
 ### Frontend & UI
 
-| Skill                   | Description                                                            | Effort |
-| ----------------------- | ---------------------------------------------------------------------- | ------ |
-| `nextjs-react-expert`   | React & Next.js performance optimization (Vercel - 98 rules)           | High   |
-| `web-design-guidelines` | Web UI audit - 100+ rules for accessibility, UX, performance (Vercel)  | Low    |
-| `tailwind-patterns`     | Tailwind CSS v4 utilities                                              | High   |
-| `frontend-design`       | UI/UX patterns, design systems                                         | High   |
-| `ui-ux-pro-max`         | 1 file — design system index (expandable)                              | Medium |
-| `composition-patterns`  | React component composition, compound components, React 19 ref changes | Medium |
+| Skill                   | Description                                                            |
+| ----------------------- | ---------------------------------------------------------------------- |
+| `nextjs-react-expert` | React & Next.js performance optimization (Vercel - 98 rules) |
+| `web-design-guidelines` | Web UI audit - 100+ rules for accessibility, UX, performance (Vercel) |
+| `tailwind-patterns` | Tailwind CSS v4 utilities |
+| `frontend-design` | UI/UX patterns, design systems |
+| `frontend-architecture` | Frontend code organization — separation of concerns, state tiers, service files |
+| `design-spec` | DESIGN.md format — machine-readable design tokens (hard gate before UI) |
+| `ui-ux-pro-max` | 1 file — design system index (expandable) |
+| `composition-patterns` | React component composition, compound components, React 19 ref changes |
 
 ### Backend & API
 
-| Skill                   | Description                    | Effort |
-| ----------------------- | ------------------------------ | ------ |
-| `api-patterns`          | REST, GraphQL, tRPC            | Medium |
-| `nestjs-expert`         | NestJS modules, DI, decorators | Medium |
-| `nodejs-best-practices` | Node.js async, modules         | High   |
-| `python-patterns`       | Python standards, FastAPI      | High   |
+| Skill                   | Description                    |
+| ----------------------- | ------------------------------ |
+| `api-patterns` | REST, GraphQL, tRPC |
+| `nodejs-best-practices` | Node.js async, modules |
+| `python-patterns` | Python standards, FastAPI |
 
 ### Database
 
-| Skill                     | Description                        | Effort |
-| ------------------------- | ---------------------------------- | ------ |
-| `database-design`         | Schema design, general principles  | Low    |
-| `postgres-best-practices` | PostgreSQL query optimization, RLS | High   |
-| `prisma-expert`           | Prisma ORM, migrations             | Medium |
-| `data-pipeline-patterns`  | ETL/ELT, streaming, quality        | High   |
+| Skill                     | Description                        |
+| ------------------------- | ---------------------------------- |
+| `database-design` | Schema design, general principles |
+| `postgres-best-practices` | PostgreSQL query optimization, RLS |
+| `prisma-expert` | Prisma ORM, migrations |
+| `data-pipeline-patterns` | ETL/ELT, streaming, quality |
 
 ### TypeScript/JavaScript
 
-| Skill               | Description                         | Effort |
-| ------------------- | ----------------------------------- | ------ |
-| `typescript-expert` | Type-level programming, performance | Medium |
+| Skill               | Description                         |
+| ------------------- | ----------------------------------- |
+| `typescript-expert` | Type-level programming, performance |
 
 ### Cloud & Infrastructure
 
-| Skill                   | Description               | Effort |
-| ----------------------- | ------------------------- | ------ |
-| `docker-expert`         | Containerization, Compose | Medium |
-| `deployment-procedures` | CI/CD, deploy workflows   | High   |
-| `server-management`     | Infrastructure management | High   |
+| Skill                   | Description               |
+| ----------------------- | ------------------------- |
+| `docker-expert` | Containerization, Compose |
+| `deployment-procedures` | CI/CD, deploy workflows |
+| `server-management` | Infrastructure management |
 
 ### Testing & Quality
 
-| Skill                   | Description              | Effort |
-| ----------------------- | ------------------------ | ------ |
-| `testing-patterns`      | Jest, Vitest, strategies | High   |
-| `webapp-testing`        | E2E, Playwright          | High   |
-| `tdd-workflow`          | Test-driven development  | High   |
-| `code-review-checklist` | Code review standards    | Medium |
-| `lint-and-validate`     | Linting, validation      | Low    |
+| Skill                   | Description              |
+| ----------------------- | ------------------------ |
+| `testing-patterns` | Jest, Vitest, strategies |
+| `webapp-testing` | E2E, Playwright |
+| `tdd-workflow` | Test-driven development |
+| `code-review-checklist` | Code review standards |
+| `lint-and-validate` | Linting, validation |
 
 ### Security
 
-| Skill                   | Description              | Effort |
-| ----------------------- | ------------------------ | ------ |
-| `vulnerability-scanner` | Security auditing, OWASP | High   |
-| `red-team-tactics`      | Offensive security       | High   |
+| Skill                   | Description              |
+| ----------------------- | ------------------------ |
+| `vulnerability-scanner` | Security auditing, OWASP |
+| `red-team-tactics` | Offensive security |
 
 ### Architecture & Planning
 
-| Skill           | Description                | Effort |
-| --------------- | -------------------------- | ------ |
-| `app-builder`   | Full-stack app scaffolding | Low    |
-| `architecture`  | System design patterns     | Low    |
-| `plan-writing`  | Task planning, breakdown   | High   |
-| `brainstorming` | Socratic questioning       | High   |
+| Skill           | Description                |
+| --------------- | -------------------------- |
+| `app-builder` | Full-stack app scaffolding |
+| `architecture` | System design patterns |
+| `plan-writing` | Task planning, breakdown |
+| `brainstorming` | Socratic questioning |
 
 ### Mobile
 
-| Skill                 | Description                        | Effort |
-| --------------------- | ---------------------------------- | ------ |
-| `mobile-design`       | Mobile UI/UX patterns              | High   |
-| `react-native-skills` | React Native & Expo best practices | Medium |
+| Skill                 | Description                        |
+| --------------------- | ---------------------------------- |
+| `mobile-design` | Mobile UI/UX patterns |
+| `react-native-skills` | React Native & Expo best practices |
 
 ### Framework Migrations
 
-| Skill          | Description                                      | Effort |
-| -------------- | ------------------------------------------------ | ------ |
-| `next-upgrade` | Next.js major version migration guide & codemods | Medium |
+| Skill          | Description                                      |
+| -------------- | ------------------------------------------------ |
+| `next-upgrade` | Next.js major version migration guide & codemods |
 
 ### Game Development
 
-| Skill              | Description                     | Effort |
-| ------------------ | ------------------------------- | ------ |
-| `game-development` | Game development orchestrator   | High   |
-| `2d-games`         | Sprites, tilemaps, physics      | Medium |
-| `3d-games`         | Meshes, shaders, rendering      | Medium |
-| `pc-games`         | Engine selection, optimization  | Medium |
-| `web-games`        | Browser frameworks, WebGL       | High   |
-| `mobile-games`     | Touch input, app stores         | Medium |
-| `vr-ar`            | Comfort, immersion, interaction | Medium |
-| `game-design`      | GDD, balancing, psychology      | Medium |
-| `multiplayer`      | Networking, synchronization     | Medium |
-| `game-art`         | Visual style, asset pipeline    | High   |
-| `game-audio`       | Sound design, adaptive audio    | High   |
+| Skill              | Description                     |
+| ------------------ | ------------------------------- |
+| `game-development` | Game development orchestrator |
+| `2d-games` | Sprites, tilemaps, physics |
+| `3d-games` | Meshes, shaders, rendering |
+| `pc-games` | Engine selection, optimization |
+| `web-games` | Browser frameworks, WebGL |
+| `mobile-games` | Touch input, app stores |
+| `vr-ar` | Comfort, immersion, interaction |
+| `game-design` | GDD, balancing, psychology |
+| `multiplayer` | Networking, synchronization |
+| `game-art` | Visual style, asset pipeline |
+| `game-audio` | Sound design, adaptive audio |
 
 ### SEO & Growth
 
-| Skill              | Description                   | Effort |
-| ------------------ | ----------------------------- | ------ |
-| `seo-fundamentals`   | SEO, E-E-A-T, Core Web Vitals | Medium |
-| `geo-fundamentals`   | GenAI optimization            | High   |
-| `growth-marketing`   | Growth experiments, CAC/LTV   | Medium |
-| `social-media-patterns` | Cross-platform strategy     | Medium |
+| Skill              | Description                   |
+| ------------------ | ----------------------------- |
+| `seo-fundamentals` | SEO, E-E-A-T, Core Web Vitals |
+| `geo-fundamentals` | GenAI optimization |
+| `growth-marketing` | Growth experiments, CAC/LTV |
+| `social-media-patterns` | Cross-platform strategy |
 
 ### Shell/CLI
 
-| Skill                | Description               | Effort |
-| -------------------- | ------------------------- | ------ |
-| `bash-linux`         | Linux commands, scripting | High   |
-| `powershell-windows` | Windows PowerShell        | High   |
+| Skill                | Description               |
+| -------------------- | ------------------------- |
+| `bash-linux` | Linux commands, scripting |
 
 ### Orchestration & Memory (2026.5.13)
 
-| Skill                 | Description                                                 | Effort |
-| --------------------- | ----------------------------------------------------------- | ------ |
-| `coordinator-mode`    | Multi-agent orchestration with parallel workers & synthesis | High   |
-| `memory-system`       | Persistent cross-session memory with MEMORY.md index        | High   |
-| `context-compression` | Auto-compress context in long sessions                      | High   |
-| `verify-changes`      | Prove code works by running it, not just inspecting         | Medium |
-| `batch-operations`    | Multi-file pattern-based modifications                      | High   |
-| `simplify-code`       | Reduce over-engineered complexity                           | Medium |
-| `skillify`            | Auto-create skills from repetitive workflows                | High   |
-| `code-review-graph`   | Token-efficient code review via Tree-sitter AST + MCP       | High   |
-| `intelligent-routing` | Automatic agent selection and task routing                  | High   |
+| Skill                 | Description                                                 |
+| --------------------- | ----------------------------------------------------------- |
+| `coordinator-mode` | Multi-agent orchestration with parallel workers & synthesis |
+| `memory-system` | Persistent cross-session memory with MEMORY.md index |
+| `verify-changes` | Prove code works by running it, not just inspecting |
+| `batch-operations` | Multi-file pattern-based modifications |
+| `simplify-code` | Reduce over-engineered complexity |
+| `skillify` | Auto-create skills from repetitive workflows |
+| `intelligent-routing` | Automatic agent selection and task routing |
 
 ### Other
 
-| Skill                     | Description               | Effort |
-| ------------------------- | ------------------------- | ------ |
-| `clean-code`              | Coding standards (Global) | High   |
-| `behavioral-modes`        | Agent personas            | High   |
-| `parallel-agents`         | Multi-agent patterns      | High   |
-| `mcp-builder`             | Model Context Protocol    | High   |
-| `documentation-templates` | Doc formats               | High   |
-| `i18n-localization`       | Internationalization      | High   |
-| `performance-profiling`   | Web Vitals, optimization  | Medium |
-| `systematic-debugging`    | Troubleshooting           | Medium |
-| `refactoring-patterns`    | Legacy modernization      | Medium |
-| `llm-patterns`            | LLM systems, RAG, evals   | High   |
-| `rust-pro`                | Rust systems programming  | High   |
+| Skill                     | Description               |
+| ------------------------- | ------------------------- |
+| `clean-code` | Coding standards (Global) |
+| `behavioral-modes` | Agent personas |
+| `mcp-builder` | Model Context Protocol |
+| `documentation-templates` | Doc formats |
+| `i18n-localization` | Internationalization |
+| `performance-profiling` | Web Vitals, optimization |
+| `systematic-debugging` | Troubleshooting |
+| `refactoring-patterns` | Legacy modernization |
+| `llm-patterns` | LLM systems, RAG, evals |
+| `rust-pro` | Rust systems programming |
 
 ---
 
-## 🔄 Workflows (16)
+## 🔄 Command Skills (15)
 
-Slash command procedures. Invoke with `/command`.
+Slash commands are skills — invoke with `/name` or let the agent auto-trigger on matching intent.
 
-| Command          | Description                               |
-| ---------------- | ----------------------------------------- |
-| `/brainstorm`    | Socratic discovery                        |
-| `/create`        | Create new features                       |
-| `/debug`         | Debug issues                              |
-| `/deploy`        | Deploy application                        |
-| `/enhance`       | Improve existing code                     |
-| `/orchestrate`   | Multi-agent coordination                  |
-| `/plan`          | Task breakdown                            |
-| `/preview`       | Preview changes                           |
-| `/remember`      | **NEW** Save to persistent memory         |
-| `/status`        | Check project status                      |
-| `/test`          | Run tests                                 |
-| `/ui-ux-pro-max` | Design with 50 styles                     |
-| `/verify`        | **NEW** Prove code works by running it    |
-| `/audit-ai`      | Audit AI and LLM systems                  |
-| `/growth`        | Growth strategy and channel planning      |
-| `/review`        | Multi-domain code review                  |
+| Command          | Description                               | Delegates to |
+| ---------------- | ----------------------------------------- | ------------ |
+| `/audit-ai`      | Audit AI and LLM systems                  | ai-engineer + llm-patterns |
+| `/brainstorm`    | Socratic discovery                        | brainstorming |
+| `/create`        | Create new application                    | app-builder + project-planner |
+| `/debug`         | Systematic debugging                      | systematic-debugging |
+| `/deploy`        | Deploy application                        | deployment-procedures |
+| `/enhance`       | Improve existing code                     | domain agents |
+| `/growth`        | Growth strategy and channel planning      | growth-marketing |
+| `/orchestrate`   | Multi-agent coordination                  | coordinator-mode |
+| `/plan`          | Task breakdown (plan file only)           | project-planner + plan-writing |
+| `/preview`       | Preview server management                 | auto_preview.py |
+| `/remember`      | Save to persistent memory                 | memory-system |
+| `/review`        | Multi-domain code review                  | code-review-checklist |
+| `/status`        | Check project status                      | session_manager.py |
+| `/test`          | Run/generate tests                        | testing-patterns |
+| `/verify`        | Prove code works by running it            | verify-changes |
 
 ---
 
-## 🎯 Skill Loading Protocol (2026.5.13 — Conditional)
+## 🎯 Skill Loading
 
-```plaintext
-User Request → Check `when_to_use` frontmatter → Match? → Load full SKILL.md
-                                                    ↓ No match
-                                                 Skip (save tokens)
-```
+Devin lists every skill's `name` + `description` in context; the model invokes a skill when the description matches the request. Trigger text therefore lives in `description` — there is no separate `when_to_use` field.
 
 ### Skill Structure
 
 ```plaintext
 skill-name/
-├── SKILL.md           # (Required) Metadata, when_to_use & instructions
+├── SKILL.md           # (Required) frontmatter + instructions
 ├── scripts/           # (Optional) Python/Bash scripts
-├── references/        # (Optional) Templates, docs
+├── references/        # (Optional) Docs loaded on demand
 └── assets/            # (Optional) Images, logos
 ```
 
-### Required Frontmatter Fields
+### Frontmatter (Devin schema)
 
 ```yaml
 ---
 name: skill-name
-description: What this skill does
-when_to_use: "When to activate. NOT for X." # 2026.5.13
-allowed-tools: Read, Grep, Glob
+description: What it does AND when to use it (drives triggering)
+argument-hint: "[optional arg hint]"
+allowed-tools:        # optional; YAML list
+  - read
+  - grep
+  - glob
+permissions:          # optional skill-scoped permission overrides
+  allow:
+    - Exec(some command prefix)
 ---
 ```
+
+Supported tool names: `read`, `edit`, `write`, `grep`, `glob`, `exec`, `mcp__*`
 
 ### Enhanced Skills (with scripts/references)
 
 | Skill           | Files | Coverage                         |
-| --------------- | ----- | -------------------------------- |
+| --------------- | ----- |
 | `ui-ux-pro-max` | 3     | Design system index + data + scripts |
 | `app-builder`   | 20    | Full-stack scaffolding           |
 
 ---
 
-## 🛠️ Scripts (2)
+## 🛠️ Scripts (4)
 
 Master validation scripts that orchestrate skill-level scripts.
 
 ### Master Scripts
 
-| Script          | Purpose                                 | When to Use              |
-| --------------- | --------------------------------------- | ------------------------ |
-| `checklist.py`  | Priority-based validation (Core checks) | Development, pre-commit  |
-| `verify_all.py` | Comprehensive verification (All checks) | Pre-deployment, releases |
+| Script             | Purpose                                          | When to Use              |
+| ------------------ | ------------------------------------------------ |
+| `checklist.py`     | Priority-based validation (Core checks)          | Development, pre-commit  |
+| `verify_all.py`    | Comprehensive verification (All checks)          | Pre-deployment, releases |
+| `validate_kit.py`  | Kit self-validation (frontmatter, refs, memory)  | Kit changes, upgrades    |
+| `guard_exec.py`    | Destructive-command blocker (PreToolUse hook)    | Invoked by hooks.v1.json |
+
+### Safety Hook
+
+`.devin/hooks.v1.json` registers a `PreToolUse` hook on `exec` that runs `guard_exec.py` — blocks `rm -rf /`, `mkfs`, `dd of=/dev/`, `format X:`, `Remove-Item -Recurse -Force` on drive roots. Fails open on malformed input.
 
 ### Usage
 
@@ -332,12 +332,11 @@ For details, see [scripts/README.md](scripts/README.md)
 
 | Metric               | Value                             |
 | -------------------- | --------------------------------- |
-| **Total Agents**     | 26                                |
-| **Total Skills**     | 69                                |
-| **Total Workflows**  | 16                                |
-| **Total Scripts**    | 2 (master) + skill-level          |
-| **Coverage**         | ~95% web/mobile + orchestration   |
-| **Token Efficiency** | 13-33% better than v2 (2026.5.13) |
+| **Total Agents**     | 25                                |
+| **Total Skills**     | 83                                |
+| **Command skills**   | 15 (converted from workflows)     |
+| **Total Scripts**    | 4 (master) + skill-level          |
+| **Runtime models**   | SWE-2 · GLM-5.3 · DeepSeek-V4-Flash |
 
 ---
 

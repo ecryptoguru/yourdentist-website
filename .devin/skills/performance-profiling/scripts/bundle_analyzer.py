@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Bundle Analyzer - AG Kit
+Bundle Analyzer - LyraDevs
 =========================
 
 Analyzes client-side bundle size and warns on bloat.

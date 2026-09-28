@@ -1,9 +1,10 @@
 ---
 name: plan-writing
-description: Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work.
-when_to_use: "When creating structured task plans, breaking down features into tasks, or defining verification criteria. Use with /plan workflow."
-allowed-tools: Read, Glob, Grep
-effort: high
+description: "Structured task planning with clear breakdowns, dependencies, and verification criteria. Use when implementing features, refactoring, or any multi-step work. When creating structured task plans, breaking down features into tasks, or defining verification criteria. Use with /plan workflow."
+allowed-tools:
+  - read
+  - glob
+  - grep
 ---
 
 # Plan Writing
@@ -34,7 +35,7 @@ This skill provides a framework for breaking down work into clear, actionable ta
 ### 4. Dynamic Naming in Project Root
 - Plan files are saved as `{task-slug}.md` in the PROJECT ROOT
 - Name derived from task (e.g., "add auth" → `auth-feature.md`)
-- **NEVER** inside `.claude/`, `docs/`, or temp folders
+- **NEVER** inside `.devin/`, `docs/`, or temp folders
 
 ## Planning Principles (NOT Templates!)
 

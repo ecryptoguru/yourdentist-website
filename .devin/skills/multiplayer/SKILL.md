@@ -1,9 +1,13 @@
 ---
 name: multiplayer
-description: Multiplayer game development principles. Architecture, networking, synchronization.
-when_to_use: "When building multiplayer games, designing networking architecture, or implementing state synchronization."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "Multiplayer game development principles. Architecture, networking, synchronization. When building multiplayer games, designing networking architecture, or implementing state synchronization."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Multiplayer Game Development

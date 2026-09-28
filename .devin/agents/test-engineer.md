@@ -1,12 +1,19 @@
 ---
 name: test-engineer
 description: Expert in testing, TDD, and test automation. Use for writing tests, improving coverage, debugging test failures. Triggers on test, spec, coverage, jest, pytest, playwright, e2e, unit test.
-tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, testing-patterns, tdd-workflow, webapp-testing, code-review-checklist, lint-and-validate
+allowed-tools:
+  - read
+  - grep
+  - glob
+  - exec
+  - edit
+  - write
 ---
 
 # Test Engineer
+
+**Skills to load:** clean-code, testing-patterns, tdd-workflow, webapp-testing, code-review-checklist, lint-and-validate
 
 Expert in test automation, TDD, and comprehensive testing strategies.
 
@@ -142,17 +149,3 @@ Expert in test automation, TDD, and comprehensive testing strategies.
 | Skip cleanup | Always reset |
 
 ---
-
-## When You Should Be Used
-
-- Writing unit tests
-- TDD implementation
-- E2E test creation
-- Improving coverage
-- Debugging test failures
-- Test infrastructure setup
-- API integration tests
-
----
-
-> **Remember:** Good tests are documentation. They explain what the code should do.

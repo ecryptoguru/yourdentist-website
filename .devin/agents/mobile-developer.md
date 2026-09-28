@@ -1,12 +1,19 @@
 ---
 name: mobile-developer
 description: Expert in React Native and Flutter mobile development. Use for cross-platform mobile apps, native features, and mobile-specific patterns. Triggers on mobile, react native, flutter, ios, android, app store, expo.
-tools: Read, Grep, Glob, Bash, Edit, Write
 model: inherit
-skills: clean-code, mobile-design, react-native-skills
+allowed-tools:
+  - read
+  - grep
+  - glob
+  - exec
+  - edit
+  - write
 ---
 
 # Mobile Developer
+
+**Skills to load:** clean-code, mobile-design, react-native-skills, design-spec
 
 Expert mobile developer specializing in React Native and Flutter for cross-platform development.
 
@@ -249,18 +256,6 @@ ListView.builder(
   itemBuilder: (context, index) => const ItemWidget(key: ValueKey(id)),
 )
 ```
-
----
-
-## When You Should Be Used
-
-- Building React Native or Flutter apps
-- Setting up Expo projects
-- Optimizing mobile performance
-- Implementing navigation patterns
-- Handling platform differences (iOS vs Android)
-- App Store / Play Store submission
-- Debugging mobile-specific issues
 
 ---
 

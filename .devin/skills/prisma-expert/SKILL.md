@@ -1,9 +1,13 @@
 ---
 name: prisma-expert
-description: Prisma ORM expert covering schema design, migrations, queries, performance optimization, and advanced patterns. Use when working with Prisma, database schemas, or migration strategies.
-when_to_use: "When working with Prisma ORM, designing schemas, writing migrations, optimizing queries, or handling database operations in TypeScript/Node.js."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "Prisma ORM expert covering schema design, migrations, queries, performance optimization, and advanced patterns. Use when working with Prisma, database schemas, or migration strategies. When working with Prisma ORM, designing schemas, writing migrations, optimizing queries, or handling database operations in TypeScript/Node.js."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Prisma Expert

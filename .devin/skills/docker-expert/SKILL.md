@@ -1,9 +1,13 @@
 ---
 name: docker-expert
-description: Docker and containerization principles. Image design, multi-stage builds, runtime separation, compose workflows, and operational safety.
-when_to_use: "When working with Docker, containerization, multi-stage builds, or docker-compose configurations."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "Docker and containerization principles. Image design, multi-stage builds, runtime separation, compose workflows, and operational safety. When working with Docker, containerization, multi-stage builds, or docker-compose configurations."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Docker Expert

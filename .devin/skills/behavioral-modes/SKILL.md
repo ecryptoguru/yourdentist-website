@@ -1,9 +1,10 @@
 ---
 name: behavioral-modes
-description: AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type.
-when_to_use: "When adapting AI behavior for specific task types: brainstorm, implement, debug, review, teach, ship, or orchestrate modes."
-allowed-tools: Read, Glob, Grep
-effort: high
+description: "AI operational modes (brainstorm, implement, debug, review, teach, ship, orchestrate). Use to adapt behavior based on task type. When adapting AI behavior for specific task types: brainstorm, implement, debug, review, teach, ship, or orchestrate modes."
+allowed-tools:
+  - read
+  - glob
+  - grep
 ---
 
 # Behavioral Modes - Adaptive AI Operating Modes

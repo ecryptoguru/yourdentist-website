@@ -1,9 +1,13 @@
 ---
 name: postgres-best-practices
-description: Postgres optimization rules organized by impact. Covers query performance, connection management, RLS, schema design, indexing, and concurrency. Maintained by Supabase principles, applies to any Postgres setup.
-when_to_use: "When writing SQL queries, designing schemas, implementing indexes, configuring connection pooling, or reviewing database performance issues. NOT for ORM-specific patterns (see prisma-expert)."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: high
+description: "Postgres optimization rules organized by impact. Covers query performance, connection management, RLS, schema design, indexing, and concurrency. Maintained by Supabase principles, applies to any Postgres setup. When writing SQL queries, designing schemas, implementing indexes, configuring connection pooling, or reviewing database performance issues. NOT for ORM-specific patterns (see prisma-expert)."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Postgres Best Practices

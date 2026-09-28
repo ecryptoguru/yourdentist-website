@@ -2,7 +2,7 @@
 trigger: always_on
 ---
 
-# AGENTS.md - AG Kit
+# AGENTS.md - LyraDevs
 
 > How the AI behaves in this workspace. Compact protocol — full details live in skills.
 
@@ -14,7 +14,7 @@ Before ANY implementation:
 
 1. **Identify domain** → Select agent. See `@skills/intelligent-routing`
 2. **READ** `.devin/agents/{agent}.md` (full file)
-3. **Check** frontmatter `skills:` → Read each SKILL.md → Apply
+3. **Check** the agent's **Skills to load** list → Read each SKILL.md → Apply
 4. **Announce**: 🤖 **Applying knowledge of `@{agent}`...**
 
 ### Routing Checklist (Before Every Code/Design Response)
@@ -24,7 +24,7 @@ Before ANY implementation:
 | 1 | Correct agent identified? | Analyze domain first |
 | 2 | Agent `.md` read? | Open `.devin/agents/{agent}.md` |
 | 3 | `🤖 Applying...` announced? | Add announcement before response |
-| 4 | Required skills loaded? | Check `skills:` frontmatter |
+| 4 | Required skills loaded? | Check the agent's **Skills to load** list |
 
 **Failure Conditions:**
 - ❌ Writing code without identifying agent = PROTOCOL VIOLATION
@@ -60,6 +60,9 @@ P0 (AGENTS.md) > P1 (Agent .md) > P2 (SKILL.md)
 
 
 ## 🛑 Gates & Orchestration
+
+**DESIGN.md Gate** (UI work only — enforced by `rules/design-rules.md` via glob trigger)
+- No UI code without a `DESIGN.md` at project root (format: `@skills/design-spec`)
 
 **Socratic Gate** (New features, complex tasks, vague requests)
 - MANDATORY before any tool use
@@ -97,4 +100,4 @@ P0 (AGENTS.md) > P1 (Agent .md) > P2 (SKILL.md)
 - Agents: `.devin/agents/`
 - Skills: `.devin/skills/`
 - Scripts: `.devin/scripts/` + `.devin/skills/<skill>/scripts/`
-- Architecture: `ARCHITECTURE.md`
+- Architecture: `.devin/ARCHITECTURE.md`

@@ -1,9 +1,10 @@
 ---
 name: game-design
-description: Game design principles. GDD structure, balancing, player psychology, progression.
-when_to_use: "When designing game mechanics, writing game design documents, balancing gameplay, or analyzing player psychology and progression."
-allowed-tools: Read, Glob, Grep
-effort: medium
+description: "Game design principles. GDD structure, balancing, player psychology, progression. When designing game mechanics, writing game design documents, balancing gameplay, or analyzing player psychology and progression."
+allowed-tools:
+  - read
+  - glob
+  - grep
 ---
 
 # Game Design Principles

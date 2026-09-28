@@ -1,9 +1,11 @@
 ---
 name: lint-and-validate
-description: Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards.
-when_to_use: "When running linters, type checkers, or code formatters. After any code change that needs quality validation."
-allowed-tools: Read, Glob, Grep, Bash
-effort: low
+description: "Automatic quality control, linting, and static analysis procedures. Use after every code modification to ensure syntax correctness and project standards. When running linters, type checkers, or code formatters. After any code change that needs quality validation."
+allowed-tools:
+  - read
+  - glob
+  - grep
+  - exec
 ---
 
 # Lint and Validate Skill

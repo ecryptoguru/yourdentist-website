@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+# pyright: reportMissingTypeArgument=false, reportUnknownMemberType=false, reportUnknownVariableType=false, reportUnknownArgumentType=false, reportUnknownParameterType=false, reportGeneralTypeIssues=false, reportAttributeAccessIssue=false, reportArgumentType=false, reportOperatorIssue=false
 """
 Lint Runner - Unified linting and type checking
 Runs appropriate linters based on project type.
@@ -15,7 +16,6 @@ import subprocess
 import sys
 import json
 import platform
-import shutil
 from pathlib import Path
 from datetime import datetime
 
@@ -41,15 +41,19 @@ def detect_project_type(project_path: Path) -> dict:
             pkg = json.loads(package_json.read_text(encoding='utf-8'))
             scripts = pkg.get("scripts", {})
             deps = {**pkg.get("dependencies", {}), **pkg.get("devDependencies", {})}
+            package_manager = pkg.get("packageManager", "")
+            runner = "pnpm" if package_manager.startswith("pnpm@") else "npm"
             
             # Check for lint script
             if "lint" in scripts:
-                result["linters"].append({"name": "npm lint", "cmd": ["npm", "run", "lint"]})
+                result["linters"].append({"name": f"{runner} lint", "cmd": [runner, "run", "lint"]})
             elif "eslint" in deps:
                 result["linters"].append({"name": "eslint", "cmd": ["npx", "eslint", "."]})
             
             # Check for TypeScript
-            if "typescript" in deps or (project_path / "tsconfig.json").exists():
+            if "typecheck" in scripts:
+                result["linters"].append({"name": f"{runner} typecheck", "cmd": [runner, "run", "typecheck"]})
+            elif "typescript" in deps or (project_path / "tsconfig.json").exists():
                 result["linters"].append({"name": "tsc", "cmd": ["npx", "tsc", "--noEmit"]})
                 
         except:
@@ -58,13 +62,18 @@ def detect_project_type(project_path: Path) -> dict:
     # Python project
     if (project_path / "pyproject.toml").exists() or (project_path / "requirements.txt").exists():
         result["type"] = "python"
-        
+        python_exe = sys.executable
+
         # Check for ruff
-        result["linters"].append({"name": "ruff", "cmd": ["ruff", "check", "."]})
-        
+        result["linters"].append(
+            {"name": "ruff", "cmd": [python_exe, "-m", "ruff", "check", "."]}
+        )
+
         # Check for mypy
         if (project_path / "mypy.ini").exists() or (project_path / "pyproject.toml").exists():
-            result["linters"].append({"name": "mypy", "cmd": ["mypy", "."]})
+            result["linters"].append(
+                {"name": "mypy", "cmd": [python_exe, "-m", "mypy", "."]}
+            )
     
     return result
 

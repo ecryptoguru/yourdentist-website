@@ -1,9 +1,13 @@
 ---
 name: refactoring-patterns
-description: Patterns and strategies for refactoring legacy code, modernizing codebases, and improving code structure without breaking functionality. Use when refactoring, modernizing, or restructuring existing code.
-when_to_use: "When refactoring legacy code, modernizing old codebases, restructuring poor architecture, or improving code quality through systematic changes."
-allowed-tools: Read, Write, Edit, Glob, Grep, Bash
-effort: medium
+description: "Patterns and strategies for refactoring legacy code, modernizing codebases, and improving code structure without breaking functionality. Use when refactoring, modernizing, or restructuring existing code. When refactoring legacy code, modernizing old codebases, restructuring poor architecture, or improving code quality through systematic changes."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
+  - exec
 ---
 
 # Refactoring Patterns

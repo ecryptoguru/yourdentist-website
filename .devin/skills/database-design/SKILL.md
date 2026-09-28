@@ -1,9 +1,12 @@
 ---
 name: database-design
-description: Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases.
-when_to_use: "When designing database schemas, choosing ORMs, planning migrations, or optimizing queries. When working with Prisma, Drizzle, or SQL files."
-allowed-tools: Read, Write, Edit, Glob, Grep
-effort: low
+description: "Database design principles and decision-making. Schema design, indexing strategy, ORM selection, serverless databases. When designing database schemas, choosing ORMs, planning migrations, or optimizing queries. When working with Prisma, Drizzle, or SQL files."
+allowed-tools:
+  - read
+  - write
+  - edit
+  - glob
+  - grep
 ---
 
 # Database Design

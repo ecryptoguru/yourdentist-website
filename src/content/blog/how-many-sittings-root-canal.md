@@ -164,8 +164,6 @@ At YourDentist, the cost depends on the tooth and complexity, not just the numbe
 | Molar | ₹5,000 - ₹8,000 | ₹6,500 - ₹10,000 |
 | Laser-assisted RCT | ₹6,000 - ₹10,000 | ₹8,000 - ₹12,000 |
 
-##
-
 ## Related dental services at YourDentist
 
 - [Root canal treatment](/services/root-canal-treatment/) — single and multi-sitting RCT

@@ -56,7 +56,7 @@ Rinse your mouth. Apply a cold compress to reduce swelling. If the tooth is shar
 
 ### Swelling or abscess
 
-Do not apply heat to the outside of your face. Rinse with luke-warm  water and take a pain reliever. Swelling often means infection, which needs professional treatment. Antibiotics alone may not solve the problem.
+Do not apply heat to the outside of your face. Rinse with lukewarm water and take a pain reliever. Swelling often means infection, which needs professional treatment. Antibiotics alone may not solve the problem.
 
 ### Lost filling or crown
 

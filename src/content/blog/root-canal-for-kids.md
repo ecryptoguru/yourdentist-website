@@ -7,7 +7,7 @@ lastUpdated: 2026-07-17
 readTime: "7 min read"
 ---
 
-Many parents are shocked when a dentist says their child needs a root canal. They assume baby teeth do not need saving because they fall out eventually. But baby teeth are important for chewing, speech, and guiding permanent teeth into place. Losing a baby tooth too early can cause alignment problems later. In India, an estimated 50 to 60% of school children suffer from dental caries, and many cases progress to pulp infection due to delayed treatment.
+Yes, root canal treatment for children is safe when performed by a dentist experienced with paediatric patients. Many parents are shocked when a dentist says their child needs a root canal. They assume baby teeth do not need saving because they fall out eventually. But baby teeth are important for chewing, speech, and guiding permanent teeth into place. Losing a baby tooth too early can cause alignment problems later. In India, an estimated 50 to 60% of school children suffer from dental caries, and many cases progress to pulp infection due to delayed treatment.
 
 In Bhubaneswar, parents often discover their child needs a root canal only after the pain becomes severe. Regular dental checkups from age 1 can catch decay early and prevent the need for more invasive procedures. Dr. Dash emphasises preventive care and early intervention.
 

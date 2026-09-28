@@ -147,7 +147,7 @@ Early intervention for harmful habits can prevent the need for complex orthodont
 ## Orthodontic treatment stages summary
 
 | Stage | Age | Purpose | Duration |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Early evaluation | 7 to 9 | Identify problems, monitor growth | 1 to 2 visits |
 | Phase 1 (interceptive) | 7 to 10 | Correct jaw growth, habits | 6 to 18 months |
 | Monitoring | 10 to 12 | Watch development | Periodic visits |

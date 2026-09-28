@@ -7,7 +7,7 @@ lastUpdated: 2026-09-28
 readTime: "7 min read"
 ---
 
-Many people only visit the dentist when they have pain. By then, small problems have often become big and expensive. Regular dental checkups help detect issues early, prevent tooth loss, and keep your mouth healthy. The WHO recommends that everyone should have regular oral health checkups as part of overall health maintenance.
+Many people only visit the dentist when they have pain. By then, small problems have often become big and expensive. For most people, the answer is simple: a dental checkup every six months. Regular dental checkups help detect issues early, prevent tooth loss, and keep your mouth healthy. The WHO recommends that everyone should have regular oral health checkups as part of overall health maintenance.
 
 In India, many people skip dental visits because they feel their teeth are fine. But dental problems like cavities and gum disease develop silently. By the time you feel pain, the problem may already be advanced. A checkup every 6 months can catch issues when they are small, simple, and affordable to treat. In Bhubaneswar, awareness of preventive dental care is growing, but many residents still only seek treatment when pain becomes unbearable.
 

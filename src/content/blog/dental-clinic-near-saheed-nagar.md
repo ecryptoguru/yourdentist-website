@@ -172,4 +172,4 @@ For dental emergencies like severe toothache, broken teeth, or swelling, we try 
 ### What payment methods do you accept?
 We accept cash, UPI (PhonePe, Google Pay, Paytm), debit cards, credit cards, and offer instalment plans for expensive treatments like braces and implants. Transparent pricing means you know the cost before treatment begins.
 
-If you live in Saheed Nagar and need a dental clinic nearby, YourDentist Laser Dental Clinic in Bomikhal is just minutes away. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.
+If you live in Saheed Nagar and need a dental clinic nearby, YourDentist Laser Dental Clinic in Bomikhal, Bhubaneswar, is just minutes away. Call +91 7064719630 or [WhatsApp us](https://wa.me/917064719630?text=Hi,%20I%20would%20like%20to%20book%20an%20appointment.) to book your appointment.

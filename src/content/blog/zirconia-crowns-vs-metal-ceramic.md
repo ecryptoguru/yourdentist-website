@@ -96,7 +96,7 @@ Whether you choose zirconia or metal-ceramic, proper care extends the life of yo
 ## Crown longevity comparison and maintenance
 
 | Crown type | Expected lifespan | Maintenance required | Signs of wear |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Zirconia | 08 to 15 years | Normal brushing, flossing | Surface wear, rarely fractures |
 | Metal-ceramic | 05 to 15 years | Normal brushing, flossing | Dark metal line at gumline, chipping |
 | All-ceramic | 10 to 15 years | Normal brushing, flossing | Chipping at edges |
@@ -107,7 +107,7 @@ Regular dental checkups help detect early signs of crown wear or issues before t
 ## Crown selection guide by tooth position
 
 | Tooth position | Recommended crown | Why | Cost (INR) |
-| --- | --- | --- |
+| --- | --- | --- | --- |
 | Front incisor | High-translucency zirconia or E-max | Best aesthetics, natural translucency
 | Canine | Layered zirconia | Strength + aesthetics
 | Premolar | Zirconia or metal-ceramic | Balance of strength and cost

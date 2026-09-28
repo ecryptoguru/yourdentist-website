@@ -66,7 +66,7 @@ Each treatment begins with a consultation and digital diagnosis. We do not start
 
 ## What Bhubaneswar patients say about YourDentist
 
-Patients visit Yourdentist Dental Clinic from across Bhubaneswar and beyond. Our patients come not only from different parts of Bhubaneswar, but also from Cuttack, Jharsuguda, Phulbani, Rourkela, Paradip and other parts of Odisha. Their trust in us is a reflection of our commitment to quality dental care, personalised treatment and beautiful, healthy smiles.
+Patients visit YourDentist Laser Dental Clinic from across Bhubaneswar and beyond. Our patients come not only from different parts of Bhubaneswar, but also from Cuttack, Jharsuguda, Phulbani, Rourkela, Paradip and other parts of Odisha. Their trust in us is a reflection of our commitment to quality dental care, personalised treatment and beautiful, healthy smiles.
 
 A student from Saheed Nagar, fearful of injections, underwent multiple root canals with a comfortable, virtually painless experience.
 

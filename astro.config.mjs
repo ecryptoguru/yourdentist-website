@@ -1,6 +1,7 @@
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import tailwindcss from '@tailwindcss/vite';
+import { unified } from '@astrojs/markdown-remark';
 import rehypeSlug from 'rehype-slug';
 import { buildLastmodMap } from './src/lib/sitemap-lastmod';
 
@@ -21,7 +22,7 @@ export default defineConfig({
     plugins: [tailwindcss()],
   },
   markdown: {
-    rehypePlugins: [rehypeSlug],
+    processor: unified({ rehypePlugins: [rehypeSlug] }),
   },
   build: {
     format: 'directory',

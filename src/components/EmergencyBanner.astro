@@ -35,16 +35,10 @@ import { clinicInfo } from '@/lib/data';
 </div>
 
 <script>
-  const banner = document.getElementById('emergency-banner');
   const dismiss = document.getElementById('emergency-dismiss');
 
-  if (sessionStorage.getItem('yd-emergency-dismissed')) {
-    banner?.classList.add('hidden');
-    document.documentElement.style.setProperty('--emergency-height', '0px');
-  }
-
   dismiss?.addEventListener('click', () => {
-    banner?.classList.add('hidden');
+    document.documentElement.classList.add('no-emergency');
     sessionStorage.setItem('yd-emergency-dismissed', '1');
     window.dispatchEvent(new Event('resize'));
   });

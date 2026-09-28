@@ -2,8 +2,7 @@
 title: "Best Lady Dentist in Bhubaneswar — Dr. Arpita Dash Profile"
 excerpt: "Dr. Arpita Dash is one of the best lady dentists in Bhubaneswar. Learn about her qualifications, experience, specialities, and patient-focused approach at YourDentist."
 category: "Local Guide"
-date: 2026-04-17
-lastUpdated: 2026-09-28
+date: 2025-10-15
 readTime: "7 min read"
 ---
 

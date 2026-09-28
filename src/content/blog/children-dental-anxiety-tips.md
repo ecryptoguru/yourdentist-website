@@ -2,8 +2,7 @@
 title: "How to Help Children Overcome Dental Anxiety — Parent Tips"
 excerpt: "Dental anxiety is common in children. Learn practical tips to make dental visits calm and positive at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-11-17
 readTime: "7 min read"
 ---
 

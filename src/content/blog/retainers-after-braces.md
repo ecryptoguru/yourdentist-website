@@ -2,8 +2,7 @@
 title: "Retainers After Braces — How Long to Wear Them and Why"
 excerpt: "Retainers keep your teeth in position after braces. Learn how long to wear retainers, the types available, and why they are essential for lasting results."
 category: "Orthodontics"
-date: 2026-07-18
-lastUpdated: 2026-07-18
+date: 2026-06-21
 readTime: "7 min read"
 ---
 

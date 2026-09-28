@@ -2,8 +2,7 @@
 title: "Dentist Open on Sunday in Bhubaneswar — YourDentist Clinic Hours"
 excerpt: "Need a dentist open on Sunday in Bhubaneswar? YourDentist Laser Dental Clinic is open Sunday morning and evening in Bomikhal. Book your weekend appointment."
 category: "Local Guide"
-date: 2026-03-18
-lastUpdated: 2026-09-28
+date: 2026-02-05
 readTime: "7 min read"
 ---
 

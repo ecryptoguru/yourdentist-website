@@ -2,8 +2,7 @@
 title: "Thumb Sucking and Dental Effects — When to Worry and How to Stop"
 excerpt: "Thumb sucking is normal in babies but can affect teeth if it continues. Learn when to intervene and tips to help your child stop at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-22
 readTime: "7 min read"
 ---
 

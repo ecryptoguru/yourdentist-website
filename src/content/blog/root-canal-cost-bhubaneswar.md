@@ -2,8 +2,7 @@
 title: "Root Canal Treatment Cost in Bhubaneswar — Complete Price Breakdown"
 excerpt: "Get a complete breakdown of root canal cost in Bhubaneswar. Learn what affects RCT price, crown costs, and payment options at YourDentist."
 category: "Root Canal"
-date: 2026-05-11
-lastUpdated: 2026-07-17
+date: 2026-06-25
 readTime: "9 min read"
 ---
 

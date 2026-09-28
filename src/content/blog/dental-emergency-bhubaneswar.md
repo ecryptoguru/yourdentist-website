@@ -2,8 +2,7 @@
 title: "Dental Emergency in Bhubaneswar — What Counts and Where to Go"
 excerpt: "Know what qualifies as a dental emergency and where to get urgent care in Bhubaneswar. YourDentist offers same-day emergency appointments."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-12-23
 readTime: "8 min read"
 ---
 

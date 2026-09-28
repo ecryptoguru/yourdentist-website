@@ -2,8 +2,7 @@
 title: "How Long Do Dental Implants Last? Lifespan Explained by Dentist"
 excerpt: "Dental implants can last 15 to 25 years or more with proper care. Learn what affects implant lifespan and how to make yours last at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-07-30
-lastUpdated: 2026-09-28
+date: 2026-03-21
 readTime: "8 min read"
 ---
 

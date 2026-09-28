@@ -2,8 +2,7 @@
 title: "What to Eat After Root Canal Treatment — Diet Guide for 7 Days"
 excerpt: "After a root canal, your tooth needs gentle care. This 7-day diet guide tells you what to eat and avoid for smooth recovery at YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-05-23
-lastUpdated: 2026-09-28
+date: 2026-09-13
 readTime: "8 min read"
 ---
 

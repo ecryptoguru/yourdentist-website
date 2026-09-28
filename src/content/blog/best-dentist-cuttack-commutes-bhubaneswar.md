@@ -2,8 +2,7 @@
 title: "Best Dentist in Cuttack Who Commutes to Bhubaneswar — Dr. Arpita Dash"
 excerpt: "Looking for the best dentist in Cuttack? Dr. Arpita Dash at YourDentist Bhubaneswar welcomes patients from Cuttack for advanced dental care."
 category: "Local Guide"
-date: 2026-04-09
-lastUpdated: 2026-09-28
+date: 2025-10-07
 readTime: "7 min read"
 ---
 
@@ -84,7 +83,7 @@ Bhubaneswar dental costs are generally lower than metro cities like Delhi, Mumba
 | --- | --- | --- |
 | Root canal | ₹2,500 - ₹6,000 | ₹4,000 - ₹8,000 |
 | Crown | ₹3,000 - ₹8,000 | ₹4,000 - ₹18,000 |
-| Implant | ₹20,000 - ₹45,000 | ₹25,000 - ₹50,000 |
+| Implant | ₹20,000 - ₹45,000 | ₹15,000 - ₹50,000 |
 | Braces | ₹20,000 - ₹60,000 | ₹25,000 - ₹1,50,000 |
 
 Prices vary by materials and case complexity. YourDentist provides written estimates.

@@ -2,8 +2,7 @@
 title: "Baby Bottle Tooth Decay — Causes and Prevention Tips"
 excerpt: "Baby bottle tooth decay can damage baby teeth. Learn the causes, prevention, and treatment at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-09-08
 readTime: "7 min read"
 ---
 

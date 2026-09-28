@@ -2,8 +2,7 @@
 title: "Dental Sealants for Kids — Protect Back Teeth from Cavities"
 excerpt: "Dental sealants protect children's back teeth from cavities by sealing grooves. Learn how sealants work, cost, and benefits at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-01-22
 readTime: "7 min read"
 ---
 
@@ -138,7 +137,7 @@ Sealants are recommended for:
 | If 1 molar gets a cavity | ₹800 - ₹2,500 (filling) | ₹0 (prevented) | ₹800 - ₹2,500 |
 | If 2 molars get cavities | ₹1,600 - ₹5,000 (fillings) | ₹0 (prevented) | ₹1,600 - ₹5,000 |
 | If cavity reaches pulp | ₹3,000 - ₹10,000 (RCT + crown) | ₹0 (prevented) | ₹3,000 - ₹10,000 |
-| If tooth is lost | ₹25,000 - ₹50,000 (implant) | ₹0 (prevented) | ₹25,000 - ₹50,000 |
+| If tooth is lost | ₹15,000 - ₹50,000 (implant) | ₹0 (prevented) | ₹15,000 - ₹50,000 |
 
 Sealants are one of the most cost-effective preventive treatments in dentistry. A small investment now can save significant costs and pain later.
 

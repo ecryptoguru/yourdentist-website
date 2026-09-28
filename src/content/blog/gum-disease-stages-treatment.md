@@ -2,8 +2,7 @@
 title: "Gum Disease Stages and Treatment — Protect Your Teeth and Gums"
 excerpt: "Gum disease ranges from mild gingivitis to severe periodontitis. Learn the stages, symptoms, and treatments at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-03-14
 readTime: "8 min read"
 ---
 

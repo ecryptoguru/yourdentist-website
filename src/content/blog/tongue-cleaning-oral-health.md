@@ -2,8 +2,7 @@
 title: "Why Tongue Cleaning Is Important for Oral Health"
 excerpt: "Cleaning your tongue removes bacteria, prevents bad breath, and improves taste. Learn the right tongue cleaning technique at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-26
 readTime: "7 min read"
 ---
 

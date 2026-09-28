@@ -2,8 +2,7 @@
 title: "Invisible Aligners in Bhubaneswar — YourDentist Smile Designing Guide"
 excerpt: "Looking for invisible aligners in Bhubaneswar? YourDentist offers clear aligner treatment for a straighter smile without metal braces."
 category: "Orthodontics"
-date: 2026-06-28
-lastUpdated: 2026-07-17
+date: 2026-04-20
 readTime: "8 min read"
 ---
 

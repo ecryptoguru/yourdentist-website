@@ -2,8 +2,7 @@
 title: "Laser Teeth Whitening in Bhubaneswar — Fast, Safe, and Effective"
 excerpt: "Laser teeth whitening brightens your smile by 5 to 8 shades in one session. Learn the procedure, cost, and results at YourDentist Bhubaneswar."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-23
 readTime: "7 min read"
 ---
 

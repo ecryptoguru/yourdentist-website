@@ -2,8 +2,7 @@
 title: "Bad Breath Causes and Treatment — How to Get Rid of Halitosis"
 excerpt: "Bad breath or halitosis can be embarrassing. Learn the causes, home remedies, and professional treatments available at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-09-15
 readTime: "8 min read"
 ---
 

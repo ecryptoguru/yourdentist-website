@@ -2,8 +2,7 @@
 title: "Root Canal Treatment for Kids — Is It Safe? Paediatric Dentist Explains"
 excerpt: "Is root canal treatment safe for children? Yes, when needed. Learn why kids may need RCT, how it is done, and what to expect at YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-05-31
-lastUpdated: 2026-07-17
+date: 2026-07-02
 readTime: "7 min read"
 ---
 

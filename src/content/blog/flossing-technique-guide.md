@@ -2,8 +2,7 @@
 title: "How to Floss Properly — Step-by-Step Guide for Healthy Gums"
 excerpt: "Flossing removes plaque between teeth where brushing cannot reach. Learn the proper flossing technique for healthier gums at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-02-27
 readTime: "7 min read"
 ---
 

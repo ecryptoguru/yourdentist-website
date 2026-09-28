@@ -1,8 +1,6 @@
 ---
-interface BreadcrumbItem {
-  name: string;
-  href: string;
-}
+import { buildBreadcrumbSchema, jsonLd } from '@/lib/json-ld';
+import type { BreadcrumbItem } from '@/lib/json-ld';
 
 interface Props {
   items: BreadcrumbItem[];
@@ -10,16 +8,7 @@ interface Props {
 
 const { items } = Astro.props;
 
-const breadcrumbSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'BreadcrumbList',
-  itemListElement: items.map((item, i) => ({
-    '@type': 'ListItem',
-    position: i + 1,
-    name: item.name,
-    item: `https://www.yourdentistdentalclinic.com${item.href}`,
-  })),
-};
+const breadcrumbSchema = buildBreadcrumbSchema(items);
 ---
 
 <nav aria-label="Breadcrumb" class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
@@ -39,4 +28,4 @@ const breadcrumbSchema = {
   </ol>
 </nav>
 
-<script type="application/ld+json" set:html={JSON.stringify(breadcrumbSchema)} />
+<script type="application/ld+json" set:html={jsonLd(breadcrumbSchema)} />

@@ -2,8 +2,7 @@
 title: "Teeth Whitening in Bhubaneswar — Cost, Procedure, and Results"
 excerpt: "Want a brighter smile? Learn about teeth whitening cost in Bhubaneswar, in-office vs home whitening, and how long results last at YourDentist Laser Dental Clinic."
 category: "Cosmetic Dentistry"
-date: 2026-02-08
-lastUpdated: 2026-09-28
+date: 2026-08-19
 readTime: "8 min read"
 ---
 

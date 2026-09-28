@@ -2,8 +2,7 @@
 title: "How Long Does a Root Canal Take? Step-by-Step Timeline"
 excerpt: "How long does a root canal take? Most root canals at YourDentist Bhubaneswar are completed in 45 to 90 minutes in a single sitting. Learn the full timeline."
 category: "Root Canal"
-date: 2026-05-15
-lastUpdated: 2026-09-28
+date: 2026-03-25
 readTime: "7 min read"
 ---
 

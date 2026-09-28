@@ -2,8 +2,7 @@
 title: "Mouth Ulcers Causes and Treatment — How to Heal Faster"
 excerpt: "Mouth ulcers are painful but usually harmless. Learn common causes, home remedies, and when to see YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-26
 readTime: "7 min read"
 ---
 

@@ -7,5 +7,7 @@ export function formatDate(
   },
 ): string {
   const d = typeof date === "string" ? new Date(date) : date;
-  return new Intl.DateTimeFormat("en-IN", options).format(d);
+  // timeZone: 'UTC' keeps output identical regardless of the build machine's
+  // timezone — date-only frontmatter parses as UTC midnight.
+  return new Intl.DateTimeFormat("en-IN", { timeZone: "UTC", ...options }).format(d);
 }

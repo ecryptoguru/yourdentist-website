@@ -2,8 +2,7 @@
 title: "5 Root Canal Myths Busted by a Real Dentist in Bhubaneswar"
 excerpt: "Root canal myths stop many people from getting the care they need. Dr. Arpita Dash separates fact from fiction about RCT pain, illness, and tooth extraction."
 category: "Root Canal"
-date: 2026-01-22
-lastUpdated: 2026-07-17
+date: 2026-07-06
 readTime: "7 min read"
 ---
 

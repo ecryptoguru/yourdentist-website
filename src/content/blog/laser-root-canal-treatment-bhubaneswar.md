@@ -2,8 +2,7 @@
 title: "Laser Root Canal Treatment in Bhubaneswar — Benefits and Cost"
 excerpt: "Laser root canal treatment uses laser energy to disinfect root canals. Learn the benefits, cost, and procedure at YourDentist Bhubaneswar."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-19
 readTime: "8 min read"
 ---
 

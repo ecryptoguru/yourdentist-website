@@ -5,7 +5,6 @@ export const GET: APIRoute = () => {
 Allow: /
 Allow: /images/
 Allow: /fonts/
-Crawl-delay: 1
 
 Sitemap: https://www.yourdentistdentalclinic.com/sitemap-index.xml
 `;

@@ -2,8 +2,7 @@
 title: "Painless Root Canal Treatment in Bhubaneswar — How YourDentist Does It"
 excerpt: "Modern root canal treatment in Bhubaneswar is virtually painless. Learn how YourDentist uses laser and rotary technology for single-sitting RCT."
 category: "Root Canal"
-date: 2026-01-18
-lastUpdated: 2026-07-17
+date: 2026-06-14
 readTime: "8 min read"
 ---
 

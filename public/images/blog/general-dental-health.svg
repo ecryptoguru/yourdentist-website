@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" role="img" aria-label="">
+  <defs>
+    <linearGradient id="bgeneraldentalhealth-lin" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#047857"/>
+      <stop offset="1" stop-color="#134e4a"/>
+    </linearGradient>
+    <radialGradient id="bgeneraldentalhealth-rad" cx="0.3" cy="0.2" r="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bgeneraldentalhealth-lin)"/>
+  <rect width="1200" height="675" fill="url(#bgeneraldentalhealth-rad)"/>
+  <g fill="#ffffff" fill-opacity="0.07">
+    <circle cx="150" cy="560" r="180"/>
+    <circle cx="1080" cy="90" r="200"/>
+  </g>
+  <g fill="#ffffff" fill-opacity="0.12">
+    <circle cx="230" cy="140" r="5"/>
+    <circle cx="980" cy="560" r="7"/>
+    <circle cx="1030" cy="120" r="4"/>
+    <circle cx="180" cy="480" r="4"/>
+  </g>
+  <circle cx="600" cy="337" r="132" fill="#ffffff" fill-opacity="0.10" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+  <g transform="translate(540 277) scale(5)" fill="none" stroke="#ffffff" stroke-opacity="0.92" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></g>
+</svg>

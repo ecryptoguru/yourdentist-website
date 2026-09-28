@@ -3,7 +3,10 @@ import BaseLayout from '@/layouts/BaseLayout.astro';
 import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { getServiceIcon } from '@/lib/icons';
 import { getCollection } from 'astro:content';
+import { SITE_URL } from '@/lib/site';
+import { jsonLd } from '@/lib/json-ld';
 
 const services = await getCollection('services');
 
@@ -14,7 +17,7 @@ const serviceListSchema = {
   itemListElement: services.map((service, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `https://www.yourdentistdentalclinic.com/services/${service.data.slug}/`,
+    url: `${SITE_URL}/services/${service.data.slug}/`,
     name: service.data.title,
   })),
 };
@@ -25,7 +28,7 @@ const serviceListSchema = {
   description="Comprehensive dental services in Bhubaneswar by Dr. Arpita Dash. Root canal treatment, orthodontics, dental implants, laser dentistry, teeth whitening & more. Book your appointment today!"
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(serviceListSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(serviceListSchema)} />
   </Fragment>
   <Header />
   <main class="flex-1 pt-36">
@@ -44,16 +47,16 @@ const serviceListSchema = {
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {services.map((service, i) => (
           <div class="stagger-item" style={`transition-delay: ${i * 0.08}s`}>
-            <a href={`/services/${service.data.slug}/`}>
-              <div class="group bg-white dark:bg-warm-800 rounded-xl p-7 sm:p-8 border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover hover:-translate-y-1 transition-all duration-500 hover:border-teal-200/80 dark:hover:border-teal-600/80">
-                <div class="w-12 h-12 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-teal-100/60 dark:group-hover:bg-teal-800/60 transition-colors duration-300">
-                  <span class="text-teal-700 dark:text-teal-400 text-lg font-bold">{service.data.icon.charAt(0)}</span>
+            <a href={`/services/${service.data.slug}/`} class="h-full flex">
+              <div class="group bg-white dark:bg-warm-800 rounded-xl p-7 sm:p-8 border border-slate-200/60 dark:border-warm-600 h-full w-full flex flex-col shadow-premium hover:shadow-premium-hover hover:-translate-y-1 transition-all duration-500 hover:border-teal-200/80 dark:hover:border-teal-600/80">
+                <div class="w-12 h-12 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-teal-100/60 dark:group-hover:bg-teal-800/60 transition-colors duration-300 shrink-0">
+                  <svg class="w-6 h-6 text-teal-700 dark:text-teal-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={getServiceIcon(service.data.icon)} />
                 </div>
                 <h2 class="font-heading text-lg font-semibold text-slate-900 dark:text-warm-100 mb-2.5 group-hover:text-teal-800 dark:group-hover:text-teal-400 transition-colors duration-300">{service.data.title}</h2>
                 <p class="text-slate-500 dark:text-warm-400 text-[14px] leading-relaxed mb-5">{service.data.shortDescription}</p>
-                <span class="inline-flex items-center text-teal-700 dark:text-teal-400 text-sm font-medium group-hover:gap-2 transition-all duration-300">
+                <span class="inline-flex items-center text-teal-700 dark:text-teal-400 text-sm font-medium group-hover:gap-2 transition-all duration-300 mt-auto">
                   Learn More
-                  <svg class="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
+                  <svg class="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14" /><path d="m12 5 7 7-7 7" /></svg>
                 </span>
               </div>
             </a>

@@ -2,8 +2,7 @@
 title: "Best Age for Braces — When Should Your Child Get Orthodontic Treatment?"
 excerpt: "What is the best age for braces? Learn when children should first see an orthodontist and the ideal time to start orthodontic treatment."
 category: "Orthodontics"
-date: 2026-06-24
-lastUpdated: 2026-09-28
+date: 2025-09-23
 readTime: "7 min read"
 ---
 

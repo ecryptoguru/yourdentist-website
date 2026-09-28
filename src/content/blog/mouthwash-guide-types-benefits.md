@@ -2,8 +2,7 @@
 title: "Mouthwash Guide — Types, Benefits, and How to Use It Properly"
 excerpt: "Mouthwash freshens breath and fights bacteria, but it is not a substitute for brushing. Learn the types and correct use at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-30
 readTime: "7 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "Best Dental Implant Clinic in Bhubaneswar — Why Patients Choose YourDentist"
 excerpt: "Looking for the best dental implant clinic in Bhubaneswar? YourDentist offers CBCT-guided implants, experienced surgeon Dr. Arpita Dash, and transparent pricing."
 category: "Dental Implants"
-date: 2026-09-08
-lastUpdated: 2026-09-28
+date: 2025-10-04
 readTime: "8 min read"
 ---
 
@@ -71,7 +70,7 @@ The clinic is in Bomikhal, Bhubaneswar, easily reachable from Saheed Nagar, Rasu
 
 | Implant type | Best for | Cost range (INR) |
 | --- | --- | --- |
-| Single tooth implant | One missing tooth | ₹15,000 - ₹25,000 |
+| Single tooth implant | One missing tooth | ₹15,000 - ₹50,000 |
 | Implant-supported bridge | Multiple missing teeth | ₹20,000 - ₹1,50,000 |
 | All-on-4 implants | Full arch replacement | ₹2,00,000 - ₹3,50,000 |
 | All-on-6 implants | Full arch with more support | ₹2,50,000 - ₹4,50,000 |
@@ -168,7 +167,7 @@ Evaluating these factors helps you choose the right implant clinic with confiden
 YourDentist Laser Dental Clinic is highly rated for dental implants, with CBCT-guided planning and experienced surgeon Dr. Arpita Dash.
 
 ### How much do dental implants cost at YourDentist?
-Single tooth implants cost ₹10,000 to ₹20,000. Full mouth implants cost ₹4,00,000 to ₹7,00,000 for both arches.
+Single tooth implants cost ₹15,000 to ₹50,000. Full mouth implants cost ₹4,00,000 to ₹7,00,000 for both arches.
 
 ### Does YourDentist offer payment plans for implants?
 Yes, we offer stage-wise payment plans and instalment options for implant cases.

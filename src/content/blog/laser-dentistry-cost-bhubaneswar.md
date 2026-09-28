@@ -2,8 +2,7 @@
 title: "Laser Dentistry Cost in Bhubaneswar — Full Price Guide 2026"
 excerpt: "Laser dentistry in Bhubaneswar costs ₹1,000 to ₹30,000 depending on the procedure. Compare laser RCT, gum treatment, whitening, and more prices."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-04
 readTime: "8 min read"
 ---
 

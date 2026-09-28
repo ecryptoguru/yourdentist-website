@@ -2,8 +2,7 @@
 title: "How to Brush Your Teeth Properly — Dentist-Recommended Technique"
 excerpt: "Brushing your teeth the right way prevents cavities, gum disease, and bad breath. Learn the dentist-approved brushing technique used at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-02-18
-lastUpdated: 2026-07-17
+date: 2026-06-10
 readTime: "8 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "Dental Clinic in Bhubaneswar Near KIIT — Students and Faculty Guide"
 excerpt: "Looking for a dental clinic near KIIT, Bhubaneswar? YourDentist Laser Dental Clinic in Bomikhal offers student-friendly prices and evening appointments."
 category: "Local Guide"
-date: 2026-03-29
-lastUpdated: 2026-07-17
+date: 2025-12-12
 readTime: "7 min read"
 ---
 

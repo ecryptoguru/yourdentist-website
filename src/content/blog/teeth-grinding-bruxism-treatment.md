@@ -2,8 +2,7 @@
 title: "Teeth Grinding (Bruxism) — Causes, Damage, and Treatment"
 excerpt: "Teeth grinding can wear down teeth and cause jaw pain. Learn the causes, symptoms, and treatment options at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-11
 readTime: "8 min read"
 ---
 

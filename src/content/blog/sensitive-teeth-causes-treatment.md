@@ -2,8 +2,7 @@
 title: "Sensitive Teeth Causes and Treatment — Stop Tooth Sensitivity"
 excerpt: "Sensitive teeth cause sharp pain with hot, cold, or sweet foods. Learn the causes, treatments, and prevention at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-07-24
 readTime: "8 min read"
 ---
 

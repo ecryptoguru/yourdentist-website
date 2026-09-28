@@ -2,8 +2,7 @@
 title: "Emergency Dental Care in Bhubaneswar — When to Call and What to Expect"
 excerpt: "Need emergency dental care in Bhubaneswar? YourDentist handles severe toothache, broken teeth, swelling, and injuries. Learn when to call and what to expect."
 category: "Local Guide"
-date: 2026-03-22
-lastUpdated: 2026-09-28
+date: 2026-02-24
 readTime: "8 min read"
 ---
 

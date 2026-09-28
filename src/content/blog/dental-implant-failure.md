@@ -2,8 +2,7 @@
 title: "Dental Implant Failure — Signs, Causes, and What to Do"
 excerpt: "Dental implant failure is rare but possible. Learn the signs of implant failure, common causes, and treatment options at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-08-27
-lastUpdated: 2026-09-28
+date: 2025-12-31
 readTime: "8 min read"
 ---
 
@@ -146,7 +145,7 @@ Understanding your risk factors helps you and Dr. Dash plan for implant success.
 | Diagnosis and consultation | ₹200 - ₹1000 |
 | Implant removal | ₹2,000 - ₹8,000 |
 | Bone grafting for replacement | ₹5,000 - ₹20,000 |
-| New implant placement | ₹25,000 - ₹50,000 |
+| New implant placement | ₹15,000 - ₹50,000 |
 | Peri-implantitis laser treatment | ₹3,000 - ₹15,000 |
 
 Early diagnosis and treatment are always less expensive than implant removal and replacement.

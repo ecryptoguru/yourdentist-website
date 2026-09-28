@@ -2,8 +2,7 @@
 title: "Toothache Causes, Home Remedies, and When to See a Dentist"
 excerpt: "Toothache can range from mild sensitivity to severe pain. Learn the causes, safe home remedies, and when to visit YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-30
 readTime: "8 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "How Many Sittings for Root Canal? Single-Sitting vs Multiple Explained"
 excerpt: "How many sittings does a root canal need? At YourDentist Bhubaneswar, most root canals are done in a single sitting. Learn when multiple visits are needed."
 category: "Root Canal"
-date: 2026-06-04
-lastUpdated: 2026-09-28
+date: 2026-03-29
 readTime: "7 min read"
 ---
 

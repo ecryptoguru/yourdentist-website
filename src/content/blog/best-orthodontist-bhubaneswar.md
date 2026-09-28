@@ -2,8 +2,7 @@
 title: "Best Orthodontist in Bhubaneswar — Dr. Arpita Dash Braces Results"
 excerpt: "Looking for the best orthodontist in Bhubaneswar? Dr. Arpita Dash at YourDentist offers braces and aligners with proven results and patient satisfaction."
 category: "Orthodontics"
-date: 2026-07-22
-lastUpdated: 2026-09-28
+date: 2025-10-18
 readTime: "8 min read"
 ---
 

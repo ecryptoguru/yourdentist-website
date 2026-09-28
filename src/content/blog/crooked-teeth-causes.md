@@ -2,8 +2,7 @@
 title: "Crooked Teeth Causes — Genetics, Habits, and How to Fix Them"
 excerpt: "Crooked teeth can be caused by genetics, childhood habits, or tooth loss. Learn the causes of crooked teeth and the best treatment options in Bhubaneswar."
 category: "Orthodontics"
-date: 2026-07-10
-lastUpdated: 2026-07-17
+date: 2025-11-28
 readTime: "7 min read"
 ---
 

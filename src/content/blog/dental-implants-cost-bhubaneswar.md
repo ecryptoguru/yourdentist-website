@@ -2,8 +2,7 @@
 title: "Dental Implants Cost in Bhubaneswar — Full Price Guide 2026"
 excerpt: "Get the full 2026 dental implants cost guide for Bhubaneswar. Compare single tooth, full mouth, All-on-4 prices and payment options at YourDentist."
 category: "Dental Implants"
-date: 2026-07-26
-lastUpdated: 2026-09-28
+date: 2026-01-11
 readTime: "9 min read"
 ---
 
@@ -92,7 +91,7 @@ A single tooth implant includes:
 - Crown: ₹8,000 to ₹20,000
 - Surgery and diagnostics: ₹5,000 to ₹15,000
 
-Total: ₹25,000 to ₹50,000
+Total: ₹15,000 to ₹50,000
 
 ## Full mouth implant options
 
@@ -161,7 +160,7 @@ Dental implants are expensive, but they are a long-term investment. Implants can
 ## Frequently asked questions
 
 ### How much does a dental implant cost in Bhubaneswar?
-A single tooth implant costs ₹25,000 to ₹50,000 at YourDentist.
+A single tooth implant costs ₹15,000 to ₹50,000 at YourDentist.
 
 ### How much do full mouth implants cost in Bhubaneswar?
 Full mouth implants range from ₹3,00,000 to ₹5,00,000 depending on the number of implants and type of restoration.

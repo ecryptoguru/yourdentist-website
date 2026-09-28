@@ -2,8 +2,7 @@
 title: "Foods to Avoid with Braces — Complete Do's and Don'ts List"
 excerpt: "What foods should you avoid with braces? Get a complete list of do's and don'ts to protect your brackets and wires during orthodontic treatment."
 category: "Orthodontics"
-date: 2026-07-06
-lastUpdated: 2026-07-17
+date: 2026-03-03
 readTime: "7 min read"
 ---
 

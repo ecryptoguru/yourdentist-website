@@ -2,8 +2,7 @@
 title: "Dental Implants After Tooth Extraction — Timing and Options"
 excerpt: "Should you get an implant immediately after tooth extraction or wait? Learn about immediate, early, and delayed implant placement at YourDentist."
 category: "Dental Implants"
-date: 2026-09-04
-lastUpdated: 2026-09-04
+date: 2026-04-16
 readTime: "8 min read"
 ---
 
@@ -177,9 +176,9 @@ Proper care during the healing period ensures the best conditions for successful
 | --- | --- |
 | Tooth extraction | ₹500 - ₹3,000 |
 | Socket preservation | ₹5,000 - ₹15,000 |
-| Implant placement | ₹25,000 - ₹50,000 |
+| Implant placement | ₹15,000 - ₹50,000 |
 | Crown (zirconia) | ₹12,000 - ₹20,000 |
-| **Total (without grafting)** | **₹38,000 - ₹73,000** |
+| **Total (without grafting)** | **₹28,000 - ₹73,000** |
 
 ## Why choose YourDentist for implants after extraction
 
@@ -212,7 +211,7 @@ Socket preservation is placing bone graft material into the extraction socket to
 We provide temporary tooth options like flippers or retainers to fill the gap during healing.
 
 ### How much does an implant cost after extraction in Bhubaneswar?
-The total cost including extraction, implant, and crown ranges from ₹38,000 to ₹73,000.
+The total cost including extraction, implant, and crown ranges from ₹28,000 to ₹73,000.
 
 ### Can smokers get implants after extraction?
 Smoking increases the risk of implant failure. Dr. Dash recommends quitting smoking before implant placement. If you cannot quit, delayed placement with careful monitoring may be the safest option.

@@ -2,8 +2,7 @@
 title: "Dental Implant Procedure Step by Step — What to Expect"
 excerpt: "Wondering what happens during dental implant surgery? Get a step-by-step breakdown of the implant procedure from consultation to crown at YourDentist."
 category: "Dental Implants"
-date: 2026-08-15
-lastUpdated: 2026-09-28
+date: 2026-01-03
 readTime: "9 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "Is Laser Dentistry Safe for Children? Painless Paediatric Dental Care"
 excerpt: "Laser dentistry is safe and effective for children. Learn how laser treatment helps kids with cavities, gum issues, and anxiety at YourDentist Bhubaneswar."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-08
 readTime: "7 min read"
 ---
 

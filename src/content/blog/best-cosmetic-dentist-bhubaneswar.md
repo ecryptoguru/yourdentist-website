@@ -2,8 +2,7 @@
 title: "Best Cosmetic Dentist in Bhubaneswar — Dr. Arpita Dash Smile Results"
 excerpt: "Looking for the best cosmetic dentist in Bhubaneswar? Dr. Arpita Dash at YourDentist offers veneers, whitening, smile makeovers, and more."
 category: "Cosmetic Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-09-26
 readTime: "8 min read"
 ---
 

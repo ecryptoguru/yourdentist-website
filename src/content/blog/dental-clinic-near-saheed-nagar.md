@@ -2,8 +2,7 @@
 title: "Dental Clinic Near Saheed Nagar, Bhubaneswar — Directions and Timing"
 excerpt: "Looking for a dental clinic near Saheed Nagar, Bhubaneswar? YourDentist Laser Dental Clinic in Bomikhal is just 5 minutes away. Get directions, hours, and services."
 category: "Local Guide"
-date: 2026-03-10
-lastUpdated: 2026-07-17
+date: 2025-12-16
 readTime: "7 min read"
 ---
 
@@ -89,7 +88,7 @@ Dental emergencies do not wait for appointments. If you have severe toothache, a
 | Crown | ₹4,000 - ₹18,000 |
 | Teeth whitening | ₹5,000 - ₹12,000 |
 | Braces | ₹25,000 - ₹1,50,000 |
-| Dental implant | ₹25,000 - ₹50,000 |
+| Dental implant | ₹15,000 - ₹50,000 |
 
 ## Nearby landmarks around YourDentist Bomikhal
 
@@ -117,7 +116,7 @@ We regularly see patients from Saheed Nagar who found us through online searches
 | Laser gum treatment | Painless alternative to surgery | ₹3,000 - ₹15,000 |
 | Teeth whitening | Quick aesthetic improvement | ₹5,000 - ₹12,000 |
 | Braces and aligners | Family orthodontic treatment | ₹25,000 - ₹1,50,000 |
-| Dental implants | Permanent tooth replacement | ₹25,000 - ₹50,000 |
+| Dental implants | Permanent tooth replacement | ₹15,000 - ₹50,000 |
 | Smile designing | Complete smile makeover | ₹10,000 - ₹1,00,000 |
 | Paediatric dentistry | Convenient for families | ₹300 - ₹5,000 |
 

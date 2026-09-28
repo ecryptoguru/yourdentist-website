@@ -2,8 +2,7 @@
 title: "Oral Cancer Screening — Why Early Detection Saves Lives"
 excerpt: "Oral cancer can be life-threatening if not caught early. Learn the risk factors, signs, and screening process at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-06-03
 readTime: "7 min read"
 ---
 

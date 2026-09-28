@@ -2,8 +2,7 @@
 title: "Baby Teething Symptoms and Care — What Parents Should Know"
 excerpt: "Teething can be uncomfortable for babies. Learn the symptoms, safe remedies, and when to see a dentist at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-09-12
 readTime: "7 min read"
 ---
 

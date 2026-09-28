@@ -2,8 +2,7 @@
 title: "How to Prevent Cavities — 10 Dentist-Approved Tips"
 excerpt: "Cavities are preventable with the right habits. Learn 10 dentist-approved tips to prevent tooth decay and keep your teeth strong at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-04-09
 readTime: "8 min read"
 ---
 

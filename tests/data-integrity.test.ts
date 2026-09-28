@@ -114,7 +114,6 @@ describe('data.ts content integrity', () => {
 
     it('should have 3 paragraphs', () => {
       const aboutSection = content.match(/aboutUsContent\s*=\s*\{[\s\S]*?\};/)?.[0] || '';
-      const paragraphCount = (aboutSection.match(/"/g) || []).length;
       expect(aboutSection).toMatch(/patient-first approach/);
       expect(aboutSection).toMatch(/sterilisation/);
       expect(aboutSection).toMatch(/Root Canal Treatments/);

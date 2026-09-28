@@ -2,8 +2,7 @@
 title: "Laser Gum Treatment in Bhubaneswar — Painless Periodontal Care"
 excerpt: "Laser gum treatment treats gum disease, bleeding gums, and gum infections without surgery. Learn the procedure, benefits, and cost at YourDentist."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-15
 readTime: "8 min read"
 ---
 

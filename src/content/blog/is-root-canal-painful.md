@@ -2,8 +2,7 @@
 title: "Is Root Canal Treatment Painful? Everything You Need to Know"
 excerpt: "Worried about root canal pain? Modern root canal treatment is virtually painless. Learn why RCT relieves pain, not causes it, at YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-05-07
-lastUpdated: 2026-09-28
+date: 2026-04-23
 readTime: "8 min read"
 ---
 

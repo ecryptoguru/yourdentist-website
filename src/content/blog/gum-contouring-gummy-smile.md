@@ -2,8 +2,7 @@
 title: "Gum Contouring for Gummy Smile — Laser Treatment at YourDentist"
 excerpt: "Gum contouring fixes a gummy smile by reshaping the gum line with a laser. Learn the procedure, cost, recovery, and results at YourDentist Bhubaneswar."
 category: "Cosmetic Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-03-10
 readTime: "7 min read"
 ---
 

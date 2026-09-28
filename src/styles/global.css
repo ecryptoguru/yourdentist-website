@@ -3,6 +3,175 @@
 @custom-variant dark (&:is(.dark *));
 @custom-variant group-open (&:where(details[open] *));
 
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lora-400i-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lora-400i-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Lora-500i-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Lora-500i-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lora-400-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/Lora-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Lora-500-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/Lora-500-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Lora-600-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/Lora-600-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Lora-700-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/Lora-700-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-400i-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: italic;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-400i-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-300-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-300-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-400-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-400-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-500-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-500-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-600-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-600-latin.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-700-latin-ext.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('/fonts/SourceSans3-700-latin.woff2') format('woff2');
+}
+
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
@@ -70,6 +239,9 @@
   --color-warm-700: #44403c;
   --color-warm-800: #292524;
   --color-warm-900: #1c1917;
+  /* WCAG AA: slate-500 (#62748e) measures ~4.4:1 on cream backgrounds; use the
+     darker slate-600 value so muted body text passes 4.5:1 everywhere. */
+  --color-slate-500: #475569;
   --color-cream: var(--cream);
   --color-ivory: var(--ivory);
 }
@@ -385,12 +557,17 @@
     }
   }
 
+  /* No-JS fallback: animation targets start visible when JS is absent.
+     Activated by class="no-js" on <html> (removed by the head inline script). */
   html.no-js .reveal,
   html.no-js .stagger-item,
-  html.no-js .reveal-up {
+  html.no-js .reveal-up,
+  html.no-js .hero-anim,
+  html.no-js [data-anim] {
     opacity: 1 !important;
     transform: none !important;
     clip-path: none !important;
+    transition: none !important;
   }
 
   /* Glassmorphism card */
@@ -531,6 +708,11 @@
     z-index: 100;
     width: 0%;
     transition: width 0.1s ease-out;
+  }
+
+  /* Emergency banner dismissed for the session — set on <html> pre-paint to avoid flash */
+  html.no-emergency #emergency-banner {
+    display: none;
   }
 
   /* Premium glow orb */
@@ -724,6 +906,8 @@
     margin-top: 2em;
     margin-bottom: 0.75em;
     line-height: 1.2;
+    /* Keep anchored headings visible below the fixed banner + header */
+    scroll-margin-top: 150px;
   }
   .dark .prose h1,
   .dark .prose h2,

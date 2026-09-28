@@ -2,8 +2,7 @@
 title: "All-on-4 Dental Implants in Bhubaneswar — Full Arch Solution"
 excerpt: "All-on-4 dental implants replace a full arch of teeth with just 4 implants. Learn the procedure, cost, benefits, and recovery at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-08-11
-lastUpdated: 2026-09-28
+date: 2025-09-04
 readTime: "9 min read"
 ---
 

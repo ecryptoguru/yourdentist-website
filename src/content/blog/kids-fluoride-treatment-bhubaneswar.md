@@ -2,8 +2,7 @@
 title: "Fluoride Treatment for Kids — Cavity Prevention at YourDentist"
 excerpt: "Fluoride treatment strengthens children's teeth and prevents cavities. Learn how it works, safety, and cost at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-04-27
 readTime: "7 min read"
 ---
 

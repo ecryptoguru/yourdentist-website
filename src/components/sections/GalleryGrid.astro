@@ -22,7 +22,7 @@ import { galleryImages } from '@/lib/data';
 </div>
 
 <!-- Lightbox -->
-<div id="gallery-lightbox-full" class="fixed inset-0 z-100 hidden items-center justify-center bg-black/80 backdrop-blur-sm">
+<div id="gallery-lightbox-full" class="fixed inset-0 z-100 hidden items-center justify-center bg-black/80 backdrop-blur-sm" role="dialog" aria-modal="true" aria-label="Image viewer">
   <div class="relative bg-slate-900 rounded-2xl overflow-hidden shadow-premium-lg max-w-[95vw] sm:max-w-4xl">
     <button id="lightbox-full-close" aria-label="Close image viewer" class="absolute top-3 right-3 sm:top-4 sm:right-4 z-10 w-11 h-11 bg-white/10 backdrop-blur rounded-full flex items-center justify-center hover:bg-white/20 transition-colors border border-white/10">
       <svg class="w-5 h-5 text-white" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
@@ -47,14 +47,21 @@ import { galleryImages } from '@/lib/data';
   const lightboxImg = document.getElementById('lightbox-full-image');
   const lightboxCounter = document.getElementById('lightbox-full-counter');
   let currentIndex = 0;
+  let lastTrigger = null;
+
+  function focusables() {
+    return lightbox ? [...lightbox.querySelectorAll('button, a[href], [tabindex]:not([tabindex="-1"])')] : [];
+  }
 
   function openLightbox(index) {
     if (!lightbox || !lightboxImg || !lightboxCounter) return;
+    lastTrigger = document.activeElement;
     currentIndex = index;
     updateLightbox();
     lightbox.classList.remove('hidden');
     lightbox.classList.add('flex');
     document.body.style.overflow = 'hidden';
+    document.getElementById('lightbox-full-close')?.focus();
   }
 
   function closeLightbox() {
@@ -62,6 +69,7 @@ import { galleryImages } from '@/lib/data';
     lightbox.classList.add('hidden');
     lightbox.classList.remove('flex');
     document.body.style.overflow = '';
+    if (lastTrigger instanceof HTMLElement) lastTrigger.focus();
   }
 
   function updateLightbox() {
@@ -97,9 +105,22 @@ import { galleryImages } from '@/lib/data';
   });
 
   document.addEventListener('keydown', function(e) {
-    if (lightbox.classList.contains('hidden')) return;
+    if (!lightbox || lightbox.classList.contains('hidden')) return;
     if (e.key === 'Escape') closeLightbox();
     if (e.key === 'ArrowLeft') prevImage();
     if (e.key === 'ArrowRight') nextImage();
+    if (e.key === 'Tab') {
+      const items = focusables();
+      if (!items.length) return;
+      const first = items[0];
+      const last = items[items.length - 1];
+      if (e.shiftKey && document.activeElement === first) {
+        e.preventDefault();
+        last.focus();
+      } else if (!e.shiftKey && document.activeElement === last) {
+        e.preventDefault();
+        first.focus();
+      }
+    }
   });
 </script>

@@ -1,5 +1,6 @@
 ---
-import { serviceList, serviceVideos } from '@/lib/data';
+import { serviceVideos } from '@/lib/data';
+import { getServiceIcon } from '@/lib/icons';
 import { getCollection } from 'astro:content';
 
 const services = await getCollection('services');
@@ -26,31 +27,38 @@ const services = await getCollection('services');
           const videoSrc = serviceVideos[data.slug];
           return (
             <div class="stagger-item" style={`transition-delay: ${i * 0.08}s`}>
-              <a href={`/services/${data.slug}/`}>
-                <div class="group bg-white dark:bg-warm-800 rounded-xl p-7 sm:p-8 border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover hover:-translate-y-1.5 transition-all duration-500 hover:border-teal-200/80 dark:hover:border-teal-600/80 cursor-pointer-card card-accent card-shimmer">
-                  <div class="w-12 h-12 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-teal-100/60 dark:group-hover:bg-teal-800/60 transition-colors duration-300">
-                    <span class="text-teal-700 dark:text-teal-400 text-lg font-bold">{data.icon.charAt(0)}</span>
+              <a href={`/services/${data.slug}/`} class="h-full flex">
+                <div class="group bg-white dark:bg-warm-800 rounded-xl p-7 sm:p-8 border border-slate-200/60 dark:border-warm-600 h-full w-full flex flex-col shadow-premium hover:shadow-premium-hover hover:-translate-y-1.5 transition-all duration-500 hover:border-teal-200/80 dark:hover:border-teal-600/80 cursor-pointer-card card-accent card-shimmer">
+                  <div class="w-12 h-12 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-lg flex items-center justify-center mb-6 group-hover:bg-teal-100/60 dark:group-hover:bg-teal-800/60 transition-colors duration-300 shrink-0">
+                    <svg class="w-6 h-6 text-teal-700 dark:text-teal-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={getServiceIcon(data.icon)} />
                   </div>
                   <h3 class="font-heading text-lg font-semibold text-slate-900 dark:text-warm-100 mb-2.5 group-hover:text-teal-800 dark:group-hover:text-teal-400 transition-colors duration-300">
                     {data.title}
                   </h3>
                   <p class="text-slate-500 dark:text-warm-400 text-[14px] leading-relaxed mb-5">{data.shortDescription}</p>
-                  <span class="inline-flex items-center text-teal-700 dark:text-teal-400 text-sm font-medium group-hover:gap-2 transition-all duration-300">
+                  <span class="inline-flex items-center text-teal-700 dark:text-teal-400 text-sm font-medium group-hover:gap-2 transition-all duration-300 mt-auto">
                     Learn More
-                    <svg class="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <svg class="w-4 h-4 ml-1 opacity-0 group-hover:opacity-100 transition-all duration-300 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
                       <path d="M5 12h14" /><path d="m12 5 7 7-7 7" />
                     </svg>
                   </span>
                   {videoSrc && (
-                    <video
-                      src={videoSrc}
-                      class="w-full h-32 object-cover rounded-lg mt-4 mb-3"
-                      muted
-                      loop
-                      playsinline
-                      preload="none"
-                      data-hover-play
-                    />
+                    <div class="relative mt-4 rounded-lg overflow-hidden bg-teal-50 dark:bg-teal-900/40 border border-teal-100/60 dark:border-teal-800/60">
+                      <video
+                        src={videoSrc}
+                        class="w-full h-32 object-cover"
+                        muted
+                        loop
+                        playsinline
+                        preload="none"
+                        data-hover-play
+                        aria-hidden="true"
+                      />
+                      <div class="absolute inset-0 flex flex-col items-center justify-center gap-1.5 bg-teal-50/85 dark:bg-warm-800/85 group-hover:opacity-0 transition-opacity duration-300 pointer-events-none">
+                        <svg class="w-5 h-5 text-teal-700 dark:text-teal-400" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><polygon points="6 3 20 12 6 21 6 3" /></svg>
+                        <span class="text-[11px] font-medium text-teal-700 dark:text-teal-400 tracking-wide">Hover to preview</span>
+                      </div>
+                    </div>
                   )}
                 </div>
               </a>

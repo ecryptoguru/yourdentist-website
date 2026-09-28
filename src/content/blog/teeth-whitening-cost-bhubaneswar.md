@@ -2,8 +2,7 @@
 title: "Teeth Whitening Cost in Bhubaneswar — Laser vs Chemical Guide"
 excerpt: "Teeth whitening in Bhubaneswar costs ₹5,000 to ₹12,000. Compare laser and chemical whitening prices, results, and options at YourDentist."
 category: "Cosmetic Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-15
 readTime: "7 min read"
 ---
 

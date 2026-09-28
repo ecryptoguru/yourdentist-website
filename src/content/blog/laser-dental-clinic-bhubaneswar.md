@@ -2,8 +2,7 @@
 title: "Laser Dental Clinic in Bhubaneswar — What Makes YourDentist Different?"
 excerpt: "YourDentist is a laser dental clinic in Bhubaneswar offering painless root canals, gum treatments, and teeth whitening. Learn how laser dentistry improves your care."
 category: "Local Guide"
-date: 2026-03-14
-lastUpdated: 2026-07-17
+date: 2026-05-01
 readTime: "8 min read"
 ---
 

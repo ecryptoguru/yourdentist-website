@@ -1,11 +1,21 @@
-import { defineConfig, globalIgnores } from "eslint/config";
-import nextVitals from "eslint-config-next/core-web-vitals";
-import nextTs from "eslint-config-next/typescript";
+import { defineConfig } from "eslint/config";
+import eslintPluginAstro from "eslint-plugin-astro";
+import tseslint from "typescript-eslint";
 
-const eslintConfig = defineConfig([
-  globalIgnores([".next/**", "out/**", "dist/**", "build/**", "next-env.d.ts"]),
-  ...nextVitals,
-  ...nextTs,
+export default defineConfig([
+  { ignores: ["dist/**", "out/**", "build/**", ".next/**", ".astro/**", ".wrangler/**", "node_modules/**"] },
+  ...eslintPluginAstro.configs.recommended,
+  // TypeScript in .astro frontmatter/<script> and in .ts files.
+  {
+    files: ["**/*.astro"],
+    languageOptions: {
+      parserOptions: {
+        parser: tseslint.parser,
+      },
+    },
+  },
+  ...tseslint.configs.recommended.map((config) => ({
+    ...config,
+    files: ["**/*.ts", "**/*.mts", "**/*.cts"],
+  })),
 ]);
-
-export default eslintConfig;

@@ -5,7 +5,10 @@ import Footer from '@/components/Footer.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import FAQSection from '@/components/sections/FAQSection.astro';
 import { getCollection, render } from 'astro:content';
-import { clinicInfo, serviceVideos } from '@/lib/data';
+import { clinicInfo, serviceVideos, serviceRelated } from '@/lib/data';
+import { getServiceIcon } from '@/lib/icons';
+import { SITE_URL } from '@/lib/site';
+import { jsonLd } from '@/lib/json-ld';
 
 export async function getStaticPaths() {
   const services = await getCollection('services');
@@ -24,19 +27,24 @@ if (!service) {
 
 const data = service.data;
 const { Content } = await render(service);
-const relatedServices = services.filter((s) => s.data.slug !== slug).slice(0, 3);
+const relatedSlugs = serviceRelated[slug] ?? services.filter((s) => s.data.slug !== slug).slice(0, 3).map((s) => s.data.slug);
+const relatedServices = relatedSlugs
+  .map((s) => services.find((x) => x.data.slug === s))
+  .filter((s) => s !== undefined)
+  .slice(0, 3);
 const videoSrc = serviceVideos[data.slug];
+const videoPoster = videoSrc ? `/images/posters/${videoSrc.split('/').pop()!.replace('.mp4', '')}.jpg` : undefined;
 
 const serviceSchema = {
   '@context': 'https://schema.org',
   '@type': 'MedicalTherapy',
   name: data.title,
   description: data.shortDescription,
-  url: `https://www.yourdentistdentalclinic.com/services/${slug}/`,
+  url: `${SITE_URL}/services/${slug}/`,
   provider: {
     '@type': 'Dentist',
     name: 'YourDentist Laser Dental Clinic',
-    url: 'https://www.yourdentistdentalclinic.com',
+    url: SITE_URL,
     telephone: '+91 7064719630',
     address: {
       '@type': 'PostalAddress',
@@ -67,9 +75,9 @@ const serviceSchema = {
 
 ---
 
-<BaseLayout title={`${data.title} in Bhubaneswar | YourDentist Laser Dental Clinic`} description={`${data.shortDescription} Available at YourDentist Laser Dental Clinic in Bhubaneswar by Dr. Arpita Dash. Book your appointment today!`} type="article" includeGlobalFaq>
+<BaseLayout title={`${data.title} in Bhubaneswar | YourDentist Laser Dental Clinic`} description={`${data.shortDescription} Available at YourDentist Laser Dental Clinic in Bhubaneswar by Dr. Arpita Dash. Book your appointment today!`}>
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(serviceSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(serviceSchema)} />
   </Fragment>
   <Header />
   <main class="flex-1 pt-36">
@@ -80,7 +88,7 @@ const serviceSchema = {
       <div class="reveal">
         <div class="flex items-start gap-4 mb-6">
           <div class="w-14 h-14 bg-teal-50 dark:bg-teal-900/40 border border-teal-100 dark:border-teal-800 rounded-xl flex items-center justify-center shrink-0">
-            <span class="text-teal-700 dark:text-teal-400 text-xl font-bold">{data.icon.charAt(0)}</span>
+            <svg class="w-7 h-7 text-teal-700 dark:text-teal-400" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={getServiceIcon(data.icon)} />
           </div>
           <div>
             <span class="inline-block bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 mb-1.5 font-medium text-xs px-2.5 py-0.5 rounded-full">Dental Service</span>
@@ -97,7 +105,7 @@ const serviceSchema = {
 
       {videoSrc && (
         <div class="reveal" style="transition-delay: 0.15s">
-          <video src={videoSrc} controls class="w-full rounded-xl mb-12 border border-slate-200/60 dark:border-warm-600 shadow-premium" preload="metadata"></video>
+          <video src={videoSrc} poster={videoPoster} controls playsinline class="w-full rounded-xl mb-12 border border-slate-200/60 dark:border-warm-600 shadow-premium" preload="metadata"></video>
         </div>
       )}
 
@@ -168,7 +176,7 @@ const serviceSchema = {
           {relatedServices.map((related) => (
             <a href={`/services/${related.data.slug}/`}>
               <div class="bg-white dark:bg-warm-800 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600 hover:shadow-premium hover:border-teal-200/80 dark:hover:border-teal-600/80 transition-all duration-300 shadow-premium cursor-pointer-card">
-                <span class="text-teal-700 dark:text-teal-400 text-lg font-bold mb-3 block">{related.data.icon.charAt(0)}</span>
+                <svg class="w-7 h-7 text-teal-700 dark:text-teal-400 mb-3" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" set:html={getServiceIcon(related.data.icon)} />
                 <h3 class="font-medium text-slate-900 dark:text-warm-100 text-sm">{related.data.title}</h3>
               </div>
             </a>

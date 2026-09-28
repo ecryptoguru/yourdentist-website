@@ -2,8 +2,7 @@
 title: "Root Canal vs Tooth Extraction — Which Is Better? Dentist Explains"
 excerpt: "Root canal vs extraction: which is better for your tooth? Learn the pros, cons, costs, and long-term outcomes to make an informed decision."
 category: "Root Canal"
-date: 2026-05-19
-lastUpdated: 2026-07-17
+date: 2026-07-13
 readTime: "8 min read"
 ---
 
@@ -65,7 +64,7 @@ In these cases, extraction followed by a replacement plan is the practical choic
 | Option | Initial cost | Replacement cost | Total 10-year cost |
 | --- | --- | --- | --- |
 | Root canal + crown | ₹7,000 - ₹28,000 | Crown replacement once | ₹15,000 - ₹40,000 |
-| Extraction + implant | ₹500 - ₹3,000 | ₹25,000 - ₹50,000 | ₹25,000 - ₹55,000 |
+| Extraction + implant | ₹500 - ₹3,000 | ₹15,000 - ₹50,000 | ₹15,500 - ₹53,000 |
 | Extraction + bridge | ₹500 - ₹3,000 | ₹15,000 - ₹40,000 | ₹15,000 - ₹45,000 |
 | Extraction + denture | ₹500 - ₹3,000 | ₹10,000 - ₹40,000 | ₹10,000 - ₹45,000 |
 

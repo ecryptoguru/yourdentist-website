@@ -2,8 +2,7 @@
 title: "Wisdom Tooth Pain and Extraction — What to Expect"
 excerpt: "Wisdom teeth often cause pain, swelling, and infection. Learn when extraction is needed, the procedure, recovery, and cost at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-09-17
 readTime: "8 min read"
 ---
 

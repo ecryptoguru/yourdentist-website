@@ -2,8 +2,7 @@
 title: "Dental Clinic in Bhubaneswar with Modern Equipment — Technology Guide"
 excerpt: "Looking for a modern dental clinic in Bhubaneswar? YourDentist uses laser systems, digital X-rays, rotary endodontics, and advanced sterilisation for better care."
 category: "Local Guide"
-date: 2026-04-21
-lastUpdated: 2026-09-28
+date: 2025-12-09
 readTime: "8 min read"
 ---
 

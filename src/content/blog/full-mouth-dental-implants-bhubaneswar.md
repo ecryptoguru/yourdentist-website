@@ -2,8 +2,7 @@
 title: "Full Mouth Dental Implants in Bhubaneswar — Complete Smile Restoration"
 excerpt: "Full mouth dental implants restore all teeth with permanent, natural-looking results. Learn the options, cost, procedure, and benefits at YourDentist."
 category: "Dental Implants"
-date: 2026-08-23
-lastUpdated: 2026-09-28
+date: 2026-03-07
 readTime: "9 min read"
 ---
 

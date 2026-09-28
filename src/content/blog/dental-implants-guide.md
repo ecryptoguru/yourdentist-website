@@ -2,8 +2,7 @@
 title: "Dental Implant Procedure Step-by-Step — What to Expect at YourDentist"
 excerpt: "Dental implants are the most reliable way to replace missing teeth. Learn the full implant procedure, healing time, cost, and success rate at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-02-02
-lastUpdated: 2026-09-28
+date: 2026-01-14
 readTime: "9 min read"
 ---
 

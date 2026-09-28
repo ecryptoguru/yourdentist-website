@@ -2,8 +2,7 @@
 title: "Bone Grafting for Dental Implants — When Is It Needed?"
 excerpt: "Bone grafting rebuilds jawbone for dental implants. Learn when grafting is needed, types of grafts, cost, and recovery at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-08-19
-lastUpdated: 2026-08-19
+date: 2025-10-29
 readTime: "8 min read"
 ---
 

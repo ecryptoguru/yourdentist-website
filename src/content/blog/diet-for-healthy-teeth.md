@@ -2,8 +2,7 @@
 title: "Best Foods for Healthy Teeth — What to Eat and Avoid"
 excerpt: "Your diet affects your teeth. Learn the best foods for strong enamel, healthy gums, and a bright smile at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-02-13
 readTime: "7 min read"
 ---
 

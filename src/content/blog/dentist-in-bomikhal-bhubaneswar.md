@@ -2,8 +2,7 @@
 title: "Dentist in Bomikhal, Bhubaneswar — YourDentist Laser Dental Clinic Guide"
 excerpt: "Looking for a trusted dentist in Bomikhal, Bhubaneswar? YourDentist Laser Dental Clinic on E Canal Road offers advanced dental care with flexible hours."
 category: "Local Guide"
-date: 2026-03-02
-lastUpdated: 2026-07-17
+date: 2026-02-02
 readTime: "8 min read"
 ---
 
@@ -105,7 +104,7 @@ When you visit YourDentist in Bomikhal for the first time, we begin with a detai
 | Laser gum treatment | Painless alternative to surgery | ₹3,000 - ₹30,000 |
 | Teeth whitening | Quick aesthetic improvement | ₹5,000 - ₹12,000 |
 | Braces and aligners | Family orthodontic treatment | ₹25,000 - ₹1,50,000 |
-| Dental implants | Permanent tooth replacement | ₹25,000 - ₹50,000 |
+| Dental implants | Permanent tooth replacement | ₹15,000 - ₹50,000 |
 | Paediatric dentistry | Convenient for local families | ₹300 - ₹5,000 |
 | Routine cleaning | Preventive care | ₹800 - ₹2,000 |
 
@@ -138,7 +137,7 @@ These differences explain why many Bomikhal residents choose YourDentist over ot
 | Crown | ₹4,000 - ₹18,000 |
 | Teeth whitening | ₹5,000 - ₹12,000 |
 | Braces | ₹25,000 - ₹1,50,000 |
-| Dental implant | ₹25,000 - ₹50,000 |
+| Dental implant | ₹15,000 - ₹50,000 |
 
 ## Related dental services at YourDentist
 

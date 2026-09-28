@@ -2,8 +2,7 @@
 title: "Composite Bonding for Teeth — Fix Chips and Gaps Without Veneers"
 excerpt: "Composite bonding repairs chipped, gapped, or discoloured teeth in a single visit. Learn the procedure, cost, and benefits at YourDentist Bhubaneswar."
 category: "Cosmetic Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-11-20
 readTime: "7 min read"
 ---
 

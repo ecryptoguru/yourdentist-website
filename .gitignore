@@ -47,5 +47,13 @@ next-env.d.ts
 
 # blog migration source (kept locally, not tracked)
 updated blogs/
+
+# generated astro content cache
+/.astro/
+
+# local asset archives / third-party plugin (untracked)
+/assets/
+/humanizer-main/
+
 # cloudflare
 .wrangler

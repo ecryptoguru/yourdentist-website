@@ -1,7 +1,7 @@
 ---
 title: "Dental Implants"
 slug: "dental-implants"
-priceRange: "₹25,000 – ₹50,000"
+priceRange: "₹15,000 – ₹50,000"
 shortDescription: "Permanent tooth replacement with natural look and feel."
 icon: "Anchor"
 benefits:

@@ -2,8 +2,7 @@
 title: "Laser Frenectomy for Tongue-Tie in Bhubaneswar — Quick and Painless"
 excerpt: "A laser frenectomy releases tongue-tie or lip-tie quickly with minimal bleeding. Learn the procedure, benefits, and recovery at YourDentist Bhubaneswar."
 category: "Laser Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-05-12
 readTime: "7 min read"
 ---
 

@@ -110,18 +110,17 @@ export const galleryImages = [
 ];
 
 export const serviceVideos: Record<string, string> = {
-  "root-canal-treatment": "/videos/root canal.mp4",
-  "orthodontic-treatment": "/videos/ORTHODONTIC TREATMENT.mp4",
-  "crown-and-bridge": "/videos/CROWN AND BRIDGE.mp4",
-  "complete-removable-dentures": "/videos/COMPLETE AND REMOVABLE DENTURES.mp4",
-  "oral-prophylaxis": "/videos/ORAL PROPHYLAXIS.mp4",
-  "teeth-whitening": "/videos/AESTHETIC DENTISTRY.mp4",
-  "dental-restoration": "/videos/DENTAL RESTORATION.mp4",
-  "aesthetic-dentistry": "/videos/AESTHETIC DENTISTRY.mp4",
-  "teeth-extraction": "/videos/TEETH EXTRACTION.mp4",
-  "laser-dentistry": "/videos/LASER DENTISTRY.mp4",
-  "dental-implants": "/videos/DENTAL IMPLANTS.mp4",
-  "paediatric-dentistry": "/videos/AESTHETIC DENTISTRY.mp4",
+  "root-canal-treatment": "/videos/root-canal-treatment.mp4",
+  "orthodontic-treatment": "/videos/orthodontic-treatment.mp4",
+  "crown-and-bridge": "/videos/crown-and-bridge.mp4",
+  "complete-removable-dentures": "/videos/complete-removable-dentures.mp4",
+  "oral-prophylaxis": "/videos/oral-prophylaxis.mp4",
+  "teeth-whitening": "/videos/aesthetic-dentistry.mp4",
+  "dental-restoration": "/videos/dental-restoration.mp4",
+  "aesthetic-dentistry": "/videos/aesthetic-dentistry.mp4",
+  "teeth-extraction": "/videos/teeth-extraction.mp4",
+  "laser-dentistry": "/videos/laser-dentistry.mp4",
+  "dental-implants": "/videos/dental-implants.mp4",
 };
 
 export const achievementPhotos = [
@@ -157,19 +156,19 @@ export const talkVideos = [
   {
     id: 1,
     title: "Intro Video",
-    src: "/videos/Intro Video.mp4",
+    src: "/videos/intro-video.mp4",
     thumbnail: "Intro",
   },
   {
     id: 2,
     title: "Clinic Tour",
-    src: "/videos/Video.mp4",
+    src: "/videos/clinic-tour.mp4",
     thumbnail: "Clinic Tour",
   },
   {
     id: 3,
     title: "About Your Dentist",
-    src: "/videos/intro video2.mp4",
+    src: "/videos/about-your-dentist.mp4",
     thumbnail: "About",
   },
 ];
@@ -218,7 +217,7 @@ export const faqItems = [
   {
     question: "What are the dental treatment costs in Bhubaneswar?",
     answer:
-      "Dental treatment costs in Bhubaneswar vary by procedure. At YourDentist, root canal treatment starts from ₹3,000, braces from ₹25,000, dental implants from ₹25,000, and teeth whitening from ₹5,000. We offer transparent pricing with no hidden charges. Consultation is required for an exact quote.",
+      "Dental treatment costs in Bhubaneswar vary by procedure. At YourDentist, root canal treatment starts from ₹3,000, braces from ₹25,000, dental implants from ₹15,000, and teeth whitening from ₹5,000. We offer transparent pricing with no hidden charges. Consultation is required for an exact quote.",
   },
   {
     question: "How do I book an appointment at your Bhubaneswar dental clinic?",
@@ -251,6 +250,22 @@ export const serviceList = [
   { slug: "dental-implants", title: "Dental Implants", icon: "Anchor" },
   { slug: "paediatric-dentistry", title: "Paediatric Dentistry", icon: "Baby" },
 ];
+
+// Curated related services per service slug (used on service detail pages).
+export const serviceRelated: Record<string, string[]> = {
+  "root-canal-treatment": ["laser-dentistry", "dental-restoration", "crown-and-bridge"],
+  "orthodontic-treatment": ["paediatric-dentistry", "aesthetic-dentistry", "teeth-whitening"],
+  "crown-and-bridge": ["root-canal-treatment", "dental-restoration", "dental-implants"],
+  "complete-removable-dentures": ["dental-implants", "crown-and-bridge", "dental-restoration"],
+  "oral-prophylaxis": ["teeth-whitening", "laser-dentistry", "dental-restoration"],
+  "teeth-whitening": ["aesthetic-dentistry", "oral-prophylaxis", "orthodontic-treatment"],
+  "dental-restoration": ["root-canal-treatment", "crown-and-bridge", "oral-prophylaxis"],
+  "aesthetic-dentistry": ["teeth-whitening", "orthodontic-treatment", "dental-restoration"],
+  "teeth-extraction": ["dental-implants", "root-canal-treatment", "complete-removable-dentures"],
+  "laser-dentistry": ["root-canal-treatment", "oral-prophylaxis", "teeth-whitening"],
+  "dental-implants": ["crown-and-bridge", "teeth-extraction", "complete-removable-dentures"],
+  "paediatric-dentistry": ["orthodontic-treatment", "oral-prophylaxis", "teeth-extraction"],
+};
 
 export const youtubeVideos = [
   { id: "HbT4cvVoT6g", title: "Dr Arpita Dash on Tooth Pain (Causes & Prevention)", description: "Toothache is a common problem that a person has to face at some point of time in life. There can be many reasons for the pain in the teeth. How to keep teeth healthy and prevent toothache.", channel: "Swasthya Plus Odia" },

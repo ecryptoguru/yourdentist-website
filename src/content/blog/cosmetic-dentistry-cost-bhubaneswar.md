@@ -2,8 +2,7 @@
 title: "Cosmetic Dentistry Cost in Bhubaneswar — Price Guide 2026"
 excerpt: "Cosmetic dentistry in Bhubaneswar can cost ₹2,000 for bonding to ₹2,00,000 for smile makeovers. Compare prices for whitening, veneers, crowns, and more."
 category: "Cosmetic Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-11-24
 readTime: "8 min read"
 ---
 

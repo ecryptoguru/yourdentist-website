@@ -2,8 +2,7 @@
 title: "Signs You Need a Root Canal — 7 Symptoms Not to Ignore"
 excerpt: "Severe tooth pain, sensitivity, and gum swelling may mean you need a root canal. Learn 7 warning signs and when to visit YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-02-25
-lastUpdated: 2026-09-28
+date: 2026-07-28
 readTime: "7 min read"
 ---
 

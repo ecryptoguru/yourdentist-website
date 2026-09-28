@@ -4,6 +4,8 @@ import Header from '@/components/Header.astro';
 import Footer from '@/components/Footer.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { youtubeVideos } from '@/lib/data';
+import { SITE_URL } from '@/lib/site';
+import { jsonLd } from '@/lib/json-ld';
 
 const videoSchema = youtubeVideos.map((v) => ({
   '@type': 'VideoObject',
@@ -20,16 +22,16 @@ const videoSchema = youtubeVideos.map((v) => ({
   description="Watch Dr. Arpita Dash's expert dental health talks and TV appearances on Swasthya Plus Odia, Swasthya Sambad, and Kanak News. 20+ educational videos on tooth pain, root canal, oral hygiene, and more."
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify({
+    <script type="application/ld+json" set:html={jsonLd({
       '@context': 'https://schema.org',
       '@type': 'CollectionPage',
       name: 'Video Gallery - Dr. Arpita Dash',
       description: 'Educational dental health videos by Dr. Arpita Dash on various Odia health channels.',
-      url: 'https://www.yourdentistdentalclinic.com/videos/',
+      url: `${SITE_URL}/videos/`,
       isPartOf: {
         '@type': 'WebSite',
         name: 'YourDentist Laser Dental Clinic',
-        url: 'https://www.yourdentistdentalclinic.com',
+        url: SITE_URL,
       },
       hasPart: videoSchema,
     })} />

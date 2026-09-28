@@ -2,8 +2,7 @@
 title: "Cavities in Kids — Prevention, Signs, and Treatment"
 excerpt: "Cavities in children are common but preventable. Learn the causes, warning signs, and treatment options at YourDentist Bhubaneswar."
 category: "Paediatric Dentistry"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-11-09
 readTime: "8 min read"
 ---
 

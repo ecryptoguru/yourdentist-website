@@ -2,8 +2,7 @@
 title: "How to Clean Teeth with Braces — Step-by-Step Oral Hygiene Guide"
 excerpt: "Cleaning teeth with braces takes extra effort. Learn the right brushing, flossing, and oral hygiene routine to keep your teeth healthy during orthodontic treatment."
 category: "Orthodontics"
-date: 2026-07-02
-lastUpdated: 2026-07-17
+date: 2026-04-05
 readTime: "8 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "Do Braces Hurt? What to Expect in the First Week"
 excerpt: "Braces can cause mild soreness, especially in the first week. Learn what to expect and how to manage braces pain at YourDentist Bhubaneswar."
 category: "Orthodontics"
-date: 2026-06-20
-lastUpdated: 2026-07-17
+date: 2026-02-16
 readTime: "7 min read"
 ---
 

@@ -2,8 +2,7 @@
 title: "How Often Should You Visit the Dentist? Importance of Regular Checkups"
 excerpt: "Regular dental checkups prevent serious problems and save money. Learn how often to visit the dentist and what to expect at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-12-05
 readTime: "7 min read"
 ---
 

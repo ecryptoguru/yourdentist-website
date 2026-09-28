@@ -2,8 +2,7 @@
 title: "Sports Mouthguard — Protect Your Teeth from Injury"
 excerpt: "A sports mouthguard protects teeth, gums, and jaws during contact sports. Learn about types, benefits, and getting a custom mouthguard at YourDentist."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-08-08
 readTime: "7 min read"
 ---
 
@@ -127,7 +126,7 @@ For athletes with braces, Dr. Dash recommends specially designed orthodontic mou
 | Injury type | Treatment cost (INR) | Mouthguard cost (INR) | Prevention value |
 | --- | --- | --- | --- |
 | Chipped tooth | ₹1,000 - ₹5,000 (bonding) | ₹2,000 - ₹8,000 | Saves pain and cost |
-| Knocked-out tooth | ₹20,000 - ₹50,000 (implant) | ₹2,000 - ₹8,000 | Saves ₹23,000+ |
+| Knocked-out tooth | ₹15,000 - ₹50,000 (implant) | ₹2,000 - ₹8,000 | Saves ₹23,000+ |
 | Broken bracket (braces patient) | ₹500 - ₹2,000 (repair) | ₹2,000 - ₹8,000 | Prevents lacerations |
 | Jaw fracture | ₹50,000+ (surgery) | ₹2,000 - ₹8,000 | Prevents hospitalisation |
 | Multiple tooth injury | ₹50,000 - ₹2,00,000 | ₹2,000 - ₹8,000 | Saves massive cost |

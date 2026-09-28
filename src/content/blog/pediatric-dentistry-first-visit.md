@@ -2,8 +2,7 @@
 title: "When Should a Child First Visit the Dentist? Age Guide for Parents"
 excerpt: "Early dental visits protect your child's smile for life. Learn the right age for a first dental visit, what happens, and how to prepare your child."
 category: "Paediatric Dentistry"
-date: 2026-02-22
-lastUpdated: 2026-07-17
+date: 2026-06-17
 readTime: "7 min read"
 ---
 

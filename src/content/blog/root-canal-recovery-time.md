@@ -2,8 +2,7 @@
 title: "Root Canal Recovery Time — How Soon Can You Return to Work?"
 excerpt: "Root canal recovery is usually fast. Learn how soon you can return to work, what to expect, and how to speed up healing at YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-05-27
-lastUpdated: 2026-07-17
+date: 2026-07-09
 readTime: "7 min read"
 ---
 

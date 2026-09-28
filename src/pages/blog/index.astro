@@ -6,6 +6,8 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import { formatDate } from '@/lib/format';
 import { slugifyCategory } from '@/lib/blog-categories';
+import { SITE_URL } from '@/lib/site';
+import { jsonLd } from '@/lib/json-ld';
 
 const blogPosts = await getCollection('blog');
 const sortedPosts = blogPosts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
@@ -18,7 +20,7 @@ const blogListSchema = {
   itemListElement: sortedPosts.map((post, i) => ({
     '@type': 'ListItem',
     position: i + 1,
-    url: `https://www.yourdentistdentalclinic.com/blog/${post.id}/`,
+    url: `${SITE_URL}/blog/${post.id}/`,
     name: post.data.title,
   })),
 };
@@ -29,7 +31,7 @@ const blogListSchema = {
   description="Expert dental health tips, treatment guides, and insights from Dr. Arpita Dash, Bhubaneswar's trusted dental surgeon. Stay informed about oral health and dental care."
 >
   <Fragment slot="head">
-    <script type="application/ld+json" set:html={JSON.stringify(blogListSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(blogListSchema)} />
   </Fragment>
   <Header />
   <main class="flex-1 pt-36">
@@ -45,7 +47,7 @@ const blogListSchema = {
         </p>
       </div>
 
-      <div class="flex flex-wrap justify-center gap-2 mb-12 reveal">
+      <div class="flex flex-wrap justify-center gap-2 mb-8 reveal">
         {categories.map((cat) => (
           <a
             href={`/blog/category/${slugifyCategory(cat)}/`}
@@ -56,13 +58,35 @@ const blogListSchema = {
         ))}
       </div>
 
-      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="max-w-md mx-auto mb-12 reveal">
+        <label for="blog-search" class="sr-only">Search articles</label>
+        <div class="relative">
+          <svg class="absolute left-4 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400 dark:text-warm-500 pointer-events-none" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8" /><path d="m21 21-4.3-4.3" /></svg>
+          <input
+            id="blog-search"
+            type="search"
+            placeholder="Search articles…"
+            aria-describedby="blog-search-count"
+            class="w-full h-11 pl-11 pr-4 rounded-lg border border-slate-200 dark:border-warm-600 bg-white dark:bg-warm-800 text-sm text-slate-900 dark:text-warm-100 placeholder:text-slate-400 dark:placeholder:text-warm-500 focus:outline-none focus:ring-2 focus:ring-teal-600/40 transition-all"
+          />
+        </div>
+        <p id="blog-search-count" class="text-center text-xs text-slate-400 dark:text-warm-500 mt-2" aria-live="polite"></p>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6" id="blog-grid">
         {sortedPosts.map((post, i) => (
-          <div class="stagger-item" style={`transition-delay: ${i * 0.1}s`}>
+          <div class="stagger-item" style={`transition-delay: ${Math.min(i, 8) * 0.1}s`} data-blog-card>
             <a href={`/blog/${post.id}/`}>
               <article class="group bg-white dark:bg-warm-800 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover hover:-translate-y-1 transition-all duration-300">
-                <div class="aspect-video bg-teal-50 dark:bg-teal-900/30 flex items-center justify-center border-b border-slate-100 dark:border-warm-700">
-                  <span class="text-slate-500 dark:text-warm-400 font-medium text-sm">{post.data.category}</span>
+                <div class="aspect-video border-b border-slate-100 dark:border-warm-700 overflow-hidden">
+                  <img
+                    src={`/images/blog/${slugifyCategory(post.data.category)}.svg`}
+                    alt=""
+                    loading="lazy"
+                    width="1200"
+                    height="675"
+                    class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                  />
                 </div>
                 <div class="p-7">
                   <span class="inline-block bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 mb-3 font-medium text-xs px-2.5 py-0.5 rounded-full">{post.data.category}</span>
@@ -87,7 +111,31 @@ const blogListSchema = {
           </div>
         ))}
       </div>
+
+      <div id="blog-empty" class="hidden text-center py-16">
+        <p class="text-slate-500 dark:text-warm-400 text-[15px]">No articles found. Try a different search term.</p>
+      </div>
     </div>
   </main>
   <Footer />
 </BaseLayout>
+
+<script>
+  const input = document.getElementById('blog-search') as HTMLInputElement | null;
+  const count = document.getElementById('blog-search-count');
+  const cards = document.querySelectorAll<HTMLElement>('[data-blog-card]');
+
+  input?.addEventListener('input', () => {
+    const q = input.value.trim().toLowerCase();
+    cards.forEach((card) => {
+      const match = !q || (card.textContent ?? '').toLowerCase().includes(q);
+      card.classList.toggle('hidden', !match);
+    });
+    const visibleCount = document.querySelectorAll('[data-blog-card]:not(.hidden)').length;
+    if (count) {
+      count.textContent = q ? `${visibleCount} of ${cards.length} articles match "${input.value.trim()}"` : '';
+    }
+    const empty = document.getElementById('blog-empty');
+    if (empty) empty.classList.toggle('hidden', visibleCount > 0);
+  });
+</script>

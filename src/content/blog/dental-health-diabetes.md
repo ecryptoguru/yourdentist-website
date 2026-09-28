@@ -2,8 +2,7 @@
 title: "Diabetes and Dental Health — How Blood Sugar Affects Your Teeth"
 excerpt: "Diabetes increases the risk of gum disease, cavities, and infections. Learn how to protect your dental health at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-12-27
 readTime: "8 min read"
 ---
 

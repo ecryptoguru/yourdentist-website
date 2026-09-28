@@ -2,8 +2,7 @@
 title: "Same-Day Dental Implants — Immediate Tooth Replacement Guide"
 excerpt: "Same-day dental implants place an implant and temporary tooth in one visit. Learn who qualifies, the procedure, cost, and risks at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-08-31
-lastUpdated: 2026-08-31
+date: 2026-07-17
 readTime: "8 min read"
 ---
 

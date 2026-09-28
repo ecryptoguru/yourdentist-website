@@ -2,8 +2,7 @@
 title: "How Long Do Braces Take? Treatment Timeline Explained"
 excerpt: "How long do braces take? Most orthodontic treatment takes 12 to 24 months. Learn what affects duration and how to keep your treatment on track."
 category: "Orthodontics"
-date: 2026-06-16
-lastUpdated: 2026-07-17
+date: 2026-03-18
 readTime: "7 min read"
 ---
 

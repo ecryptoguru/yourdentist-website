@@ -2,8 +2,7 @@
 title: "Oral Care During Pregnancy — Keeping Your Teeth and Baby Healthy"
 excerpt: "Pregnancy increases the risk of gum disease and cavities. Learn safe oral care tips, dental treatments, and common concerns at YourDentist Bhubaneswar."
 category: "Oral Hygiene"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2026-06-06
 readTime: "8 min read"
 ---
 

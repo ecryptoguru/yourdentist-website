@@ -2,8 +2,7 @@
 title: "Dental Implant Recovery — Timeline, Pain, and Aftercare Tips"
 excerpt: "Recovering from dental implant surgery? Learn the day-by-day timeline, pain management, diet tips, and aftercare at YourDentist Bhubaneswar."
 category: "Dental Implants"
-date: 2026-09-12
-lastUpdated: 2026-09-12
+date: 2026-01-07
 readTime: "8 min read"
 ---
 

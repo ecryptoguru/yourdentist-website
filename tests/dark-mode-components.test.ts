@@ -8,13 +8,6 @@ function readFile(relativePath: string): string {
   return readFileSync(join(srcDir, relativePath), 'utf-8');
 }
 
-function hasDarkVariant(content: string, lightClass: string): boolean {
-  const pattern = new RegExp(
-    `${lightClass.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')}.*?dark:`
-  );
-  return pattern.test(content);
-}
-
 describe('Component dark: variant coverage', () => {
   describe('HeroSection.astro', () => {
     const content = readFile('components/sections/HeroSection.astro');
@@ -89,12 +82,14 @@ describe('Component dark: variant coverage', () => {
   describe('Footer.astro', () => {
     const content = readFile('components/Footer.astro');
 
-    it('should have dark variant on text-slate-500 elements', () => {
-      expect(content).toMatch(/text-slate-500\s+dark:text-slate-400/);
+    it('should use slate-400 for muted footer text (AA contrast on dark bg, no dark: variant needed)', () => {
+      expect(content).toMatch(/text-slate-400/);
+      expect(content).not.toMatch(/text-slate-500\s+dark:text-slate-400/);
     });
 
-    it('should have dark variant on text-slate-600 copyright', () => {
-      expect(content).toMatch(/text-slate-600\s+dark:text-slate-500/);
+    it('should use slate-400 for copyright text (passes AA on slate-900 in both themes)', () => {
+      expect(content).not.toMatch(/text-slate-600\s+dark:text-slate-500/);
+      expect(content).toMatch(/text-slate-400 text-sm/);
     });
   });
 
@@ -150,15 +145,15 @@ describe('Component dark: variant coverage', () => {
     });
   });
 
-  describe('React components', () => {
+  describe('Fixed UI islands', () => {
     it('StickyMobileCTA should have dark:bg-warm-800', () => {
-      const content = readFile('components/react/StickyMobileCTA.tsx');
+      const content = readFile('components/StickyMobileCTA.astro');
       expect(content).toMatch(/dark:bg-warm-800/);
     });
 
-    it('CookieConsent should have dark:bg-warm-800', () => {
-      const content = readFile('components/react/CookieConsent.tsx');
-      expect(content).toMatch(/dark:bg-warm-800/);
+    it('should not ship React client islands (vanilla Astro only)', () => {
+      const content = readFile('layouts/BaseLayout.astro');
+      expect(content).not.toMatch(/client:only|client:load|client:idle|client:visible|client:media/);
     });
   });
 

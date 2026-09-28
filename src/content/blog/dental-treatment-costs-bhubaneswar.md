@@ -2,8 +2,7 @@
 title: "Affordable Dental Treatment in Bhubaneswar — Cost Guide for Every Procedure"
 excerpt: "Get transparent dental treatment costs in Bhubaneswar. Compare prices for root canals, braces, implants, whitening, crowns, and more at YourDentist Laser Dental Clinic."
 category: "Local Guide"
-date: 2026-01-12
-lastUpdated: 2026-07-17
+date: 2026-01-25
 readTime: "10 min read"
 ---
 
@@ -73,7 +72,7 @@ Aligners usually cost more because they are custom-made and removable. Braces ar
 
 | Procedure | Cost range (INR) | Timeline |
 | --- | --- | --- |
-| Single tooth implant | ₹25,000 - ₹50,000 | 2 to 4 months |
+| Single tooth implant | ₹15,000 - ₹50,000 | 2 to 4 months |
 | Implant with bone grafting | ₹35,000 - ₹60,000 | 3 to 6 months |
 | All-on-4 full arch | ₹2,00,000 - ₹3,50,000 | 3 to 6 months |
 | Full mouth reconstruction | ₹3,00,000 - ₹5,00,000 | 6 to 12 months |

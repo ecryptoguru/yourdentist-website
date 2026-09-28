@@ -2,8 +2,7 @@
 title: "Root Canal Failure — Signs, Causes, and What to Do Next"
 excerpt: "Root canal failure is rare but possible. Learn the signs, causes, and treatment options including retreatment and apicoectomy at YourDentist Bhubaneswar."
 category: "Root Canal"
-date: 2026-06-08
-lastUpdated: 2026-09-28
+date: 2026-06-28
 readTime: "8 min read"
 ---
 
@@ -119,7 +118,7 @@ Root canal retreatment has a success rate of 65% to 85%, depending on the cause 
 | Apicoectomy | ₹8,000 - ₹10,000 |
 | New crown | ₹4,000 - ₹20,000 |
 | Extraction | ₹1500 - ₹3,000 |
-| Dental implant | ₹15,000 - ₹20,000 |
+| Dental implant | ₹15,000 - ₹50,000 |
 
 The exact cost depends on the complexity and whether additional procedures are needed.
 
@@ -153,7 +152,7 @@ Understanding these risk factors helps patients take preventive steps to protect
 | --- | --- | --- | --- | --- |
 | Retreatment | 65 to 85% | ₹6,000 - ₹12,000 | 1 to 2 visits | Most common failure causes |
 | Apicoectomy | 70 to 90% | ₹8,000 - ₹15,000 | 1 visit | Persistent root tip infection |
-| Extraction + implant | 95%+ | ₹25,000 - ₹53,000 | 3 to 6 months | Unrestorable teeth |
+| Extraction + implant | 95%+ | ₹15,500 - ₹53,000 | 3 to 6 months | Unrestorable teeth |
 | Extraction + bridge | 90%+ | ₹12,000 - ₹54,000 | 2 to 3 weeks | Adjacent teeth healthy enough |
 | Monitoring only | Varies | ₹500 - ₹2,000 | Ongoing | Asymptomatic, stable cases |
 

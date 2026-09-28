@@ -1,6 +1,7 @@
 ---
 import { getCollection } from 'astro:content';
 import { formatDate } from '@/lib/format';
+import { slugifyCategory } from '@/lib/blog-categories';
 
 const blogPosts = await getCollection('blog');
 const sortedPosts = blogPosts.sort((a, b) => new Date(b.data.date).getTime() - new Date(a.data.date).getTime());
@@ -27,8 +28,14 @@ const recentPosts = sortedPosts.slice(1, 4);
       <div class="reveal">
         <a href={`/blog/${featuredPost.id}/`}>
           <div class="group bg-white dark:bg-warm-800 rounded-xl overflow-hidden border border-slate-200/60 dark:border-warm-600 h-full shadow-premium hover:shadow-premium-hover transition-all duration-300">
-            <div class="aspect-video bg-teal-50 dark:bg-teal-900/30 flex items-center justify-center border-b border-slate-100 dark:border-warm-700">
-              <span class="text-slate-500 dark:text-warm-400 font-medium text-sm">Featured Image</span>
+            <div class="aspect-video border-b border-slate-100 dark:border-warm-700 overflow-hidden">
+              <img
+                src={`/images/blog/${slugifyCategory(featuredPost.data.category)}.svg`}
+                alt=""
+                width="1200"
+                height="675"
+                class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              />
             </div>
             <div class="p-8">
               <span class="inline-block bg-teal-50 dark:bg-teal-900/40 text-teal-700 dark:text-teal-400 border border-teal-100 dark:border-teal-800 mb-4 font-medium text-xs px-2.5 py-0.5 rounded-full">
@@ -63,8 +70,15 @@ const recentPosts = sortedPosts.slice(1, 4);
           <div class="stagger-item" style={`transition-delay: ${i * 0.1}s`}>
             <a href={`/blog/${post.id}/`}>
               <div class="group flex gap-5 bg-white dark:bg-warm-800 rounded-xl p-5 border border-slate-200/60 dark:border-warm-600 shadow-premium hover:shadow-premium-hover hover:-translate-y-0.5 transition-all duration-300">
-                <div class="w-24 h-24 bg-teal-50 dark:bg-teal-900/30 rounded-lg shrink-0 flex items-center justify-center border border-slate-100 dark:border-warm-700">
-                  <span class="text-slate-300 dark:text-warm-500 text-xs font-medium">IMG</span>
+                <div class="w-24 h-24 rounded-lg shrink-0 overflow-hidden border border-slate-100 dark:border-warm-700">
+                  <img
+                    src={`/images/blog/${slugifyCategory(post.data.category)}.svg`}
+                    alt=""
+                    loading="lazy"
+                    width="1200"
+                    height="675"
+                    class="w-full h-full object-cover"
+                  />
                 </div>
                 <div class="flex-1 min-w-0">
                   <span class="inline-block text-xs mb-2 border border-teal-200 dark:border-teal-700 text-teal-700 dark:text-teal-400 font-medium px-2 py-0.5 rounded-full">

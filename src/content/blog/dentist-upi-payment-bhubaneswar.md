@@ -2,8 +2,7 @@
 title: "Dentist in Bhubaneswar Accepting UPI Payments — YourDentist Payment Guide"
 excerpt: "Looking for a dentist in Bhubaneswar accepting UPI payments? YourDentist accepts UPI, cards, cash, and instalments for affordable dental care."
 category: "Local Guide"
-date: 2026-04-29
-lastUpdated: 2026-07-17
+date: 2026-02-09
 readTime: "7 min read"
 ---
 
@@ -125,7 +124,7 @@ If you prefer cashless transactions, YourDentist supports UPI, cards, and wallet
 | --- | --- | --- | --- |
 | Metal braces | ₹25,000 - ₹40,000 | 6-month EMI | ₹4,200 - ₹6,700/month |
 | Ceramic braces | ₹35,000 - ₹60,000 | 8-month EMI | ₹4,400 - ₹7,500/month |
-| Single implant | ₹25,000 - ₹50,000 | 3-month EMI | ₹8,400 - ₹16,700/month |
+| Single implant | ₹15,000 - ₹50,000 | 3-month EMI | ₹5,000 - ₹16,700/month |
 | Full mouth rehabilitation | ₹1,00,000 - ₹3,00,000 | 12-month EMI | ₹8,400 - ₹25,000/month |
 | Root canal + crown | ₹7,000 - ₹28,000 | Full payment | One-time |
 | Teeth whitening | ₹5,000 - ₹12,000 | Full payment | One-time |

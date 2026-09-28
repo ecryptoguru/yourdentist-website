@@ -2,8 +2,7 @@
 title: "Best Root Canal Treatment in Bhubaneswar — YourDentist Success Stories"
 excerpt: "Looking for the best root canal treatment in Bhubaneswar? YourDentist offers painless, single-sitting laser-assisted RCT with a high success rate."
 category: "Local Guide"
-date: 2026-04-25
-lastUpdated: 2026-09-28
+date: 2025-10-22
 readTime: "8 min read"
 ---
 

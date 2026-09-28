@@ -2,8 +2,7 @@
 title: "Dental Care for Seniors — Common Issues and Prevention Tips"
 excerpt: "Seniors face unique dental challenges like dry mouth, gum disease, and tooth loss. Learn prevention and care tips at YourDentist Bhubaneswar."
 category: "General Dental Health"
-date: 2026-09-28
-lastUpdated: 2026-09-28
+date: 2025-12-01
 readTime: "8 min read"
 ---
 
@@ -107,7 +106,7 @@ Smoking and tobacco increase the risk of gum disease, tooth loss, and oral cance
 | Filling | ₹1,000 - ₹5,000 |
 | Crown | ₹4,000 - ₹18,000 |
 | Denture | ₹10,000 - ₹50,000 |
-| Dental implant | ₹25,000 - ₹50,000 |
+| Dental implant | ₹15,000 - ₹50,000 |
 
 ## Why dental health matters for overall health in seniors
 

@@ -1,10 +1,11 @@
 ---
 import '../styles/global.css';
 import { clinicInfo, doctor, faqItems, serviceList } from '@/lib/data';
+import { SITE_URL } from '@/lib/site';
+import { jsonLd } from '@/lib/json-ld';
 import EmergencyBanner from '@/components/EmergencyBanner.astro';
 import ScrollToTop from '@/components/ScrollToTop.astro';
-import StickyMobileCTA from '@/components/react/StickyMobileCTA.tsx';
-import CookieConsent from '@/components/react/CookieConsent.tsx';
+import StickyMobileCTA from '@/components/StickyMobileCTA.astro';
 
 interface Props {
   title?: string;
@@ -14,30 +15,35 @@ interface Props {
   noindex?: boolean;
   type?: 'website' | 'article';
   includeGlobalFaq?: boolean;
+  /** Emit a <link rel="preload"> for the homepage hero image. Use on the homepage only. */
+  preloadHero?: boolean;
+  /** Honest freshness date (YYYY-MM-DD) for the WebPage schema — omit when unknown. */
+  lastReviewed?: string;
 }
 
 const {
   title = 'Best Dental Clinic in Bhubaneswar | YourDentist Laser Dental Clinic',
   description = 'Top-rated dental clinic in Bhubaneswar led by Dr. Arpita Dash. Painless root canal, braces, implants, laser dentistry & smile designing. 5,000+ happy patients. Book today!',
-  ogImage = 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  ogImage = `${SITE_URL}/images/og/default.jpg`,
   canonical,
   noindex = false,
   type = 'website',
   includeGlobalFaq = false,
+  preloadHero = false,
+  lastReviewed,
 } = Astro.props;
 
-const siteUrl = 'https://www.yourdentistdentalclinic.com';
-const canonicalUrl = canonical || new URL(Astro.url.pathname, siteUrl).href;
+const canonicalUrl = canonical || new URL(Astro.url.pathname, SITE_URL).href;
 
 const dentistSchema = {
   '@context': 'https://schema.org',
   '@type': ['Dentist', 'MedicalBusiness', 'LocalBusiness'],
   name: 'YourDentist Laser Dental Clinic',
   description: 'Advanced laser dental clinic in Bhubaneswar offering root canal treatment, orthodontics, dental implants, aesthetic dentistry, and painless dental care.',
-  image: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
-  logo: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
-  '@id': 'https://www.yourdentistdentalclinic.com',
-  url: 'https://www.yourdentistdentalclinic.com',
+  image: `${SITE_URL}/images/clinic.jpg`,
+  logo: `${SITE_URL}/images/clinic.jpg`,
+  '@id': SITE_URL,
+  url: SITE_URL,
   telephone: '+91 7064719630',
   email: 'yourdentist27@gmail.com',
   priceRange: '$$',
@@ -68,7 +74,6 @@ const dentistSchema = {
       '@type': 'ContactPoint',
       contactType: 'reservations',
       telephone: '+91 7064719630',
-      contactOption: 'TollFree',
       areaServed: 'IN',
       availableLanguage: ['English', 'Hindi', 'Odia'],
     },
@@ -88,7 +93,7 @@ const dentistSchema = {
       itemOffered: {
         '@type': 'MedicalTherapy',
         name: s.title,
-        url: `https://www.yourdentistdentalclinic.com/services/${s.slug}/`,
+        url: `${SITE_URL}/services/${s.slug}/`,
       },
     })),
   },
@@ -107,7 +112,7 @@ const dentistSchema = {
   availableService: serviceList.map((s) => ({
     '@type': 'MedicalTherapy',
     name: s.title,
-    url: `https://www.yourdentistdentalclinic.com/services/${s.slug}/`,
+    url: `${SITE_URL}/services/${s.slug}/`,
   })),
   hasMap: 'https://maps.app.goo.gl/V4AjCU2EzFhuXABy6',
   hasDriveThroughService: false,
@@ -115,7 +120,7 @@ const dentistSchema = {
     '@type': 'ScheduleAction',
     target: {
       '@type': 'EntryPoint',
-      urlTemplate: 'https://www.yourdentistdentalclinic.com/#appointment',
+      urlTemplate: `${SITE_URL}/#appointment`,
       actionPlatform: ['https://schema.org/WebSite', 'https://schema.org/DesktopWebPlatform', 'https://schema.org/MobileWebPlatform'],
     },
     resultSpecification: {
@@ -137,13 +142,6 @@ const dentistSchema = {
       closes: '20:30',
     },
   ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '150',
-    bestRating: '5',
-    worstRating: '1',
-  },
   sameAs: [
     'https://maps.app.goo.gl/V4AjCU2EzFhuXABy6',
     'https://www.facebook.com/yourdentistpro',
@@ -161,35 +159,21 @@ const dentistSchema = {
     name: 'Dr. Arpita Dash',
     jobTitle: 'Dental Surgeon & Smile Specialist',
   },
-  review: [
-    {
-      '@type': 'Review',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      author: { '@type': 'Person', name: 'Bikash Bhuyan' },
-      reviewBody: 'The best dental clinic in town. I had a RCT done here and I am glad it went on so effortlessly. The best part is I had undergone this without any pain.',
-    },
-    {
-      '@type': 'Review',
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      author: { '@type': 'Person', name: 'Amarendra Pattnaik' },
-      reviewBody: 'I recently completed my braces orthodontic treatment with Dr. Arpita Dash, and I couldn\'t be more pleased with the results. Her dedication to achieving the best possible outcome was evident in the final results.',
-    },
-  ],
 };
 
 const personSchema = {
   '@context': 'https://schema.org',
   '@type': 'Person',
-  '@id': 'https://www.yourdentistdentalclinic.com/#person',
+  '@id': `${SITE_URL}/#person`,
   name: 'Dr. Arpita Dash',
   jobTitle: 'Dental Surgeon & Smile Specialist',
   worksFor: {
     '@type': 'Dentist',
     name: 'YourDentist Laser Dental Clinic',
-    url: 'https://www.yourdentistdentalclinic.com',
+    url: SITE_URL,
   },
-  image: 'https://www.yourdentistdentalclinic.com/images/gallery/Image-1.jpeg',
-  url: 'https://www.yourdentistdentalclinic.com/about/',
+  image: `${SITE_URL}/images/gallery/Image-1.jpeg`,
+  url: `${SITE_URL}/about/`,
   knowsAbout: doctor.specializations,
   alumniOf: {
     '@type': 'EducationalOrganization',
@@ -208,10 +192,10 @@ const personSchema = {
 const orgSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
-  '@id': 'https://www.yourdentistdentalclinic.com/#organization',
+  '@id': `${SITE_URL}/#organization`,
   name: 'YourDentist Laser Dental Clinic',
-  url: 'https://www.yourdentistdentalclinic.com',
-  logo: 'https://www.yourdentistdentalclinic.com/images/clinic.jpg',
+  url: SITE_URL,
+  logo: `${SITE_URL}/images/clinic.jpg`,
   founder: { '@type': 'Person', name: 'Dr. Arpita Dash' },
   foundingDate: '2014',
   address: {
@@ -247,8 +231,8 @@ const webPageSchema = {
   name: title,
   description: description,
   url: canonicalUrl,
-  isPartOf: { '@type': 'WebSite', name: 'YourDentist Laser Dental Clinic', url: siteUrl },
-  lastReviewed: new Date().toISOString().split('T')[0],
+  isPartOf: { '@type': 'WebSite', name: 'YourDentist Laser Dental Clinic', url: SITE_URL },
+  ...(lastReviewed && { lastReviewed }),
   speakable: {
     '@type': 'SpeakableSpecification',
     cssSelector: ['h1', '.speakable-summary'],
@@ -257,7 +241,7 @@ const webPageSchema = {
 ---
 
 <!doctype html>
-<html lang="en-IN" class="h-full antialiased">
+<html lang="en-IN" class="no-js h-full antialiased">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -276,7 +260,6 @@ const webPageSchema = {
     <meta name="ICBM" content="20.2858073, 85.8612643" />
     <link rel="canonical" href={canonicalUrl} />
     <link rel="alternate" hreflang="en-IN" href={canonicalUrl} />
-    <link rel="alternate" hreflang="x-default" href={canonicalUrl} />
 
     <!-- Open Graph -->
     <meta property="og:type" content={type} />
@@ -296,37 +279,36 @@ const webPageSchema = {
     <meta name="twitter:description" content={description} />
     <meta name="twitter:image" content={ogImage} />
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap"
-      rel="stylesheet"
-    />
+    <!-- Fonts: self-hosted woff2 via @font-face in global.css -->
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/Lora-600-latin.woff2" crossorigin />
+    <link rel="preload" as="font" type="font/woff2" href="/fonts/SourceSans3-400-latin.woff2" crossorigin />
 
     <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 
-    <!-- Preload hero image for LCP -->
-    <link rel="preload" as="image" href="/images/hero-welcome.jpeg" fetchpriority="high" />
+    <!-- Preload hero image for LCP (homepage only) -->
+    {preloadHero && <link rel="preload" as="image" href="/images/hero-welcome-1200.webp" fetchpriority="high" />}
 
     <!-- JSON-LD: Dentist/LocalBusiness -->
-    <script type="application/ld+json" set:html={JSON.stringify(dentistSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(dentistSchema)} />
     <!-- JSON-LD: Person (Dr. Arpita Dash) -->
-    <script type="application/ld+json" set:html={JSON.stringify(personSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(personSchema)} />
     <!-- JSON-LD: Organization -->
-    <script type="application/ld+json" set:html={JSON.stringify(orgSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(orgSchema)} />
     <!-- JSON-LD: FAQPage (only on pages that render the global FAQ section) -->
-    {includeGlobalFaq && <script type="application/ld+json" set:html={JSON.stringify(faqSchema)} />}
+    {includeGlobalFaq && <script type="application/ld+json" set:html={jsonLd(faqSchema)} />}
     <!-- JSON-LD: WebPage -->
-    <script type="application/ld+json" set:html={JSON.stringify(webPageSchema)} />
+    <script type="application/ld+json" set:html={jsonLd(webPageSchema)} />
     <slot name="head" />
     <script is:inline>
       (function () {
+        const html = document.documentElement;
+        html.classList.remove('no-js');
         const stored = localStorage.getItem('theme');
         const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
         const isDark = stored === 'dark' || (!stored && prefersDark);
-        if (isDark) document.documentElement.classList.add('dark');
+        if (isDark) html.classList.add('dark');
+        if (sessionStorage.getItem('yd-emergency-dismissed')) html.classList.add('no-emergency');
         const meta = document.getElementById('meta-theme-color');
         if (meta) meta.setAttribute('content', isDark ? '#1c1917' : '#0d9488');
       })();
@@ -348,8 +330,7 @@ const webPageSchema = {
       <slot />
     </div>
     <ScrollToTop />
-    <StickyMobileCTA client:only="react" />
-    <CookieConsent client:only="react" />
+    <StickyMobileCTA />
 
     <!-- Global scroll reveal script -->
     <script>
